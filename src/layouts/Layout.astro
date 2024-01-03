@@ -124,7 +124,7 @@ const { title } = Astro.props;
 				<option value="all">All</option>
 			</select>
 		</section>
-		<main class="px-6 mt-16 py-20 box-border m-auto w-full lg:max-w-full max-w-[75rem] xl:max-w-[85rem] 3xl:max-w-[120rem] 4xl:max-w-[145rem] columns-1xs sm:columns-2xs md:columns-2 lg:columns-3 xl:columns-4 3xl:columns-6 4xl:columns-7">
+		<main class="">
 			<slot />
 		</main>
 	</body>
@@ -133,6 +133,9 @@ const { title } = Astro.props;
 <style is:global>
 	@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
 
+	/*
+	px-6 mt-16 py-20 box-border m-auto w-full lg:max-w-full max-w-[75rem] xl:max-w-[85rem] 3xl:max-w-[120rem] 4xl:max-w-[145rem] columns-1xs sm:columns-2xs md:columns-2 lg:columns-3 xl:columns-4 3xl:columns-6 4xl:columns-7
+	*/
 	:root {
 		--dark-bg: theme('colors.gray.950');
 		--light-bg: #ffffff;
@@ -148,43 +151,69 @@ const { title } = Astro.props;
   	-moz-column-break-inside: avoid;
   	break-inside: avoid;
 	}
-	/*
-.break-inside {
-      break-inside: avoid;
-    }
-    main {
-      column-count: 1;
-      column-gap: 10px;
-      padding: 0 10px;
-      margin: 0 auto;
-      max-width: 100%;
-    }
 
-    @media screen and (980px >= width > 640px) {
-      main {
-        column-count: 2;
-        max-width: 660px;
-      }
-    }
 
-    @media screen and (1280px >= width > 980px) {
-      main {
-        column-count: 3;
-        max-width: 980px;
-      }
-    }
-    
-    @media screen and (1920px >= width > 1280px) {
-      main {
-        column-count: 4;
-        max-width: 1290px;
-      }
-    }
-    @media screen and (width >= 1920px) {
-      main {
-        column-count: 6;
-        max-width: 1920px;
-      }
-    }
-*/
+	main {
+		column-count: 1;
+		column-gap: 0.75rem;
+		padding: 0 0.75rem;
+		margin: 0 auto;
+		max-width: 100%;
+	}
+
+	@media screen and (980px >= width > 640px) {
+		main {
+			column-count: 2;
+			max-width: 660px;
+		}
+	}
+
+	@media screen and (1280px >= width > 980px) {
+		main {
+			column-count: 3;
+			max-width: 980px;
+		}
+	}
+
+	@media screen and (1600px >= width > 1280px) {
+		main {
+			column-count: 4;
+			max-width: 1280px;
+		}
+	}
+
+	@media screen and (1920px >= width > 1600px) {
+		main {
+			column-count: 5;
+			max-width: 1600px;
+		}
+	}
+
+	@media screen and (1920px >= width > 1600px) {
+		main {
+			column-count: 5;
+			max-width: 1600px;
+		}
+	}
+	
+	@media screen and (2048px >= width > 1920px) {
+		main {
+			column-count: 6;
+			max-width: 1920px;
+		}
+	}
+
+	@media screen and (2460px >= width > 2048px) {
+		main {
+			column-count: 7;
+			max-width: 2048px;
+		}
+	}
+
+	@media screen and (2560px >= width > 2460px) {
+		main {
+			column-count: 8;
+			max-width: 2460px;
+		}
+	}
 </style>
