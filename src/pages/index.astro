@@ -4,8 +4,8 @@ import Layout from '../layouts/Layout.astro';
 
 <Layout title="Widget components with tailwind CSS">
 
-	<section class="grid grid-cols-2 gap-4">
-		<article class="border shadow-sm break-inside flex items-start flex-col justify-between rounded-xl gap-2 p-4 mb-4 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="social">
+	<section class="grid grid-cols-2 gap-4" data-filter="social">
+		<article class="border shadow-sm break-inside flex items-start flex-col justify-between rounded-xl gap-2 p-4 mb-3 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900">
 			<header>
 				<svg width="26" height="26" viewBox="0 0 512 512"><path d="M384 240H96V136a40.12 40.12 0 0140-40h240a40.12 40.12 0 0140 40v104zM48 416V304a64.19 64.19 0 0164-64h288a64.19 64.19 0 0164 64v112" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="32"/><path d="M48 416v-8a24.07 24.07 0 0124-24h368a24.07 24.07 0 0124 24v8M112 240v-16a32.09 32.09 0 0132-32h80a32.09 32.09 0 0132 32v16M256 240v-16a32.09 32.09 0 0132-32h80a32.09 32.09 0 0132 32v16" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="32"/></svg>
 			</header>
@@ -15,7 +15,7 @@ import Layout from '../layouts/Layout.astro';
 			</section>
 			<p class="text-xs text-gray-500">Set your bedtime and wake up time...</p>
 		</article>
-		<article class="border shadow-sm break-inside flex items-start flex-col justify-between rounded-xl gap-2 p-4 mb-4 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="social">
+		<article class="border shadow-sm break-inside flex items-start flex-col justify-between rounded-xl gap-2 p-4 mb-3 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900">
 			<header>
 				<svg width="26" height="26" viewBox="0 0 512 512"><path d="M427.68 351.43C402 320 383.87 304 383.87 217.35 383.87 138 343.35 109.73 310 96c-4.43-1.82-8.6-6-9.95-10.55C294.2 65.54 277.8 48 256 48s-38.21 17.55-44 37.47c-1.35 4.6-5.52 8.71-9.95 10.53-33.39 13.75-73.87 41.92-73.87 121.35C128.13 304 110 320 84.32 351.43 73.68 364.45 83 384 101.61 384h308.88c18.51 0 27.77-19.61 17.19-32.57zM320 384v16a64 64 0 01-128 0v-16" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="32"/></svg>
 			</header>
@@ -26,8 +26,8 @@ import Layout from '../layouts/Layout.astro';
 			<p class="text-xs text-gray-500">Set your bedtime and wake up time...</p>
 		</article>
 	</section>
-
-	<article class="border shadow-md break-inside flex items-center justify-between rounded-xl p-4 mb-4 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="social">
+	
+	<article class="border shadow-md break-inside flex items-center justify-between rounded-xl p-4 mb-3 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="social">
 		<header class="flex items-center gap-3">
 			<span class="text-base font-medium">01</span>
 			<div class="flex items-center gap-4">
@@ -43,7 +43,7 @@ import Layout from '../layouts/Layout.astro';
 		</svg>
 	</article>
 
-	<article class="border shadow-sm break-inside relative flex items-center justify-between rounded-xl p-4 mb-4 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="">
+	<article class="border shadow-sm break-inside relative flex items-center justify-between rounded-xl p-4 mb-3 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="">
 		<div class="flex items-start gap-3">
 			<div class="flex-none flex items-center justify-center w-12 h-12 mt-0.5 rounded-2xl bg-rose-100 text-rose-600">
 				<svg width="26" height="26" viewBox="0 0 512 512"><rect x="64" y="320" width="48" height="160" rx="8" ry="8" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="32"/><rect x="288" y="224" width="48" height="256" rx="8" ry="8" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="32"/><rect x="400" y="112" width="48" height="368" rx="8" ry="8" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="32"/><rect x="176" y="32" width="48" height="448" rx="8" ry="8" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="32"/></svg>
@@ -60,7 +60,7 @@ import Layout from '../layouts/Layout.astro';
 		</span>
 	</article>
 
-	<article class="border shadow-sm break-inside flex items-center justify-between rounded-xl p-4 mb-4 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="social">
+	<article class="border shadow-sm break-inside flex items-center justify-between rounded-xl p-4 mb-3 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="social">
 		<header class="flex items-center gap-4">
 			<div class="flex-none w-12 h-12 rounded-full flex items-center justify-center font-medium text-lg text-amber-700 bg-amber-200">AB</div>
 			<div class="flex-auto">
@@ -74,7 +74,7 @@ import Layout from '../layouts/Layout.astro';
 		</section>
 	</article>
 
-	<article class="border shadow-sm break-inside flex items-center justify-between rounded-xl p-4 mb-4 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="social">
+	<article class="border shadow-sm break-inside flex items-center justify-between rounded-xl p-4 mb-3 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="social">
 		<header class="flex items-center gap-4">
 			<img class="flex-none rounded-full w-12 h-12" src="https://randomuser.me/api/portraits/men/76.jpg" alt="avatar">
 			<div class="flex-auto">
@@ -93,7 +93,7 @@ import Layout from '../layouts/Layout.astro';
 		</section>
 	</article>
 
-	<article class="border shadow-sm break-inside flex items-start justify-between rounded-xl gap-4 p-4 mb-4 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="">
+	<article class="border shadow-sm break-inside flex items-start justify-between rounded-xl gap-4 p-4 mb-3 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="">
 		<div class="flex-none mt-0.5 w-12 h-12 rounded-full flex items-center justify-center bg-gray-200">
 			<svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" class="ionicon" viewBox="0 0 512 512">
 				<circle cx="256" cy="448" r="32" fill="none" stroke="currentColor" stroke-miterlimit="10" stroke-width="32"/>
@@ -114,16 +114,16 @@ import Layout from '../layouts/Layout.astro';
 		</section>
 	</article>
 
-	<article class="border shadow-sm break-inside flex items-center justify-between rounded-xl p-4 mb-4 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="finance">
+	<article class="border shadow-sm break-inside flex items-center justify-between rounded-xl p-4 mb-3 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="finance">
 		<svg width="71" height="26" viewBox="0 0 71 26" fill="none" xmlns="http://www.w3.org/2000/svg">
 			<path d="M1.84302 25C2.10589 23.2857 2.63376 21.7799 3.37603 20.2188C4.66585 17.506 6.18161 14.8883 8.36827 12.846C8.73909 12.4997 9.74038 11.2944 10.2746 11.9856C11.2468 13.2436 11.5995 15.0509 12.2755 16.4783C12.4112 16.765 12.4558 17.3189 12.7632 17.2924C12.9788 17.2738 12.919 16.8745 12.9922 16.6638C13.4176 15.4388 14.1866 14.245 15.2021 13.4591C15.8166 12.9836 17.28 11.8409 18.0591 12.4699C18.9592 13.1966 19.1947 14.393 19.5324 15.4479C19.6915 15.9449 19.933 16.4229 20.1197 16.9111C20.2635 17.2872 20.3337 17.3458 20.5925 16.9832C21.4439 15.7909 22.9324 14.659 24.221 15.9322C24.5822 16.2891 24.8087 16.6538 25.316 16.3238C25.819 15.9965 25.8846 16.2426 26.1024 16.7823C26.3462 17.3863 26.6523 19.1571 27.4314 18.2558C27.5407 18.1293 28.4257 16.9081 28.6209 17.0141C29.1285 17.29 29.4078 18.3465 29.5965 18.8483C29.701 19.1262 30.0425 20.4324 30.3829 20.5331C30.4062 20.54 31.1835 17.5795 31.4082 17.2305C31.7074 16.7661 32.0531 16.3254 32.3838 15.8858C32.4852 15.751 32.9464 14.9916 33.2001 14.9121C33.2405 14.8994 33.3056 15.0713 33.3394 15.0872C33.4324 15.131 33.4707 14.9194 33.5037 14.8193C34.2366 12.5976 36.6071 8.26428 37.7531 8.26428C39.2812 8.26428 41.0354 15.9883 41.1066 15.4479C41.2045 14.705 43.3392 11.2347 43.9511 10.7955C44.7929 10.1911 45.0203 11.3227 45.4442 11.9444C45.951 12.6876 46.0957 12.2816 46.6736 11.7126C46.863 11.5261 48.1415 10.0445 48.3958 10.6048C48.8782 11.668 48.6878 13.0269 49.2569 14.0465C49.3655 14.2412 49.4946 14.5051 49.6252 14.6854C49.6934 14.7795 49.6849 14.3521 49.6849 14.2938C49.6849 14.0011 49.9091 14.5355 49.9188 14.5566C50.1151 14.9805 50.3121 15.4245 50.3121 15.9013C50.3121 15.9977 50.268 15.6829 50.332 15.6128C50.6832 15.2278 51.7191 16.8619 51.8152 17.1069C51.9673 17.4946 52.2752 18.4823 52.8007 18.5186C53.0307 18.5344 53.2542 17.6475 53.2785 17.5809C53.7287 16.3481 54.0777 15.085 54.493 13.8404C54.8921 12.6443 55.4335 11.6167 56.0559 10.543C56.3008 10.1204 56.3487 10.8085 56.4043 11.0428C56.4582 11.2702 56.5661 12.044 56.7328 11.4343C57.2918 9.38967 57.6903 7.30464 58.1961 5.2466C58.2985 4.82988 58.4156 4.41543 58.5395 4.00493C58.6137 3.75939 58.7436 4.11069 58.8033 4.22647C59.6182 5.80551 60.0344 7.56383 60.844 9.14679C61.1406 9.7266 61.0502 9.52833 61.1228 8.98192C61.2819 7.78377 61.4579 6.46232 61.8495 5.31873C62.03 4.79136 62.4806 6.03308 62.5164 6.11216C62.8185 6.77908 63.0977 7.45513 63.4223 8.1112C63.4726 8.21289 63.9155 9.30092 64.139 9.32196C64.1588 9.32383 64.5743 7.54237 64.6119 7.42081C64.9229 6.4135 65.4358 5.74578 65.9806 4.88595C66.0777 4.73275 66.1627 4.43125 66.3191 4.31921C66.5398 4.16104 66.683 4.14979 66.8218 3.88643C66.947 3.64872 68.2977 0.934385 68.519 1.00121C68.6776 1.04909 68.6389 1.14287 68.6982 1.25882C68.762 1.38358 68.9822 1.42638 69.0815 1.53704C69.4438 1.94089 69.843 2.02158 69.843 2.64991" stroke="#0396EA" stroke-width="2" stroke-linecap="round"/>
 			</svg>			
 	</article>
 
-	<article class="border shadow-sm break-inside flex flex-col items-start rounded-xl mb-4 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="finance">
+	<article class="border shadow-sm break-inside flex flex-col items-start rounded-xl mb-3 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="finance">
 		<section class="w-full flex items-center justify-between p-4">
 			<header class="flex items-center gap-4">
-				<div class="w-12 h-12 flex items-center justify-center rounded-xl bg-orange-500 text-white">
+				<div class="w-12 h-12 flex items-center justify-center rounded-xl bg-rose-500 text-white">
 					<svg width="24" height="24" fill="none" stroke-width="1.5" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
 						<path stroke-linecap="round" stroke-linejoin="round" d="M15.59 14.37a6 6 0 0 1-5.84 7.38v-4.8m5.84-2.58a14.98 14.98 0 0 0 6.16-12.12A14.98 14.98 0 0 0 9.631 8.41m5.96 5.96a14.926 14.926 0 0 1-5.841 2.58m-.119-8.54a6 6 0 0 0-7.381 5.84h4.8m2.581-5.84a14.927 14.927 0 0 0-2.58 5.84m2.699 2.7c-.103.021-.207.041-.311.06a15.09 15.09 0 0 1-2.448-2.448 14.9 14.9 0 0 1 .06-.312m-2.24 2.39a4.493 4.493 0 0 0-1.757 4.306 4.493 4.493 0 0 0 4.306-1.758M16.5 9a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0Z"></path>
 					</svg>
@@ -157,7 +157,7 @@ import Layout from '../layouts/Layout.astro';
 	</article>
 
 	<section class="grid grid-cols-2 gap-4" data-filter="social">
-		<article class="relative overflow-hidden border shadow-sm break-inside rounded-xl gap-2 p-4 mb-4 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900">
+		<article class="relative overflow-hidden border shadow-sm break-inside rounded-xl gap-2 p-4 mb-3 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900">
 			<div class="absolute top-0 left-0 w-20 h-20 bg-gradient-to-br from-purple-500/60 to-white dark:to-gray-950 rounded-full flex items-center justify-center blur-2xl"></div>
 			<header class="relative flex flex-col gap-2">
 				<div class="flex items-center justify-center w-12 h-12 rounded-full bg-gradient-to-br from-purple-500 to-blue-500 text-white">
@@ -176,7 +176,7 @@ import Layout from '../layouts/Layout.astro';
 					</svg>
 			</section>
 		</article>
-		<article class="relative overflow-hidden border shadow-sm break-inside rounded-xl gap-2 mb-4 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900">
+		<article class="relative overflow-hidden border shadow-sm break-inside rounded-xl gap-2 mb-3 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900">
 			<div class="absolute top-0 right-0 w-20 h-20 bg-gradient-to-br from-rose-500/80 to-white dark:to-gray-950 rounded-full flex items-center justify-center blur-2xl"></div>
 			<header class="relative flex flex-col gap-2 p-4">
 				<div class="flex items-center justify-center w-12 h-12 rounded-full bg-gradient-to-br from-orange-500 to-rose-500 text-white">
@@ -206,15 +206,93 @@ import Layout from '../layouts/Layout.astro';
 		</article>
 	</section>
 
-	<article class="border shadow-sm break-inside flex items-center justify-between rounded-xl p-4 mb-4 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter=""></article>
+	<article class="border shadow-sm break-inside relative overflow-hidden rounded-xl mb-3 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="finance">
+		<header class="p-4">
+			<h2 class="text-lg font-medium">Statistics</h2>
+		</header>
+		<section class="relative w-full -mt-8">
+			<svg xmlns="http://www.w3.org/2000/svg" class="w-full" viewBox="0 0 172 103" fill="none">
+				<path d="M0 47.0497C1.237 47.7323 2.26342 48.7473 3.47823 49.3885C4.27815 49.8106 5.47771 49.6996 5.88431 50.7092C6.3747 51.9267 7.07112 49.6746 7.54239 49.1546C8.11318 48.5247 8.87939 46.9376 9.64928 47.1735C12.6498 48.0933 16.0187 47.8374 19.0991 47.7926C19.43 47.7878 19.7474 47.5401 19.7474 47.9577C19.7474 48.0402 19.757 48.1743 19.754 48.3108C20.2522 48.0562 21.0072 47.7993 21.1436 47.7926C22.7924 47.7118 23.2305 49.0517 24.5845 49.8562C25.5818 50.4488 25.5818 51.1332 25.5818 49.526C25.5818 47.6596 26.4645 47.2661 27.377 45.8116C27.7087 45.283 28.0369 44.7005 28.6112 44.5597C29.3162 44.3868 29.9201 44.3417 30.6682 44.2983C34.0483 44.102 37.4285 43.4541 40.7165 42.5924C42.3338 42.1685 43.9504 41.6871 45.5286 41.1066C45.952 40.9509 45.8814 41.9144 46.0024 42.2897C46.1429 42.7258 46.8708 45.4539 47.1244 45.4539C47.2158 45.4539 47.1244 45.2521 47.1244 45.1512V43.748C47.1244 42.8826 47.2593 42.3393 47.6978 41.6019C48.0767 40.9648 50.4684 37.8721 50.827 38.7954C51.2061 39.7716 51.2204 40.5915 51.7869 41.4918C51.926 41.7128 52.0414 42.338 52.0737 41.822C52.1248 41.0039 52.0119 39.0363 52.6222 38.4377C53.0799 37.9887 55.5829 45.027 56.0007 45.9492C56.0928 46.1525 56.7318 47.7915 57.0479 47.2974C57.6797 46.3097 58.89 45.546 59.7033 44.8073C61.658 43.0321 63.3895 41.0418 65.2635 39.1806C65.4072 39.0379 66.0165 39.1635 65.837 39.0843C65.218 38.8111 66.0222 37.3876 66.1362 37.1033C66.9939 34.965 67.5513 32.7169 68.1683 30.486C68.4224 29.5672 69.0533 28.5068 69.1158 27.542C69.1397 27.1718 68.937 26.1124 69.3402 26.0012C69.8083 25.872 69.5308 24.1235 69.577 23.69C69.6468 23.0354 70.1888 24.6305 70.2128 24.6805C70.9686 26.2523 71.5771 27.8593 72.2574 29.468C72.4203 29.8532 72.875 32.9626 73.3046 32.5634C74.4085 31.5375 75.116 29.9978 76.2343 28.9452C77.4389 27.8113 77.8749 30.7687 78.1043 31.5728C78.8383 34.1457 81.1218 41.8352 80.3857 39.2631C80.0525 38.0988 81.7994 36.1184 82.53 35.5212C82.7812 35.3158 83.0553 35.4476 83.2406 35.6863C83.7708 36.3689 83.8038 35.8302 84.4748 35.3286C86.4073 33.884 86.9996 40.4128 88.1774 39.1944C88.4685 38.8933 88.5505 38.1975 88.913 37.9975C89.5535 37.6441 90.4001 39.6625 90.6085 40.0611C90.6826 40.2029 91.2819 41.612 91.5559 41.423C91.9976 41.1184 92.0881 40.859 92.6779 40.859C94.2784 40.859 94.5929 43.1378 95.0965 44.5734C95.6346 46.1075 96.3719 47.0209 97.2408 48.2879C97.5743 48.7743 97.1662 47.842 97.3156 47.0772C97.7678 44.7617 99.14 43.1104 100.607 41.4918C100.782 41.2988 100.939 40.8061 101.205 40.969C101.85 41.3643 102.61 37.176 102.676 36.8419C102.743 36.5049 103.163 31.965 103.499 31.9856C104.487 32.0461 105.238 35.2805 105.556 36.0439C105.836 36.715 106.123 37.5452 106.641 36.6355C107.593 34.9632 107.961 32.6053 109.159 31.1464C109.743 30.4354 110.145 31.542 110.456 31.9443C110.96 32.5969 111.617 31.7064 112.076 31.394C113.364 30.5183 115.662 28.2605 116.814 30.1421C117.255 30.8626 117.603 31.8041 118.21 32.3845C118.83 32.9775 119.84 30.4016 120.08 30.0733C120.999 28.8164 122.292 28.0986 123.321 26.9917C123.839 26.4341 124.214 25.7325 124.892 25.3683C125.249 25.1765 125.566 25.448 125.765 25.7673C126.335 26.6823 127.422 23.0946 127.622 22.5894C128.371 20.6963 128.553 22.7013 129.767 21.874C132.963 19.6954 137.41 19.3152 141.099 19.3152C141.365 19.3152 141.214 19.2969 141.099 19.1226C140.799 18.6674 141.545 17.8895 141.722 17.5267C142.157 16.6368 142.306 15.4866 142.62 14.5414C142.719 14.2418 142.969 12.8768 143.393 12.8768C144.127 12.8768 145.227 16.0273 145.487 16.5637C145.914 17.4439 146.983 20.3732 147.981 20.7734C148.186 20.8558 149.801 14.2218 150.013 13.4958C150.153 13.0123 150.64 11.0263 151.247 10.8132C151.545 10.7084 152.534 12.6906 152.718 12.9593C152.727 12.9724 152.735 12.985 152.744 12.9971C152.699 12.9006 152.659 12.7899 152.643 12.6842C152.537 11.9644 153.082 11.3253 153.616 11.0058C154.608 10.4113 155.658 12.1234 156.258 12.6979C156.957 13.3662 159.247 14.1589 159.849 13.0969C161.116 10.8598 160.672 9.054 160.672 6.57596C160.672 6.01666 161.836 4.98844 162.243 4.76C163.338 4.14367 163.781 5.17294 164.362 6.10821C164.732 6.70445 165.827 9.28621 166.581 9.43746C166.925 9.50645 166.476 8.66265 166.531 8.28185C166.65 7.46141 167.189 6.83759 167.616 6.19075C168.17 5.34964 168.675 4.24896 169.523 3.71445C169.896 3.47912 170.289 2.40342 170.72 2.03607C171.059 1.74721 171.65 1.2908 171.892 0.797951V0C172.051 0.263133 172.021 0.535701 171.892 0.797951V103H0V47.0497Z" fill="url(#paint0_linear_181_7796)"/>
+				<path d="M0 47.0497C1.237 47.7323 2.26342 48.7473 3.47823 49.3885C4.27815 49.8106 5.47771 49.6996 5.88431 50.7092C6.3747 51.9267 7.07112 49.6746 7.54239 49.1546C8.11318 48.5247 8.87939 46.9376 9.64928 47.1735C12.6498 48.0933 16.0187 47.8373 19.0991 47.7926C19.43 47.7878 19.7474 47.5401 19.7474 47.9577C19.7474 48.2018 19.8316 48.8981 19.4232 48.7694C18.7987 48.5725 20.9064 47.8043 21.1436 47.7926C22.7924 47.7118 23.2305 49.0517 24.5845 49.8562C25.5818 50.4488 25.5818 51.1332 25.5818 49.526C25.5818 47.6596 26.4645 47.2661 27.377 45.8116C27.7087 45.283 28.0369 44.7005 28.6112 44.5597C29.3162 44.3868 29.9201 44.3417 30.6682 44.2983C34.0483 44.102 37.4285 43.4541 40.7165 42.5924C42.3338 42.1685 43.9504 41.6871 45.5286 41.1066C45.952 40.9509 45.8814 41.9144 46.0024 42.2897C46.1429 42.7258 46.8708 45.4539 47.1244 45.4539C47.2158 45.4539 47.1244 45.2521 47.1244 45.1512C47.1244 44.6835 47.1244 44.2157 47.1244 43.748C47.1244 42.8826 47.2593 42.3393 47.6978 41.6019C48.0767 40.9648 50.4684 37.8721 50.827 38.7954C51.2061 39.7716 51.2204 40.5915 51.7869 41.4918C51.926 41.7128 52.0414 42.338 52.0737 41.822C52.1248 41.0039 52.0119 39.0363 52.6222 38.4377C53.0799 37.9887 55.5829 45.027 56.0007 45.9492C56.0929 46.1525 56.7318 47.7915 57.0479 47.2974C57.6797 46.3097 58.89 45.546 59.7033 44.8073C61.658 43.0321 63.3895 41.0418 65.2635 39.1806C65.4072 39.0379 66.0165 39.1635 65.837 39.0843C65.218 38.8111 66.0222 37.3876 66.1362 37.1033C66.9939 34.965 67.5513 32.7169 68.1683 30.486C68.4224 29.5672 69.0533 28.5068 69.1158 27.542C69.1397 27.1718 68.937 26.1124 69.3402 26.0012C69.8082 25.872 69.5308 24.1235 69.577 23.69C69.6468 23.0354 70.1888 24.6305 70.2128 24.6805C70.9686 26.2523 71.5771 27.8593 72.2574 29.468C72.4203 29.8532 72.875 32.9626 73.3046 32.5634C74.4085 31.5375 75.116 29.9978 76.2343 28.9452C77.4389 27.8113 77.8749 30.7687 78.1043 31.5728C78.8383 34.1457 81.1218 41.8352 80.3857 39.2631C80.0525 38.0988 81.7994 36.1184 82.53 35.5212C82.7812 35.3158 83.0553 35.4476 83.2406 35.6863C83.7708 36.3689 83.8038 35.8302 84.4748 35.3286C86.4073 33.884 86.9996 40.4128 88.1774 39.1944C88.4685 38.8932 88.5505 38.1975 88.913 37.9975C89.5535 37.6441 90.4001 39.6624 90.6085 40.0611C90.6826 40.2029 91.2819 41.612 91.5559 41.423C91.9976 41.1184 92.0881 40.859 92.6779 40.859C94.2784 40.859 94.5929 43.1378 95.0965 44.5734C95.6346 46.1075 96.3719 47.0209 97.2408 48.2879C97.5743 48.7743 97.1662 47.842 97.3156 47.0772C97.7678 44.7617 99.14 43.1104 100.607 41.4918C100.782 41.2988 100.939 40.8061 101.205 40.969C101.85 41.3643 102.61 37.176 102.676 36.8419C102.743 36.5049 103.163 31.965 103.499 31.9856C104.487 32.0461 105.238 35.2805 105.556 36.0439C105.836 36.715 106.123 37.5452 106.641 36.6355C107.593 34.9632 107.961 32.6053 109.159 31.1464C109.743 30.4354 110.145 31.542 110.456 31.9443C110.96 32.5969 111.617 31.7064 112.076 31.394C113.364 30.5183 115.662 28.2605 116.814 30.1421C117.255 30.8626 117.603 31.8041 118.21 32.3845C118.83 32.9775 119.84 30.4016 120.08 30.0733C120.999 28.8164 122.292 28.0986 123.321 26.9917C123.839 26.4341 124.214 25.7325 124.892 25.3683C125.249 25.1765 125.566 25.448 125.765 25.7673C126.335 26.6823 127.422 23.0946 127.622 22.5894C128.371 20.6963 128.553 22.7013 129.767 21.874C132.963 19.6954 137.41 19.3152 141.099 19.3152C141.365 19.3152 141.214 19.2969 141.099 19.1226C140.799 18.6674 141.545 17.8895 141.722 17.5267C142.157 16.6368 142.306 15.4866 142.62 14.5414C142.719 14.2418 142.969 12.8768 143.393 12.8768C144.127 12.8768 145.227 16.0273 145.487 16.5637C145.914 17.4439 146.983 20.3732 147.981 20.7734C148.186 20.8558 149.801 14.2218 150.013 13.4958C150.153 13.0123 150.64 11.0263 151.247 10.8132C151.545 10.7084 152.534 12.6906 152.718 12.9593C153.166 13.614 152.706 13.109 152.643 12.6842C152.537 11.9644 153.082 11.3253 153.616 11.0058C154.608 10.4113 155.658 12.1234 156.258 12.6979C156.957 13.3662 159.247 14.1589 159.849 13.0969C161.116 10.8598 160.672 9.054 160.672 6.57596C160.672 6.01666 161.836 4.98844 162.243 4.76C163.338 4.14367 163.781 5.17294 164.362 6.10821C164.732 6.70445 165.827 9.28621 166.581 9.43746C166.925 9.50645 166.476 8.66265 166.531 8.28185C166.65 7.46141 167.189 6.83759 167.616 6.19075C168.17 5.34964 168.675 4.24896 169.523 3.71445C169.896 3.47912 170.289 2.40342 170.72 2.03607C171.239 1.5935 172.35 0.757644 171.892 0" stroke="url(#paint1_linear_181_7796)" stroke-linecap="round"/>
+				<defs>
+					<linearGradient id="paint0_linear_181_7796" x1="86" y1="-9.50178" x2="86" y2="103" gradientUnits="userSpaceOnUse">
+						<stop offset="0.445037" stop-color="#ABFFB8" stop-opacity="0.26"/>
+						<stop offset="1" stop-color="white" stop-opacity="0"/>
+					</linearGradient>
+					<linearGradient id="paint1_linear_181_7796" x1="169.386" y1="4.22896" x2="3.69275" y2="50.9116" gradientUnits="userSpaceOnUse">
+						<stop offset="0.161546" stop-color="#00BA4B"/>
+						<stop offset="1" stop-color="#0FEACF"/>
+					</linearGradient>
+				</defs>
+			</svg>
+			<div class="absolute z-[1] bottom-0 left-0 w-full flex items-center justify-between p-4">
+				<div class="flex items-center gap-2">
+					<div class="w-9 h-9 flex items-center justify-center rounded-md bg-green-600">
+						<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 16 16" fill="none">
+							<path d="M3.36119 9.7914C3.36119 10.6589 2.60652 11.3675 1.68104 11.3675C0.755684 11.3675 0 10.6589 0 9.7914C0 8.92389 0.75581 8.21531 1.68116 8.21531H3.36132L3.36119 9.7914ZM4.20815 9.7914C4.20815 8.92389 4.96396 8.21531 5.88931 8.21531C6.81466 8.21531 7.57047 8.92377 7.57047 9.7914V13.7367C7.57047 14.6042 6.81479 15.3127 5.88931 15.3127C4.96396 15.3127 4.20815 14.6042 4.20815 13.7367V9.7914Z" fill="white"/>
+							<path d="M5.88931 3.46386C4.96396 3.46386 4.20815 2.75635 4.20815 1.88871C4.20815 1.0212 4.96396 0.312744 5.88931 0.312744C6.81466 0.312744 7.57047 1.02132 7.57047 1.88883V3.46398L5.88931 3.46386ZM5.88931 4.25788C6.81466 4.25788 7.57047 4.96645 7.57047 5.83397C7.57047 6.70148 6.81479 7.41006 5.88931 7.41006H1.68104C0.755684 7.41006 0 6.7016 0 5.83397C0 4.96645 0.75581 4.25788 1.68116 4.25788H5.88931Z" fill="white"/>
+							<path d="M12.6387 5.83397C12.6387 4.96645 13.3934 4.25788 14.3188 4.25788C15.2442 4.25788 16 4.96645 16 5.83397C16 6.70148 15.2442 7.41006 14.3188 7.41006H12.6387V5.83397ZM11.7917 5.83397C11.7917 6.70148 11.0359 7.41006 10.1106 7.41006C9.18521 7.41006 8.4294 6.7016 8.4294 5.83397V1.88871C8.4294 1.0212 9.18508 0.312744 10.1106 0.312744C11.0359 0.312744 11.7917 1.02132 11.7917 1.88883V5.83397Z" fill="white"/>
+							<path d="M10.1106 12.1615C11.0359 12.1615 11.7917 12.869 11.7917 13.7367C11.7917 14.6042 11.0359 15.3127 10.1106 15.3127C9.18521 15.3127 8.4294 14.6042 8.4294 13.7367V12.1615H10.1106ZM10.1106 11.3675C9.18521 11.3675 8.4294 10.6589 8.4294 9.7914C8.4294 8.92389 9.18508 8.21531 10.1106 8.21531H14.3188C15.2442 8.21531 16 8.92377 16 9.7914C16 10.6589 15.2442 11.3675 14.3188 11.3675H10.1106Z" fill="white"/>
+						</svg>
+					</div>
+					<h3 class="font-medium text-lg">Slack</h3>
+				</div>
+				<div class="flex items-center gap-2">
+					<h3 class="font-medium text-base">18%</h3>
+					<svg width="14" height="14" viewBox="0 0 9 10" fill="none">
+						<path d="M0.416323 1.02805C0.416323 1.42147 0.738211 1.74336 1.13163 1.74336H6.56081L0.208884 8.09528C0.14266 8.1615 0.0901278 8.24012 0.0542874 8.32665C0.018447 8.41318 2.2066e-09 8.50591 0 8.59957C-2.2066e-09 8.69322 0.018447 8.78596 0.0542874 8.87249C0.0901278 8.95902 0.14266 9.03764 0.208884 9.10386C0.275109 9.17009 0.353729 9.22262 0.440255 9.25846C0.526781 9.2943 0.61952 9.31274 0.713175 9.31274C0.806831 9.31274 0.899569 9.2943 0.986096 9.25846C1.07262 9.22262 1.15124 9.17009 1.21747 9.10386L7.56939 2.75194V8.18112C7.56939 8.57453 7.89127 8.89642 8.28469 8.89642C8.67811 8.89642 9 8.57453 9 8.18112V1.02805C9 0.634632 8.67811 0.312744 8.28469 0.312744H1.13163C0.738211 0.312744 0.416323 0.634632 0.416323 1.02805Z" fill="currentColor"/>
+					</svg>
+				</div>
+			</div>
+		</section>
+	</article>
 
-	<article class="border shadow-sm break-inside flex items-center justify-between rounded-xl p-4 mb-4 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter=""></article>
+	<article class="border shadow-sm break-inside flex flex-col items-start justify-between rounded-xl p-4 gap-3 mb-3 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="finance">
+		<header class="flex items-center w-full justify-between">
+			<svg xmlns="http://www.w3.org/2000/svg" class="w-full max-w-[8rem]" viewBox="0 0 64 24" fill="none">
+				<path d="M4.50431 14.4631C4.22471 14.3927 3.94645 14.8661 3.73916 15.054C2.86194 15.849 2.27408 15.0035 1 14.4262V23.8826H63V1C60.3677 2.8416 60.6329 2.0066 59.052 4.29909C55.6212 9.27412 54.914 4.23344 53.0757 4.23344C52.3351 4.23344 50.2766 5.71376 48.1271 6.91703C47.8523 7.07084 46.8028 8.24839 46.6737 8.07828C46.1396 7.37418 44.0965 10.1827 43.93 10.052C41.6785 8.28347 40.8168 9.75068 39.7285 11.3199C39.424 11.7589 38.9643 9.95196 38.5876 9.93299C38.4656 9.92685 38.3131 11.281 38.2887 11.3815C37.9875 12.6263 36.6317 13.2157 36.3419 14.4344C36.2877 14.6625 36.4359 14.9405 36.3147 14.7955C35.8391 14.2258 32.1906 10.6157 31.6785 10.9301C29.5931 12.2105 30.2421 12.335 29.365 9.80989C29.2817 9.57005 29.1233 8.68795 28.6858 9.02615C28.2797 9.34009 28.0228 9.79935 27.6219 10.1053C27.4715 10.2201 25.4672 10.5408 25.0185 11.4594C24.5502 12.4183 23.5864 13.0829 22.6823 13.7573C22.3869 13.9776 21.9474 14.2054 21.718 14.5C21.6032 14.6474 21.3711 14.1585 21.3377 14.0979C20.6245 12.8051 18.1141 11.5408 18.1141 13.8599C18.1141 13.89 18.1473 13.9502 18.1141 13.9502C17.4209 13.9502 14.1658 13.5087 12.1377 13.6055C11.866 13.6184 11.6467 13.6319 11.3907 13.6834C11.1821 13.7255 11.0629 13.8992 10.9425 14.0569C10.5304 14.5962 10.4517 15.5187 9.92829 15.2632C8.17527 14.4077 6.47518 14.9593 4.50431 14.4631Z" fill="url(#paint0_linear_181_7970)"/>
+				<path d="M1 14.4262C2.27408 15.0035 2.86194 15.849 3.73916 15.054C3.94645 14.8661 4.22471 14.3927 4.50431 14.4631C6.47518 14.9593 8.17527 14.4077 9.92829 15.2632C10.4517 15.5187 10.5304 14.5962 10.9425 14.0569C11.0629 13.8992 11.1821 13.7255 11.3907 13.6834C11.6467 13.6319 11.866 13.6184 12.1377 13.6055C14.1658 13.5087 17.4209 13.9502 18.1141 13.9502C18.1473 13.9502 18.1141 13.89 18.1141 13.8599C18.1141 11.5408 20.6245 12.8051 21.3377 14.0979C21.3711 14.1585 21.6032 14.6474 21.718 14.5C21.9474 14.2054 22.387 13.9776 22.6823 13.7573C23.5864 13.0829 24.5502 12.4183 25.0185 11.4594C25.4672 10.5408 27.4715 10.2201 27.6219 10.1053C28.0228 9.79935 28.2797 9.34009 28.6858 9.02615C29.1233 8.68795 29.2817 9.57005 29.365 9.80989C30.2421 12.335 29.5931 12.2105 31.6785 10.9301C32.1906 10.6157 35.8391 14.2258 36.3147 14.7955C36.4359 14.9405 36.2877 14.6625 36.3419 14.4344C36.6317 13.2157 37.9875 12.6263 38.2887 11.3815C38.3131 11.281 38.4656 9.92685 38.5876 9.93299C38.9643 9.95196 39.424 11.7589 39.7285 11.3199C40.8168 9.75068 41.6785 8.28347 43.93 10.052C44.0965 10.1827 46.1396 7.37418 46.6737 8.07828C46.8028 8.24839 47.8523 7.07084 48.1271 6.91703C50.2766 5.71376 52.3351 4.23344 53.0757 4.23344C54.914 4.23344 55.6212 9.27412 59.052 4.29909C60.6329 2.0066 60.3677 2.8416 63 1" stroke="#0038FF" stroke-linecap="round"/>
+				<defs>
+					<linearGradient id="paint0_linear_181_7970" x1="32" y1="1" x2="32" y2="23.8826" gradientUnits="userSpaceOnUse">
+						<stop stop-color="#00C2FF" stop-opacity="0.15"/>
+						<stop offset="1" stop-color="white" stop-opacity="0"/>
+					</linearGradient>
+				</defs>
+			</svg>
+			<button class="w-9 h-9 flex items-center justify-center rounded-full transition-colors duration-200 hover:bg-gray-200 dark:hover:bg-gray-900">
+				<svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4" viewBox="0 0 4 12" fill="none">
+					<path d="M2 4.94131C0.895431 4.94131 0 4.04588 0 2.94131C0 1.83675 0.895431 0.941315 2 0.941315C3.10457 0.941315 4 1.83675 4 2.94131C4 4.04588 3.10457 4.94131 2 4.94131Z" fill="currentColor"/>
+					<path d="M2 11.9413C0.895431 11.9413 0 11.0459 0 9.94131C0 8.83675 0.895431 7.94131 2 7.94131C3.10457 7.94131 4 8.83675 4 9.94131C4 11.0459 3.10457 11.9413 2 11.9413Z" fill="currentColor"/>
+				</svg>
+			</button>
+		</header>
+		<section class="flex items-center gap-4">
+			<div class="w-12 h-12 flex items-center justify-center rounded-full bg-gray-900">
+				<svg width="22" height="22" viewBox="0 0 14 17" fill="none">
+					<path d="M11.6647 16.2407C10.7601 17.085 9.77242 16.9517 8.82168 16.5518C7.81555 16.1429 6.8925 16.1251 5.83099 16.5518C4.5018 17.1028 3.80028 16.9428 3.00645 16.2407C-1.49804 11.7701 -0.833444 4.96211 4.28026 4.71326C5.52638 4.77547 6.39405 5.37095 7.12326 5.42428C8.21247 5.21097 9.25551 4.59772 10.4186 4.67771C11.8124 4.78436 12.8646 5.31763 13.5569 6.2775C10.677 7.93952 11.3601 11.5924 14 12.6145C13.4739 13.9476 12.7908 15.2719 11.6554 16.2496L11.6647 16.2407ZM7.03096 4.65993C6.8925 2.67796 8.56322 1.04261 10.4832 0.882629C10.7509 3.17567 8.32323 4.88212 7.03096 4.65993Z" fill="white"/>
+				</svg>
+			</div>
+			<div class="flex flex-col">
+				<h2 class="font-medium text-base">Apple</h2>
+				<span class="text-gray-500 dark:text-gray-300">Financial Services</span>
+			</div>
+		</section>
+		<section class="flex flex-col w-full gap-1">
+			<div class="relative w-full block h-1 rounded-full overflow-hidden bg-gray-200 dark:bg-gray-900">
+				<div class="absolute left-0 h-full w-1/2 bg-indigo-600"></div>
+			</div>
+			<div class="flex items-center w-full text-xs font-medium">
+				<span>Progress</span>
+				<span class="ml-auto">66%</span>
+			</div>
+		</section>
+	</article>
 
-	<article class="border shadow-sm break-inside flex items-center justify-between rounded-xl p-4 mb-4 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter=""></article>
+	<article class="border shadow-sm break-inside flex items-center justify-between rounded-xl p-4 mb-3 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter=""></article>
 
-	<article class="border shadow-sm break-inside flex items-center justify-between rounded-xl p-4 mb-4 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter=""></article>
+	<article class="border shadow-sm break-inside flex items-center justify-between rounded-xl p-4 mb-3 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter=""></article>
 
-	<article class="border shadow-sm break-inside flex items-center justify-between rounded-xl p-4 mb-4 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="social">
+	<article class="border shadow-sm break-inside flex items-center justify-between rounded-xl p-4 mb-3 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="social">
 		<div class="flex items-center gap-4">
 			<img class="flex-none w-12 h-12 rounded-full" src="https://randomuser.me/api/portraits/women/44.jpg" alt="avatar">
 			<div class="flex-auto">
@@ -229,7 +307,7 @@ import Layout from '../layouts/Layout.astro';
 		</button>
 	</article>
 
-	<article class="border shadow-sm break-inside flex items-center justify-between rounded-xl p-4 mb-4 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="social">
+	<article class="border shadow-sm break-inside flex items-center justify-between rounded-xl p-4 mb-3 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="social">
 		<div class="flex items-center gap-4">
 			<figure class="relative w-12 h-12">
 				<img class="flex-none w-full rounded-full" src="https://randomuser.me/api/portraits/men/14.jpg" alt="avatar">
@@ -249,7 +327,7 @@ import Layout from '../layouts/Layout.astro';
 		</button>
 	</article>
 
-	<article class="border shadow-sm break-inside flex items-center justify-between rounded-xl p-4 mb-4 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="social">
+	<article class="border shadow-sm break-inside flex items-center justify-between rounded-xl p-4 mb-3 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="social">
 		<div class="flex items-center gap-4">
 			<img class="flex-none w-12 h-12 rounded-full" src="https://randomuser.me/api/portraits/women/81.jpg" alt="avatar">
 			<div class="flex-auto">
@@ -264,7 +342,7 @@ import Layout from '../layouts/Layout.astro';
 		</button>
 	</article>
 
-	<article class="border shadow-sm break-inside flex items-center justify-between rounded-xl p-4 mb-4 bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="social">
+	<article class="border shadow-sm break-inside flex items-center justify-between rounded-xl p-4 mb-3 bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="social">
 		<div class="flex items-center gap-4">
 			<a href="#">
 				<img class="flex-none w-12 h-12 rounded-full ring-2 ring-pink-500 border-2 border-white dark:border-gray-700" src="https://randomuser.me/api/portraits/men/82.jpg" alt="avatar">
@@ -281,7 +359,7 @@ import Layout from '../layouts/Layout.astro';
 		</button>
 	</article>
 
-	<article class="border shadow-sm break-inside flex items-center justify-between rounded-xl p-4 mb-4 bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="social">
+	<article class="border shadow-sm break-inside flex items-center justify-between rounded-xl p-4 mb-3 bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="social">
 		<div class="flex items-center gap-4">
 			<a href="#">
 				<img class="flex-none w-12 h-12 rounded-full ring-2 ring-indigo-600 border-2 border-white dark:border-gray-950" src="https://randomuser.me/api/portraits/men/86.jpg" alt="avatar">
@@ -297,7 +375,7 @@ import Layout from '../layouts/Layout.astro';
 		<span class="px-2 py-1 flex items-center justify-center uppercase text-xs rounded-sm bg-indigo-600 text-white">NEW</span>
 	</article>
 
-	<article class="border shadow-sm break-inside flex items-center flex-row justify-between rounded-xl p-4 mb-4 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="finance">
+	<article class="border shadow-sm break-inside flex items-center flex-row justify-between rounded-xl p-4 mb-3 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="finance">
 		<header class="flex flex-col items-start gap-2">
 			<span class="uppercase text-xs font-medium text-gray-600 dark:text-gray-400">CURRENT PRICE</span>
 			<div class="flex items-center justify-center gap-2">
@@ -329,7 +407,7 @@ import Layout from '../layouts/Layout.astro';
 		</section>
 	</article>
 
-	<article class="border shadow-sm break-inside flex flex-col rounded-xl mb-4 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="finance">
+	<article class="border shadow-sm break-inside flex flex-col rounded-xl mb-3 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="finance">
 		<div class="flex flex-row justify-between items-center w-full p-4">
 			<div class="flex flex-col items-start">
 			<h2 class="font-medium text-xl block mb-1">Statement</h2>
@@ -339,14 +417,14 @@ import Layout from '../layouts/Layout.astro';
 		</div>
 		<div class="w-full -mt-4">
 			<svg class="w-full" viewBox="0 0 156 54" fill="none" xmlns="http://www.w3.org/2000/svg">
-				<path d="M0 35.2121C1.12193 35.7084 2.05287 36.4465 3.15467 36.9127C3.88018 37.2197 4.96816 37.139 5.33694 37.8731C5.78171 38.7584 6.41334 37.1208 6.84078 36.7427C7.35846 36.2847 8.0534 35.1306 8.75167 35.3022C11.4731 35.971 14.5286 35.7848 17.3224 35.7523C17.6226 35.7488 17.9104 35.5687 17.9104 35.8724C17.9104 35.9323 17.9191 36.0299 17.9164 36.1291C18.3683 35.944 19.053 35.7572 19.1768 35.7523C20.6722 35.6935 21.0695 36.6679 22.2975 37.2528C23.2021 37.6838 23.2021 38.1814 23.2021 37.0128C23.2021 35.6556 24.0027 35.3695 24.8303 34.3118C25.1311 33.9274 25.4288 33.5039 25.9497 33.4015C26.5891 33.2758 27.1368 33.243 27.8154 33.2114C30.881 33.0687 33.9468 32.5976 36.9289 31.971C38.3957 31.6628 39.862 31.3127 41.2934 30.8906C41.6774 30.7773 41.6134 31.478 41.7231 31.7509C41.8505 32.068 42.5107 34.0517 42.7407 34.0517C42.8236 34.0517 42.7407 33.905 42.7407 33.8316V32.8113C42.7407 32.182 42.8631 31.787 43.2608 31.2507C43.6045 30.7875 45.7737 28.5386 46.0989 29.21C46.4428 29.9198 46.4557 30.5161 46.9696 31.1707C47.0957 31.3314 47.2004 31.786 47.2296 31.4108C47.276 30.8159 47.1736 29.3852 47.7271 28.9499C48.1423 28.6234 50.4124 33.7413 50.7913 34.4118C50.8749 34.5597 51.4545 35.7515 51.7411 35.3922C52.3142 34.674 53.4118 34.1187 54.1495 33.5815C55.9224 32.2907 57.4928 30.8434 59.1925 29.4901C59.3229 29.3863 59.8755 29.4777 59.7126 29.4201C59.1512 29.2214 59.8806 28.1863 59.984 27.9796C60.7619 26.4247 61.2675 24.79 61.827 23.1679C62.0575 22.4997 62.6297 21.7287 62.6864 21.0271C62.7081 20.7579 62.5243 19.9876 62.8899 19.9067C63.3145 19.8128 63.0628 18.5414 63.1047 18.2261C63.168 17.7501 63.6596 18.91 63.6814 18.9464C64.3669 20.0893 64.9188 21.2579 65.5358 22.4276C65.6835 22.7077 66.0959 24.9687 66.4856 24.6784C67.4868 23.9325 68.1285 22.8128 69.1427 22.0475C70.2353 21.223 70.6307 23.3734 70.8388 23.9581C71.5045 25.829 73.5756 31.4204 72.908 29.5501C72.6058 28.7035 74.1901 27.2634 74.8528 26.8292C75.0807 26.6798 75.3292 26.7757 75.4973 26.9492C75.9782 27.4456 76.0081 27.0539 76.6167 26.6891C78.3694 25.6387 78.9067 30.3861 79.9749 29.5001C80.2389 29.2812 80.3132 28.7752 80.642 28.6298C81.2229 28.3728 81.9908 29.8405 82.1798 30.1303C82.247 30.2335 82.7905 31.2581 83.0391 31.1207C83.4397 30.8992 83.5218 30.7105 84.0567 30.7105C85.5083 30.7105 85.7936 32.3676 86.2503 33.4115C86.7384 34.527 87.4071 35.1912 88.1951 36.1124C88.4976 36.4661 88.1275 35.7882 88.263 35.2321C88.6731 33.5484 89.9177 32.3477 91.248 31.1707C91.4066 31.0304 91.5497 30.6721 91.7908 30.7906C92.3756 31.078 93.0648 28.0325 93.125 27.7895C93.1857 27.5445 93.5668 24.2433 93.8713 24.2582C94.767 24.3023 95.4483 26.6541 95.7369 27.2093C95.9907 27.6972 96.2507 28.3009 96.7207 27.6394C97.5846 26.4234 97.918 24.7089 99.0047 23.648C99.5343 23.131 99.8986 23.9357 100.181 24.2282C100.638 24.7027 101.234 24.0552 101.651 23.8281C102.818 23.1913 104.902 21.5496 105.947 22.9178C106.347 23.4417 106.663 24.1263 107.214 24.5483C107.776 24.9795 108.692 23.1065 108.91 22.8678C109.743 21.9538 110.916 21.4318 111.85 20.627C112.32 20.2215 112.659 19.7113 113.274 19.4465C113.598 19.307 113.885 19.5045 114.066 19.7366C114.583 20.402 115.569 17.7932 115.75 17.4258C116.429 16.0492 116.594 17.5072 117.695 16.9056C120.594 15.3215 124.628 15.045 127.973 15.045C128.215 15.045 128.078 15.0317 127.973 14.9049C127.701 14.574 128.378 14.0083 128.539 13.7445C128.933 13.0974 129.068 12.261 129.353 11.5737C129.443 11.3559 129.67 10.3633 130.054 10.3633C130.72 10.3633 131.718 12.6542 131.953 13.0443C132.34 13.6843 133.31 15.8144 134.215 16.1054C134.401 16.1653 135.866 11.3414 136.058 10.8135C136.186 10.4619 136.627 9.01776 137.177 8.86279C137.448 8.78656 138.345 10.2279 138.512 10.4233C138.52 10.4328 138.527 10.442 138.535 10.4508C138.494 10.3806 138.458 10.3001 138.444 10.2233C138.347 9.69988 138.842 9.23517 139.326 9.00284C140.226 8.57054 141.178 9.81554 141.723 10.2333C142.357 10.7192 144.434 11.2956 144.979 10.5234C146.128 8.89668 145.725 7.5836 145.725 5.78169C145.725 5.375 146.782 4.62733 147.15 4.46123C148.144 4.01306 148.545 4.7615 149.072 5.44157C149.408 5.87513 150.401 7.75245 151.085 7.86243C151.397 7.91259 150.99 7.29903 151.04 7.02213C151.148 6.42555 151.637 5.97194 152.024 5.5016C152.526 4.88998 152.985 4.08963 153.754 3.70096C154.092 3.52983 154.448 2.74764 154.839 2.48052C155.147 2.27048 155.682 1.93861 155.902 1.58023V1C156.046 1.19134 156.019 1.38954 155.902 1.58023V53.9024H0V35.2121Z" fill="url(#paint0_linear_196_8827)"/>
-				<path d="M0 35.2121C1.12193 35.7084 2.05287 36.4465 3.15467 36.9127C3.88018 37.2197 4.96816 37.139 5.33694 37.8731C5.78171 38.7584 6.41334 37.1208 6.84078 36.7427C7.35846 36.2847 8.0534 35.1306 8.75167 35.3022C11.4731 35.971 14.5286 35.7848 17.3224 35.7523C17.6226 35.7488 17.9104 35.5687 17.9104 35.8724C17.9104 36.0498 17.9868 36.5562 17.6164 36.4626C17.05 36.3194 18.9616 35.7608 19.1768 35.7523C20.6722 35.6935 21.0695 36.6678 22.2975 37.2528C23.2021 37.6838 23.2021 38.1814 23.2021 37.0128C23.2021 35.6556 24.0027 35.3695 24.8303 34.3118C25.1311 33.9274 25.4288 33.5039 25.9497 33.4015C26.5891 33.2758 27.1368 33.243 27.8154 33.2114C30.881 33.0687 33.9468 32.5976 36.9289 31.971C38.3957 31.6628 39.862 31.3127 41.2934 30.8906C41.6774 30.7773 41.6134 31.478 41.7231 31.7509C41.8505 32.068 42.5107 34.0517 42.7407 34.0517C42.8236 34.0517 42.7407 33.905 42.7407 33.8316C42.7407 33.4915 42.7407 33.1514 42.7407 32.8113C42.7407 32.182 42.8631 31.787 43.2608 31.2507C43.6045 30.7875 45.7737 28.5386 46.0989 29.21C46.4428 29.9198 46.4557 30.516 46.9696 31.1707C47.0957 31.3314 47.2004 31.786 47.2296 31.4108C47.276 30.8159 47.1736 29.3852 47.7271 28.9499C48.1423 28.6234 50.4124 33.7413 50.7913 34.4118C50.8749 34.5597 51.4545 35.7515 51.7411 35.3922C52.3142 34.674 53.4118 34.1187 54.1495 33.5815C55.9224 32.2907 57.4928 30.8434 59.1925 29.4901C59.3229 29.3863 59.8755 29.4777 59.7126 29.4201C59.1512 29.2214 59.8806 28.1863 59.984 27.9796C60.7619 26.4247 61.2675 24.79 61.8271 23.1679C62.0575 22.4997 62.6297 21.7287 62.6864 21.0271C62.7081 20.7579 62.5243 19.9876 62.8899 19.9067C63.3145 19.8128 63.0628 18.5414 63.1047 18.2261C63.168 17.7501 63.6596 18.91 63.6814 18.9464C64.3669 20.0893 64.9188 21.2579 65.5358 22.4276C65.6835 22.7077 66.0959 24.9687 66.4856 24.6784C67.4868 23.9325 68.1285 22.8128 69.1427 22.0475C70.2353 21.223 70.6307 23.3734 70.8388 23.9581C71.5045 25.829 73.5756 31.4204 72.908 29.5501C72.0659 27.1911 75.5473 27.33 76.6167 26.6891C78.3694 25.6387 78.9067 30.3861 79.9749 29.5001C80.2389 29.2812 80.3132 28.7752 80.642 28.6298C81.2229 28.3728 81.9908 29.8405 82.1798 30.1303C82.247 30.2335 82.7905 31.2581 83.0391 31.1207C83.4397 30.8992 83.5218 30.7105 84.0567 30.7105C85.5083 30.7105 85.7936 32.3676 86.2503 33.4115C86.7384 34.527 87.4071 35.1911 88.1951 36.1124C88.4976 36.4661 88.1275 35.7882 88.263 35.2321C88.6731 33.5484 89.9177 32.3477 91.248 31.1707C91.4066 31.0304 91.5497 30.6721 91.7908 30.7906C92.3756 31.078 93.0648 28.0325 93.125 27.7895C93.1857 27.5445 93.5668 24.2433 93.8713 24.2582C94.767 24.3023 95.4483 26.6541 95.7369 27.2093C95.9907 27.6972 96.2507 28.3009 96.7207 27.6394C97.5846 26.4234 97.918 24.7089 99.0047 23.648C99.0383 23.6152 105.641 22.5174 105.947 22.9178C106.347 23.4416 106.663 24.1263 107.214 24.5483C107.776 24.9795 108.692 23.1065 108.91 22.8677C109.743 21.9538 110.916 21.4318 111.85 20.627C112.32 20.2215 112.659 19.7113 113.274 19.4465C113.598 19.307 113.885 19.5045 114.066 19.7366C114.583 20.402 115.569 17.7932 115.75 17.4258C116.429 16.0492 116.594 17.5072 117.695 16.9056C120.594 15.3215 124.628 15.045 127.973 15.045C128.215 15.045 128.078 15.0317 127.973 14.9049C127.701 14.574 128.378 14.0083 128.539 13.7445C128.933 13.0974 129.068 12.261 129.353 11.5737C129.443 11.3559 129.67 10.3633 130.054 10.3633C130.72 10.3633 131.718 12.6542 131.953 13.0443C132.34 13.6843 133.31 15.8144 134.215 16.1054C134.401 16.1653 135.866 11.3414 136.058 10.8135C136.186 10.4619 136.627 9.01776 137.177 8.86279C137.448 8.78656 138.345 10.2279 138.512 10.4233C138.918 10.8994 138.501 10.5322 138.444 10.2233C138.347 9.69988 138.842 9.23517 139.326 9.00284C140.226 8.57054 141.178 9.81554 141.723 10.2333C142.357 10.7192 144.434 11.2956 144.979 10.5234C146.128 8.89668 145.725 7.5836 145.725 5.78169C145.725 5.375 146.782 4.62733 147.15 4.46123C148.144 4.01306 148.545 4.76149 149.072 5.44157C149.408 5.87513 150.401 7.75245 151.085 7.86243C151.397 7.91259 150.99 7.29903 151.04 7.02213C151.148 6.42555 151.637 5.97194 152.024 5.5016C152.526 4.88998 152.985 4.08963 153.754 3.70096C154.092 3.52983 154.448 2.74764 154.839 2.48052C155.31 2.15871 156.317 1.55092 155.902 1" stroke="url(#paint1_linear_196_8827)" stroke-linecap="round"/>
+				<path d="M0 35.2121C1.12193 35.7084 2.05287 36.4465 3.15467 36.9127C3.88018 37.2197 4.96816 37.139 5.33694 37.8731C5.78171 38.7584 6.41334 37.1208 6.84078 36.7427C7.35846 36.2847 8.0534 35.1306 8.75167 35.3022C11.4731 35.971 14.5286 35.7848 17.3224 35.7523C17.6226 35.7488 17.9104 35.5687 17.9104 35.8724C17.9104 35.9323 17.9191 36.0299 17.9164 36.1291C18.3683 35.944 19.053 35.7572 19.1768 35.7523C20.6722 35.6935 21.0695 36.6679 22.2975 37.2528C23.2021 37.6838 23.2021 38.1814 23.2021 37.0128C23.2021 35.6556 24.0027 35.3695 24.8303 34.3118C25.1311 33.9274 25.4288 33.5039 25.9497 33.4015C26.5891 33.2758 27.1368 33.243 27.8154 33.2114C30.881 33.0687 33.9468 32.5976 36.9289 31.971C38.3957 31.6628 39.862 31.3127 41.2934 30.8906C41.6774 30.7773 41.6134 31.478 41.7231 31.7509C41.8505 32.068 42.5107 34.0517 42.7407 34.0517C42.8236 34.0517 42.7407 33.905 42.7407 33.8316V32.8113C42.7407 32.182 42.8631 31.787 43.2608 31.2507C43.6045 30.7875 45.7737 28.5386 46.0989 29.21C46.4428 29.9198 46.4557 30.5161 46.9696 31.1707C47.0957 31.3314 47.2004 31.786 47.2296 31.4108C47.276 30.8159 47.1736 29.3852 47.7271 28.9499C48.1423 28.6234 50.4124 33.7413 50.7913 34.4118C50.8749 34.5597 51.4545 35.7515 51.7411 35.3922C52.3142 34.674 53.4118 34.1187 54.1495 33.5815C55.9224 32.2907 57.4928 30.8434 59.1925 29.4901C59.3229 29.3863 59.8755 29.4777 59.7126 29.4201C59.1512 29.2214 59.8806 28.1863 59.984 27.9796C60.7619 26.4247 61.2675 24.79 61.827 23.1679C62.0575 22.4997 62.6297 21.7287 62.6864 21.0271C62.7081 20.7579 62.5243 19.9876 62.8899 19.9067C63.3145 19.8128 63.0628 18.5414 63.1047 18.2261C63.168 17.7501 63.6596 18.91 63.6814 18.9464C64.3669 20.0893 64.9188 21.2579 65.5358 22.4276C65.6835 22.7077 66.0959 24.9687 66.4856 24.6784C67.4868 23.9325 68.1285 22.8128 69.1427 22.0475C70.2353 21.223 70.6307 23.3734 70.8388 23.9581C71.5045 25.829 73.5756 31.4204 72.908 29.5501C72.6058 28.7035 74.1901 27.2634 74.8528 26.8292C75.0807 26.6798 75.3292 26.7757 75.4973 26.9492C75.9782 27.4456 76.0081 27.0539 76.6167 26.6891C78.3694 25.6387 78.9067 30.3861 79.9749 29.5001C80.2389 29.2812 80.3132 28.7752 80.642 28.6298C81.2229 28.3728 81.9908 29.8405 82.1798 30.1303C82.247 30.2335 82.7905 31.2581 83.0391 31.1207C83.4397 30.8992 83.5218 30.7105 84.0567 30.7105C85.5083 30.7105 85.7936 32.3676 86.2503 33.4115C86.7384 34.527 87.4071 35.1912 88.1951 36.1124C88.4976 36.4661 88.1275 35.7882 88.263 35.2321C88.6731 33.5484 89.9177 32.3477 91.248 31.1707C91.4066 31.0304 91.5497 30.6721 91.7908 30.7906C92.3756 31.078 93.0648 28.0325 93.125 27.7895C93.1857 27.5445 93.5668 24.2433 93.8713 24.2582C94.767 24.3023 95.4483 26.6541 95.7369 27.2093C95.9907 27.6972 96.2507 28.3009 96.7207 27.6394C97.5846 26.4234 97.918 24.7089 99.0047 23.648C99.5343 23.131 99.8986 23.9357 100.181 24.2282C100.638 24.7027 101.234 24.0552 101.651 23.8281C102.818 23.1913 104.902 21.5496 105.947 22.9178C106.347 23.4417 106.663 24.1263 107.214 24.5483C107.776 24.9795 108.692 23.1065 108.91 22.8678C109.743 21.9538 110.916 21.4318 111.85 20.627C112.32 20.2215 112.659 19.7113 113.274 19.4465C113.598 19.307 113.885 19.5045 114.066 19.7366C114.583 20.402 115.569 17.7932 115.75 17.4258C116.429 16.0492 116.594 17.5072 117.695 16.9056C120.594 15.3215 124.628 15.045 127.973 15.045C128.215 15.045 128.078 15.0317 127.973 14.9049C127.701 14.574 128.378 14.0083 128.539 13.7445C128.933 13.0974 129.068 12.261 129.353 11.5737C129.443 11.3559 129.67 10.3633 130.054 10.3633C130.72 10.3633 131.718 12.6542 131.953 13.0443C132.34 13.6843 133.31 15.8144 134.215 16.1054C134.401 16.1653 135.866 11.3414 136.058 10.8135C136.186 10.4619 136.627 9.01776 137.177 8.86279C137.448 8.78656 138.345 10.2279 138.512 10.4233C138.52 10.4328 138.527 10.442 138.535 10.4508C138.494 10.3806 138.458 10.3001 138.444 10.2233C138.347 9.69988 138.842 9.23517 139.326 9.00284C140.226 8.57054 141.178 9.81554 141.723 10.2333C142.357 10.7192 144.434 11.2956 144.979 10.5234C146.128 8.89668 145.725 7.5836 145.725 5.78169C145.725 5.375 146.782 4.62733 147.15 4.46123C148.144 4.01306 148.545 4.7615 149.072 5.44157C149.408 5.87513 150.401 7.75245 151.085 7.86243C151.397 7.91259 150.99 7.29903 151.04 7.02213C151.148 6.42555 151.637 5.97194 152.024 5.5016C152.526 4.88998 152.985 4.08963 153.754 3.70096C154.092 3.52983 154.448 2.74764 154.839 2.48052C155.147 2.27048 155.682 1.93861 155.902 1.58023V1C156.046 1.19134 156.019 1.38954 155.902 1.58023V53.9024H0V35.2121Z" fill="url(#deuwe8dhwe)"/>
+				<path d="M0 35.2121C1.12193 35.7084 2.05287 36.4465 3.15467 36.9127C3.88018 37.2197 4.96816 37.139 5.33694 37.8731C5.78171 38.7584 6.41334 37.1208 6.84078 36.7427C7.35846 36.2847 8.0534 35.1306 8.75167 35.3022C11.4731 35.971 14.5286 35.7848 17.3224 35.7523C17.6226 35.7488 17.9104 35.5687 17.9104 35.8724C17.9104 36.0498 17.9868 36.5562 17.6164 36.4626C17.05 36.3194 18.9616 35.7608 19.1768 35.7523C20.6722 35.6935 21.0695 36.6678 22.2975 37.2528C23.2021 37.6838 23.2021 38.1814 23.2021 37.0128C23.2021 35.6556 24.0027 35.3695 24.8303 34.3118C25.1311 33.9274 25.4288 33.5039 25.9497 33.4015C26.5891 33.2758 27.1368 33.243 27.8154 33.2114C30.881 33.0687 33.9468 32.5976 36.9289 31.971C38.3957 31.6628 39.862 31.3127 41.2934 30.8906C41.6774 30.7773 41.6134 31.478 41.7231 31.7509C41.8505 32.068 42.5107 34.0517 42.7407 34.0517C42.8236 34.0517 42.7407 33.905 42.7407 33.8316C42.7407 33.4915 42.7407 33.1514 42.7407 32.8113C42.7407 32.182 42.8631 31.787 43.2608 31.2507C43.6045 30.7875 45.7737 28.5386 46.0989 29.21C46.4428 29.9198 46.4557 30.516 46.9696 31.1707C47.0957 31.3314 47.2004 31.786 47.2296 31.4108C47.276 30.8159 47.1736 29.3852 47.7271 28.9499C48.1423 28.6234 50.4124 33.7413 50.7913 34.4118C50.8749 34.5597 51.4545 35.7515 51.7411 35.3922C52.3142 34.674 53.4118 34.1187 54.1495 33.5815C55.9224 32.2907 57.4928 30.8434 59.1925 29.4901C59.3229 29.3863 59.8755 29.4777 59.7126 29.4201C59.1512 29.2214 59.8806 28.1863 59.984 27.9796C60.7619 26.4247 61.2675 24.79 61.8271 23.1679C62.0575 22.4997 62.6297 21.7287 62.6864 21.0271C62.7081 20.7579 62.5243 19.9876 62.8899 19.9067C63.3145 19.8128 63.0628 18.5414 63.1047 18.2261C63.168 17.7501 63.6596 18.91 63.6814 18.9464C64.3669 20.0893 64.9188 21.2579 65.5358 22.4276C65.6835 22.7077 66.0959 24.9687 66.4856 24.6784C67.4868 23.9325 68.1285 22.8128 69.1427 22.0475C70.2353 21.223 70.6307 23.3734 70.8388 23.9581C71.5045 25.829 73.5756 31.4204 72.908 29.5501C72.0659 27.1911 75.5473 27.33 76.6167 26.6891C78.3694 25.6387 78.9067 30.3861 79.9749 29.5001C80.2389 29.2812 80.3132 28.7752 80.642 28.6298C81.2229 28.3728 81.9908 29.8405 82.1798 30.1303C82.247 30.2335 82.7905 31.2581 83.0391 31.1207C83.4397 30.8992 83.5218 30.7105 84.0567 30.7105C85.5083 30.7105 85.7936 32.3676 86.2503 33.4115C86.7384 34.527 87.4071 35.1911 88.1951 36.1124C88.4976 36.4661 88.1275 35.7882 88.263 35.2321C88.6731 33.5484 89.9177 32.3477 91.248 31.1707C91.4066 31.0304 91.5497 30.6721 91.7908 30.7906C92.3756 31.078 93.0648 28.0325 93.125 27.7895C93.1857 27.5445 93.5668 24.2433 93.8713 24.2582C94.767 24.3023 95.4483 26.6541 95.7369 27.2093C95.9907 27.6972 96.2507 28.3009 96.7207 27.6394C97.5846 26.4234 97.918 24.7089 99.0047 23.648C99.0383 23.6152 105.641 22.5174 105.947 22.9178C106.347 23.4416 106.663 24.1263 107.214 24.5483C107.776 24.9795 108.692 23.1065 108.91 22.8677C109.743 21.9538 110.916 21.4318 111.85 20.627C112.32 20.2215 112.659 19.7113 113.274 19.4465C113.598 19.307 113.885 19.5045 114.066 19.7366C114.583 20.402 115.569 17.7932 115.75 17.4258C116.429 16.0492 116.594 17.5072 117.695 16.9056C120.594 15.3215 124.628 15.045 127.973 15.045C128.215 15.045 128.078 15.0317 127.973 14.9049C127.701 14.574 128.378 14.0083 128.539 13.7445C128.933 13.0974 129.068 12.261 129.353 11.5737C129.443 11.3559 129.67 10.3633 130.054 10.3633C130.72 10.3633 131.718 12.6542 131.953 13.0443C132.34 13.6843 133.31 15.8144 134.215 16.1054C134.401 16.1653 135.866 11.3414 136.058 10.8135C136.186 10.4619 136.627 9.01776 137.177 8.86279C137.448 8.78656 138.345 10.2279 138.512 10.4233C138.918 10.8994 138.501 10.5322 138.444 10.2233C138.347 9.69988 138.842 9.23517 139.326 9.00284C140.226 8.57054 141.178 9.81554 141.723 10.2333C142.357 10.7192 144.434 11.2956 144.979 10.5234C146.128 8.89668 145.725 7.5836 145.725 5.78169C145.725 5.375 146.782 4.62733 147.15 4.46123C148.144 4.01306 148.545 4.76149 149.072 5.44157C149.408 5.87513 150.401 7.75245 151.085 7.86243C151.397 7.91259 150.99 7.29903 151.04 7.02213C151.148 6.42555 151.637 5.97194 152.024 5.5016C152.526 4.88998 152.985 4.08963 153.754 3.70096C154.092 3.52983 154.448 2.74764 154.839 2.48052C155.31 2.15871 156.317 1.55092 155.902 1" stroke="url(#9845t43mcf)" stroke-linecap="round"/>
 				<defs>
-					<linearGradient id="paint0_linear_196_8827" x1="78" y1="-5.9092" x2="78" y2="53.9024" gradientUnits="userSpaceOnUse">
+					<linearGradient id="deuwe8dhwe" x1="78" y1="-5.9092" x2="78" y2="53.9024" gradientUnits="userSpaceOnUse">
 						<stop offset="0.144057" stop-color="#D60F63" stop-opacity="0.22"/>
 						<stop offset="0.983952" stop-color="white" stop-opacity="0"/>
 					</linearGradient>
-					<linearGradient id="paint1_linear_196_8827" x1="153.629" y1="4.07508" x2="9.25031" y2="54.8124" gradientUnits="userSpaceOnUse">
+					<linearGradient id="9845t43mcf" x1="153.629" y1="4.07508" x2="9.25031" y2="54.8124" gradientUnits="userSpaceOnUse">
 						<stop offset="0.161546" stop-color="#D60F27"/>
 						<stop offset="1" stop-color="#EA0FBA"/>
 					</linearGradient>
@@ -355,7 +433,7 @@ import Layout from '../layouts/Layout.astro';
 		</div>
 	</article>
 
-	<article class="border shadow-sm break-inside flex items-center flex-row justify-between rounded-xl p-4 mb-4 text-sm bg-indigo-600 dark:bg-gray-950 text-white dark:border-gray-900" data-filter="finance">
+	<article class="border shadow-sm break-inside flex items-center flex-row justify-between rounded-xl p-4 mb-3 text-sm bg-indigo-600 dark:bg-gray-950 text-white dark:border-gray-900" data-filter="finance">
 		<header class="flex flex-col items-start gap-2">
 			<span class="uppercase text-xs font-medium text-white dark:text-gray-400">CURRENT PRICE</span>
 			<div class="flex items-center justify-center gap-2">
@@ -387,7 +465,7 @@ import Layout from '../layouts/Layout.astro';
 		</section>
 	</article>
 
-	<article class="border shadow-sm break-inside flex items-center justify-between rounded-xl p-4 mb-4 bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="social">
+	<article class="border shadow-sm break-inside flex items-center justify-between rounded-xl p-4 mb-3 bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="social">
 		<a href="#" class="flex items-center gap-4">
 			<img class="flex-none w-12 h-12 rounded-full ring-1 ring-gray-300 border-2 border-white dark:border-gray-950 dark:ring-gray-400" src="https://randomuser.me/api/portraits/men/85.jpg" alt="avatar">
 			<div class="flex-auto">
@@ -400,7 +478,7 @@ import Layout from '../layouts/Layout.astro';
 		</button>
 	</article>
 
-	<article class="border shadow-sm break-inside flex flex-col justify-between rounded-xl py-3 mb-4 text-sm divide-y dark:divide-gray-900 bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="social">
+	<article class="border shadow-sm break-inside flex flex-col justify-between rounded-xl py-3 mb-3 text-sm divide-y dark:divide-gray-900 bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="social">
 		<header class="flex items-center justify-between px-4 pb-3">
 			<h2 class="font-medium text-lg">Details</h2>
 			<button class="flex flex-none items-center justify-center w-8 h-8 transition-all rounded-full p-1 hover:bg-gray-100 dark:hover:bg-gray-900">
@@ -426,7 +504,7 @@ import Layout from '../layouts/Layout.astro';
 		</section>
 	</article>
 
-	<article class="border shadow-sm break-inside flex justify-between flex-col p-4 mb-4 text-sm gap-4 rounded-lg bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="social">
+	<article class="border shadow-sm break-inside flex justify-between flex-col p-4 mb-3 text-sm gap-4 rounded-lg bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="social">
 		<div class="flex justify-start items-center gap-3">
 			<figure class="relative w-12 h-12 flex-none">
 				<img class="flex-none w-full rounded-full object-cover" src="https://randomuser.me/api/portraits/men/65.jpg" alt="avatar">
@@ -467,7 +545,7 @@ import Layout from '../layouts/Layout.astro';
 		</div>
 	</article>
 	
-	<article class="border shadow-sm break-inside flex justify-between divide-y dark:divide-gray-900 flex-col p-4 mb-4 text-sm gap-4 rounded-lg bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="social">
+	<article class="border shadow-sm break-inside flex justify-between divide-y dark:divide-gray-900 flex-col p-4 mb-3 text-sm gap-4 rounded-lg bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="social">
 		<div class="flex justify-start items-start gap-3">
 			<figure class="relative w-12 h-12 flex-none">
 				<img class="flex-none w-full rounded-full object-cover" src="https://randomuser.me/api/portraits/men/71.jpg" alt="avatar">
@@ -514,7 +592,7 @@ import Layout from '../layouts/Layout.astro';
 		</div>
 	</article>
 
-	<article class="border shadow-sm break-inside flex justify-between flex-col py-3 mb-4 text-sm rounded-lg divide-y dark:divide-gray-900 bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="social">
+	<article class="border shadow-sm break-inside flex justify-between flex-col py-3 mb-3 text-sm rounded-lg divide-y dark:divide-gray-900 bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="social">
 		<header class="flex items-center justify-between px-4 pb-3">
 			<h2 class="flex items-center gap-2 font-medium text-base">
 				<span class="px-2 py-0.5 flex items-center justify-center uppercase text-xs rounded-sm bg-indigo-500 text-white">NEW</span>
@@ -558,7 +636,7 @@ import Layout from '../layouts/Layout.astro';
 		</div>
 	</article>
 	
-	<article class="border shadow-sm break-inside flex items-center justify-between rounded-xl p-4 mb-4 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="social">
+	<article class="border shadow-sm break-inside flex items-center justify-between rounded-xl p-4 mb-3 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="social">
 		<div class="flex items-center gap-4">
 			<div class="flex justify-center items-center bg-gray-100 dark:bg-gray-900 w-10 h-10 rounded-full">
 				<svg width="22" height="22" viewBox="0 0 24 24">
@@ -577,7 +655,7 @@ import Layout from '../layouts/Layout.astro';
 		</button>
 	</article>
 
-	<article class="border shadow-sm break-inside rounded-xl p-4 mb-4 bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="social">
+	<article class="border shadow-sm break-inside rounded-xl p-4 mb-3 bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="social">
 		<div class="flex items-start gap-4">
 			<img class="flex-none mt-1 w-12 h-12 rounded-full ring-2 ring-emerald-600 border-2 border-white dark:border-gray-950" src="https://randomuser.me/api/portraits/men/86.jpg" alt="avatar">
 			<div class="flex flex-col gap-1">
@@ -591,7 +669,7 @@ import Layout from '../layouts/Layout.astro';
 		</div>
 	</article>
 
-	<article class="border shadow-sm break-inside rounded-xl p-4 mb-4 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="social">
+	<article class="border shadow-sm break-inside rounded-xl p-4 mb-3 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="social">
 		<div class="flex items-center justify-between">
 			<div class="flex flex-col items-start justify-center">
 				<a href="#" class="text-base font-semibold block">Create header here</a>
@@ -625,7 +703,7 @@ import Layout from '../layouts/Layout.astro';
 		</section>
 	</article>
 
-	<article class="border shadow-sm flex flex-col break-inside rounded-xl p-4 mb-4 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="social">
+	<article class="border shadow-sm flex flex-col break-inside rounded-xl p-4 mb-3 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="social">
 		<div class="flex justify-between items-center">
 			<div class="block">
 				<dt class="sr-only">Users</dt>
@@ -658,7 +736,7 @@ import Layout from '../layouts/Layout.astro';
 		</div>
 	</article>
 
-	<article class="border shadow-sm break-inside rounded-xl p-4 mb-4 flex flex-col gap-3 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="finance">
+	<article class="border shadow-sm break-inside rounded-xl p-4 mb-3 flex flex-col gap-3 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="finance">
 		<header class="flex items-start justify-between">
 			<div class="flex flex-col gap-1">
 				<h2 class="font-medium text-base">Header</h2>
@@ -678,7 +756,7 @@ import Layout from '../layouts/Layout.astro';
 		</section>
 	</article>
 
-	<article class="border shadow-sm break-inside flex items-center space-x-4 rounded-xl overflow-hidden pr-4 mb-4 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="social">
+	<article class="border shadow-sm break-inside flex items-center space-x-4 rounded-xl overflow-hidden pr-4 mb-3 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="social">
 		<img class="flex-none w-16 object-cover" src="https://randomuser.me/api/portraits/women/45.jpg" alt="avatar">
 		<div class="flex-auto">
 			<a href="#" class="text-base font-semibold block">Adrianne</a>
@@ -686,7 +764,7 @@ import Layout from '../layouts/Layout.astro';
 		</div>
 	</article>
 
-	<article class="border shadow-sm break-inside flex items-center space-x-4 rounded-xl overflow-hidden pr-4 mb-4 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="social">
+	<article class="border shadow-sm break-inside flex items-center space-x-4 rounded-xl overflow-hidden pr-4 mb-3 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="social">
 		<header class="flex-1 flex items-center gap-2 lg:gap-4">
 			<img class="flex-none w-16 object-cover" src="https://randomuser.me/api/portraits/men/45.jpg" alt="avatar">
 			<div class="flex-auto">
@@ -701,7 +779,7 @@ import Layout from '../layouts/Layout.astro';
 		</button>
 	</article>
 
-	<article class="border shadow-sm break-inside flex items-center space-x-4 rounded-xl overflow-hidden pr-4 mb-4 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="social">
+	<article class="border shadow-sm break-inside flex items-center space-x-4 rounded-xl overflow-hidden pr-4 mb-3 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="social">
 		<header class="flex-1 flex items-center gap-2 lg:gap-4">
 			<div class="flex items-center justify-center w-16 h-16 font-semibold text-lg bg-purple-100 dark:bg-purple-600/50">
 				CM
@@ -718,7 +796,7 @@ import Layout from '../layouts/Layout.astro';
 		</button>
 	</article>
 
-	<article class="border shadow-sm break-inside flex flex-col rounded-xl overflow-hidden py-4 mb-4 gap-4 text-sm divide-y dark:divide-gray-800 bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="social">
+	<article class="border shadow-sm break-inside flex flex-col rounded-xl overflow-hidden py-4 mb-3 gap-4 text-sm divide-y dark:divide-gray-800 bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="social">
 		<header class="flex justify-between items-center px-4">
 			<button type="button" class="h-8 px-4 font-medium text-base transition-colors duration-200 hover:bg-gray-100 rounded-md dark:hover:bg-gray-900">September</button>
 			<div class="flex justify-center items-center">
@@ -760,7 +838,7 @@ import Layout from '../layouts/Layout.astro';
 		</section>
 	</article>
 
-	<article class="border shadow-sm break-inside flex items-center space-x-4 rounded-xl overflow-hidden pl-4 mb-4 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="social">
+	<article class="border shadow-sm break-inside flex items-center space-x-4 rounded-xl overflow-hidden pl-4 mb-3 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="social">
 		<button class="flex-none rounded-full flex items-center justify-center w-10 h-10 transition-all hover:bg-gray-100 dark:hover:bg-gray-900">
 			<svg width="34" height="34" fill="none" stroke-width="1.5" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
 				<path stroke-linecap="round" stroke-linejoin="round" d="M6.75 12a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0ZM12.75 12a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0ZM18.75 12a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z"></path>
@@ -775,7 +853,7 @@ import Layout from '../layouts/Layout.astro';
 		</header>
 	</article>
 
-	<a href="#" class="border flex items-center justify-between break-inside rounded-xl p-3 mb-4 bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900 shadow-sm" data-filter="country">
+	<a href="#" class="border flex items-center justify-between break-inside rounded-xl p-3 mb-3 bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900 shadow-sm" data-filter="country">
 		<span class="flex flex-row items-center justify-center space-x-4">
 			<img src="https://www.svgrepo.com/show/94668/spain.svg" alt="flag" class="max-w-full w-10 object-cover block">
 			<div class="flex flex-col">
@@ -790,7 +868,7 @@ import Layout from '../layouts/Layout.astro';
 		</span>
 	</a>
 	
-	<a href="#" class="border flex items-center justify-between break-inside rounded-xl p-3 mb-4 bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900 shadow-sm" data-filter="country">
+	<a href="#" class="border flex items-center justify-between break-inside rounded-xl p-3 mb-3 bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900 shadow-sm" data-filter="country">
 		<span class="flex flex-row items-center justify-center space-x-4">
 			<img src="https://www.svgrepo.com/show/401589/flag-for-cuba.svg" alt="flag" class="max-w-full w-10 object-cover block">
 			<div class="flex flex-col">
@@ -805,7 +883,7 @@ import Layout from '../layouts/Layout.astro';
 		</span>
 	</a>
 
-	<article class="shadow-sm break-inside flex flex-col justify-between rounded-full p-2 mb-4 text-base bg-[#9903DF] text-white" data-filter="sport">
+	<article class="shadow-sm break-inside flex flex-col justify-between rounded-full p-2 mb-3 text-base bg-[#9903DF] text-white" data-filter="sport">
 		<div class="flex items-center justify-between space-x-3">
 			<div class="flex items-center justify-center space-x-2">
 				<div class="flex items-center justify-center rounded-full w-10 h-10 bg-white">
@@ -824,7 +902,7 @@ import Layout from '../layouts/Layout.astro';
 		</div>
 	</article>
 
-	<article class="shadow-sm break-inside flex flex-col justify-between rounded-full p-2 mb-4 text-base bg-[#D81A22] text-white" data-filter="sport">
+	<article class="shadow-sm break-inside flex flex-col justify-between rounded-full p-2 mb-3 text-base bg-[#D81A22] text-white" data-filter="sport">
 		<div class="flex items-center justify-between space-x-3">
 			<div class="flex items-center justify-center space-x-2">
 				<div class="flex items-center justify-center rounded-full w-10 h-10 bg-white">
@@ -843,7 +921,7 @@ import Layout from '../layouts/Layout.astro';
 		</div>
 	</article>
 
-	<article class="border shadow-sm break-inside flex items-center justify-between rounded-xl p-4 mb-4 gap-4 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="shopping">
+	<article class="border shadow-sm break-inside flex items-center justify-between rounded-xl p-4 mb-3 gap-4 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="shopping">
 		<header class="flex items-center gap-4">
 			<div class="rounded-full flex flex-none items-center justify-center w-12 h-12 border dark:border-gray-800">
 				<svg width="24" height="24" fill="none" stroke-width="1.5" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
@@ -858,7 +936,7 @@ import Layout from '../layouts/Layout.astro';
 		<span class="text-lg font-semibold">54,00€</span>
 	</article>
 
-	<article class="border shadow-sm break-inside flex items-center justify-between rounded-xl p-4 mb-4 gap-4 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="shopping">
+	<article class="border shadow-sm break-inside flex items-center justify-between rounded-xl p-4 mb-3 gap-4 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="shopping">
 		<header class="flex flex-col gap-1">
 			<p>Total you owe</p>
 			<h2 class="text-xl font-semibold">129, 67€</h2>
@@ -867,7 +945,7 @@ import Layout from '../layouts/Layout.astro';
 		<button class="flex h-9 px-4 flex-none items-center justify-center rounded-full text-sm font-medium transition-colors duration-200 bg-gray-100 hover:bg-gray-200 dark:bg-gray-900 dark:hover:bg-gray-800">Ver detalles</button>
 	</article>
 
-	<article class="border shadow-sm break-inside flex flex-col gap-2 rounded-xl overflow-hidden p-4 mb-4 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="shopping">
+	<article class="border shadow-sm break-inside flex flex-col gap-2 rounded-xl overflow-hidden p-4 mb-3 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="shopping">
 		<header class="flex items-start justify-between">
 			<div class="flex items-center gap-2">
 				<svg width="24" height="24" fill="none" class="flex-none mt-1" stroke-width="2" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
@@ -894,7 +972,7 @@ import Layout from '../layouts/Layout.astro';
 		</section>
 	</article>
 
-	<article class="border shadow-sm break-inside flex flex-col justify-between rounded-xl p-4 gap-2 mb-4 bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="shopping">
+	<article class="border shadow-sm break-inside flex flex-col justify-between rounded-xl p-4 gap-2 mb-3 bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="shopping">
 		<header class="flex items-center justify-between">
 			<div class="flex items-center gap-2 -mt-1 text-indigo-600 dark:text-white">
 				<svg class="flex-none" width="26" height="26" fill="none" stroke-width="1.5" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
@@ -919,7 +997,7 @@ import Layout from '../layouts/Layout.astro';
 		</section>
 	</article>
 
-	<article class="border shadow-sm break-inside rounded-xl p-4 mb-4 bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="shopping">
+	<article class="border shadow-sm break-inside rounded-xl p-4 mb-3 bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="shopping">
 		<header class="flex items-center justify-between">
 			<div class="flex items-center gap-3">
 				<div class="flex items-center justify-center w-12 h-12 rounded-full border border-gray-300 dark:border-gray-800">
@@ -971,7 +1049,7 @@ import Layout from '../layouts/Layout.astro';
 		</section>
 	</article>
 
-	<article class="border shadow-sm break-inside rounded-xl p-4 gap-2 mb-4 bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="shopping">
+	<article class="border shadow-sm break-inside rounded-xl p-4 gap-2 mb-3 bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="shopping">
 		<section class="flex items-start gap-4">
 			<svg class="flex-none" width="32" height="32" fill="none" stroke-width="1.5" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
 				<path stroke-linecap="round" stroke-linejoin="round" d="M8.25 18.75a1.5 1.5 0 0 1-3 0m3 0a1.5 1.5 0 0 0-3 0m3 0h6m-9 0H3.375a1.125 1.125 0 0 1-1.125-1.125V14.25m17.25 4.5a1.5 1.5 0 0 1-3 0m3 0a1.5 1.5 0 0 0-3 0m3 0h1.125c.621 0 1.129-.504 1.09-1.124a17.902 17.902 0 0 0-3.213-9.193 2.056 2.056 0 0 0-1.58-.86H14.25M16.5 18.75h-2.25m0-11.177v-.958c0-.568-.422-1.048-.987-1.106a48.554 48.554 0 0 0-10.026 0 1.106 1.106 0 0 0-.987 1.106v7.635m12-6.677v6.677m0 4.5v-4.5m0 0h-12"></path>
@@ -985,7 +1063,7 @@ import Layout from '../layouts/Layout.astro';
 		</section>
 	</article>
 
-	<article class="border shadow-sm break-inside rounded-xl p-4 mb-4 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="finance">
+	<article class="border shadow-sm break-inside rounded-xl p-4 mb-3 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="finance">
 		<header class="flex flex-row items-center justify-between pb-2">
 			<h3 class="tracking-tight text-sm font-medium">
 				Total Revenue
@@ -1002,7 +1080,7 @@ import Layout from '../layouts/Layout.astro';
 		</section>
 	</article>
 
-	<article class="border shadow-sm break-inside rounded-xl p-4 mb-4 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="finance">
+	<article class="border shadow-sm break-inside rounded-xl p-4 mb-3 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="finance">
 		<header class="flex flex-row items-center justify-between pb-2">
 			<h3 class="tracking-tight text-sm font-medium">
 				Subscriptions
@@ -1019,7 +1097,46 @@ import Layout from '../layouts/Layout.astro';
 		</section>
 	</article>
 
-	<article class="border shadow-sm break-inside rounded-xl p-4 mb-4 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="finance">
+	<section class="grid grid-cols-2 gap-4" data-filter="finance">
+		<article class="border shadow-sm break-inside flex items-start flex-col justify-between rounded-xl gap-2 pb-4 mb-3 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900">
+			<header class="p-4">
+				<svg width="26" height="26" viewBox="0 0 512 512"><path d="M427.68 351.43C402 320 383.87 304 383.87 217.35 383.87 138 343.35 109.73 310 96c-4.43-1.82-8.6-6-9.95-10.55C294.2 65.54 277.8 48 256 48s-38.21 17.55-44 37.47c-1.35 4.6-5.52 8.71-9.95 10.53-33.39 13.75-73.87 41.92-73.87 121.35C128.13 304 110 320 84.32 351.43 73.68 364.45 83 384 101.61 384h308.88c18.51 0 27.77-19.61 17.19-32.57zM320 384v16a64 64 0 01-128 0v-16" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="32"/></svg>
+			</header>
+			<section class="w-full">
+				<svg xmlns="http://www.w3.org/2000/svg" class="w-full" viewBox="0 0 104 37" fill="none">
+					<path d="M0 36.3915C0.40204 34.0778 1.20938 32.0455 2.34461 29.9385C4.31728 26.2773 6.63549 22.7442 9.9798 19.9879C10.5469 19.5205 12.0783 17.8938 12.8953 18.8267C14.3823 20.5245 14.9217 22.9638 15.9555 24.8902C16.1632 25.2772 16.2314 26.0247 16.7015 25.9889C17.0312 25.9638 16.9398 25.425 17.0517 25.1406C17.7023 23.4872 18.8784 21.8761 20.4316 20.8154C21.3713 20.1737 23.6095 18.6313 24.8011 19.4803C26.1776 20.4611 26.5379 22.0758 27.0543 23.4995C27.2977 24.1703 27.667 24.8154 27.9526 25.4743C28.1725 25.9819 28.2798 26.061 28.6757 25.5717C29.9778 23.9625 32.2544 22.4348 34.2251 24.1532C34.7776 24.6349 35.124 25.1271 35.8999 24.6816C36.6692 24.2399 36.7695 24.5721 37.1026 25.3005C37.4754 26.1157 37.9436 28.5056 39.1351 27.2892C39.3024 27.1184 40.6559 25.4702 40.9545 25.6134C41.7307 25.9857 42.1579 27.4117 42.4465 28.0889C42.6063 28.4639 43.1287 30.2269 43.6492 30.3627C43.6849 30.372 44.8737 26.3764 45.2174 25.9055C45.6749 25.2786 46.2036 24.6839 46.7094 24.0906C46.8646 23.9086 47.5699 22.8837 47.9578 22.7763C48.0197 22.7592 48.1192 22.9913 48.171 23.0128C48.3133 23.0718 48.3717 22.7863 48.4222 22.6512C48.6074 22.1558 48.9745 20.9378 49.0921 20.5581C49.8692 18.0492 50.6308 15.5787 52.137 13.3403C52.9069 12.1963 54.1546 10.8636 55.6463 10.4685C56.8381 10.1528 58.0717 11.8345 58.5695 12.5685C59.1769 13.464 59.7181 14.5816 60.503 15.3638C61.3219 16.1799 61.3191 17.7563 61.8884 18.7293C61.9637 18.858 62.857 19.9045 62.8933 19.6611C63.043 18.6585 63.4647 17.8133 64.4005 17.2204C65.6881 16.4047 66.0358 17.932 66.6842 18.7711C67.4593 19.7741 67.6806 19.2262 68.5645 18.4582C68.8541 18.2066 70.8095 16.2069 71.1984 16.9631C71.9362 18.3981 71.6449 20.232 72.5153 21.6081C72.6815 21.8709 72.8789 22.2271 73.0786 22.4704C73.183 22.5975 73.17 22.0206 73.17 21.9419C73.17 21.5469 73.5128 22.2681 73.5277 22.2965C73.8279 22.8687 74.1291 23.468 74.1291 24.1114C74.1291 24.2416 74.0618 23.8166 74.1596 23.722C74.6967 23.2025 76.281 25.408 76.4281 25.7386C76.6607 26.2618 77.1315 27.5949 77.9353 27.6439C78.287 27.6653 78.6289 26.4682 78.6661 26.3783C79.3545 24.7144 79.8884 23.0098 80.5235 21.33C81.1338 19.7157 81.962 18.3288 82.9138 16.8797C83.2884 16.3093 83.3616 17.238 83.4466 17.5542C83.5292 17.8612 83.6941 18.9054 83.9491 18.0827C84.8041 15.3231 85.4135 12.509 86.1871 9.7314C86.3437 9.16898 86.5228 8.60962 86.7123 8.05558C86.8257 7.7242 87.0244 8.19833 87.1158 8.35459C88.362 10.4857 88.9987 12.8588 90.2369 14.9953C90.6904 15.7778 90.5521 15.5102 90.6632 14.7728C90.9066 13.1557 91.1757 11.3722 91.7746 9.82875C92.0507 9.117 92.7398 10.7929 92.7946 10.8996C93.2567 11.7997 93.6836 12.7121 94.1801 13.5976C94.257 13.7348 94.9343 15.2033 95.2762 15.2317C95.3066 15.2342 95.942 12.8299 95.9994 12.6658C96.4751 11.3063 97.2595 10.4051 98.0928 9.24465C98.2413 9.03789 98.3713 8.63097 98.6105 8.47975C98.948 8.26628 99.1671 8.2511 99.3793 7.89565C99.5709 7.57484 101.637 3.91144 101.975 4.00164C102.218 4.06626 102.158 4.19283 102.249 4.34932C102.347 4.51769 102.683 4.57546 102.835 4.72481C103.389 5.26987 104 5.37877 104 6.22679" stroke="#6E0BED" stroke-linecap="round"/>
+					<path d="M0 36.3915C0.40204 34.0778 1.20938 32.0455 2.34461 29.9385C4.31728 26.2773 6.63549 22.7442 9.9798 19.9879C10.5469 19.5205 12.0783 17.8938 12.8953 18.8267C14.3823 20.5245 14.9217 22.9638 15.9555 24.8902C16.1632 25.2772 16.2314 26.0247 16.7015 25.9889C17.0312 25.9638 16.9398 25.425 17.0517 25.1406C17.7023 23.4873 18.8784 21.8761 20.4316 20.8154C21.3713 20.1737 23.6095 18.6313 24.8011 19.4803C26.1776 20.4611 26.5379 22.0758 27.0543 23.4995C27.2977 24.1703 27.667 24.8154 27.9526 25.4743C28.1725 25.9819 28.2798 26.061 28.6757 25.5717C29.9778 23.9625 32.2544 22.4348 34.2251 24.1532C34.7776 24.6349 35.124 25.1271 35.8999 24.6816C36.6692 24.2399 36.7695 24.5721 37.1026 25.3005C37.4754 26.1157 37.9436 28.5057 39.1351 27.2892C39.3024 27.1184 40.6559 25.4702 40.9545 25.6134C41.7307 25.9857 42.1579 27.4117 42.4465 28.0889C42.6063 28.4639 43.1287 30.2269 43.6492 30.3627C43.6849 30.372 44.8737 26.3764 45.2174 25.9055C45.6749 25.2786 46.2036 24.6839 46.7094 24.0906C46.8646 23.9086 47.5699 22.8837 47.9578 22.7763C48.0197 22.7592 48.1192 22.9913 48.171 23.0128C48.3133 23.0718 48.3717 22.7863 48.4222 22.6512C48.6074 22.1558 48.9745 20.9378 49.0921 20.5581C49.8692 18.0492 50.6308 15.5787 52.137 13.3403C52.9069 12.1963 54.1546 10.8636 55.6463 10.4685C56.8381 10.1528 58.0717 11.8345 58.5695 12.5685C59.1769 13.464 59.7181 14.5816 60.503 15.3638C61.3219 16.1799 61.3191 17.7563 61.8884 18.7294C61.9637 18.858 62.8569 19.9045 62.8933 19.6611C63.0429 18.6585 63.4647 17.8133 64.4005 17.2204C65.6881 16.4047 66.0358 17.932 66.6842 18.7711C67.4593 19.7741 67.6806 19.2262 68.5645 18.4582C68.8541 18.2066 70.8095 16.2069 71.1984 16.9631C71.9362 18.3981 71.6449 20.232 72.5153 21.6081C72.6815 21.8709 72.8789 22.2271 73.0786 22.4704C73.183 22.5975 73.17 22.0206 73.17 21.9419C73.17 21.5469 73.5128 22.2681 73.5277 22.2965C73.8279 22.8687 74.1291 23.468 74.1291 24.1114C74.1291 24.2416 74.0617 23.8166 74.1596 23.722C74.6967 23.2025 76.281 25.408 76.4281 25.7386C76.6607 26.2618 77.1315 27.5949 77.9353 27.6439C78.287 27.6653 78.6289 26.4682 78.6661 26.3783C79.3545 24.7144 79.8884 23.0098 80.5235 21.33C81.1338 19.7157 81.9619 18.3288 82.9138 16.8797C83.2884 16.3093 83.3616 17.238 83.4466 17.5542C83.5292 17.8612 83.6941 18.9054 83.9491 18.0827C84.8041 15.3231 85.4135 12.509 86.1871 9.7314C86.3437 9.16898 86.5228 8.60962 86.7123 8.05558C86.8257 7.7242 87.0244 8.19833 87.1158 8.35459C88.362 10.4857 88.9987 12.8588 90.2369 14.9953C90.6904 15.7778 90.5521 15.5102 90.6632 14.7728C90.9066 13.1557 91.1757 11.3722 91.7746 9.82875C92.0507 9.117 92.7398 10.7929 92.7946 10.8996C93.2566 11.7997 93.6836 12.7121 94.1801 13.5976C94.257 13.7348 94.9343 15.2033 95.2762 15.2317C95.3066 15.2342 95.942 12.8299 95.9994 12.6658C96.4751 11.3063 97.2595 10.4051 98.0928 9.24465C98.2413 9.03789 98.3713 8.63097 98.6105 8.47975C98.948 8.26628 99.167 8.2511 99.3793 7.89565C99.5709 7.57484 101.637 3.91144 101.975 4.00164C102.218 4.06626 102.158 4.19283 102.249 4.34932C102.347 4.51769 102.683 4.57546 102.835 4.72481C103.389 5.26987 104 5.37877 104 6.22679" stroke="url(#paint0_linear_184_7810)" stroke-opacity="0.21" stroke-width="7" stroke-linecap="round"/>
+					<defs>
+						<linearGradient id="paint0_linear_184_7810" x1="106.815" y1="3.84823" x2="2.13301" y2="41.9212" gradientUnits="userSpaceOnUse">
+							<stop stop-color="white" stop-opacity="0.31"/>
+							<stop offset="0.381048" stop-color="#970AEE"/>
+							<stop offset="0.76813" stop-color="#6AE9C3"/>
+							<stop offset="1" stop-color="white" stop-opacity="0"/>
+						</linearGradient>
+					</defs>
+				</svg>
+			</section>
+		</article>
+		<article class="border shadow-sm break-inside flex items-start flex-col justify-between rounded-xl gap-2 pb-4 mb-3 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900">
+			<header class="p-4">
+				<svg width="26" height="26" viewBox="0 0 512 512"><path d="M427.68 351.43C402 320 383.87 304 383.87 217.35 383.87 138 343.35 109.73 310 96c-4.43-1.82-8.6-6-9.95-10.55C294.2 65.54 277.8 48 256 48s-38.21 17.55-44 37.47c-1.35 4.6-5.52 8.71-9.95 10.53-33.39 13.75-73.87 41.92-73.87 121.35C128.13 304 110 320 84.32 351.43 73.68 364.45 83 384 101.61 384h308.88c18.51 0 27.77-19.61 17.19-32.57zM320 384v16a64 64 0 01-128 0v-16" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="32"/></svg>
+			</header>
+			<section class="w-full">
+				<svg xmlns="http://www.w3.org/2000/svg" class="w-full" viewBox="0 0 96 36" fill="none">
+					<path d="M96 1.94572C88.6165 -2.89 84.5392 12.3925 78.2605 12.3925C71.1686 12.3925 63.7091 6.04792 57.5672 8.03967C48.7597 10.8959 44.5128 21.6062 34.1005 20.1953C23.4441 18.7513 10.3968 21.6247 0 24V36H96V1.94572Z" fill="url(#paint0_linear_181_7869)"/>
+					<path d="M0 24C10.3968 21.6247 23.4441 18.7513 34.1005 20.1953C44.5128 21.6062 48.7597 10.8959 57.5672 8.03967C63.709 6.04792 71.1686 12.3925 78.2605 12.3925C84.5392 12.3925 88.6165 -2.89 96 1.94572" stroke="#10C643" stroke-linecap="round"/>
+					<defs>
+						<linearGradient id="paint0_linear_181_7869" x1="48" y1="1" x2="48" y2="36" gradientUnits="userSpaceOnUse">
+							<stop stop-color="#16FF73" stop-opacity="0.43"/>
+							<stop offset="1" stop-color="#D9D9D9" stop-opacity="0"/>
+						</linearGradient>
+					</defs>
+				</svg>
+			</section>
+		</article>
+	</section>
+
+	<article class="border shadow-sm break-inside rounded-xl p-4 mb-3 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="finance">
 		<header class="flex flex-row items-center justify-between pb-2">
 			<h3 class="tracking-tight text-sm font-medium">
 				Sales
@@ -1036,7 +1153,7 @@ import Layout from '../layouts/Layout.astro';
 		</section>
 	</article>
 
-	<article class="border shadow-sm break-inside rounded-xl p-4 mb-4 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="finance">
+	<article class="border shadow-sm break-inside rounded-xl p-4 mb-3 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="finance">
 		<header class="flex flex-row items-center justify-between pb-2">
 			<h3 class="tracking-tight text-sm font-medium">
 				Active Now
@@ -1053,7 +1170,7 @@ import Layout from '../layouts/Layout.astro';
 		</section>
 	</article>
 
-	<article class="border shadow-sm break-inside rounded-xl p-4 mb-4 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="finance">
+	<article class="border shadow-sm break-inside rounded-xl p-4 mb-3 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="finance">
 		<header class="flex items-start justify-between">
 			<div class="flex flex-col gap-1">
 				<p class="text-xs uppercase text-gray-400 dark:text-gray-600">Total Revenue</p>
@@ -1094,7 +1211,7 @@ import Layout from '../layouts/Layout.astro';
 		</section>
 	</article>
 
-	<article class="border shadow-sm break-inside flex items-center justify-between rounded-xl p-4 mb-4 gap-4 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="social">
+	<article class="border shadow-sm break-inside flex items-center justify-between rounded-xl p-4 mb-3 gap-4 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="social">
 		<header class="flex-1">
 			<p class="text-sm"> All your notifications are well turned on </p>
 		</header>
@@ -1109,7 +1226,7 @@ import Layout from '../layouts/Layout.astro';
 		</div>
 	</article>
 
-	<article class="border shadow-sm break-inside flex items-center justify-between rounded-xl p-4 mb-4 gap-4 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="social">
+	<article class="border shadow-sm break-inside flex items-center justify-between rounded-xl p-4 mb-3 gap-4 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="social">
 		<header class="flex-1">
 			<p class="text-sm">All your notifications are well turned off</p>
 		</header>
@@ -1124,7 +1241,7 @@ import Layout from '../layouts/Layout.astro';
 		</div>
 	</article>
 
-	<article class="border shadow-sm break-inside flex items-center justify-between rounded-xl p-4 mb-4 gap-4 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="">
+	<article class="border shadow-sm break-inside flex items-center justify-between rounded-xl p-4 mb-3 gap-4 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="">
 		<div class="flex items-start gap-2">
 			<img class="flex-none w-11 h-11 rounded-full object-cover" src="https://randomuser.me/api/portraits/women/45.jpg" alt="avatar">
 			<div class="flex-auto">
@@ -1151,7 +1268,7 @@ import Layout from '../layouts/Layout.astro';
 		</div>
 	</article>
 
-	<article class="border shadow-sm break-inside flex items-center justify-between rounded-xl p-4 mb-4 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="social">
+	<article class="border shadow-sm break-inside flex items-center justify-between rounded-xl p-4 mb-3 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="finance">
 		<div class="flex items-center gap-4">
 			<div class="flex-none w-12 h-12 rounded-full flex items-center justify-center text-lg font-semibold bg-green-200 text-green-900 dark:bg-green-600/50 dark:text-white">AO</div>
 			<div class="flex-auto">
@@ -1165,7 +1282,7 @@ import Layout from '../layouts/Layout.astro';
 		</div>
 	</article>
 
-	<article class="border shadow-sm break-inside flex items-center justify-between rounded-xl p-4 mb-4 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="social">
+	<article class="border shadow-sm break-inside flex items-center justify-between rounded-xl p-4 mb-3 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="social">
 		<div class="flex items-center gap-4">
 			<div class="flex-none w-12 h-12 rounded-lg flex items-center justify-center text-lg font-semibold bg-amber-200 text-amber-500 dark:bg-amber-600/50 dark:text-white">
 				<svg width="24" height="24" fill="none" stroke-width="2" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
@@ -1186,7 +1303,7 @@ import Layout from '../layouts/Layout.astro';
 		</button>
 	</article>
 
-	<article class="border shadow-sm break-inside flex items-center justify-between rounded-xl p-4 mb-4 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="social">
+	<article class="border shadow-sm break-inside flex items-center justify-between rounded-xl p-4 mb-3 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="social">
 		<div class="flex items-center gap-4">
 			<div class="flex-none w-12 h-12 rounded-lg flex items-center justify-center text-lg font-semibold bg-rose-100 text-rose-400 dark:bg-rose-600/50 dark:text-white">
 				<svg width="28" height="28" class="ionicon" viewBox="0 0 512 512">
@@ -1212,7 +1329,7 @@ import Layout from '../layouts/Layout.astro';
 		</button>
 	</article>
 
-	<article class="break-inside relative overflow-hidden flex flex-col justify-between space-y-2 text-sm rounded-xl p-4 mb-4 bg-gray-900 text-white" data-filter="social">
+	<article class="break-inside relative overflow-hidden flex flex-col justify-between space-y-2 text-sm rounded-xl p-4 mb-3 bg-gray-900 text-white" data-filter="social">
 		<header class="flex items-center justify-between">
 			<span class="uppercase text-xs text-gray-100">upgrade team</span>
 			<span class="text-xs font-medium rounded-sm flex items-center justify-center px-1 h-5 text-black bg-yellow-500">NEW</span>
@@ -1235,7 +1352,7 @@ import Layout from '../layouts/Layout.astro';
 		</div>
 	</article>
 
-	<article class="border shadow-sm break-inside flex items-center justify-between rounded-xl p-4 mb-4 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="social">
+	<article class="border shadow-sm break-inside flex items-center justify-between rounded-xl p-4 mb-3 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="social">
 		<div class="flex items-center gap-4">
 			<div class="relative flex-none w-11 h-11 rounded-full flex items-center justify-center text-base font-semibold bg-blue-200 text-blue-500 dark:bg-blue-600/50 dark:text-white">
 				LK
@@ -1253,7 +1370,7 @@ import Layout from '../layouts/Layout.astro';
 		</button>
 	</article>
 
-	<article class="border shadow-sm break-inside flex items-center justify-between rounded-xl p-4 mb-4 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="social">
+	<article class="border shadow-sm break-inside flex items-center justify-between rounded-xl p-4 mb-3 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="social">
 		<div class="flex items-center gap-4">
 			<div class="relative flex-none w-11 h-11 rounded-full flex items-center justify-center text-base font-semibold bg-green-200 text-green-600 dark:bg-green-600/50 dark:text-white">
 				JM
@@ -1278,7 +1395,7 @@ import Layout from '../layouts/Layout.astro';
 		</button>
 	</article>
 
-	<article class="border shadow-sm break-inside flex items-center justify-between rounded-xl p-4 mb-4 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="social">
+	<article class="border shadow-sm break-inside flex items-center justify-between rounded-xl p-4 mb-3 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="social">
 		<div class="flex items-center gap-4">
 			<div class="flex-none w-12 h-12 rounded-full flex items-center justify-center text-base font-semibold bg-gradient-to-br from-yellow-500 to-rose-500 text-white">
 				<svg width="26" height="26" fill="none" stroke-width="1.5" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
@@ -1297,7 +1414,7 @@ import Layout from '../layouts/Layout.astro';
 		</button>
 	</article>
 
-	<article class="border shadow-sm break-inside flex items-center justify-between rounded-xl p-4 mb-4 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="">
+	<article class="border shadow-sm break-inside flex items-center justify-between rounded-xl p-4 mb-3 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="">
 		<div class="flex-auto">
 			<h2 class="text-xl font-medium block">8:00 AM</h2>
 			<p class="text-sm text-gray-600 dark:text-gray-400"> Tomorrow meeting</p>
@@ -1307,7 +1424,7 @@ import Layout from '../layouts/Layout.astro';
 		</button>
 	</article>
 
-	<article class="border shadow-sm break-inside flex items-center flex-col justify-between rounded-xl p-4 gap-4 mb-4 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="finance">
+	<article class="border shadow-sm break-inside flex items-center flex-col justify-between rounded-xl p-4 gap-4 mb-3 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="finance">
 		<header class="flex items-center justify-between w-full">
 			<div class="flex items-center justify-start gap-2">
 				<div class="flex items-center justify-center w-10 h-10 rounded-full bg-violet-200">
@@ -1351,47 +1468,84 @@ import Layout from '../layouts/Layout.astro';
 		</section>
 	</article>
 
-	<article class="border shadow-sm break-inside flex items-center justify-between rounded-xl p-4 mb-4 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter=""></article>
+	<article class="border shadow-sm break-inside flex items-center justify-between rounded-xl p-4 mb-3 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter=""></article>
 
-	<article class="border shadow-sm break-inside flex items-center justify-between rounded-xl p-4 mb-4 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter=""></article>
+	<article class="border shadow-sm break-inside flex items-center justify-between rounded-xl p-4 mb-3 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter=""></article>
 
-	<article class="border shadow-sm break-inside flex items-center justify-between rounded-xl p-4 mb-4 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter=""></article>
+	<article class="border shadow-sm break-inside flex items-center justify-between rounded-xl p-4 mb-3 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter=""></article>
 
-	<article class="border shadow-sm break-inside flex items-center justify-between rounded-xl p-4 mb-4 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter=""></article>
+	<article class="border shadow-sm break-inside flex items-center justify-between rounded-xl p-4 mb-3 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter=""></article>
 
-	<article class="border shadow-sm break-inside flex items-center justify-between rounded-xl p-4 mb-4 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter=""></article>
+	<article class="border shadow-sm break-inside flex items-center justify-between rounded-xl p-4 mb-3 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter=""></article>
 
-	<article class="border shadow-sm break-inside flex items-center justify-between rounded-xl p-4 mb-4 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter=""></article>
+	<article class="border shadow-sm break-inside flex items-center justify-between rounded-xl p-4 mb-3 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter=""></article>
 
-	<article class="border shadow-sm break-inside flex items-center justify-between rounded-xl p-4 mb-4 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter=""></article>
+	<article class="border shadow-sm break-inside flex items-center justify-between rounded-xl p-4 mb-3 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter=""></article>
 
-	<article class="border shadow-sm break-inside flex items-center justify-between rounded-xl p-4 mb-4 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter=""></article>
+	<article class="border shadow-sm break-inside flex items-center justify-between rounded-xl p-4 mb-3 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter=""></article>
 
-	<article class="border shadow-sm break-inside flex items-center justify-between rounded-xl p-4 mb-4 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter=""></article>
+	<article class="border shadow-sm break-inside flex items-center justify-between rounded-xl p-4 mb-3 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter=""></article>
 
-	<article class="border shadow-sm break-inside flex items-center justify-between rounded-xl p-4 mb-4 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter=""></article>
+	<article class="border shadow-sm break-inside flex items-center justify-between rounded-xl p-4 mb-3 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter=""></article>
 
-	<article class="border shadow-sm break-inside flex items-center justify-between rounded-xl p-4 mb-4 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter=""></article>
+	<section class="grid grid-cols-12 gap-3 mb-3" data-filter="finance">
+		<article class="border shadow-sm break-inside col-span-8 flex flex-col items-center justify-between rounded-xl gap-2 p-4 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900">
+		a	
+		</article>
+		<section class="col-span-4 grid gap-3">
+			<article class="border shadow-sm break-inside flex flex-col items-center justify-between rounded-xl gap-2 p-4 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900">
+				<div class="w-11 h-11 flex items-center justify-center rounded-full bg-green-200">
+					<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 11 12" fill="none">
+						<path d="M1.375 11.5C2.13125 11.5 2.75 10.8813 2.75 10.125V5.3125C2.75 4.55625 2.13125 3.9375 1.375 3.9375C0.61875 3.9375 0 4.55625 0 5.3125V10.125C0 10.8813 0.61875 11.5 1.375 11.5ZM8.25 8.0625V10.125C8.25 10.8813 8.86875 11.5 9.625 11.5C10.3813 11.5 11 10.8813 11 10.125V8.0625C11 7.30625 10.3813 6.6875 9.625 6.6875C8.86875 6.6875 8.25 7.30625 8.25 8.0625ZM5.5 11.5C6.25625 11.5 6.875 10.8813 6.875 10.125V1.875C6.875 1.11875 6.25625 0.5 5.5 0.5C4.74375 0.5 4.125 1.11875 4.125 1.875V10.125C4.125 10.8813 4.74375 11.5 5.5 11.5Z" fill="#2A9D8F"/>
+					</svg>
+				</div>
+				<h2 class="font-medium text-base">23.00</h2>
+			</article>
+			<article class="border shadow-sm break-inside flex flex-col items-center justify-between rounded-xl gap-2 p-4 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900">
+				<div class="w-11 h-11 flex items-center justify-center rounded-full bg-yellow-200">
+					<svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 13 14" fill="none">
+						<path d="M9.78357 4.26401C10.5315 4.09794 11.5056 3.35562 11.6538 2.99004C11.7408 2.77604 11.3072 2.44166 11.1913 2.3068C10.926 1.99917 11.033 1.84759 11.1356 1.48089C11.2526 1.06403 10.9751 0.603706 10.5816 0.423143C10.1882 0.242579 9.71781 0.299423 9.32213 0.475528C8.92645 0.651633 8.58873 0.934739 8.2577 1.21339C8.01583 1.06069 7.63019 0.386361 7.00602 0.824394C6.57467 1.12645 6.53566 1.78405 6.59139 2.30903C6.7218 3.52058 7.02051 4.14921 7.58337 4.31863C8.29448 4.53263 9.08138 4.42006 9.78357 4.26401Z" fill="#FFCA28"/>
+						<path d="M10.9985 0.778687C10.9037 2.41156 9.31098 3.49494 8.55529 3.97198L9.04571 4.3933C9.04571 4.3933 9.35668 4.39998 9.78245 4.264C10.5125 4.03217 11.5792 3.37679 11.6527 2.99003C11.7608 2.42716 11.1835 2.54977 11.0531 2.10505C10.9851 1.86987 11.3841 1.42515 10.9985 0.778687ZM8.25881 1.21449C8.25881 1.21449 7.97459 0.923583 7.76393 0.790947C7.65916 0.988229 7.58449 1.20223 7.5477 1.42292C7.48194 1.8108 7.5477 2.3614 7.70263 2.77157C7.72715 2.8351 7.81855 2.82507 7.82858 2.75819C7.96233 1.87656 8.25881 1.21449 8.25881 1.21449Z" fill="#E2A610"/>
+						<path d="M6.2726 4.12025C6.2726 4.12025 2.7962 4.49587 1.22798 7.51417C-0.340247 10.5325 0.9928 12.3626 2.40387 13.0292C3.81494 13.6957 7.37047 13.9309 9.68324 13.3825C11.996 12.8341 12.5745 11.6972 12.4664 10.5994C12.3092 8.99657 10.8201 8.01128 10.8201 8.01128C10.8201 8.01128 10.8792 6.03177 9.34329 4.74665C7.98015 3.60531 6.2726 4.12025 6.2726 4.12025Z" fill="#FFCA28"/>
+						<path d="M7.69936 9.19936C6.9537 8.25865 6.07318 8.1327 5.79119 7.79498C5.63737 7.61107 5.54709 7.42493 5.58164 7.19421C5.61842 6.949 5.90264 6.77959 6.12333 6.73835C6.3808 6.68931 6.99494 6.71494 7.51099 7.20647C7.6336 7.32239 7.58902 7.50296 7.58567 7.66457C7.57675 8.01121 8.07275 8.34781 8.474 8.05802C8.87636 7.76711 8.56762 7.11954 8.30792 6.80522C8.11176 6.56782 7.40065 6.04507 6.51678 5.96259C6.26823 5.93919 5.26844 5.79095 4.69109 6.88882C4.52501 7.20425 4.46371 7.96662 5.33309 8.61086C5.51477 8.74572 6.45771 9.22499 6.71964 9.53596C7.17327 10.0743 6.8623 10.548 6.50786 10.6104C5.54152 10.7798 4.99425 10.2571 4.89283 9.97065C4.82038 9.76668 4.89617 9.546 4.80255 9.35429C4.70669 9.157 4.51052 9.07898 4.30321 9.14474C3.62331 9.36097 3.83954 10.1044 4.14048 10.5135C4.4626 10.9515 4.85827 11.2156 5.303 11.3605C6.96262 11.9011 7.76066 11.0473 7.89999 10.4221C8.00253 9.96396 7.99138 9.56717 7.69936 9.19936Z" fill="#6B4B46"/>
+						<path d="M7.29811 5.32733C5.88592 8.34341 5.64294 12.152 5.64294 12.152" stroke="#6B4B46" stroke-miterlimit="10"/>
+						<path d="M8.46942 3.42917C9.41013 3.73569 9.61856 4.58612 9.55057 4.81795C9.46921 5.08991 8.42707 4.03105 6.87779 4.09458C6.3361 4.11688 6.49326 3.78473 6.74404 3.59302C7.07507 3.34001 7.63125 3.15722 8.46942 3.42917Z" fill="#6D4C41"/>
+						<path d="M8.46942 3.42917C9.41013 3.73569 9.61856 4.58612 9.55057 4.81795C9.46921 5.08991 8.42707 4.03105 6.87779 4.09458C6.3361 4.11688 6.49326 3.78473 6.74404 3.59302C7.07507 3.34001 7.63125 3.15722 8.46942 3.42917Z" fill="#6B4B46"/>
+						<path d="M10.1213 6.42743C10.2394 6.34606 10.6362 6.4865 10.7477 7.26337C10.8023 7.64344 10.819 8.01126 10.819 8.01126C10.819 8.01126 10.3509 7.59106 10.1959 7.29569C10.0009 6.9223 9.92509 6.56118 10.1213 6.42743Z" fill="#E2A610"/>
+					</svg>
+				</div>
+				<h2 class="font-medium text-base">88.30</h2>
+			</article>
+		</section>
+	</section>
+	
+	<article class="border shadow-sm break-inside flex items-center justify-between rounded-xl p-4 mb-3 text-sm bg-indigo-950 border-transparent text-white" data-filter="">
+		<svg xmlns="http://www.w3.org/2000/svg" width="38" height="38" viewBox="0 0 42 43" fill="none">
+			<path d="M16.3333 2.38889C16.3333 2.38889 16.3333 0 18.6667 0C21 0 21 2.38889 21 2.38889V4.77778C21 4.77778 21 7.16667 18.6667 7.16667C16.3333 7.16667 16.3333 4.77778 16.3333 4.77778V2.38889ZM35 16.7222C35 16.7222 37.3333 16.7222 37.3333 19.1111C37.3333 21.5 35 21.5 35 21.5H32.6667C32.6667 21.5 30.3333 21.5 30.3333 19.1111C30.3333 16.7222 32.6667 16.7222 32.6667 16.7222H35ZM4.66667 16.7222C4.66667 16.7222 7 16.7222 7 19.1111C7 21.5 4.66667 21.5 4.66667 21.5H2.33333C2.33333 21.5 0 21.5 0 19.1111C0 16.7222 2.33333 16.7222 2.33333 16.7222H4.66667ZM9.184 7.21803C9.184 7.21803 10.8337 8.90697 9.184 10.5959C7.53433 12.2849 5.88467 10.5959 5.88467 10.5959L4.23383 8.90817C4.23383 8.90817 2.58417 7.21922 4.23383 5.52908C5.88467 3.84014 7.53433 5.52908 7.53433 5.52908L9.184 7.21803ZM31.4498 10.5959C31.4498 10.5959 29.8002 12.2849 28.1505 10.5959C26.5008 8.90697 28.1505 7.21803 28.1505 7.21803L29.8002 5.52908C29.8002 5.52908 31.4498 3.84014 33.0995 5.52908C34.7492 7.21803 33.0995 8.90697 33.0995 8.90697L31.4498 10.5959Z" fill="#FFE600"/>
+			<path d="M18.6667 29.8611C24.4657 29.8611 29.1667 25.0482 29.1667 19.1111C29.1667 13.1741 24.4657 8.36111 18.6667 8.36111C12.8678 8.36111 8.16675 13.1741 8.16675 19.1111C8.16675 25.0482 12.8678 29.8611 18.6667 29.8611Z" fill="#FFE600"/>
+			<path d="M32.6667 23.8889C31.7042 23.8889 30.7767 24.0382 29.9028 24.3153C29.3848 22.7956 28.4181 21.4784 27.1366 20.546C25.8551 19.6136 24.3222 19.1121 22.75 19.1111C19.1987 19.1111 16.226 21.6147 15.4012 24.989C14.4968 24.2788 13.3897 23.8923 12.25 23.8889C10.8576 23.8889 9.52225 24.4552 8.53769 25.4632C7.55312 26.4712 7 27.8384 7 29.2639C7 29.9853 7.1435 30.6709 7.3955 31.2992C6.88805 31.1455 6.36246 31.0636 5.83333 31.0556C2.611 31.0556 0 33.7287 0 37.0278C0 40.3268 2.611 43 5.83333 43H32.6667C35.142 43 37.516 41.9933 39.2663 40.2012C41.0167 38.4092 42 35.9787 42 33.4444C42 30.9102 41.0167 28.4797 39.2663 26.6876C37.516 24.8956 35.142 23.8889 32.6667 23.8889Z" fill="white"/>
+		</svg>
+	</article>
 
-	<article class="border shadow-sm break-inside flex items-center justify-between rounded-xl p-4 mb-4 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter=""></article>
+	<article class="border shadow-sm break-inside flex items-center justify-between rounded-xl p-4 mb-3 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter=""></article>
 
-	<article class="border shadow-sm break-inside flex items-center justify-between rounded-xl p-4 mb-4 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter=""></article>
+	<article class="border shadow-sm break-inside flex items-center justify-between rounded-xl p-4 mb-3 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter=""></article>
 
-	<article class="border shadow-sm break-inside flex items-center justify-between rounded-xl p-4 mb-4 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter=""></article>
+	<article class="border shadow-sm break-inside flex items-center justify-between rounded-xl p-4 mb-3 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter=""></article>
 
-	<article class="border shadow-sm break-inside flex items-center justify-between rounded-xl p-4 mb-4 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter=""></article>
+	<article class="border shadow-sm break-inside flex items-center justify-between rounded-xl p-4 mb-3 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter=""></article>
 
-	<article class="border shadow-sm break-inside flex items-center justify-between rounded-xl p-4 mb-4 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter=""></article>
+	<article class="border shadow-sm break-inside flex items-center justify-between rounded-xl p-4 mb-3 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter=""></article>
 
-	<article class="border shadow-sm break-inside flex items-center justify-between rounded-xl p-4 mb-4 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter=""></article>
+	<article class="border shadow-sm break-inside flex items-center justify-between rounded-xl p-4 mb-3 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter=""></article>
 
-	<article class="border shadow-sm break-inside flex items-center justify-between rounded-xl p-4 mb-4 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter=""></article>
+	<article class="border shadow-sm break-inside flex items-center justify-between rounded-xl p-4 mb-3 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter=""></article>
 
-	<article class="border shadow-sm break-inside flex items-center justify-between rounded-xl p-4 mb-4 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter=""></article>
+	<article class="border shadow-sm break-inside flex items-center justify-between rounded-xl p-4 mb-3 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter=""></article>
 
-	<article class="border shadow-sm break-inside flex items-center justify-between rounded-xl p-4 mb-4 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter=""></article>
+	<article class="border shadow-sm break-inside flex items-center justify-between rounded-xl p-4 mb-3 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter=""></article>
 
-	<a href="#" class="border shadow-sm break-inside flex flex-row justify-start gap-4 rounded-xl overflow-hidden mb-4 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="travel">
+	<a href="#" class="border shadow-sm break-inside flex flex-row justify-start gap-4 rounded-xl overflow-hidden mb-3 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="travel">
 		<header class="flex-none">
 			<img class="w-full max-w-28 min-h-24 object-cover" src="https://images.pexels.com/photos/2034335/pexels-photo-2034335.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Imagen">
 		</header>
@@ -1401,20 +1555,20 @@ import Layout from '../layouts/Layout.astro';
 		</section>
 	</a>
 
-	<section class="grid grid-cols-3 gap-4">
-		<article class="border shadow-sm break-inside flex flex-col items-center justify-between rounded-xl gap-2 p-4 mb-4 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="social">
+	<section class="grid grid-cols-3 gap-3" data-filter="social">
+		<article class="border shadow-sm break-inside flex flex-col items-center justify-between rounded-xl gap-2 p-4 mb-3 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" >
 			<svg width='26' height='26' fill="none" stroke-width="1.5" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
 				<path stroke-linecap="round" stroke-linejoin="round" d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 0 0 2.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 0 1-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 0 0-1.091-.852H4.5A2.25 2.25 0 0 0 2.25 4.5v2.25Z"></path>
 			</svg>
 			<h2 class="font-medium text-sm">Phone</h2>
 		</article>
-		<article class="border shadow-sm break-inside flex flex-col items-center justify-between rounded-xl gap-2 p-4 mb-4 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="social">
+		<article class="border shadow-sm break-inside flex flex-col items-center justify-between rounded-xl gap-2 p-4 mb-3 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900">
 			<svg width='26' height='26' fill="none" stroke-width="1.5" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
 				<path stroke-linecap="round" stroke-linejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 0 1-2.25 2.25h-15a2.25 2.25 0 0 1-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0 0 19.5 4.5h-15a2.25 2.25 0 0 0-2.25 2.25m19.5 0v.243a2.25 2.25 0 0 1-1.07 1.916l-7.5 4.615a2.25 2.25 0 0 1-2.36 0L3.32 8.91a2.25 2.25 0 0 1-1.07-1.916V6.75"></path>
 			</svg>
 			<h2 class="font-medium text-sm">Mail</h2>
 		</article>
-		<article class="border shadow-sm break-inside flex flex-col items-center justify-between rounded-xl gap-2 p-4 mb-4 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="social">
+		<article class="border shadow-sm break-inside flex flex-col items-center justify-between rounded-xl gap-2 p-4 mb-3 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900">
 			<svg width='26' height='26' fill="none" stroke-width="1.5" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
 				<path stroke-linecap="round" stroke-linejoin="round" d="M12 20.25c4.97 0 9-3.694 9-8.25s-4.03-8.25-9-8.25S3 7.444 3 12c0 2.104.859 4.023 2.273 5.48.432.447.74 1.04.586 1.641a4.483 4.483 0 0 1-.923 1.785A5.969 5.969 0 0 0 6 21c1.282 0 2.47-.402 3.445-1.087.81.22 1.668.337 2.555.337Z"></path>
 			</svg>
@@ -1422,20 +1576,20 @@ import Layout from '../layouts/Layout.astro';
 		</article>
 	</section>
 	
-	<section class="grid grid-cols-3 gap-4">
-		<article class="border shadow-sm break-inside flex flex-col items-center justify-between rounded-xl p-4 mb-4 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="social">
+	<section class="grid grid-cols-3 gap-3" data-filter="social">
+		<article class="border shadow-sm break-inside flex flex-col items-center justify-between rounded-xl p-4 mb-3 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900">
 			<svg width='26' height='26' fill="none" stroke-width="1.5" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
 				<path stroke-linecap="round" stroke-linejoin="round" d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12Z"></path>
 			</svg>
 			<h2 class="font-medium text-sm">Favorite</h2>
 		</article>
-		<article class="border shadow-sm break-inside flex flex-col items-center justify-between rounded-xl gap-2 p-4 mb-4 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="social">
+		<article class="border shadow-sm break-inside flex flex-col items-center justify-between rounded-xl gap-2 p-4 mb-3 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900">
 			<svg width='26' height='26' fill="none" stroke-width="1.5" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
 				<path stroke-linecap="round" stroke-linejoin="round" d="M17.593 3.322c1.1.128 1.907 1.077 1.907 2.185V21L12 17.25 4.5 21V5.507c0-1.108.806-2.057 1.907-2.185a48.507 48.507 0 0 1 11.186 0Z"></path>
 			</svg>
 			<h2 class="font-medium text-sm">Bookmark</h2>
 		</article>
-		<article class="border shadow-sm break-inside flex flex-col items-center justify-between rounded-xl gap-2 p-4 mb-4 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="social">
+		<article class="border shadow-sm break-inside flex flex-col items-center justify-between rounded-xl gap-2 p-4 mb-3 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900">
 			<svg width='26' height='26' fill="none" stroke-width="1.5" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
 				<path stroke-linecap="round" stroke-linejoin="round" d="m2.25 12 8.954-8.955c.44-.439 1.152-.439 1.591 0L21.75 12M4.5 9.75v10.125c0 .621.504 1.125 1.125 1.125H9.75v-4.875c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21h4.125c.621 0 1.125-.504 1.125-1.125V9.75M8.25 21h8.25"></path>
 			</svg>
@@ -1443,7 +1597,7 @@ import Layout from '../layouts/Layout.astro';
 		</article>
 	</section>
 
-	<article class="border shadow-sm break-inside flex items-center justify-between rounded-xl p-4 mb-4 gap-6 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="social">
+	<article class="border shadow-sm break-inside flex items-center justify-between rounded-xl p-4 mb-3 gap-6 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="social">
 		<header class="grid gap-1">
 			<h2 class="font-medium text-base">Maintenance</h2>
 			<p class="text-xs opacity-90">Friday, February 10, 2023</p>
@@ -1451,7 +1605,7 @@ import Layout from '../layouts/Layout.astro';
 		<button type="button" class="inline-flex h-8 shrink-0 items-center justify-center rounded-md border bg-transparent px-3 text-sm font-medium dark:border-gray-900">Undo</button>
 	</article>
 
-	<article class='border flex flex-row justify-between items-center break-inside rounded-xl gap-2 p-2 mb-4 text-sm bg-white dark:bg-gray-950 dark:border-gray-900' data-filter="finance">
+	<article class='border flex flex-row justify-between items-center break-inside rounded-xl gap-2 p-2 mb-3 text-sm bg-white dark:bg-gray-950 dark:border-gray-900' data-filter="finance">
 		<section class='flex flex-1 items-start flex-col p-4 gap-1 rounded-lg bg-gray-100 text-black dark:bg-gray-900 dark:text-white'>
 			<p class='text-gray-500 dark:text-gray-400'>Current trends</p>
 			<h2 class='font-semibold text-lg'>324K</h2>
@@ -1474,13 +1628,13 @@ import Layout from '../layouts/Layout.astro';
 		</section>
 	</article>
 
-	<article class="border shadow-sm break-inside flex items-center justify-between rounded-xl p-4 mb-4 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="storage">
+	<article class="border shadow-sm break-inside flex items-center justify-between rounded-xl p-4 mb-3 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="storage">
 		<svg width='45' height='27' viewBox='0 0 35 17' fill='none' xmlns='http://www.w3.org/2000/svg'>
 			<path d='M34.11 14.7892L30.19 8.16921L34.07 1.81921C34.1621 1.66789 34.2124 1.49481 34.2157 1.31769C34.2189 1.14056 34.1751 0.965744 34.0886 0.811122C34.0022 0.6565 33.8762 0.527624 33.7236 0.437678C33.5709 0.347733 33.3972 0.299947 33.22 0.29921H2C1.46957 0.29921 0.960859 0.509924 0.585786 0.884996C0.210714 1.26007 0 1.76878 0 2.29921L0 14.2992C0 14.8296 0.210714 15.3384 0.585786 15.7134C0.960859 16.0885 1.46957 16.2992 2 16.2992H33.25C33.4265 16.2992 33.5999 16.2524 33.7524 16.1637C33.905 16.075 34.0314 15.9475 34.1188 15.7941C34.2061 15.6407 34.2513 15.467 34.2498 15.2905C34.2482 15.114 34.2 14.941 34.11 14.7892ZM10.51 11.4792H9.39L6.13 7.13921V11.4892H5V5.29921H6.13L9.4 9.64921V5.29921H10.52L10.51 11.4792ZM16.84 6.29921H13.31V7.78921H16.51V8.78921H13.31V10.3992H16.84V11.3992H12.18V5.29921H16.83L16.84 6.29921ZM25.13 11.4592H24L22.45 6.86921L20.9 11.4792H19.78L17.78 5.29921H19L20.32 9.72921L21.84 5.29921H23.06L24.52 9.72921L25.85 5.29921H27.08L25.13 11.4592Z' fill='currentColor' />
 		</svg>
 	</article>
 
-	<article class='border shadow-sm break-inside flex items-center justify-between rounded-xl p-4 mb-4 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900' data-filter="storage">
+	<article class='border shadow-sm break-inside flex items-center justify-between rounded-xl p-4 mb-3 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900' data-filter="storage">
 		<header class='flex items-center gap-4'>
 			<div class='flex items-center justify-center w-10 h-10 flex-none rounded-lg bg-gray-200 dark:bg-gray-900'>
 				<svg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24' stroke-width="1.5" stroke='currentColor' width='24' height='24'>
@@ -1500,7 +1654,7 @@ import Layout from '../layouts/Layout.astro';
 		</div>
 	</article>
 
-	<article class='border shadow-sm break-inside flex items-center justify-between rounded-xl p-4 mb-4 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900' data-filter="storage">
+	<article class='border shadow-sm break-inside flex items-center justify-between rounded-xl p-4 mb-3 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900' data-filter="storage">
 		<header class='flex items-center gap-4'>
 			<div class='flex items-center justify-center w-10 h-10 flex-none rounded-lg bg-gray-200 dark:bg-gray-900'>
 				<svg width='24' height='24' fill="none" stroke-width="1.5" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
@@ -1520,7 +1674,7 @@ import Layout from '../layouts/Layout.astro';
 		</div>
 	</article>
 
-	<article class='border shadow-sm break-inside flex items-center justify-between rounded-xl p-4 mb-4 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900' data-filter="storage">
+	<article class='border shadow-sm break-inside flex items-center justify-between rounded-xl p-4 mb-3 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900' data-filter="storage">
 		<div class='flex items-center gap-4'>
 			<div class='flex items-center justify-center flex-none'>
 				<svg width='40' height='37' viewBox='0 0 37 34' fill='none' xmlns='http://www.w3.org/2000/svg'>
@@ -1545,7 +1699,7 @@ import Layout from '../layouts/Layout.astro';
 		</div>
 	</article>
 
-	<article class='border shadow-sm break-inside rounded-xl p-4 mb-4 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900' data-filter="storage">
+	<article class='border shadow-sm break-inside rounded-xl p-4 mb-3 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900' data-filter="storage">
 		<div class='flex items-center gap-4'>
 			<div class='flex items-center justify-center flex-none w-10 h-10 rounded-full bg-gray-200 dark:bg-gray-900'>
 				<svg width='24' height='24' fill="none" stroke-width="1.5" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
@@ -1566,7 +1720,7 @@ import Layout from '../layouts/Layout.astro';
 		</div>
 	</article>
 
-	<article class='border shadow-sm break-inside flex items-center justify-between rounded-xl p-4 mb-4 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900' data-filter="storage">
+	<article class='border shadow-sm break-inside flex items-center justify-between rounded-xl p-4 mb-3 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900' data-filter="storage">
 		<section class='flex items-center space-x-4'>
 			<div class='relative flex flex-row items-center justify-center'>
 				<svg width='60' height='60' viewBox='0 0 64 64' fill='none' xmlns='http://www.w3.org/2000/svg'>
@@ -1587,7 +1741,7 @@ import Layout from '../layouts/Layout.astro';
 		</span>
 	</article>
 
-	<article class='border shadow-sm break-inside flex flex-row justify-between items-center rounded-xl p-4 mb-4 gap-4 bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900' data-filter="storage">
+	<article class='border shadow-sm break-inside flex flex-row justify-between items-center rounded-xl p-4 mb-3 gap-4 bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900' data-filter="storage">
 		<div class='flex items-center justify-start gap-4'>
 			<div class='relative flex-none'>
 				<svg width='65' height='65' viewBox='0 0 59 61' fill='none' xmlns='http://www.w3.org/2000/svg'>
@@ -1614,7 +1768,7 @@ import Layout from '../layouts/Layout.astro';
 		</button>
 	</article>
 
-	<article class="border shadow-sm break-inside flex flex-row justify-between items-center rounded-xl p-4 mb-4 gap-4 bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="storage">
+	<article class="border shadow-sm break-inside flex flex-row justify-between items-center rounded-xl p-4 mb-3 gap-4 bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="storage">
 		<label class="flex items-center gap-4 cursor-pointer">
 			<div class="flex flex-col gap-1">
 				<span class="text-base font-medium">Strictly Necessary</span>
@@ -1627,7 +1781,7 @@ import Layout from '../layouts/Layout.astro';
 		</label>
 	</article>
 
-	<article class="border shadow-sm break-inside flex flex-row justify-between items-center rounded-xl p-4 mb-4 gap-4 bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="storage">
+	<article class="border shadow-sm break-inside flex flex-row justify-between items-center rounded-xl p-4 mb-3 gap-4 bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="storage">
 		<label class="flex items-center gap-4 cursor-pointer">
 			<div class="flex flex-col gap-1">
 				<span class="text-base font-medium">Functional Cookies</span>
