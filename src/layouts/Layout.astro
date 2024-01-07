@@ -145,7 +145,7 @@ const pageSlug = Astro.url.pathname.split('/')[2]
 			<header class="">
 				<input type="checkbox" id="theme-toggle" />
 				<label for="theme-toggle">Toggle theme</label>
-				<ul class="flex items-center justify-start mt-8 gap-2">
+				<ul class="flex items-center justify-start mt-8 gap-2 flex-wrap">
 					{
 						data.map((item) => {
 							return (

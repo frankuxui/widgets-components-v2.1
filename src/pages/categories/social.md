@@ -42,7 +42,7 @@ title: 'Widget components with tailwind CSS'
       </div>
       <button class="z-[1] w-10 h-10 absolute top-0 right-0 flex items-center justify-center rounded-full">
         <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 14 4" fill="none">
-          <path d="M10.8889 2C10.8889 2.39782 11.0528 2.77936 11.3445 3.06066C11.6362 3.34196 12.0319 3.5 12.4444 3.5C12.857 3.5 13.2527 3.34196 13.5444 3.06066C13.8361 2.77936 14 2.39782 14 2C14 1.60218 13.8361 1.22064 13.5444 0.93934C13.2527 0.658035 12.857 0.5 12.4444 0.5C12.0319 0.5 11.6362 0.658035 11.3445 0.93934C11.0528 1.22064 10.8889 1.60217 10.8889 2ZM5.44444 2C5.44444 2.39782 5.60833 2.77935 5.90006 3.06066C6.19178 3.34196 6.58744 3.5 7 3.5C7.41256 3.5 7.80822 3.34196 8.09994 3.06066C8.39167 2.77935 8.55556 2.39782 8.55556 2C8.55556 1.60217 8.39167 1.22064 8.09994 0.93934C7.80822 0.658035 7.41256 0.499999 7 0.499999C6.58744 0.499999 6.19178 0.658035 5.90006 0.939339C5.60833 1.22064 5.44444 1.60217 5.44444 2ZM-1.31134e-07 2C-1.65913e-07 2.39782 0.163889 2.77935 0.455612 3.06066C0.747335 3.34196 1.143 3.5 1.55556 3.5C1.96811 3.5 2.36378 3.34196 2.6555 3.06066C2.94722 2.77935 3.11111 2.39782 3.11111 2C3.11111 1.60217 2.94722 1.22064 2.6555 0.939339C2.36378 0.658035 1.96811 0.499999 1.55556 0.499999C1.143 0.499999 0.747335 0.658034 0.455612 0.939339C0.163889 1.22064 -9.63552e-08 1.60217 -1.31134e-07 2Z" fill="black"/>
+          <path d="M10.8889 2C10.8889 2.39782 11.0528 2.77936 11.3445 3.06066C11.6362 3.34196 12.0319 3.5 12.4444 3.5C12.857 3.5 13.2527 3.34196 13.5444 3.06066C13.8361 2.77936 14 2.39782 14 2C14 1.60218 13.8361 1.22064 13.5444 0.93934C13.2527 0.658035 12.857 0.5 12.4444 0.5C12.0319 0.5 11.6362 0.658035 11.3445 0.93934C11.0528 1.22064 10.8889 1.60217 10.8889 2ZM5.44444 2C5.44444 2.39782 5.60833 2.77935 5.90006 3.06066C6.19178 3.34196 6.58744 3.5 7 3.5C7.41256 3.5 7.80822 3.34196 8.09994 3.06066C8.39167 2.77935 8.55556 2.39782 8.55556 2C8.55556 1.60217 8.39167 1.22064 8.09994 0.93934C7.80822 0.658035 7.41256 0.499999 7 0.499999C6.58744 0.499999 6.19178 0.658035 5.90006 0.939339C5.60833 1.22064 5.44444 1.60217 5.44444 2ZM-1.31134e-07 2C-1.65913e-07 2.39782 0.163889 2.77935 0.455612 3.06066C0.747335 3.34196 1.143 3.5 1.55556 3.5C1.96811 3.5 2.36378 3.34196 2.6555 3.06066C2.94722 2.77935 3.11111 2.39782 3.11111 2C3.11111 1.60217 2.94722 1.22064 2.6555 0.939339C2.36378 0.658035 1.96811 0.499999 1.55556 0.499999C1.143 0.499999 0.747335 0.658034 0.455612 0.939339C0.163889 1.22064 -9.63552e-08 1.60217 -1.31134e-07 2Z" fill="currentColor"/>
         </svg>
       </button>
     </header>
@@ -65,6 +65,37 @@ title: 'Widget components with tailwind CSS'
     </article>
   </section>
 </section>
+
+<article class="border shadow-sm break-inside rounded-xl p-4 mb-3 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="social">
+  <div class="flex justify-between items-center w-full">
+    <div class="flex flex-col justify-center items-center">
+      <span class="text-base font-medium">Jun</span>
+      <span class="text-base font-medium text-pink-500">23</span>
+    </div>
+    <hr class="border h-6 border-gray-200 dark:border-gray-800">
+    <div class="flex flex-col justify-center items-start">
+      <span class="text-base font-medium">Wednesday</span>
+      <span class="text-gray-400">08:00 PM - 18:30 PM</span>
+    </div>
+  </div>
+</article>
+
+<article class="relative border overflow-hidden shadow-sm break-inside rounded-xl p-4 mb-3 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="social">
+  <div class="absolute left-1/2 top-0 w-14 h-14 bg-rose-500/30 blur-2xl"></div>
+  <div class="absolute left-0 top-0 w-14 h-14 bg-green-500/30 blur-2xl"></div>
+  <div class="absolute right-0 bottom-0 w-14 h-14 bg-yellow-500/40 blur-2xl"></div>
+  <div class="flex justify-between items-center w-full relative z-[1]">
+    <div class="flex flex-col justify-center items-center w-14 h-14 rounded-md text-white bg-gray-900 dark:text-black dark:bg-gray-100">
+      <span class="text-base font-medium">Jun</span>
+      <span class="text-base font-medium">23</span>
+    </div>
+    <hr class="border h-6 border-gray-300 dark:border-gray-800">
+    <div class="flex flex-col justify-center items-start">
+      <span class="text-base font-medium">Wednesday</span>
+      <span class="text-gray-700 dark:text-gray-200">08:00 PM - 18:30 PM</span>
+    </div>
+  </div>
+</article>
 
 <article class="border shadow-md break-inside flex items-center justify-between rounded-xl p-4 mb-3 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="social">
   <header class="flex items-center gap-3">
@@ -96,7 +127,7 @@ title: 'Widget components with tailwind CSS'
   </section>
 </article>
 
-<article class="border shadow-sm break-inside flex items-center justify-between rounded-xl p-4 mb-3 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="social">
+<article class="border shadow-sm break-inside flex items-center justify-between rounded-xl gap-4 p-4 mb-3 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="social">
   <header class="flex items-center gap-4">
     <img class="flex-none rounded-full w-12 h-12" src="https://randomuser.me/api/portraits/men/76.jpg" alt="avatar">
     <div class="flex-auto">
@@ -104,8 +135,8 @@ title: 'Widget components with tailwind CSS'
       <p class="text-xs text-gray-600 dark:text-gray-300">Hi there! I'm a dog trainer from Oakland.</p>
     </div>
   </header>
-  <section class="flex flex-col items-center justify-between h-full gap-3">
-    <span class="text-xs font-medium text-gray-600 dark:text-gray-300">Today</span>
+  <section class="flex flex-col items-end justify-between h-full gap-1">
+    <span class="text-xs font-medium mt-1 text-gray-600 dark:text-gray-300">Today</span>
     <button class="flex flex-none items-center justify-center font-medium w-8 h-8 text-xs rounded-full transition-colors hover:bg-gray-100 dark:hover:bg-gray-900 text-gray-600 dark:text-gray-500">
       <svg width="18" height="18" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
         <path d="M11.294 0.983997L15.016 4.706C15.2153 4.90534 15.3634 5.14986 15.4479 5.41876C15.5324 5.68766 15.5506 5.97299 15.5012 6.25046C15.4517 6.52794 15.3359 6.78936 15.1637 7.01249C14.9915 7.23561 14.7679 7.41383 14.512 7.532L13.185 8.145C12.7616 8.3409 12.388 8.63018 12.0924 8.99112C11.7967 9.35205 11.5867 9.77527 11.478 10.229L10.894 12.683C10.577 14.015 8.922 14.483 7.954 13.515L5.75 11.311L1.78 15.28C1.7104 15.3496 1.62777 15.4048 1.53683 15.4425C1.44589 15.4801 1.34843 15.4995 1.25 15.4995C1.15157 15.4995 1.0541 15.4801 0.963165 15.4425C0.872227 15.4048 0.789599 15.3496 0.719999 15.28C0.650398 15.2104 0.595188 15.1278 0.55752 15.0368C0.519853 14.9459 0.500465 14.8484 0.500465 14.75C0.500465 14.6516 0.519853 14.5541 0.55752 14.4632C0.595188 14.3722 0.650398 14.2896 0.719999 14.22L4.689 10.25L2.485 8.046C1.517 7.078 1.985 5.423 3.317 5.106L5.771 4.522C6.22499 4.41394 6.64849 4.20413 7.00952 3.90842C7.37054 3.6127 7.65965 3.23882 7.855 2.815L8.468 1.488C8.58616 1.23211 8.76439 1.00854 8.98751 0.836323C9.21063 0.664104 9.47205 0.548328 9.74953 0.498841C10.027 0.449354 10.3123 0.467622 10.5812 0.552091C10.8501 0.63656 11.0947 0.78473 11.294 0.983997ZM6.283 9.723L9.015 12.454C9.04646 12.4855 9.08574 12.5079 9.1288 12.5192C9.17185 12.5304 9.21711 12.5299 9.25992 12.5177C9.30272 12.5056 9.34151 12.4823 9.37229 12.4502C9.40307 12.418 9.42472 12.3783 9.435 12.335L10.019 9.881C10.1801 9.20638 10.4921 8.57709 10.9315 8.04048C11.371 7.50387 11.9264 7.07392 12.556 6.783L13.884 6.17C13.9206 6.15313 13.9526 6.12766 13.9772 6.09576C14.0019 6.06387 14.0184 6.02648 14.0255 5.9868C14.0326 5.94712 14.03 5.90632 14.0178 5.86787C14.0057 5.82942 13.9845 5.79447 13.956 5.766L10.234 2.044C10.2055 2.01547 10.1706 1.99425 10.1321 1.98215C10.0937 1.97004 10.0529 1.96742 10.0132 1.97449C9.97351 1.98156 9.93613 1.99812 9.90423 2.02276C9.87233 2.0474 9.84686 2.07939 9.83 2.116L9.217 3.444C8.9262 4.0737 8.49629 4.6292 7.95966 5.06865C7.42303 5.50811 6.79367 5.82005 6.119 5.981L3.665 6.565C3.62171 6.57528 3.58196 6.59693 3.54983 6.6277C3.51771 6.65848 3.49438 6.69727 3.48225 6.74008C3.47012 6.78288 3.46964 6.82814 3.48084 6.8712C3.49205 6.91425 3.51454 6.95354 3.546 6.985L6.277 9.717L6.283 9.723Z" fill="currentColor"/>
@@ -598,6 +629,73 @@ title: 'Widget components with tailwind CSS'
       </svg>
     </button>
   </section>
+</article>
+
+<article class="border shadow-sm break-inside flex items-center justify-between rounded-xl p-4 mb-3 gap-4 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="social">
+  <header class="flex items-center space-x-3">
+    <div class="flex flex-none justify-center items-center rounded-lg font-medium border border-gray-300 px-2 h-9 gap-1 text-sm dark:border-gray-900">
+      <svg width="18" height="18" fill="none" stroke-width="2" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M6.75 3v2.25M17.25 3v2.25M3 18.75V7.5a2.25 2.25 0 0 1 2.25-2.25h13.5A2.25 2.25 0 0 1 21 7.5v11.25m-18 0A2.25 2.25 0 0 0 5.25 21h13.5A2.25 2.25 0 0 0 21 18.75m-18 0v-7.5A2.25 2.25 0 0 1 5.25 9h13.5A2.25 2.25 0 0 1 21 11.25v7.5"></path>
+      </svg>
+      <span>Feb, 24</span>
+    </div>
+    <p class="text-xs">This is a notification from the system</p>
+  </header>
+  <button class="w-9 h-9 flex flex-none items-center justify-center rounded-full transition-colors duration-200 hover:bg-gray-200 dark:hover:bg-gray-900">
+    <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M10 18.75C7.67936 18.75 5.45376 17.8281 3.81282 16.1872C2.17187 14.5462 1.25 12.3206 1.25 10C1.25 7.67936 2.17187 5.45376 3.81282 3.81282C5.45376 2.17187 7.67936 1.25 10 1.25C12.3206 1.25 14.5462 2.17187 16.1872 3.81282C17.8281 5.45376 18.75 7.67936 18.75 10C18.75 12.3206 17.8281 14.5462 16.1872 16.1872C14.5462 17.8281 12.3206 18.75 10 18.75ZM10 20C12.6522 20 15.1957 18.9464 17.0711 17.0711C18.9464 15.1957 20 12.6522 20 10C20 7.34784 18.9464 4.8043 17.0711 2.92893C15.1957 1.05357 12.6522 0 10 0C7.34784 0 4.8043 1.05357 2.92893 2.92893C1.05357 4.8043 0 7.34784 0 10C0 12.6522 1.05357 15.1957 2.92893 17.0711C4.8043 18.9464 7.34784 20 10 20Z" fill="currentColor"></path>
+      <path d="M13.7125 6.2125C13.7036 6.22113 13.6952 6.23031 13.6875 6.24L9.34625 11.7712L6.73 9.15375C6.55228 8.98815 6.31722 8.898 6.07435 8.90228C5.83147 8.90657 5.59974 9.00496 5.42797 9.17672C5.25621 9.34849 5.15782 9.58022 5.15353 9.8231C5.14925 10.066 5.2394 10.301 5.405 10.4788L8.7125 13.7875C8.8016 13.8764 8.90771 13.9465 9.02448 13.9936C9.14125 14.0406 9.26631 14.0637 9.39218 14.0613C9.51806 14.059 9.64217 14.0313 9.75712 13.98C9.87207 13.9286 9.9755 13.8547 10.0612 13.7625L15.0513 7.525C15.2212 7.34666 15.3141 7.10862 15.3099 6.86234C15.3057 6.61605 15.2047 6.38131 15.0288 6.20887C14.8529 6.03643 14.6162 5.94014 14.3699 5.94081C14.1236 5.94149 13.8874 6.03909 13.7125 6.2125Z" fill="currentColor"></path>
+    </svg>
+  </button>
+</article>
+
+<article class="border shadow-sm break-inside flex items-center justify-between rounded-xl p-4 mb-3 gap-4 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="social">
+  <header class="flex items-center space-x-3">
+    <div class="flex flex-none justify-center items-center rounded-lg font-medium border border-gray-300 px-2 h-9 gap-1 text-sm dark:border-gray-900">
+      <svg width="18" height="18" fill="none" stroke-width="2" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M6.75 3v2.25M17.25 3v2.25M3 18.75V7.5a2.25 2.25 0 0 1 2.25-2.25h13.5A2.25 2.25 0 0 1 21 7.5v11.25m-18 0A2.25 2.25 0 0 0 5.25 21h13.5A2.25 2.25 0 0 0 21 18.75m-18 0v-7.5A2.25 2.25 0 0 1 5.25 9h13.5A2.25 2.25 0 0 1 21 11.25v7.5"></path>
+      </svg>
+      <span>Jan, 06</span>
+    </div>
+    <p class="text-xs line-through">This is a notification from the system</p>
+  </header>
+  <button class="w-9 h-9 flex flex-none items-center justify-center rounded-full transition-colors duration-200 hover:bg-gray-200 dark:hover:bg-gray-900">
+    <svg width="20" height="20" fill="none" stroke-width="1.5" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+      <path stroke-linecap="round" stroke-linejoin="round" d="m14.74 9-.346 9m-4.788 0L9.26 9m9.968-3.21c.342.052.682.107 1.022.166m-1.022-.165L18.16 19.673a2.25 2.25 0 0 1-2.244 2.077H8.084a2.25 2.25 0 0 1-2.244-2.077L4.772 5.79m14.456 0a48.108 48.108 0 0 0-3.478-.397m-12 .562c.34-.059.68-.114 1.022-.165m0 0a48.11 48.11 0 0 1 3.478-.397m7.5 0v-.916c0-1.18-.91-2.164-2.09-2.201a51.964 51.964 0 0 0-3.32 0c-1.18.037-2.09 1.022-2.09 2.201v.916m7.5 0a48.667 48.667 0 0 0-7.5 0"></path>
+    </svg>
+  </button>
+</article>
+
+<article class="border shadow-sm break-inside flex items-center justify-between rounded-xl p-4 mb-3 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="social">
+  <div class="flex items-center justify-center space-x-2">
+    <svg width="20" height="20" viewBox="0 0 24 24">
+      <path fill="currentColor" d="M12,20A8,8 0 0,0 20,12A8,8 0 0,0 12,4A8,8 0 0,0 4,12A8,8 0 0,0 12,20M12,2A10,10 0 0,1 22,12A10,10 0 0,1 12,22C6.47,22 2,17.5 2,12A10,10 0 0,1 12,2M12.5,7V12.25L17,14.92L16.25,16.15L11,13V7H12.5Z"></path>
+    </svg>
+    <div class="font-medium text-sm rounded-md flex items-center justify-center h-6 px-2 bg-blue-100 text-blue-600 dark:bg-blue-500 dark:text-white">04:32</div>
+  </div>
+  <div class="font-medium text-sm flex-1 justify-center items-center flex gap-3">
+    <div class="border border-gray-300 h-4 rounded-sm dark:border-gray-500 dark:bg-gray-500"></div>
+    <span>Installation...</span>
+    <div class="border border-gray-300 h-4 rounded-sm dark:border-gray-500 dark:bg-gray-500"></div>
+  </div>
+  <button class="w-8 h-8 flex-none flex justify-center items-center rounded-full transition-colors duration-200 hover:bg-gray-200 dark:hover:bg-gray-900">
+    <svg width="22" height="22" viewBox="0 0 24 24">
+      <path fill="currentColor" d="M12,2A10,10 0 0,0 2,12A10,10 0 0,0 12,22A10,10 0 0,0 22,12A10,10 0 0,0 12,2M9,9H15V15H9"></path>
+    </svg>
+  </button>
+</article>
+
+<article class="border shadow-sm break-inside flex items-center justify-between rounded-xl p-4 mb-3 gap-4 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="social">
+  <a href="https://github.com/frankuxui" class="flex items-center gap-2">
+    <img class="w-8 h-8 rounded-full" src="https://avatars.githubusercontent.com/u/35234895?v=4" alt="frankuxui">
+    <span class="font-medium">@frankuxui</span>
+  </a>
+  <div class="flex items-center space-x-2 justify-between">
+    <span>12 Followers</span>
+    <svg width="22" height="22" viewBox="0 0 24 24">
+      <path fill="currentColor" d="M7.8,2H16.2C19.4,2 22,4.6 22,7.8V16.2A5.8,5.8 0 0,1 16.2,22H7.8C4.6,22 2,19.4 2,16.2V7.8A5.8,5.8 0 0,1 7.8,2M7.6,4A3.6,3.6 0 0,0 4,7.6V16.4C4,18.39 5.61,20 7.6,20H16.4A3.6,3.6 0 0,0 20,16.4V7.6C20,5.61 18.39,4 16.4,4H7.6M17.25,5.5A1.25,1.25 0 0,1 18.5,6.75A1.25,1.25 0 0,1 17.25,8A1.25,1.25 0 0,1 16,6.75A1.25,1.25 0 0,1 17.25,5.5M12,7A5,5 0 0,1 17,12A5,5 0 0,1 12,17A5,5 0 0,1 7,12A5,5 0 0,1 12,7M12,9A3,3 0 0,0 9,12A3,3 0 0,0 12,15A3,3 0 0,0 15,12A3,3 0 0,0 12,9Z"></path>
+    </svg>
+  </div>
 </article>
 
 <article class="border shadow-sm break-inside flex items-center justify-between rounded-xl p-4 mb-3 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="social">

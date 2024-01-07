@@ -7,7 +7,9 @@ title: 'Widget components with tailwind CSS'
 ---
 
 <article class="border shadow-sm break-inside grid grid-cols-12 rounded-xl overflow-hidden mb-3 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="multimedia">
-  <img class="flex-none col-span-4 h-full object-cover" src="https://images.pexels.com/photos/343701/pexels-photo-343701.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1260&amp;h=750&amp;dpr=2" alt="avatar">
+  <div class="flex-none col-span-4">
+    <img class="w-full h-full object-cover" src="https://images.pexels.com/photos/343701/pexels-photo-343701.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1260&amp;h=750&amp;dpr=2" alt="avatar">
+  </div>
   <section class="col-span-8 flex justify-between flex-col p-3">
     <header class="flex flex-row justify-between items-start">
       <span class="font-medium text-base"> Pirates of the caribbean </span>
