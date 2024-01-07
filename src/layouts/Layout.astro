@@ -4,6 +4,28 @@ interface Props {
 }
 
 const { title } = Astro.props;
+
+let pages = []
+pages = await Astro.glob('../pages/categories/*.md')
+const data = pages.map((item) => {
+	
+	const { 
+		category, 
+		title, 
+		slug, 
+		tags 
+	} = item.frontmatter
+
+	return {
+		category,
+		title,
+		slug,
+		tags
+	}
+})
+
+const pageSlug = Astro.url.pathname.split('/')[2]
+
 ---
 
 <!doctype html>
@@ -80,6 +102,8 @@ const { title } = Astro.props;
 		
 		// Filter widgets categories
 
+		/*
+
 		const filter = document.querySelector('#filter');
 
 		const widgets = document.querySelectorAll('[data-filter]');
@@ -112,19 +136,41 @@ const { title } = Astro.props;
 			});
 		});
 		
+		*/
+		
 	</script>
 
 	<body>
-		<section class="mx-auto px-6 w-full max-w-[145rem]">
-			<header>
+		<section class="container">
+			<header class="">
 				<input type="checkbox" id="theme-toggle" />
 				<label for="theme-toggle">Toggle theme</label>
+				<ul class="flex items-center justify-start mt-8 gap-2">
+					{
+						data.map((item) => {
+							return (
+								<li>
+									<a 
+										href={`/categories/${item.slug}`}
+										class="flex items-center justify-center px-4 h-9 uppercase font-medium text-xs tracking-wider rounded-sm transition-colors duration-200"
+										class:list={{
+											'bg-gray-200 hover:bg-gray-300 hover:text-black text-gray-800 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white': pageSlug !== item.slug,
+											'bg-gray-900 hover:bg-gray-800 text-white dark:bg-white dark:text-black dark:hover:bg-white': pageSlug === item.slug
+										}}
+										>
+										{item.category}
+									</a>
+								</li>
+							)
+						})
+					}
+				</ul>
 			</header>
-			<select id="filter">
+			<!-- <select id="filter">
 				<option value="all">All</option>
-			</select>
+			</select> -->
 		</section>
-		<main class="">
+		<main class="mt-8">
 			<slot />
 		</main>
 	</body>
@@ -160,10 +206,19 @@ const { title } = Astro.props;
 		margin: 0 auto;
 		max-width: 100%;
 	}
+	.container {
+		padding: 0 0.75rem;
+		margin: 0 auto;
+		width: 100%;
+		max-width: 100%;
+	}
 
 	@media screen and (980px >= width > 640px) {
 		main {
 			column-count: 2;
+			max-width: 660px;
+		}
+		.container {
 			max-width: 660px;
 		}
 	}
@@ -173,6 +228,9 @@ const { title } = Astro.props;
 			column-count: 3;
 			max-width: 980px;
 		}
+		.container {
+			max-width: 980px;
+		}
 	}
 
 	@media screen and (1600px >= width > 1280px) {
@@ -180,11 +238,17 @@ const { title } = Astro.props;
 			column-count: 4;
 			max-width: 1280px;
 		}
+		.container {
+			max-width: 1280px;
+		}
 	}
 
 	@media screen and (1920px >= width > 1600px) {
 		main {
 			column-count: 5;
+			max-width: 1600px;
+		}
+		.container {
 			max-width: 1600px;
 		}
 	}
@@ -201,6 +265,9 @@ const { title } = Astro.props;
 			column-count: 6;
 			max-width: 1920px;
 		}
+		.container {
+			max-width: 1920px;
+		}
 	}
 
 	@media screen and (2460px >= width > 2048px) {
@@ -208,11 +275,17 @@ const { title } = Astro.props;
 			column-count: 7;
 			max-width: 2048px;
 		}
+		.container {
+			max-width: 2048px;
+		}
 	}
 
 	@media screen and (2560px >= width > 2460px) {
 		main {
 			column-count: 8;
+			max-width: 2460px;
+		}
+		.container {
 			max-width: 2460px;
 		}
 	}
