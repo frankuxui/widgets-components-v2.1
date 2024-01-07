@@ -8,7 +8,7 @@ title: 'Widget components with tailwind CSS'
 
 <article class="border shadow-sm break-inside grid grid-cols-12 rounded-xl overflow-hidden mb-3 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="multimedia">
   <div class="flex-none col-span-4">
-    <img class="w-full h-full object-cover" src="https://images.pexels.com/photos/343701/pexels-photo-343701.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1260&amp;h=750&amp;dpr=2" alt="avatar">
+    <img class="w-full h-full object-cover" src="https://images.pexels.com/photos/343701/pexels-photo-343701.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1260&amp;h=750&amp;dpr=2" alt="avatar" loading="lazy">
   </div>
   <section class="col-span-8 flex justify-between flex-col p-3">
     <header class="flex flex-row justify-between items-start">
@@ -27,7 +27,7 @@ title: 'Widget components with tailwind CSS'
 <article class="border shadow-sm break-inside grid grid-cols-12 rounded-xl overflow-hidden mb-3 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="multimedia">
   <figure class="col-span-5 relative">
     <div class="absolute left-4 bottom-4 rounded-sm text-xs py-1 px-2 text-white bg-black/60 backdrop-blur-sm">April, 2018</div>
-    <img src="https://images.pexels.com/photos/5152572/pexels-photo-5152572.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1260&amp;h=750&amp;dpr=2" alt="Imagen" class="w-full min-h-[7rem] object-cover">
+    <img src="https://images.pexels.com/photos/5152572/pexels-photo-5152572.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1260&amp;h=750&amp;dpr=2" alt="Imagen" class="w-full min-h-[7rem] object-cover" loading="lazy">
   </figure>
   <section class="col-span-7 flex flex-col justify-between p-3 flex-1">
     <h2 class="text-base font-medium leading-5">Comme un Boomerang</h2>
@@ -43,14 +43,14 @@ title: 'Widget components with tailwind CSS'
 </article>
 
 <article class="border shadow-sm break-inside relative flex items-center justify-between overflow-hidden rounded-t-xl p-4 mb-3 gap-4 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="multimedia">
-  <div class="flex items-center justify-center w-12 h-12 rounded-full text-lg bg-blue-700 text-white">02</div>
+  <div class="flex items-center justify-center w-10 h-10 rounded-full text-lg bg-blue-700 text-white">02</div>
   <header class="flex-auto flex flex-col">
     <span class="text-xs text-gray-600">Clubbed to death</span>
-    <h2 class="font-bold block text-base">
+    <h2 class="font-semibold block">
       <a href="#">Robert D.</a>
     </h2>
   </header>
-  <button class="w-9 h-9 flex flex-none justify-center items-center rounded-full transition-all duration-200 bg-white dark:bg-gray-900 border text-black dark:border-gray-800 dark:text-white hover:bg-gray-100 dark:hover:bg-gray-800">
+  <button class="w-8 h-8 flex flex-none justify-center items-center rounded-full transition-all duration-200 bg-white dark:bg-gray-900 border border-gray-300 text-black dark:border-gray-800 dark:text-white hover:bg-gray-100 dark:hover:bg-gray-800">
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="18" height="18">
       <path fill-rule="evenodd" d="M4.5 5.653c0-1.426 1.529-2.33 2.779-1.643l11.54 6.348c1.295.712 1.295 2.573 0 3.285L7.28 19.991c-1.25.687-2.779-.217-2.779-1.643V5.653z" clip-rule="evenodd"></path>
     </svg>
@@ -64,15 +64,15 @@ title: 'Widget components with tailwind CSS'
 
 <article class="border shadow-sm break-inside grid grid-cols-12 rounded-xl overflow-hidden mb-3 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="multimedia">
   <div class="col-span-3">
-    <img src="https://images.pexels.com/photos/462510/pexels-photo-462510.jpeg?auto=compress&cs=tinysrgb&w=1600" alt="Imagen" class="w-full h-full aspect-square object-cover">
+    <img src="https://images.pexels.com/photos/462510/pexels-photo-462510.jpeg?auto=compress&cs=tinysrgb&w=1600" alt="Imagen" class="w-full h-full aspect-square object-cover" loading="lazy">
   </div>
   <div class="col-span-9 flex items-center justify-between p-3 flex-1">
     <header class="flex flex-col gap-1">
       <h2 class="text-base font-semibold leading-5">The Weeknd</h2>
       <p>Take My Breath Offi...</p>
     </header>
-    <button class="flex flex-none justify-center items-center rounded-full w-9 h-9 transition-color duration-200 bg-indigo-500 hover:bg-indigo-700 text-white">
-      <svg width="18" height="18" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+    <button class="flex flex-none justify-center items-center rounded-full w-8 h-8 transition-color duration-200 bg-indigo-500 hover:bg-indigo-700 text-white">
+      <svg width="16" height="16" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
         <path d="M6.3 2.84A1.5 1.5 0 0 0 4 4.11v11.78a1.5 1.5 0 0 0 2.3 1.27l9.344-5.891a1.5 1.5 0 0 0 0-2.538L6.3 2.841Z"></path>
       </svg>
     </button>
@@ -81,15 +81,15 @@ title: 'Widget components with tailwind CSS'
 
 <article class="border shadow-sm break-inside grid grid-cols-12 rounded-xl overflow-hidden mb-3 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="multimedia">
   <div class="col-span-4">
-    <img src="https://images.pexels.com/photos/7022370/pexels-photo-7022370.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Imagen" class="w-full h-full aspect-square object-cover">
+    <img src="https://images.pexels.com/photos/7022370/pexels-photo-7022370.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Imagen" class="w-full h-full aspect-square object-cover" loading="lazy">
   </div>
   <div class="col-span-8 flex items-center justify-between p-3 flex-1">
     <header class="flex flex-col gap-1">
       <h2 class="text-base font-semibold leading-5">Massive</h2>
-      <p>Mat cipher, Freakpass and Nik...</p>
+      <p>Mat cipher neto, Freakpass and Nik...</p>
     </header>
-    <button class="flex flex-none justify-center items-center rounded-full w-9 h-9 transition-color duration-200 bg-gray-800 hover:bg-gray-700 text-white">
-      <svg width="18" height="18" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+    <button class="flex flex-none justify-center items-center rounded-full w-8 h-8 transition-color duration-200 bg-gray-800 hover:bg-gray-700 text-white">
+      <svg width="16" height="16" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
         <path d="M6.3 2.84A1.5 1.5 0 0 0 4 4.11v11.78a1.5 1.5 0 0 0 2.3 1.27l9.344-5.891a1.5 1.5 0 0 0 0-2.538L6.3 2.841Z"></path>
       </svg>
     </button>
@@ -114,7 +114,7 @@ title: 'Widget components with tailwind CSS'
 
 <article class="border shadow-sm break-inside grid grid-cols-12 rounded-xl overflow-hidden mb-3 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="multimedia">
   <figure class="col-span-4">
-    <img src="https://images.pexels.com/photos/733767/pexels-photo-733767.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Imagen" class="w-full h-full aspect-square object-cover">
+    <img src="https://images.pexels.com/photos/733767/pexels-photo-733767.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Imagen" class="w-full h-full aspect-square object-cover" loading="lazy">
   </figure>
   <section class="col-span-8 flex flex-col items-start p-3 flex-1 gap-2">
     <header class="flex items-start justify-between">
@@ -144,7 +144,7 @@ title: 'Widget components with tailwind CSS'
     <button class="px-2 w-full h-8 rounded-full font-medium transition-colors duration-200 bg-white text-black hover:bg-gray-200">Try now</button>
   </article>
   <article class="border shadow-sm break-inside flex items-center flex-col justify-between rounded-xl overflow-hidden mb-3 text-sm bg-gradient-to-r from-purple-600 to-indigo-600 text-white dark:border-gray-900">
-    <img src="https://images.pexels.com/photos/9008803/pexels-photo-9008803.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1260&amp;h=750&amp;dpr=2" class="object-cover w-full h-full" alt="cover">
+    <img src="https://images.pexels.com/photos/9008803/pexels-photo-9008803.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1260&amp;h=750&amp;dpr=2" class="object-cover w-full h-full" alt="cover" loading="lazy">
     <div class="flex flex-col items-start w-full p-4 gap-1">
       <h2>Sultans Of Swing</h2>
       <span class="text-xs">Dire Straits</span>
@@ -175,7 +175,7 @@ title: 'Widget components with tailwind CSS'
             </svg>
           </button>
         </div>
-        <img src="https://images.pexels.com/photos/9980327/pexels-photo-9980327.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1260&amp;h=750&amp;dpr=2" alt="Cover" class="object-cover w-11 h-11">
+        <img src="https://images.pexels.com/photos/9980327/pexels-photo-9980327.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1260&amp;h=750&amp;dpr=2" alt="Cover" loading="lazy" class="object-cover w-11 h-11">
       </div>
       <div class="flex flex-col">
         <h5 class="text-base font-medium">You Don't Know</h5>
@@ -212,7 +212,7 @@ title: 'Widget components with tailwind CSS'
           <polygon points="5 3 19 12 5 21 5 3"></polygon>
         </svg>
       </button>
-      <img src="https://images.pexels.com/photos/185030/pexels-photo-185030.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1260&amp;h=750&amp;dpr=2" class="object-cover" alt="cover">
+      <img src="https://images.pexels.com/photos/185030/pexels-photo-185030.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1260&amp;h=750&amp;dpr=2" class="object-cover" alt="cover" loading="lazy">
     </div>
     <div class="flex flex-col items-start w-full p-4 space-y-2">
       <header>
@@ -238,7 +238,7 @@ title: 'Widget components with tailwind CSS'
           <polygon points="5 3 19 12 5 21 5 3"></polygon>
         </svg>
       </button>
-      <img src="https://images.pexels.com/photos/144428/pexels-photo-144428.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1260&amp;h=750&amp;dpr=2" class="object-cover" alt="cover">
+      <img src="https://images.pexels.com/photos/144428/pexels-photo-144428.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1260&amp;h=750&amp;dpr=2" class="object-cover" alt="cover" loading="lazy">
     </div>
     <div class="flex flex-col items-start w-full p-4 space-y-2">
       <header>

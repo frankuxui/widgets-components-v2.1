@@ -6,6 +6,209 @@ tags: ['social']
 title: 'Widget components with tailwind CSS'
 ---
 
+<article class="border shadow-sm break-inside rounded-xl p-4 mb-3 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="social">
+  <header class="flex items-center justify-between">
+    <span class="h-6 px-2 text-xs rounded-md flex items-center justify-center bg-green-100 text-green-600 dark:bg-green-500/30 dark:text-green-300">Completed</span>
+    <button class="inline-flex items-center justify-center w-10 h-10 transition-all rounded-full hover:bg-gray-100 dark:hover:bg-gray-900">
+      <svg width="34" height="34" fill="none" stroke-width="1.5" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M6.75 12a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0ZM12.75 12a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0ZM18.75 12a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z"></path>
+      </svg>
+    </button>
+  </header>
+  <section>
+    <h2 class="text-lg font-semibold">New Design</h2>
+    <p class="text-xs text-gray-500">Design a new logo for our website</p>
+  </section>
+  <section class="flex items-center justify-between mt-5">
+    <div class="col-start-2 row-start-1 row-end-3 flex-none">
+      <dt class="sr-only">Users</dt>
+      <dd class="flex justify-start -space-x-1.5">
+        <a href="#" class="inline-block -m-1">
+          <img class="w-6 h-6 rounded-full bg-gray-100 ring-2 ring-white dark:bg-gray-600 dark:ring-gray-950" src="https://randomuser.me/api/portraits/women/46.jpg" alt="avatar" loading="lazy">
+        </a>
+        <a href="#" class="inline-block -m-1">
+          <img class="w-6 h-6 rounded-full bg-gray-100 ring-2 ring-white dark:bg-gray-600 dark:ring-gray-950" src="https://randomuser.me/api/portraits/men/45.jpg" alt="avatar" loading="lazy">
+        </a>
+        <a href="#" class="inline-block -m-1">
+          <img class="w-6 h-6 rounded-full bg-gray-100 ring-2 ring-white dark:bg-gray-600 dark:ring-gray-950" src="https://randomuser.me/api/portraits/women/47.jpg" alt="avatar" loading="lazy">
+        </a>
+      </dd>
+    </div>
+    <div class="flex items-center justify-end gap-4">
+      <div class="flex items-center gap-1 font-medium">
+        <svg width="20" height="20" fill="none" stroke-width="2" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M8.625 12a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Zm0 0H8.25m4.125 0a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Zm0 0H12m4.125 0a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Zm0 0h-.375M21 12c0 4.556-4.03 8.25-9 8.25a9.764 9.764 0 0 1-2.555-.337A5.972 5.972 0 0 1 5.41 20.97a5.969 5.969 0 0 1-.474-.065 4.48 4.48 0 0 0 .978-2.025c.09-.457-.133-.901-.467-1.226C3.93 16.178 3 14.189 3 12c0-4.556 4.03-8.25 9-8.25s9 3.694 9 8.25Z"></path>
+        </svg>
+        <span>23</span>
+      </div>
+      <div class="flex items-center gap-1 font-medium">
+        <svg width="20" height="20" fill="none" stroke-width="2" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 9.776c.112-.017.227-.026.344-.026h15.812c.117 0 .232.009.344.026m-16.5 0a2.25 2.25 0 0 0-1.883 2.542l.857 6a2.25 2.25 0 0 0 2.227 1.932H19.05a2.25 2.25 0 0 0 2.227-1.932l.857-6a2.25 2.25 0 0 0-1.883-2.542m-16.5 0V6A2.25 2.25 0 0 1 6 3.75h3.879a1.5 1.5 0 0 1 1.06.44l2.122 2.12a1.5 1.5 0 0 0 1.06.44H18A2.25 2.25 0 0 1 20.25 9v.776"></path>
+        </svg>
+        <span>87</span>
+      </div>
+    </div>
+  </section>
+</article>
+
+<article class="border shadow-sm break-inside rounded-xl p-4 mb-3 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="social">
+  <header class="flex items-center justify-between">
+    <div class="flex items-center gap-2">
+      <h2 class="text-base font-semibold">Michael</h2>
+      <span class="text-xs text-gray-600">24 min ago</span>
+    </div>
+    <div class="flex items-center gap-1">
+      <svg width="20" height="20" class="fill-amber-500" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        <path clip-rule="evenodd" fill-rule="evenodd" d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401Z"></path>
+      </svg>
+      <span class="font-medium mt-1">4/5</span>
+    </div>
+  </header>
+  <section class="mt-2">
+    <p class="text-gray-600 dark:text-gray-400">Hi there! I'm a designer and developer from San Francisco.</p>
+  </section>
+</article>
+
+<article class="border shadow-sm break-inside divide-y rounded-xl p-4 mb-3 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="social">
+  <div class="flex items-center justify-between">
+    <div class="flex items-center gap-3">
+      <span class="flex flex-none items-center justify-center font-medium w-5 h-5 text-xs rounded-full transition-colors bg-fuchsia-600 text-white">3</span>
+      <svg width="32" height="32" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        <path d="M5.25 12a.75.75 0 0 1 .75-.75h.01a.75.75 0 0 1 .75.75v.01a.75.75 0 0 1-.75.75H6a.75.75 0 0 1-.75-.75V12ZM6 13.25a.75.75 0 0 0-.75.75v.01c0 .414.336.75.75.75h.01a.75.75 0 0 0 .75-.75V14a.75.75 0 0 0-.75-.75H6ZM7.25 12a.75.75 0 0 1 .75-.75h.01a.75.75 0 0 1 .75.75v.01a.75.75 0 0 1-.75.75H8a.75.75 0 0 1-.75-.75V12ZM8 13.25a.75.75 0 0 0-.75.75v.01c0 .414.336.75.75.75h.01a.75.75 0 0 0 .75-.75V14a.75.75 0 0 0-.75-.75H8ZM9.25 10a.75.75 0 0 1 .75-.75h.01a.75.75 0 0 1 .75.75v.01a.75.75 0 0 1-.75.75H10a.75.75 0 0 1-.75-.75V10ZM10 11.25a.75.75 0 0 0-.75.75v.01c0 .414.336.75.75.75h.01a.75.75 0 0 0 .75-.75V12a.75.75 0 0 0-.75-.75H10ZM9.25 14a.75.75 0 0 1 .75-.75h.01a.75.75 0 0 1 .75.75v.01a.75.75 0 0 1-.75.75H10a.75.75 0 0 1-.75-.75V14ZM12 9.25a.75.75 0 0 0-.75.75v.01c0 .414.336.75.75.75h.01a.75.75 0 0 0 .75-.75V10a.75.75 0 0 0-.75-.75H12ZM11.25 12a.75.75 0 0 1 .75-.75h.01a.75.75 0 0 1 .75.75v.01a.75.75 0 0 1-.75.75H12a.75.75 0 0 1-.75-.75V12ZM12 13.25a.75.75 0 0 0-.75.75v.01c0 .414.336.75.75.75h.01a.75.75 0 0 0 .75-.75V14a.75.75 0 0 0-.75-.75H12ZM13.25 10a.75.75 0 0 1 .75-.75h.01a.75.75 0 0 1 .75.75v.01a.75.75 0 0 1-.75.75H14a.75.75 0 0 1-.75-.75V10ZM14 11.25a.75.75 0 0 0-.75.75v.01c0 .414.336.75.75.75h.01a.75.75 0 0 0 .75-.75V12a.75.75 0 0 0-.75-.75H14Z"></path>
+        <path clip-rule="evenodd" fill-rule="evenodd" d="M5.75 2a.75.75 0 0 1 .75.75V4h7V2.75a.75.75 0 0 1 1.5 0V4h.25A2.75 2.75 0 0 1 18 6.75v8.5A2.75 2.75 0 0 1 15.25 18H4.75A2.75 2.75 0 0 1 2 15.25v-8.5A2.75 2.75 0 0 1 4.75 4H5V2.75A.75.75 0 0 1 5.75 2Zm-1 5.5c-.69 0-1.25.56-1.25 1.25v6.5c0 .69.56 1.25 1.25 1.25h10.5c.69 0 1.25-.56 1.25-1.25v-6.5c0-.69-.56-1.25-1.25-1.25H4.75Z"></path>
+      </svg>
+      <span class="font-medium text-lg">23 24 2024</span>
+    </div>
+    <button class="flex flex-none items-center justify-center w-9 h-9 transition-all rounded-full hover:bg-gray-100 dark:hover:bg-gray-900">
+      <svg width="28" height="28" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        <path clip-rule="evenodd" fill-rule="evenodd" d="M5.22 8.22a.75.75 0 0 1 1.06 0L10 11.94l3.72-3.72a.75.75 0 1 1 1.06 1.06l-4.25 4.25a.75.75 0 0 1-1.06 0L5.22 9.28a.75.75 0 0 1 0-1.06Z"></path>
+      </svg>
+    </button>
+  </div>
+</article>
+
+<article class="border shadow-sm break-inside rounded-xl p-4 mb-3 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="social">
+  <header class="flex items-center justify-between">
+    <div class="flex items-center gap-2">
+      <h2 class="text-lg font-medium">Teams</h2>
+      <button class="flex items-center justify-center w-6 h-6 rounded-sm transition-colors duration-200 hover:bg-gray-200 dark:hover:bg-gray-800">
+        <svg width="18" height="18" viewBox="0 0 24 24" stroke-width="2" fill="none" xmlns="http://www.w3.org/2000/svg" color="currentColor"><path d="M14.3632 5.65156L15.8431 4.17157C16.6242 3.39052 17.8905 3.39052 18.6716 4.17157L20.0858 5.58579C20.8668 6.36683 20.8668 7.63316 20.0858 8.41421L18.6058 9.8942M14.3632 5.65156L4.74749 15.2672C4.41542 15.5993 4.21079 16.0376 4.16947 16.5054L3.92738 19.2459C3.87261 19.8659 4.39148 20.3848 5.0115 20.33L7.75191 20.0879C8.21972 20.0466 8.65806 19.8419 8.99013 19.5099L18.6058 9.8942M14.3632 5.65156L18.6058 9.8942" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+      </button>
+    </div>
+    <div class="flex items-center gap-2">
+      <svg width="18" height="18" fill="none" stroke-width="2" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 14.25v-2.625a3.375 3.375 0 0 0-3.375-3.375h-1.5A1.125 1.125 0 0 1 13.5 7.125v-1.5a3.375 3.375 0 0 0-3.375-3.375H8.25m2.25 0H5.625c-.621 0-1.125.504-1.125 1.125v17.25c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125V11.25a9 9 0 0 0-9-9Z"></path>
+      </svg>
+      <span class="font-medium mt-1">8</span>
+    </div>
+  </header>
+  <section class="mt-4 flex items-center gap-1">
+    <button class="h-6 text-xs px-2 font-medium rounded-full flex items-center border dark:border-gray-900">#087</button>
+    <button class="h-6 text-xs px-2 font-medium rounded-full flex items-center border border-rose-200 dark:border-gray-900 bg-rose-200 text-rose-700 dark:bg-rose-500/30 dark:text-rose-300">#3593</button>
+    <button class="h-6 text-xs px-2 font-medium rounded-full flex items-center border border-emerald-200 dark:border-gray-900 bg-emerald-200 text-emerald-700 dark:bg-emerald-500/30 dark:text-emerald-300">Done</button>
+  </section>
+  <section class="flex items-center justify-between mt-4">
+    <div class="col-start-2 row-start-1 row-end-3">
+      <dt class="sr-only">Users</dt>
+      <dd class="flex justify-start -space-x-1.5">
+        <a href="#" class="inline-block -m-1">
+          <img class="w-8 h-8 rounded-full bg-gray-100 ring-2 ring-white dark:bg-gray-600 dark:ring-gray-950" src="https://randomuser.me/api/portraits/women/46.jpg" alt="avatar" loading="lazy">
+        </a>
+        <a href="#" class="inline-block -m-1">
+          <img class="w-8 h-8 rounded-full bg-gray-100 ring-2 ring-white dark:bg-gray-600 dark:ring-gray-950" src="https://randomuser.me/api/portraits/men/45.jpg" alt="avatar" loading="lazy">
+        </a>
+        <a href="#" class="inline-block -m-1">
+          <img class="w-8 h-8 rounded-full bg-gray-100 ring-2 ring-white dark:bg-gray-600 dark:ring-gray-950" src="https://randomuser.me/api/portraits/women/47.jpg" alt="avatar" loading="lazy">
+        </a>
+        <a href="#" class="inline-block -m-1">
+          <span class="flex items-center justify-center font-semibold w-8 h-8 rounded-full bg-indigo-200 ring-2 ring-white dark:bg-gray-600 dark:ring-gray-950">+4</span>
+        </a>
+      </dd>
+    </div>
+    <button class="w-10 h-10 flex items-center justify-center rounded-full border-2 border-dashed text-gray-600 border-gray-300 dark:border-gray-700">
+      <svg width="22" height="22" fill="none" stroke-width="1.5" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M12 9v6m3-3H9m12 0a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z"></path>
+      </svg>
+    </button>
+    <div class="flex items-center gap-2 text-gray-600">
+      <svg width="18" height="18" fill="none" stroke-width="2" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 14.25v-2.625a3.375 3.375 0 0 0-3.375-3.375h-1.5A1.125 1.125 0 0 1 13.5 7.125v-1.5a3.375 3.375 0 0 0-3.375-3.375H8.25m2.25 0H5.625c-.621 0-1.125.504-1.125 1.125v17.25c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125V11.25a9 9 0 0 0-9-9Z"></path>
+      </svg>
+      <span class="font-medium mt-1">23</span>
+    </div>
+  </section>
+</article>
+
+<article class="border shadow-sm break-inside rounded-xl p-4 mb-3 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="social">
+  <header class="flex items-start justify-between">
+    <h2 class="text-base font-medium"> Create calendar and autentication </h2>
+    <div class="flex items-center gap-2 mt-0.5">
+      <svg width="18" height="18" fill="none" stroke-width="2" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 14.25v-2.625a3.375 3.375 0 0 0-3.375-3.375h-1.5A1.125 1.125 0 0 1 13.5 7.125v-1.5a3.375 3.375 0 0 0-3.375-3.375H8.25m2.25 0H5.625c-.621 0-1.125.504-1.125 1.125v17.25c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125V11.25a9 9 0 0 0-9-9Z"></path>
+      </svg>
+      <span class="font-medium mt-1">8</span>
+    </div>
+  </header>
+  <section class="mt-4 flex items-center gap-1">
+    <button class="h-6 text-xs px-2 font-medium rounded-full flex items-center border border-fuchsia-200 dark:border-gray-900 bg-fuchsia-200 text-fuchsia-700 dark:bg-fuchsia-500/30 dark:text-fuchsia-300">Development</button>
+    <button class="h-6 text-xs px-2 font-medium rounded-full flex items-center border border-amber-200 dark:border-gray-900 bg-amber-200 text-amber-700 dark:bg-amber-500/30 dark:text-amber-300">Backlog</button>
+  </section>
+  <section class="flex items-center justify-between mt-4">
+    <div class="col-start-2 row-start-1 row-end-3">
+      <dt class="sr-only">Users</dt>
+      <dd class="flex justify-start -space-x-1.5">
+        <a href="#" class="inline-block -m-1">
+          <img class="w-8 h-8 rounded-full bg-gray-100 ring-2 ring-white dark:bg-gray-600 dark:ring-gray-950" src="https://randomuser.me/api/portraits/women/12.jpg" alt="avatar" loading="lazy">
+        </a>
+        <a href="#" class="inline-block -m-1">
+          <img class="w-8 h-8 rounded-full bg-gray-100 ring-2 ring-white dark:bg-gray-600 dark:ring-gray-950" src="https://randomuser.me/api/portraits/men/13.jpg" alt="avatar" loading="lazy">
+        </a>
+        <a href="#" class="inline-block -m-1">
+          <img class="w-8 h-8 rounded-full bg-gray-100 ring-2 ring-white dark:bg-gray-600 dark:ring-gray-950" src="https://randomuser.me/api/portraits/women/14.jpg" alt="avatar" loading="lazy">
+        </a>
+        <a href="#" class="inline-block -m-1">
+          <span class="flex items-center justify-center font-semibold w-8 h-8 rounded-full bg-green-200 ring-2 ring-white dark:bg-gray-600 dark:ring-gray-950">+4</span>
+        </a>
+      </dd>
+    </div>
+    <button class="w-10 h-10 flex items-center justify-center rounded-full border-2 border-dashed text-gray-600 border-gray-300 dark:border-gray-700">
+      <svg width="22" height="22" fill="none" stroke-width="1.5" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M12 9v6m3-3H9m12 0a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z"></path>
+      </svg>
+    </button>
+    <div class="flex items-center gap-2 text-gray-600">
+      <svg width="18" height="18" fill="none" stroke-width="2" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 14.25v-2.625a3.375 3.375 0 0 0-3.375-3.375h-1.5A1.125 1.125 0 0 1 13.5 7.125v-1.5a3.375 3.375 0 0 0-3.375-3.375H8.25m2.25 0H5.625c-.621 0-1.125.504-1.125 1.125v17.25c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125V11.25a9 9 0 0 0-9-9Z"></path>
+      </svg>
+      <span class="font-medium mt-1">23</span>
+    </div>
+  </section>
+</article>
+
+<article class="border shadow-sm break-inside rounded-xl p-4 mb-3 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="social">
+  a
+</article>
+
+<article class="border shadow-sm break-inside rounded-xl p-4 mb-3 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="social">
+  a
+</article>
+
+<article class="border shadow-sm break-inside rounded-xl p-4 mb-3 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="social">
+  a
+</article>
+
+<article class="border shadow-sm break-inside rounded-xl p-4 mb-3 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="social">
+  a
+</article>
+
+<article class="border shadow-sm break-inside rounded-xl p-4 mb-3 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="social">
+  a
+</article>
+
+<article class="border shadow-sm break-inside rounded-xl p-4 mb-3 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="social">
+  a
+</article>
+
 <section class="grid grid-cols-2 gap-4" data-filter="social">
   <article class="border shadow-sm break-inside flex items-start flex-col justify-between rounded-xl gap-2 p-4 mb-3 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900">
     <header>
@@ -34,7 +237,7 @@ title: 'Widget components with tailwind CSS'
     <div class="absolute z-0 top-4 right-4 w-16 h-16 bg-blue-500/30 blur-2xl" ></div>
     <header class="relative w-full">
       <div class="flex flex-col">
-        <img class="flex-none w-12 h-12 rounded-full" src="https://randomuser.me/api/portraits/men/20.jpg" alt="avatar">
+        <img class="flex-none w-12 h-12 rounded-full" src="https://randomuser.me/api/portraits/men/20.jpg" alt="avatar" loading="lazy">
         <div class="mt-2">
           <h2 class="font-semibold text-base">Hendrik</h2>
           <p class="text-gray-500">Software Developer</p>
@@ -101,7 +304,7 @@ title: 'Widget components with tailwind CSS'
   <header class="flex items-center gap-3">
     <span class="text-base font-medium">01</span>
     <div class="flex items-center gap-4">
-      <img class="flex-none w-12 h-12 rounded-2xl" src="https://randomuser.me/api/portraits/women/21.jpg" alt="avatar">
+      <img class="flex-none w-12 h-12 rounded-2xl" src="https://randomuser.me/api/portraits/women/21.jpg" alt="avatar" loading="lazy">
       <div class="flex-auto">
         <span class="text-sm text-gray-600 dark:text-gray-300">September 2023</span>
         <h2 class="text-base font-semibold block">Caroline</h2>
@@ -129,7 +332,7 @@ title: 'Widget components with tailwind CSS'
 
 <article class="border shadow-sm break-inside flex items-center justify-between rounded-xl gap-4 p-4 mb-3 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="social">
   <header class="flex items-center gap-4">
-    <img class="flex-none rounded-full w-12 h-12" src="https://randomuser.me/api/portraits/men/76.jpg" alt="avatar">
+    <img class="flex-none rounded-full w-12 h-12" src="https://randomuser.me/api/portraits/men/76.jpg" alt="avatar" loading="lazy">
     <div class="flex-auto">
       <h2 class="text-base font-medium block">Philip Johnson</h2>
       <p class="text-xs text-gray-600 dark:text-gray-300">Hi there! I'm a dog trainer from Oakland.</p>
@@ -147,7 +350,7 @@ title: 'Widget components with tailwind CSS'
 
 <article class="border shadow-sm break-inside flex items-center justify-between rounded-xl p-4 mb-3 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="social">
   <div class="flex items-center gap-4">
-    <img class="flex-none w-12 h-12 rounded-full" src="https://randomuser.me/api/portraits/women/44.jpg" alt="avatar">
+    <img class="flex-none w-12 h-12 rounded-full" src="https://randomuser.me/api/portraits/women/44.jpg" alt="avatar" loading="lazy">
     <div class="flex-auto">
       <a href="#" class="text-base font-semibold block">Yolanda</a>
       <span class="text-sm text-gray-600 dark:text-gray-300">Web Development</span>
@@ -163,7 +366,7 @@ title: 'Widget components with tailwind CSS'
 <article class="border shadow-sm break-inside flex items-center justify-between rounded-xl p-4 mb-3 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="social">
   <div class="flex items-center gap-4">
     <figure class="relative w-12 h-12">
-      <img class="flex-none w-full rounded-full" src="https://randomuser.me/api/portraits/men/14.jpg" alt="avatar">
+      <img class="flex-none w-full rounded-full" src="https://randomuser.me/api/portraits/men/14.jpg" alt="avatar" loading="lazy">
       <figcaption class="sr-only">Avatar</figcaption>
       <span class="absolute right-0 bottom-0 inline-block w-3.5 h-3.5 rounded-full bg-green-500 border-2 border-white dark:border-gray-950"></span>
     </figure>
@@ -182,7 +385,7 @@ title: 'Widget components with tailwind CSS'
 
 <article class="border shadow-sm break-inside flex items-center justify-between rounded-xl p-4 mb-3 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="social">
   <div class="flex items-center gap-4">
-    <img class="flex-none w-12 h-12 rounded-full" src="https://randomuser.me/api/portraits/women/81.jpg" alt="avatar">
+    <img class="flex-none w-12 h-12 rounded-full" src="https://randomuser.me/api/portraits/women/81.jpg" alt="avatar" loading="lazy">
     <div class="flex-auto">
       <a href="#" class="text-base font-medium block">Marina Flick</a>
       <span class="text-sm text-gray-600 dark:text-gray-400">Technical Director</span>
@@ -200,7 +403,7 @@ title: 'Widget components with tailwind CSS'
   <section class="relative z-[1] flex items-center justify-between">
     <div class="flex items-center gap-4">
       <a href="#">
-        <img class="flex-none w-12 h-12 rounded-full ring-2 ring-pink-500 border-2 border-white dark:border-gray-700" src="https://randomuser.me/api/portraits/men/82.jpg" alt="avatar">
+        <img class="flex-none w-12 h-12 rounded-full ring-2 ring-pink-500 border-2 border-white dark:border-gray-700" src="https://randomuser.me/api/portraits/men/82.jpg" alt="avatar" loading="lazy">
       </a>
       <div class="flex-auto">
         <a href="#" class="font-medium block">Jhonathan Doe</a>
@@ -218,7 +421,7 @@ title: 'Widget components with tailwind CSS'
 <article class="border shadow-sm break-inside flex items-center justify-between rounded-xl p-4 mb-3 bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="social">
   <div class="flex items-center gap-4">
     <a href="#">
-      <img class="flex-none w-12 h-12 rounded-full ring-2 ring-indigo-600 border-2 border-white dark:border-gray-950" src="https://randomuser.me/api/portraits/men/86.jpg" alt="avatar">
+      <img class="flex-none w-12 h-12 rounded-full ring-2 ring-indigo-600 border-2 border-white dark:border-gray-950" src="https://randomuser.me/api/portraits/men/86.jpg" alt="avatar" loading="lazy">
     </a>
     <div class="flex-auto">
       <a href="#" class="flex items-center font-medium gap-1">
@@ -233,14 +436,14 @@ title: 'Widget components with tailwind CSS'
 
 <article class="border shadow-sm break-inside flex items-center justify-between rounded-xl p-4 mb-3 bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="social">
   <a href="#" class="flex items-center gap-4">
-    <img class="flex-none w-12 h-12 rounded-full ring-1 ring-gray-300 border-2 border-white dark:border-gray-950 dark:ring-gray-400" src="https://randomuser.me/api/portraits/men/85.jpg" alt="avatar">
+    <img class="flex-none w-12 h-12 rounded-full ring-1 ring-gray-300 border-2 border-white dark:border-gray-950 dark:ring-gray-400" src="https://randomuser.me/api/portraits/men/85.jpg" alt="avatar" loading="lazy">
     <div class="flex-auto">
       <h2 class="font-semibold block">Alexander</h2>
       <span class="text-xs text-gray-600 dark:text-gray-400">Last seen 2 hours ago</span>
     </div>
   </a>
-  <button class="flex flex-none items-center justify-center w-10 h-10 transition-all rounded-full p-1 hover:bg-gray-100 dark:hover:bg-gray-900">
-    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 512 512"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="44" d="M358.62 129.28L86.49 402.08 70 442l39.92-16.49 272.8-272.13-24.1-24.1zM413.07 74.84l-11.79 11.78 24.1 24.1 11.79-11.79a16.51 16.51 0 000-23.34l-.75-.75a16.51 16.51 0 00-23.35 0z"/></svg>
+  <button class="flex flex-none items-center justify-center w-10 h-10 transition-all rounded-full hover:bg-gray-100 dark:hover:bg-gray-900">
+    <svg width="26" height="26" viewBox="0 0 24 24" stroke-width="1.5" fill="none" xmlns="http://www.w3.org/2000/svg" color="#000000"><path d="M14.3632 5.65156L15.8431 4.17157C16.6242 3.39052 17.8905 3.39052 18.6716 4.17157L20.0858 5.58579C20.8668 6.36683 20.8668 7.63316 20.0858 8.41421L18.6058 9.8942M14.3632 5.65156L4.74749 15.2672C4.41542 15.5993 4.21079 16.0376 4.16947 16.5054L3.92738 19.2459C3.87261 19.8659 4.39148 20.3848 5.0115 20.33L7.75191 20.0879C8.21972 20.0466 8.65806 19.8419 8.99013 19.5099L18.6058 9.8942M14.3632 5.65156L18.6058 9.8942" stroke="#000000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path></svg>
   </button>
 </article>
 
@@ -255,7 +458,7 @@ title: 'Widget components with tailwind CSS'
   </header>
   <section class="flex justify-between items-center px-4 pt-3">
     <div class="flex items-center gap-4">
-      <img class="flex-none w-11 h-11 rounded-full object-cover" src="https://randomuser.me/api/portraits/men/60.jpg" alt="avatar">
+      <img class="flex-none w-11 h-11 rounded-full object-cover" src="https://randomuser.me/api/portraits/men/60.jpg" alt="avatar" loading="lazy">
       <div class="flex-col items-start flex-auto">
         <a href="#" class="text-base font-medium block">Marc Jacobs</a>
         <span class="text-sm text-gray-600 dark:text-gray-400">Doctor</span>
@@ -273,7 +476,7 @@ title: 'Widget components with tailwind CSS'
 <article class="border shadow-sm break-inside flex justify-between flex-col p-4 mb-3 text-sm gap-4 rounded-lg bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="social">
   <div class="flex justify-start items-center gap-3">
     <figure class="relative w-12 h-12 flex-none">
-      <img class="flex-none w-full rounded-full object-cover" src="https://randomuser.me/api/portraits/men/65.jpg" alt="avatar">
+      <img class="flex-none w-full rounded-full object-cover" src="https://randomuser.me/api/portraits/men/65.jpg" alt="avatar" loading="lazy">
       <figcaption class="sr-only">Avatar</figcaption>
       <span class="absolute right-0 bottom-0 inline-block w-3.5 h-3.5 rounded-full bg-cyan-500 border-2 border-white dark:border-gray-950"></span>
     </figure>
@@ -314,7 +517,7 @@ title: 'Widget components with tailwind CSS'
 <article class="border shadow-sm break-inside flex justify-between divide-y dark:divide-gray-900 flex-col p-4 mb-3 text-sm gap-4 rounded-lg bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="social">
   <div class="flex justify-start items-start gap-3">
     <figure class="relative w-12 h-12 flex-none">
-      <img class="flex-none w-full rounded-full object-cover" src="https://randomuser.me/api/portraits/men/71.jpg" alt="avatar">
+      <img class="flex-none w-full rounded-full object-cover" src="https://randomuser.me/api/portraits/men/71.jpg" alt="avatar" loading="lazy">
       <figcaption class="sr-only">Avatar</figcaption>
       <span class="absolute right-0 bottom-0 inline-block w-3.5 h-3.5 rounded-full bg-green-500 border-2 border-white dark:border-gray-950"></span>
     </figure>
@@ -371,7 +574,7 @@ title: 'Widget components with tailwind CSS'
     </button>
   </header>
   <section class="flex justify-start items-center gap-3 p-4">
-    <img class="flex-none w-11 h-11 rounded-full object-cover" src="https://randomuser.me/api/portraits/women/67.jpg" alt="avatar">
+    <img class="flex-none w-11 h-11 rounded-full object-cover" src="https://randomuser.me/api/portraits/women/67.jpg" alt="avatar" loading="lazy">
     <h2 class="text-sm font-medium">Improve large organization onboarding</h2>
   </section>
   <div class="flex justify-between items-center gap-2 px-4 pt-3">
@@ -423,7 +626,7 @@ title: 'Widget components with tailwind CSS'
 
 <article class="border shadow-sm break-inside rounded-xl p-4 mb-3 bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="social">
   <div class="flex items-start gap-4">
-    <img class="flex-none mt-1 w-12 h-12 rounded-full ring-2 ring-emerald-600 border-2 border-white dark:border-gray-950" src="https://randomuser.me/api/portraits/men/86.jpg" alt="avatar">
+    <img class="flex-none mt-1 w-12 h-12 rounded-full ring-2 ring-emerald-600 border-2 border-white dark:border-gray-950" src="https://randomuser.me/api/portraits/men/86.jpg" alt="avatar" loading="lazy">
     <div class="flex flex-col gap-1">
       <a href="#" class="font-medium text-base">Anderson</a>
       <ul class="flex items-center flex-wrap gap-2">
@@ -452,13 +655,13 @@ title: 'Widget components with tailwind CSS'
       <dt class="sr-only">Users</dt>
       <dd class="flex justify-start -space-x-1.5">
         <a href="#" class="inline-block -m-1">
-          <img class="w-9 h-9 rounded-full bg-gray-100 ring-2 ring-white dark:bg-gray-600 dark:ring-gray-950" src="https://randomuser.me/api/portraits/women/46.jpg" alt="avatar">
+          <img class="w-9 h-9 rounded-full bg-gray-100 ring-2 ring-white dark:bg-gray-600 dark:ring-gray-950" src="https://randomuser.me/api/portraits/women/46.jpg" alt="avatar" loading="lazy">
         </a>
         <a href="#" class="inline-block -m-1">
-          <img class="w-9 h-9 rounded-full bg-gray-100 ring-2 ring-white dark:bg-gray-600 dark:ring-gray-950" src="https://randomuser.me/api/portraits/men/45.jpg" alt="avatar">
+          <img class="w-9 h-9 rounded-full bg-gray-100 ring-2 ring-white dark:bg-gray-600 dark:ring-gray-950" src="https://randomuser.me/api/portraits/men/45.jpg" alt="avatar" loading="lazy">
         </a>
         <a href="#" class="inline-block -m-1">
-          <img class="w-9 h-9 rounded-full bg-gray-100 ring-2 ring-white dark:bg-gray-600 dark:ring-gray-950" src="https://randomuser.me/api/portraits/women/47.jpg" alt="avatar">
+          <img class="w-9 h-9 rounded-full bg-gray-100 ring-2 ring-white dark:bg-gray-600 dark:ring-gray-950" src="https://randomuser.me/api/portraits/women/47.jpg" alt="avatar" loading="lazy">
         </a>
         <a href="#" class="inline-block -m-1">
           <span class="flex items-center justify-center font-semibold w-9 h-9 rounded-full bg-indigo-200 ring-2 ring-white dark:bg-gray-600 dark:ring-gray-950">AT</span>
@@ -475,16 +678,16 @@ title: 'Widget components with tailwind CSS'
       <dt class="sr-only">Users</dt>
       <dd class="flex justify-start -space-x-1.5">
         <a href="#" class="inline-block -m-1">
-          <img class="w-9 h-9 rounded-full ring-2 ring-white dark:ring-gray-950" src="https://randomuser.me/api/portraits/women/48.jpg" alt="avatar">
+          <img class="w-9 h-9 rounded-full ring-2 ring-white dark:ring-gray-950" src="https://randomuser.me/api/portraits/women/48.jpg" alt="avatar" loading="lazy">
         </a>
         <a href="#" class="inline-block -m-1">
-          <img class="w-9 h-9 rounded-full ring-2 ring-white dark:ring-gray-950" src="https://randomuser.me/api/portraits/men/15.jpg" alt="avatar">
+          <img class="w-9 h-9 rounded-full ring-2 ring-white dark:ring-gray-950" src="https://randomuser.me/api/portraits/men/15.jpg" alt="avatar" loading="lazy">
         </a>
         <a href="#" class="inline-block -m-1">
-          <img class="w-9 h-9 rounded-full ring-2 ring-white dark:ring-gray-950" src="https://randomuser.me/api/portraits/women/37.jpg" alt="avatar">
+          <img class="w-9 h-9 rounded-full ring-2 ring-white dark:ring-gray-950" src="https://randomuser.me/api/portraits/women/37.jpg" alt="avatar" loading="lazy">
         </a>
         <a href="#" class="inline-block -m-1">
-          <img class="w-9 h-9 rounded-full ring-2 ring-white dark:ring-gray-950" src="https://randomuser.me/api/portraits/men/78.jpg" alt="avatar">
+          <img class="w-9 h-9 rounded-full ring-2 ring-white dark:ring-gray-950" src="https://randomuser.me/api/portraits/men/78.jpg" alt="avatar" loading="lazy">
         </a>
       </dd>
     </div>
@@ -505,7 +708,7 @@ title: 'Widget components with tailwind CSS'
 
 
 <article class="border shadow-sm break-inside flex items-center space-x-4 rounded-xl overflow-hidden pr-4 mb-3 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="social">
-  <img class="flex-none w-16 object-cover" src="https://randomuser.me/api/portraits/women/45.jpg" alt="avatar">
+  <img class="flex-none w-16 object-cover" src="https://randomuser.me/api/portraits/women/45.jpg" alt="avatar" loading="lazy">
   <div class="flex-auto">
     <a href="#" class="text-base font-semibold block">Adrianne</a>
     <span class="text-gray-600 dark:text-gray-400">Frontend Development</span>
@@ -514,7 +717,7 @@ title: 'Widget components with tailwind CSS'
 
 <article class="border shadow-sm break-inside flex items-center space-x-4 rounded-xl overflow-hidden pr-4 mb-3 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="social">
   <header class="flex-1 flex items-center gap-2 lg:gap-4">
-    <img class="flex-none w-16 object-cover" src="https://randomuser.me/api/portraits/men/45.jpg" alt="avatar">
+    <img class="flex-none w-16 object-cover" src="https://randomuser.me/api/portraits/men/45.jpg" alt="avatar" loading="lazy">
     <div class="flex-auto">
       <a href="#" class="text-base font-medium block">Matheus Duarte</a>
       <span class="text-gray-600 dark:text-gray-400">Art Director</span>
@@ -597,7 +800,7 @@ title: 'Widget components with tailwind CSS'
       <a href="#" class="text-base font-semibold block">Leandro</a>
       <span class="text-gray-600 dark:text-gray-400">Software Engineer</span>
     </div>
-    <img class="flex-none w-16 object-cover" src="https://randomuser.me/api/portraits/men/46.jpg" alt="avatar">
+    <img class="flex-none w-16 object-cover" src="https://randomuser.me/api/portraits/men/46.jpg" alt="avatar" loading="lazy">
   </header>
 </article>
 
@@ -840,7 +1043,7 @@ title: 'Widget components with tailwind CSS'
 
 <article class="border shadow-sm break-inside flex items-center justify-between rounded-xl p-4 mb-3 gap-4 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="social">
   <div class="flex items-start gap-2">
-    <img class="flex-none w-11 h-11 rounded-full object-cover" src="https://randomuser.me/api/portraits/women/45.jpg" alt="avatar">
+    <img class="flex-none w-11 h-11 rounded-full object-cover" src="https://randomuser.me/api/portraits/women/45.jpg" alt="avatar" loading="lazy">
     <div class="flex-auto">
       <div class="flex items-center space-x-1">
         <a href="#" class="text-base font-medium">Esther Howard</a>
@@ -851,11 +1054,7 @@ title: 'Widget components with tailwind CSS'
         </span>
       </div>
       <div class="flex items-center gap-2">
-        <p class="text-xs text-gray-600 dark:text-gray-400">
-          Hi, I've been calling you and your
-          <br />
-          phone doesn't ring...
-        </p>
+        <p class="text-xs text-gray-600 dark:text-gray-400"> Hi, I've been calling you and your phone doesn't ring... </p>
       </div>
     </div>
   </div>
