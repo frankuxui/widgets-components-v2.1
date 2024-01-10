@@ -202,16 +202,17 @@ const pageSlug = Astro.url.pathname.split('/')[2]
 	main {
 		column-count: 1;
 		column-gap: 0.75rem;
-		padding: 0 0.75rem;
+		padding: 0 2rem;
 		margin: 0 auto;
 		max-width: 100%;
 	}
 	.container {
-		padding: 0 0.75rem;
+		padding: 0 2rem;
 		margin: 0 auto;
 		width: 100%;
 		max-width: 100%;
 	}
+
 
 	@media screen and (980px >= width > 640px) {
 		main {
@@ -236,10 +237,10 @@ const pageSlug = Astro.url.pathname.split('/')[2]
 	@media screen and (1600px >= width > 1280px) {
 		main {
 			column-count: 4;
-			max-width: 1280px;
+			max-width: 1340px;
 		}
 		.container {
-			max-width: 1280px;
+			max-width: 1340px;
 		}
 	}
 

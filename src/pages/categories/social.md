@@ -65,7 +65,7 @@ title: 'Widget components with tailwind CSS'
     </div>
   </header>
   <section class="mt-2">
-    <p class="text-gray-600 dark:text-gray-400">Hi there! I'm a designer and developer from San Francisco.</p>
+    <p class="text-gray-600 dark:text-gray-400">Hi there! I'm a designer and developer from San Francisco and I'm looking...</p>
   </section>
 </article>
 
@@ -316,15 +316,15 @@ title: 'Widget components with tailwind CSS'
   </svg>
 </article>
 
-<article class="border shadow-sm break-inside flex items-center justify-between rounded-xl p-4 mb-3 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="social">
-  <header class="flex items-center gap-4">
+<article class="border shadow-sm break-inside flex justify-between rounded-xl p-4 mb-3 gap-4 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="social">
+  <header class="flex items-start gap-3">
     <div class="flex-none w-12 h-12 rounded-full flex items-center justify-center font-medium text-lg text-amber-700 bg-amber-200">AB</div>
     <div class="flex-auto">
       <h2 class="text-base font-medium block">Annette Black</h2>
       <p class="text-xs text-gray-600 dark:text-gray-300">Hi there! I'm a designer and developer from San Francisco.</p>
     </div>
   </header>
-  <section class="flex flex-col items-center justify-between h-full gap-3">
+  <section class="flex flex-col items-center justify-between h-full gap-3 pt-1">
     <span class="text-xs font-medium text-gray-600 dark:text-gray-300">Today</span>
     <span class="flex flex-none items-center justify-center font-medium w-5 h-5 text-xs rounded-full transition-colors bg-rose-500 text-white"> 2 </span>
   </section>
@@ -526,15 +526,11 @@ title: 'Widget components with tailwind CSS'
         <span>Frank Ocean</span>
         <svg width="16" height="16" class="ionicon" viewBox="0 0 512 512"><path d="M256 48C141.31 48 48 141.31 48 256s93.31 208 208 208 208-93.31 208-208S370.69 48 256 48zm108.25 138.29l-134.4 160a16 16 0 01-12 5.71h-.27a16 16 0 01-11.89-5.3l-57.6-64a16 16 0 1123.78-21.4l45.29 50.32 122.59-145.91a16 16 0 0124.5 20.58z" fill="currentColor"/></svg>
       </h2>
-      <p class="text-gray-600 dark:text-gray-400">
-        I'm a singer-songwriter and
-        <br />
-        rapper from New Orleans...
-      </p>
+      <p class="text-gray-600 dark:text-gray-400">I'm a singer-songwriter and rapper from New Orleans... </p>
     </section>
   </div>
   <div class="flex justify-between items-center gap-2 pt-4">
-    <section class="flex flex-1 items-center gap-2 py-1 px-2 rounded-md bg-cyan-200 dark:bg-gray-900 dark:text-white">
+    <section class="flex flex-1 items-center gap-2 py-1 px-2 rounded-md bg-cyan-100 dark:bg-gray-900 dark:text-white">
       <svg width="18" height="18" fill="none" stroke-width="2" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
         <path stroke-linecap="round" stroke-linejoin="round" d="M20.25 14.15v4.25c0 1.094-.787 2.036-1.872 2.18-2.087.277-4.216.42-6.378.42s-4.291-.143-6.378-.42c-1.085-.144-1.872-1.086-1.872-2.18v-4.25m16.5 0a2.18 2.18 0 0 0 .75-1.661V8.706c0-1.081-.768-2.015-1.837-2.175a48.114 48.114 0 0 0-3.413-.387m4.5 8.006c-.194.165-.42.295-.673.38A23.978 23.978 0 0 1 12 15.75c-2.648 0-5.195-.429-7.577-1.22a2.016 2.016 0 0 1-.673-.38m0 0A2.18 2.18 0 0 1 3 12.489V8.706c0-1.081.768-2.015 1.837-2.175a48.111 48.111 0 0 1 3.413-.387m7.5 0V5.25A2.25 2.25 0 0 0 13.5 3h-3a2.25 2.25 0 0 0-2.25 2.25v.894m7.5 0a48.667 48.667 0 0 0-7.5 0M12 12.75h.008v.008H12v-.008Z"></path>
       </svg>
@@ -575,7 +571,7 @@ title: 'Widget components with tailwind CSS'
   </header>
   <section class="flex justify-start items-center gap-3 p-4">
     <img class="flex-none w-11 h-11 rounded-full object-cover" src="https://randomuser.me/api/portraits/women/67.jpg" alt="avatar" loading="lazy">
-    <h2 class="text-sm font-medium">Improve large organization onboarding</h2>
+    <h2 class="text-sm font-medium"> Improve large organization <br /> onboarding </h2>
   </section>
   <div class="flex justify-between items-center gap-2 px-4 pt-3">
     <section class="flex flex-1 items-center gap-2 py-1 px-2 rounded-md border dark:border-gray-900 dark:text-white">
