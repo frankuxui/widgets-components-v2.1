@@ -65,7 +65,7 @@ title: 'Widget components with tailwind CSS'
     </div>
   </header>
   <section class="mt-2">
-    <p class="text-gray-600 dark:text-gray-400">Hi there! I'm a designer and developer from San Francisco.</p>
+    <p class="text-gray-600 dark:text-gray-400">Hi there! I'm a designer and developer from San Francisco and I'm looking...</p>
   </section>
 </article>
 
@@ -451,7 +451,7 @@ title: 'Widget components with tailwind CSS'
       <p class="text-xs text-gray-600 dark:text-gray-300">Hi there! I'm a designer and developer from San Francisco.</p>
     </div>
   </header>
-  <section class="flex flex-col items-center justify-between h-full gap-3">
+  <section class="flex flex-col items-center justify-between h-full gap-3 pt-1">
     <span class="text-xs font-medium text-gray-600 dark:text-gray-300">Today</span>
     <span class="flex flex-none items-center justify-center font-medium w-5 h-5 text-xs rounded-full transition-colors bg-rose-500 text-white"> 2 </span>
   </section>

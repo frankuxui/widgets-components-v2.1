@@ -83,10 +83,10 @@ title: 'Widget components with tailwind CSS'
   <div class="col-span-4">
     <img src="https://images.pexels.com/photos/7022370/pexels-photo-7022370.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Imagen" class="w-full h-full aspect-square object-cover" loading="lazy">
   </div>
-  <div class="col-span-8 flex items-center justify-between p-3 flex-1">
+  <div class="col-span-8 flex items-center justify-between p-3 flex-1 gap-3">
     <header class="flex flex-col gap-1">
       <h2 class="text-base font-semibold leading-5">Massive</h2>
-      <p>Mat cipher neto, Freakpass and Nik...</p>
+      <p class="text-xs">Mat cipher neto, Freakpass and Nik...</p>
     </header>
     <button class="flex flex-none justify-center items-center rounded-full w-8 h-8 transition-color duration-200 bg-gray-800 hover:bg-gray-700 text-white">
       <svg width="16" height="16" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
