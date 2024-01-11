@@ -554,7 +554,7 @@ title: 'Widget components with tailwind CSS'
 			<p class="text-xs text-gray-600 dark:text-gray-400">Update Ocober 2022 - 3:23AM</p>
 			<h2 class="text-base font-medium block">CURRENT PRICE</h2>
 		</div>
-		<button class="h-8 w-8 rounded-full flex items-center justify-center">
+		<button class="h-8 w-8 transition-colors duration-200 flex items-center justify-center rounded-full hover:bg-black/10 dark:hover:bg-white/10">
 			<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 13 8" fill="none">
 				<path fill-rule="evenodd" clip-rule="evenodd" d="M0 1.375C0 1.14294 0.0978313 0.920376 0.271972 0.756282C0.446113 0.592187 0.682299 0.5 0.928571 0.5H12.0714C12.3177 0.5 12.5539 0.592187 12.728 0.756282C12.9022 0.920376 13 1.14294 13 1.375C13 1.60706 12.9022 1.82962 12.728 1.99372C12.5539 2.15781 12.3177 2.25 12.0714 2.25H0.928571C0.682299 2.25 0.446113 2.15781 0.271972 1.99372C0.0978313 1.82962 0 1.60706 0 1.375ZM0 6.625C0 6.39294 0.0978313 6.17038 0.271972 6.00628C0.446113 5.84219 0.682299 5.75 0.928571 5.75H12.0714C12.3177 5.75 12.5539 5.84219 12.728 6.00628C12.9022 6.17038 13 6.39294 13 6.625C13 6.85706 12.9022 7.07962 12.728 7.24372C12.5539 7.40781 12.3177 7.5 12.0714 7.5H0.928571C0.682299 7.5 0.446113 7.40781 0.271972 7.24372C0.0978313 7.07962 0 6.85706 0 6.625Z" fill="black"/>
 			</svg>
