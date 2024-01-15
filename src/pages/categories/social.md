@@ -795,7 +795,7 @@ title: 'Widget components with tailwind CSS'
         </a>
       </dd>
     </div>
-    <button class="flex items-center justify-center cursor-pointer rounded-md h-7 px-3 text-sm bg-indigo-600 text-white">View all</button>
+    <button class="flex items-center justify-center cursor-pointer rounded-full h-7 px-3 text-sm bg-indigo-600 text-white">View all</button>
   </section>
 </article>
 
