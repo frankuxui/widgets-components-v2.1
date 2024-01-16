@@ -173,7 +173,7 @@ title: 'Widget components with tailwind CSS'
       <p class="text-gray-500">We'll be there soon</p>
     </header>
   </section>
-  <button class="inline-flex items-center justify-center w-10 h-10 transition-colors duration-200 rounded-full hover:bg-gray-100 dark:hover:bg-gray-900">
+  <button class="relative z-[1] inline-flex items-center justify-center w-9 h-9 transition-colors duration-200 rounded-full hover:bg-black/5 dark:hover:bg-white/10">
     <svg width="30" height="30" fill="none" stroke-width="1.5" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
       <path stroke-linecap="round" stroke-linejoin="round" d="M6.75 12a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0ZM12.75 12a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0ZM18.75 12a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z"></path>
     </svg>
@@ -220,3 +220,71 @@ title: 'Widget components with tailwind CSS'
   </section>
 </article>
 
+<section class="grid grid-cols-3 gap-3" data-filter="weather">
+  <article class="border shadow-sm break-inside flex flex-col gap-1 rounded-xl p-4 mb-3 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900">
+    <svg width="22" height="22" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4,10A1,1 0 0,1 3,9A1,1 0 0,1 4,8H12A2,2 0 0,0 14,6A2,2 0 0,0 12,4C11.45,4 10.95,4.22 10.59,4.59C10.2,5 9.56,5 9.17,4.59C8.78,4.2 8.78,3.56 9.17,3.17C9.9,2.45 10.9,2 12,2A4,4 0 0,1 16,6A4,4 0 0,1 12,10H4M19,12A1,1 0 0,0 20,11A1,1 0 0,0 19,10C18.72,10 18.47,10.11 18.29,10.29C17.9,10.68 17.27,10.68 16.88,10.29C16.5,9.9 16.5,9.27 16.88,8.88C17.42,8.34 18.17,8 19,8A3,3 0 0,1 22,11A3,3 0 0,1 19,14H5A1,1 0 0,1 4,13A1,1 0 0,1 5,12H19M18,18H4A1,1 0 0,1 3,17A1,1 0 0,1 4,16H18A3,3 0 0,1 21,19A3,3 0 0,1 18,22C17.17,22 16.42,21.66 15.88,21.12C15.5,20.73 15.5,20.1 15.88,19.71C16.27,19.32 16.9,19.32 17.29,19.71C17.47,19.89 17.72,20 18,20A1,1 0 0,0 19,19A1,1 0 0,0 18,18Z" fill="currentColor" /></svg>
+    <h2 class="text-sm font-bold">Wind</h2>
+    <p class="text-xs text-gray-500">12km/h</p>
+  </article>
+  <article class="border shadow-sm break-inside flex flex-col gap-1 rounded-xl p-4 mb-3 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900">
+    <svg width="22" height="22" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12,3.77L11.25,4.61C11.25,4.61 9.97,6.06 8.68,7.94C7.39,9.82 6,12.07 6,14.23A6,6 0 0,0 12,20.23A6,6 0 0,0 18,14.23C18,12.07 16.61,9.82 15.32,7.94C14.03,6.06 12.75,4.61 12.75,4.61L12,3.77M12,6.9C12.44,7.42 12.84,7.85 13.68,9.07C14.89,10.83 16,13.07 16,14.23C16,16.45 14.22,18.23 12,18.23C9.78,18.23 8,16.45 8,14.23C8,13.07 9.11,10.83 10.32,9.07C11.16,7.85 11.56,7.42 12,6.9Z" fill="currentColor" /></svg>
+    <h2 class="text-sm font-bold">Pressure</h2>
+    <p class="text-xs text-gray-500">1020hPa</p>
+  </article>
+  <article class="border shadow-sm break-inside flex flex-col gap-1 rounded-xl p-4 mb-3 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900">
+    <svg width="22" height="22" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12,3.77L11.25,4.61C11.25,4.61 9.97,6.06 8.68,7.94C7.39,9.82 6,12.07 6,14.23A6,6 0 0,0 12,20.23A6,6 0 0,0 18,14.23C18,12.07 16.61,9.82 15.32,7.94C14.03,6.06 12.75,4.61 12.75,4.61L12,3.77M12,6.9C12.44,7.42 12.84,7.85 13.68,9.07C14.89,10.83 16,13.07 16,14.23C16,16.45 14.22,18.23 12,18.23C9.78,18.23 8,16.45 8,14.23C8,13.07 9.11,10.83 10.32,9.07C11.16,7.85 11.56,7.42 12,6.9Z" fill="currentColor" /></svg>
+    <h2 class="text-sm font-bold">Humidity</h2>
+    <p class="text-xs text-gray-500">60%</p>
+  </article>
+</section>
+
+<section class="grid grid-cols-3 gap-3" data-filter="weather">
+  <article class="border shadow-sm break-inside flex flex-col gap-1 rounded-xl p-4 mb-3 text-sm border-transparent text-white bg-gradient-to-r from-violet-600 to-indigo-600">
+    <svg width="22" height="22" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4,10A1,1 0 0,1 3,9A1,1 0 0,1 4,8H12A2,2 0 0,0 14,6A2,2 0 0,0 12,4C11.45,4 10.95,4.22 10.59,4.59C10.2,5 9.56,5 9.17,4.59C8.78,4.2 8.78,3.56 9.17,3.17C9.9,2.45 10.9,2 12,2A4,4 0 0,1 16,6A4,4 0 0,1 12,10H4M19,12A1,1 0 0,0 20,11A1,1 0 0,0 19,10C18.72,10 18.47,10.11 18.29,10.29C17.9,10.68 17.27,10.68 16.88,10.29C16.5,9.9 16.5,9.27 16.88,8.88C17.42,8.34 18.17,8 19,8A3,3 0 0,1 22,11A3,3 0 0,1 19,14H5A1,1 0 0,1 4,13A1,1 0 0,1 5,12H19M18,18H4A1,1 0 0,1 3,17A1,1 0 0,1 4,16H18A3,3 0 0,1 21,19A3,3 0 0,1 18,22C17.17,22 16.42,21.66 15.88,21.12C15.5,20.73 15.5,20.1 15.88,19.71C16.27,19.32 16.9,19.32 17.29,19.71C17.47,19.89 17.72,20 18,20A1,1 0 0,0 19,19A1,1 0 0,0 18,18Z" fill="currentColor" /></svg>
+    <h2 class="text-sm font-bold">Wind</h2>
+    <p class="text-xs text-white/80">12km/h</p>
+  </article>
+  <article class="border shadow-sm break-inside flex flex-col gap-1 rounded-xl p-4 mb-3 text-sm border-transparent text-white bg-gradient-to-r from-red-500 to-orange-500">
+    <svg width="22" height="22" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12,3.77L11.25,4.61C11.25,4.61 9.97,6.06 8.68,7.94C7.39,9.82 6,12.07 6,14.23A6,6 0 0,0 12,20.23A6,6 0 0,0 18,14.23C18,12.07 16.61,9.82 15.32,7.94C14.03,6.06 12.75,4.61 12.75,4.61L12,3.77M12,6.9C12.44,7.42 12.84,7.85 13.68,9.07C14.89,10.83 16,13.07 16,14.23C16,16.45 14.22,18.23 12,18.23C9.78,18.23 8,16.45 8,14.23C8,13.07 9.11,10.83 10.32,9.07C11.16,7.85 11.56,7.42 12,6.9Z" fill="currentColor" /></svg>
+    <h2 class="text-sm font-bold">Pressure</h2>
+    <p class="text-xs text-white/80">1020hPa</p>
+  </article>
+  <article class="border shadow-sm break-inside flex flex-col gap-1 rounded-xl p-4 mb-3 text-sm border-transparent text-white bg-gradient-to-r from-fuchsia-500 to-cyan-500">
+    <svg width="22" height="22" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12,3.77L11.25,4.61C11.25,4.61 9.97,6.06 8.68,7.94C7.39,9.82 6,12.07 6,14.23A6,6 0 0,0 12,20.23A6,6 0 0,0 18,14.23C18,12.07 16.61,9.82 15.32,7.94C14.03,6.06 12.75,4.61 12.75,4.61L12,3.77M12,6.9C12.44,7.42 12.84,7.85 13.68,9.07C14.89,10.83 16,13.07 16,14.23C16,16.45 14.22,18.23 12,18.23C9.78,18.23 8,16.45 8,14.23C8,13.07 9.11,10.83 10.32,9.07C11.16,7.85 11.56,7.42 12,6.9Z" fill="currentColor" /></svg>
+    <h2 class="text-sm font-bold">Humidity</h2>
+    <p class="text-xs text-white/80">60%</p>
+  </article>
+</section>
+
+<article class="border shadow-sm break-inside flex items-center justify-between rounded-xl p-4 mb-3 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="weather">
+  <div class="flex items-center gap-2 w-full">
+    <div class="flex flex-col items-center justify-between flex-1 text-center gap-4">
+      <div class="flex flex-col">
+        <img class="w-9 h-9 object-cover" src="https://www.svgrepo.com/show/426491/weather-clouds-rain.svg" alt="weather">
+        <span class="text-[11px] text-gray-500">05:00 AM</span>
+        <span class="mt-1 text-lg font-medium">18°</span>
+      </div>
+    </div>
+    <div class="flex flex-col items-center justify-between flex-1 text-center gap-4">
+      <div class="flex flex-col">
+        <img class="w-9 h-9 object-cover" src="https://www.svgrepo.com/show/426489/weather-clouds-bolt-rain.svg" alt="weather">
+        <span class="text-[11px] text-gray-500">06:00 AM</span>
+        <span class="mt-1 text-lg font-medium">17°</span>
+      </div>
+    </div>
+    <div class="flex flex-col items-center justify-between flex-1 text-center gap-4">
+      <div class="flex flex-col">
+        <img class="w-9 h-9 object-cover" src="https://www.svgrepo.com/show/426483/weather-cloud-bolt-rain.svg" alt="weather">
+        <span class="text-[11px] text-gray-500">07:00 AM</span>
+        <span class="mt-1 text-lg font-medium">14°</span>
+      </div>
+    </div>
+    <div class="flex flex-col items-center justify-between flex-1 text-center gap-4">
+      <div class="flex flex-col">
+        <img class="w-9 h-9 object-cover" src="https://www.svgrepo.com/show/426497/weather-cloud-sun-rain.svg" alt="weather">
+        <span class="text-[11px] text-gray-500">08:00 AM</span>
+        <span class="mt-1 text-lg font-medium">12°</span>
+      </div>
+    </div>
+  </div>
+</article>
