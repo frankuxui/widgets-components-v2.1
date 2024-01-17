@@ -181,6 +181,45 @@ title: 'Widget components with tailwind CSS'
 </article>
 
 <article class="border shadow-sm break-inside rounded-xl p-4 mb-3 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="weather">
+  a
+</article>
+
+<article class="border shadow-sm break-inside rounded-xl p-4 mb-3 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="weather">
+  a
+</article>
+
+<article class="border shadow-sm break-inside rounded-xl p-4 mb-3 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="weather">
+  a
+</article>
+
+<article class="border shadow-sm break-inside rounded-xl p-4 mb-3 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="weather">
+  a
+</article>
+
+<section class="grid grid-cols-4 gap-3" data-filter="weather">
+  <article class="border shadow-sm break-inside flex flex-col items-center gap-2 rounded-xl p-3 mb-3 text-sm  bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900">
+    <h2 class="text-sm font-bold">22:00</h2>
+    <img class="w-9 h-9 object-cover" src="https://www.svgrepo.com/show/227751/windy-wind.svg" alt="weather">
+    <p class="text-black/80">18°</p>
+  </article>
+  <article class="border shadow-sm break-inside flex flex-col items-center gap-2 rounded-xl p-3 mb-3 text-sm border-rose-500 bg-rose-500 text-white">
+    <h2 class="text-sm font-bold">22:00</h2>
+      <img class="w-9 h-9 object-cover" src="https://www.svgrepo.com/show/227744/snowing-frost.svg" alt="weather">
+      <p class="text-white/80">18°</p>
+  </article>
+  <article class="border shadow-sm break-inside flex flex-col items-center gap-2 rounded-xl p-3 mb-3 text-sm  bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900">
+    <h2 class="text-sm font-bold">22:00</h2>
+    <img class="w-9 h-9 object-cover" src="https://www.svgrepo.com/show/227746/storm-rain.svg" alt="weather">
+    <p class="text-black/80">18°</p>
+  </article>
+  <article class="border shadow-sm break-inside flex flex-col items-center gap-2 rounded-xl p-3 mb-3 text-sm  bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900">
+    <h2 class="text-sm font-bold">22:00</h2>
+    <img class="w-9 h-9 object-cover" src="https://www.svgrepo.com/show/227754/cloudy-cloud.svg" alt="weather">
+    <p class="text-black/80">18°</p>
+  </article>
+</section>
+
+<article class="border shadow-sm break-inside rounded-xl p-4 mb-3 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="weather">
   <section class="flex items-center gap-2">
     <img class="w-10 h-10 object-cover" src="https://www.svgrepo.com/show/227751/windy-wind.svg" alt="weather">
     <header class="flex-auto">
@@ -287,4 +326,28 @@ title: 'Widget components with tailwind CSS'
       </div>
     </div>
   </div>
+</article>
+
+<article class="border shadow-sm break-inside rounded-xl p-4 mb-3 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="weather">
+  a
+</article>
+
+<article class="border shadow-sm break-inside rounded-xl p-4 mb-3 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="weather">
+  a
+</article>
+
+<article class="border shadow-sm break-inside rounded-xl p-4 mb-3 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="weather">
+  a
+</article>
+
+<article class="border shadow-sm break-inside rounded-xl p-4 mb-3 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="weather">
+  a
+</article>
+
+<article class="border shadow-sm break-inside rounded-xl p-4 mb-3 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="weather">
+  a
+</article>
+
+<article class="border shadow-sm break-inside rounded-xl p-4 mb-3 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="weather">
+  a
 </article>
