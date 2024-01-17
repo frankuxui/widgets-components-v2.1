@@ -199,7 +199,7 @@ title: 'Widget components with tailwind CSS'
 <section class="grid grid-cols-4 gap-3" data-filter="weather">
   <article class="border shadow-sm break-inside flex flex-col items-center gap-2 rounded-xl p-3 mb-3 text-sm  bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900">
     <h2 class="text-sm font-bold">22:00</h2>
-    <img class="w-9 h-9 object-cover" src="https://www.svgrepo.com/show/227751/windy-wind.svg" alt="weather">
+    <img class="w-9 h-9 object-cover" src="https://cdn0.iconfinder.com/data/icons/weather-filled-outline-6/64/weather_cloud_sun_moon_rain-09-1024.png" alt="weather">
     <p class="text-black/80">18°</p>
   </article>
   <article class="border shadow-sm break-inside flex flex-col items-center gap-2 rounded-xl p-3 mb-3 text-sm border-rose-500 bg-rose-500 text-white">
@@ -209,12 +209,12 @@ title: 'Widget components with tailwind CSS'
   </article>
   <article class="border shadow-sm break-inside flex flex-col items-center gap-2 rounded-xl p-3 mb-3 text-sm  bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900">
     <h2 class="text-sm font-bold">22:00</h2>
-    <img class="w-9 h-9 object-cover" src="https://www.svgrepo.com/show/227746/storm-rain.svg" alt="weather">
+    <img class="w-9 h-9 object-cover" src="https://cdn0.iconfinder.com/data/icons/weather-filled-outline-6/64/weather_cloud_sun_moon_rain-22-1024.png" alt="weather">
     <p class="text-black/80">18°</p>
   </article>
   <article class="border shadow-sm break-inside flex flex-col items-center gap-2 rounded-xl p-3 mb-3 text-sm  bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900">
     <h2 class="text-sm font-bold">22:00</h2>
-    <img class="w-9 h-9 object-cover" src="https://www.svgrepo.com/show/227754/cloudy-cloud.svg" alt="weather">
+    <img class="w-9 h-9 object-cover" src="https://cdn0.iconfinder.com/data/icons/weather-filled-outline-6/64/weather_cloud_sun_moon_rain-16-1024.png" alt="weather">
     <p class="text-black/80">18°</p>
   </article>
 </section>
@@ -298,30 +298,30 @@ title: 'Widget components with tailwind CSS'
 <article class="border shadow-sm break-inside flex items-center justify-between rounded-xl p-4 mb-3 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="weather">
   <div class="flex items-center gap-2 w-full">
     <div class="flex flex-col items-center justify-between flex-1 text-center gap-4">
-      <div class="flex flex-col">
-        <img class="w-9 h-9 object-cover" src="https://www.svgrepo.com/show/426491/weather-clouds-rain.svg" alt="weather">
-        <span class="text-[11px] text-gray-500">05:00 AM</span>
+      <div class="flex flex-col items-center justify-center">
+        <img class="w-8 h-8 object-cover" src="https://cdn3.iconfinder.com/data/icons/weather-free-2/32/Weather_Free_Outline_day-cloud-weather-cloudy-sky-512.png" alt="weather">
+        <span class="mt-1 text-[11px] text-gray-500">05:00 AM</span>
         <span class="mt-1 text-lg font-medium">18°</span>
       </div>
     </div>
     <div class="flex flex-col items-center justify-between flex-1 text-center gap-4">
-      <div class="flex flex-col">
-        <img class="w-9 h-9 object-cover" src="https://www.svgrepo.com/show/426489/weather-clouds-bolt-rain.svg" alt="weather">
-        <span class="text-[11px] text-gray-500">06:00 AM</span>
+      <div class="flex flex-col items-center justify-center">
+        <img class="w-8 h-8 object-cover" src="https://cdn3.iconfinder.com/data/icons/weather-free-2/32/Weather_Free_Outline_cloud-thunder-rain-weather-512.png" alt="weather">
+        <span class="mt-1 text-[11px] text-gray-500">06:00 AM</span>
         <span class="mt-1 text-lg font-medium">17°</span>
       </div>
     </div>
     <div class="flex flex-col items-center justify-between flex-1 text-center gap-4">
-      <div class="flex flex-col">
-        <img class="w-9 h-9 object-cover" src="https://www.svgrepo.com/show/426483/weather-cloud-bolt-rain.svg" alt="weather">
-        <span class="text-[11px] text-gray-500">07:00 AM</span>
+      <div class="flex flex-col items-center justify-center">
+        <img class="w-8 h-8 object-cover" src="https://cdn2.iconfinder.com/data/icons/weather-74/24/weather-05-512.png" alt="weather">
+        <span class="mt-1 text-[11px] text-gray-500">07:00 AM</span>
         <span class="mt-1 text-lg font-medium">14°</span>
       </div>
     </div>
     <div class="flex flex-col items-center justify-between flex-1 text-center gap-4">
-      <div class="flex flex-col">
-        <img class="w-9 h-9 object-cover" src="https://www.svgrepo.com/show/426497/weather-cloud-sun-rain.svg" alt="weather">
-        <span class="text-[11px] text-gray-500">08:00 AM</span>
+      <div class="flex flex-col items-center justify-center">
+        <img class="w-8 h-8 object-cover" src="https://cdn2.iconfinder.com/data/icons/weather-74/24/weather-09-1024.png" alt="weather">
+        <span class="mt-1 text-[11px] text-gray-500">08:00 AM</span>
         <span class="mt-1 text-lg font-medium">12°</span>
       </div>
     </div>
