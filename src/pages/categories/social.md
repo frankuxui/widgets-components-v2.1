@@ -261,6 +261,41 @@ title: 'Widget components with tailwind CSS'
   </section>
 </article>
 
+<article class="border shadow-sm break-inside rounded-xl p-4 mb-3 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="social">
+  <div class="flex items-center justify-between w-full gap-6">
+    <section class="flex items-center justify-between w-full flex-1 gap-3">
+      <div class="flex flex-col shadow rounded-xl overflow-hidden flex-1">
+        <div class="flex items-center justify-center font-medium py-1 uppercase text-xs bg-gray-500 text-white">
+          SEP
+        </div>
+        <div class="flex items-center justify-center font-medium text-sm py-1 dark:bg-gray-900">
+          05
+        </div>
+      </div>
+      <svg class="flex-none" width="16" height="16" fill="none" stroke-width="2" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3"></path>
+      </svg>
+      <div class="flex flex-col shadow rounded-xl overflow-hidden flex-1">
+        <div class="flex items-center justify-center font-medium py-1 uppercase text-xs bg-gray-500 text-white">
+          SEP
+        </div>
+        <div class="flex items-center justify-center font-medium text-sm py-1 dark:bg-gray-900">
+          20
+        </div>
+      </div>
+      <header class="flex flex-col gap1">
+        <h2 class="text-sm font-medium block">Vacations</h2>
+        <p class="text-sm text-gray-500">15 days</p>
+      </header>
+    </section>
+    <button class="flex flex-none items-center justify-center w-9 h-9 transition-all rounded-full hover:bg-gray-100 dark:hover:bg-gray-900">
+      <svg class="flex-none" width="20" height="20" fill="none" stroke-width="2.5" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3"></path>
+      </svg>
+    </button>
+  </div>
+</article>
+
 <article class="border shadow-sm break-inside relative overflow-hidden flex flex-col items-start rounded-xl p-4 mb-3 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="social">
   <div class="absolute left-0 bottom-0 w-14 h-14 bg-lime-500/50 blur-2xl"></div>
   <div class="absolute right-0 top-0 w-14 h-14 bg-amber-500/20 blur-2xl"></div>
@@ -523,6 +558,28 @@ title: 'Widget components with tailwind CSS'
       <path stroke-linecap="round" stroke-linejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 0 1-2.25 2.25h-15a2.25 2.25 0 0 1-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0 0 19.5 4.5h-15a2.25 2.25 0 0 0-2.25 2.25m19.5 0v.243a2.25 2.25 0 0 1-1.07 1.916l-7.5 4.615a2.25 2.25 0 0 1-2.36 0L3.32 8.91a2.25 2.25 0 0 1-1.07-1.916V6.75"></path>
     </svg>
   </button>
+</article>
+
+<article class="flex items-center justify-between rounded-md bg-white p-4 mb-3 shadow-black/5 ring-1 ring-slate-700/10 dark:text-white dark:bg-gray-950 dark:ring-white/10" data-filter="social">
+  <section class="flex items-center gap-1">
+    <button class="inline-flex items-center justify-center w-9 h-9 transition-colors duration-200 rounded-full hover:bg-black/5 dark:hover:bg-white/10">
+      <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+      </svg>
+    </button>
+    <svg class="ml-6 h-10 w-10 flex-none" viewBox="0 0 40 40" fill="none">
+      <path fill-rule="evenodd" clip-rule="evenodd" d="M10.8322 6.12083C11.1486 5.56355 11.74 5.21924 12.3808 5.21924H27.1431C27.7322 5.21924 28.2831 5.51055 28.6148 5.99738L37.4718 18.9974C37.8542 19.5587 37.884 20.2887 37.5487 20.8793L30.1679 33.8793C29.8515 34.4366 29.2601 34.7809 28.6192 34.7809L12.3808 34.7809C11.74 34.7809 11.1486 34.4366 10.8322 33.8793L3.45137 20.8793C3.14178 20.334 3.14178 19.6661 3.45137 19.1208L10.8322 6.12083ZM12.3808 10.607L17.7138 20.0001L12.3808 29.3931L7.04787 20.0001L12.3808 10.607ZM15.4397 31.2192L27.5825 31.2192L32.9411 21.7809H20.7984L15.4397 31.2192ZM20.7984 18.2192H32.6319L26.2015 8.78092H15.4397L20.7984 18.2192Z" fill="#38BDF8"></path>
+    </svg>
+  </section>
+  <section class="flex items-center gap-1 ml-6">
+    <span class="text-[0.8125rem] font-medium text-gray-700">v3.0</span>
+    <svg class="ml-2 h-1 w-1.5 overflow-visible fill-gray-400 stroke-gray-400">
+      <path d="M0 0H6L3 4Z" stroke-width="1" stroke-linejoin="round"></path>
+    </svg>
+    <svg viewBox="0 0 16 16" class="ml-6 h-6 w-6 fill-gray-800 dark:fill-gray-300">
+      <path d="M8 0C3.58 0 0 3.58 0 8C0 11.54 2.29 14.53 5.47 15.59C5.87 15.66 6.02 15.42 6.02 15.21C6.02 15.02 6.01 14.39 6.01 13.72C4 14.09 3.48 13.23 3.32 12.78C3.23 12.55 2.84 11.84 2.5 11.65C2.22 11.5 1.82 11.13 2.49 11.12C3.12 11.11 3.57 11.7 3.72 11.94C4.44 13.15 5.59 12.81 6.05 12.6C6.12 12.08 6.33 11.73 6.56 11.53C4.78 11.33 2.92 10.64 2.92 7.58C2.92 6.71 3.23 5.99 3.74 5.43C3.66 5.23 3.38 4.41 3.82 3.31C3.82 3.31 4.49 3.1 6.02 4.13C6.66 3.95 7.34 3.86 8.02 3.86C8.7 3.86 9.38 3.95 10.02 4.13C11.55 3.09 12.22 3.31 12.22 3.31C12.66 4.41 12.38 5.23 12.3 5.43C12.81 5.99 13.12 6.7 13.12 7.58C13.12 10.65 11.25 11.33 9.47 11.53C9.76 11.78 10.01 12.26 10.01 13.01C10.01 14.08 10 14.94 10 15.21C10 15.42 10.15 15.67 10.55 15.59C13.71 14.53 16 11.53 16 8C16 3.58 12.42 0 8 0Z"></path>
+    </svg>
+  </section>
 </article>
 
 <article class="border shadow-sm relative break-inside rounded-xl overflow-hidden p-4 mb-3 bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="social">

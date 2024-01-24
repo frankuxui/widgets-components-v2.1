@@ -329,7 +329,25 @@ title: 'Widget components with tailwind CSS'
 </article>
 
 <article class="border shadow-sm break-inside rounded-xl p-4 mb-3 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="weather">
-  a
+  <header class="w-full flex items-start justify-between">
+    <div class="">
+      <h2 class="text-lg font-medium">Calidad del aire</h2>
+      <p class="text-sm text-gray-500">Salou, Tarragona</p>
+    </div>
+    <button class="relative z-[1] inline-flex items-center justify-center w-9 h-9 transition-colors duration-200 rounded-full hover:bg-black/5 dark:hover:bg-white/10">
+      <svg width="30" height="30" fill="none" stroke-width="1.5" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M6.75 12a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0ZM12.75 12a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0ZM18.75 12a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z"></path>
+      </svg>
+    </button>
+  </header>
+  <section class="flex flex-col gap-1 mt-3">
+    <div 
+      class="h-1 rounded w-full"
+      style="background-image: linear-gradient(90deg, rgba(65,0,163,1) 0%, rgba(0,26,116,1) 12%, rgba(0,43,181,1) 29%, rgba(0,49,193,1) 46%, rgba(0,169,182,1) 73%, rgba(0,218,157,1) 100%);"
+    >
+    </div>
+    <p class="text-xs">La calidad del aire es buena comparada con otras ciudades</p>
+  </section>
 </article>
 
 <article class="border shadow-sm break-inside rounded-xl p-4 mb-3 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="weather">
@@ -351,3 +369,4 @@ title: 'Widget components with tailwind CSS'
 <article class="border shadow-sm break-inside rounded-xl p-4 mb-3 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="weather">
   a
 </article>
+
