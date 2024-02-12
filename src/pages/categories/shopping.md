@@ -4,6 +4,7 @@ slug: 'shopping'
 category: 'Shopping'
 tags: ['shopping']
 title: 'Widget components with tailwind CSS'
+visible: true
 ---
 
 <article class="border shadow-sm break-inside flex flex-col gap-2 rounded-xl overflow-hidden p-4 mb-3 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="shopping">

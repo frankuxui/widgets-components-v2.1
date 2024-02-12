@@ -4,6 +4,7 @@ slug: 'food'
 category: 'Food'
 tags: ['food']
 title: 'Widget components with tailwind CSS'
+visible: true
 ---
 
 <article class="border shadow-sm break-inside grid grid-cols-12 rounded-xl overflow-hidden mb-3 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="food">

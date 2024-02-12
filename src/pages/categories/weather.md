@@ -4,6 +4,7 @@ slug: 'weather'
 category: 'Weather'
 tags: ['weather']
 title: 'Widget components with tailwind CSS'
+visible: false
 ---
 
 <article class="border shadow-sm break-inside rounded-xl p-4 mb-3 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="weather">

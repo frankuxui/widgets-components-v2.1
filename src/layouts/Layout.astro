@@ -7,20 +7,16 @@ const { title } = Astro.props;
 
 let pages = []
 pages = await Astro.glob('../pages/categories/*.md')
+
 const data = pages.map((item) => {
-	
-	const { 
-		category, 
-		title, 
-		slug, 
-		tags 
-	} = item.frontmatter
+	const { category, title, slug, tags, visible } = item.frontmatter
 
 	return {
 		category,
 		title,
 		slug,
-		tags
+		tags,
+		visible
 	}
 })
 
@@ -40,26 +36,34 @@ const pageSlug = Astro.url.pathname.split('/')[2]
 	</head>
 
 	<script>
-		const themeToggle = document.querySelector('#theme-toggle');
+		const themeToggle = document.querySelectorAll('[data-toggle="theme"]');
 		const prefersDark = window.matchMedia('(prefers-color-scheme: dark)');
 		const prefersLight = window.matchMedia('(prefers-color-scheme: light)');
 		const prefersNone = window.matchMedia('(prefers-color-scheme: no-preference)');
 
-		const setTheme = (theme) => {
+		const setTheme = (theme: string) => {
 			if (theme === 'dark') {
 				document.documentElement.classList.add('dark');
 				document.documentElement.classList.remove('light');
+				themeToggle.forEach((toggle) => {
+					(toggle as HTMLInputElement).checked = true;
+				});
 			} else {
 				document.documentElement.classList.add('light');
 				document.documentElement.classList.remove('dark');
+				themeToggle.forEach((toggle) => {
+					(toggle as HTMLInputElement).checked = false;
+				});	
 			}
 		};
 
 		if (prefersDark.matches) {
 			setTheme('dark');
-		} else if (prefersLight.matches) {
+		}
+		if (prefersLight.matches) {
 			setTheme('light');
-		} else if (prefersNone.matches) {
+		}
+		if (prefersNone.matches) {
 			setTheme('light');
 		}
 
@@ -71,14 +75,19 @@ const pageSlug = Astro.url.pathname.split('/')[2]
 			setTheme(savedTheme);
 		}
 
-		themeToggle.addEventListener('change', (e) => {
-			if ((e.target as HTMLInputElement).checked) {
-				setTheme('dark');
-				localStorage.setItem('theme', 'dark');
-			} else {
-				setTheme('light');
-				localStorage.setItem('theme', 'light');
-			}
+		themeToggle.forEach((toggle) => {
+			toggle.addEventListener('change', (e: Event) => {
+				const isChecked = (e.target as HTMLInputElement).checked;
+				const theme = localStorage.getItem('theme');
+
+				if (theme === 'dark') {
+					localStorage.setItem('theme', 'light');
+					setTheme('light');
+				} else {
+					localStorage.setItem('theme', 'dark');
+					setTheme('dark');
+				}
+			});
 		});
 
 		prefersDark.addEventListener('change', (e) => {
@@ -98,6 +107,8 @@ const pageSlug = Astro.url.pathname.split('/')[2]
 				setTheme('light');
 			}
 		});
+
+		
 
 		
 		// Filter widgets categories
@@ -137,25 +148,121 @@ const pageSlug = Astro.url.pathname.split('/')[2]
 		});
 		
 		*/
+
+		// Aside toggle
+
+		const asideToggle = document.querySelectorAll('[data-toggle="aside"]');
+		const asideContent = document.querySelector('.aside-content') as HTMLElement;
+		const aside = document.querySelector('aside');
+
+		asideToggle.forEach((toggle) => {
+			toggle.addEventListener('click', () => {
+				if (aside.style.display === 'none') {
+					aside.style.display = 'block';
+					document.body.style.overflow = 'hidden';
+					setTimeout(() => {
+						asideContent.style.transform = 'translateX(0)';
+					}, 100);
+				} else {
+					asideContent.style.transform = 'translateX(-100%)';
+					document.body.style.overflow = 'auto';
+					setTimeout(() => {
+						aside.style.display = 'none';
+					}, 300);
+				}
+			});
+		});
+		
+
+		// Menu more toggle
+
+		const menuMoreToggle = document.querySelectorAll('[data-toggle="menu-more"]');
+		const menuDropdown = document.querySelectorAll('.menu-dropdown');
+		
+		menuMoreToggle.forEach((toggle) => {
+			toggle.addEventListener('click', () => {
+				const dropdown = toggle.nextElementSibling as HTMLElement;
+
+				if (dropdown.style.display === 'none') {
+					dropdown.style.display = 'block';
+				} else {
+					dropdown.style.display = 'none';
+				}
+			});
+		});
+
+		// Close menu more dropdown when clicking outside of it
+
+		document.addEventListener('click', (e) => {
+			menuMoreToggle.forEach((item) => {
+				if (!item.contains(e.target as Node)) {
+					menuDropdown.forEach((dropdown) => {
+						(dropdown as HTMLElement).style.display = 'none';
+					});
+				}
+			});
+		});
+
+		// Close menu more dropdown when clicking the escape key
+
+		document.addEventListener('keydown', (e) => {
+			if (e.key === 'Escape') {
+				menuDropdown.forEach((dropdown) => {
+					(dropdown as HTMLElement).style.display = 'none';
+				});
+			}
+		});
+
 		
 	</script>
 
 	<body>
-		<section class="container">
-			<header class="">
-				<input type="checkbox" id="theme-toggle" />
-				<label for="theme-toggle">Toggle theme</label>
-				<ul class="flex items-center justify-start mt-8 gap-2 flex-wrap">
+		<header class="z-30 sticky top-0 py-4 bg-white dark:bg-gray-950">
+			<div class="flex items-center justify-between container">
+				<h1 class="flex-none text-xl md:text-2xl xl:text-3xl font-bold dark:text-white">Widgets</h1>
+				<ul class="hidden lg:flex items-center justify-center gap-4 w-full">
 					{
-						data.map((item) => {
+						data.map((item, index) => {
+							if (!item.visible) {
+								return (
+									<li class="relative">
+										<button data-toggle="menu-more" class="flex items-center justify-center w-10 h-10 flex-none transition-colors duration-300 rounded-full hover:bg-gray-200 dark:hover:bg-gray-900 dark:text-white focus:bg-gray-300 dark:focus:bg-gray-700" >
+											<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="1"></circle><circle cx="19" cy="12" r="1"></circle><circle cx="5" cy="12" r="1"></circle></svg>
+										</button>
+										<div 
+											class="menu-dropdown flex flex-col absolute mt-2 top-full left-1/2 -translate-x-1/2 w-full min-w-[15rem]"
+											style="display: none;"
+										>
+											<div class="border p-4 rounded shadow-xl bg-white dark:bg-gray-800 dark:border-gray-800">
+												{
+													data.filter((item) => item.visible === false).map((item) => {
+														return (
+															<a 
+																href={`/categories/${item.slug}`}
+																class="relative block py-2 px-4 w-full rounded transition-colors duration-200"
+																class:list={{
+																	'text-gray-600 hover:text-black hover:bg-gray-100 dark:text-gray-300 dark:hover:bg-white/5 dark:hover:text-white': pageSlug !== item.slug,
+																	'text-black font-bold dark:text-white hover:bg-black/5 dark:hover:bg-white/5': pageSlug === item.slug
+																}}
+																>
+																{item.category}
+															</a>
+														)
+													})
+												}
+											</div>
+										</div>
+									</li>
+								)
+							}
 							return (
 								<li>
 									<a 
 										href={`/categories/${item.slug}`}
-										class="flex items-center justify-center px-4 h-9 uppercase font-medium text-xs tracking-wider rounded-sm transition-colors duration-200"
+										class="flex items-center justify-center uppercase text-sm tracking-wider rounded-sm transition-colors duration-200"
 										class:list={{
-											'bg-gray-200 hover:bg-gray-300 hover:text-black text-gray-800 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white': pageSlug !== item.slug,
-											'bg-gray-900 hover:bg-gray-800 text-white dark:bg-white dark:text-black dark:hover:bg-white': pageSlug === item.slug
+											'font-medium hover:text-black text-gray-600 dark:text-gray-500 dark:hover:text-gray-400': pageSlug !== item.slug,
+											'font-extrabold text-black dark:text-white': pageSlug === item.slug
 										}}
 										>
 										{item.category}
@@ -165,14 +272,81 @@ const pageSlug = Astro.url.pathname.split('/')[2]
 						})
 					}
 				</ul>
-			</header>
-			<!-- <select id="filter">
-				<option value="all">All</option>
-			</select> -->
-		</section>
+				<div class="flex items-center flex-none gap-4">
+					<label class="relative inline-flex items-center cursor-pointer">
+						<input type="checkbox" class="sr-only peer" data-toggle="theme" />
+						<div class="w-11 h-6 bg-gray-200 peer-focus:outline-none peer-focus:ring-4 peer-focus:ring-blue-300 dark:peer-focus:ring-blue-800 rounded-full peer dark:bg-gray-800 peer-checked:after:translate-x-full rtl:peer-checked:after:-translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:start-[2px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-5 after:w-5 after:transition-all dark:border-gray-600 peer-checked:bg-blue-600"></div>
+					</label>
+					<!-- Menu button -->
+					<button data-toggle="aside" class="flex lg:hidden items-center justify-center w-10 h-10 flex-none transition-colors duration-300 rounded-full hover:bg-gray-200 dark:hover:bg-gray-700 dark:text-white">
+						<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg>
+					</button>
+					<!-- End menu button -->
+				</div>
+				
+
+			</div>
+		</header>
 		<main class="mt-8">
 			<slot />
 		</main>
+
+		<aside
+			class="fixed top-0 left-0 h-full w-full z-50"
+			style="display: none;"
+		>
+			<div data-toggle="aside" class="absolute top-0 left-0 w-full h-full bg-black bg-opacity-70 backdrop-blur"></div>
+
+			<div 
+				class="aside-content relative flex flex-col w-full h-full max-w-xs z-10 bg-white"
+				style="transition: transform 200ms ease-in-out; transform: translateX(-100%);"
+			>
+				<header class="w-full flex items-center justify-between px-6 p-4 border-b">
+					<h2 class="text-lg font-medium">Widgets</h2>
+
+					<!-- Close button -->
+					<button data-toggle="aside" class="flex lg:hidden items-center justify-center w-9 h-9 flex-none transition-colors duration-300 text-black rounded-full hover:bg-gray-200">
+						<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+					</button>
+					<!-- End close button -->
+
+				</header>
+				<section class="flex-1 py-8 px-6 overflow-y-auto">
+					<h2 class="text-lg font-medium">Categories</h2>
+					<ul class="flex flex-col w-full mt-4">
+						{
+							data.map((item) => {
+								return (
+									<li>
+										<a 
+											href={`/categories/${item.slug}`}
+											class="relative block py-2 w-full rounded transition-colors duration-200"
+											class:list={{
+												'text-gray-600 hover:text-black': pageSlug !== item.slug,
+												'text-black font-bold': pageSlug === item.slug
+											}}
+											>
+											{item.category}
+										</a>
+									</li>
+								)
+							})
+						}
+					</ul>
+				</section>
+
+				<footer class="flex items-center justify-between w-full bg-gray-50 py-8 px-6">
+					<h2 class="text-base font-medium">Settings</h2>
+					<!-- Theme toggle -->
+					<label class="relative inline-flex items-center cursor-pointer">
+						<input type="checkbox" value="" class="sr-only peer" data-toggle="theme">
+						<div class="w-11 h-6 bg-gray-200 peer-focus:outline-none peer-focus:ring-4 peer-focus:ring-blue-300 rounded-full peer peer-checked:after:translate-x-full rtl:peer-checked:after:-translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:start-[2px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-5 after:w-5 after:transition-all peer-checked:bg-blue-600"></div>
+					</label>
+					<!-- End theme toggle -->
+
+				</footer>
+			</div>
+		</aside>
 	</body>
 </html>
 

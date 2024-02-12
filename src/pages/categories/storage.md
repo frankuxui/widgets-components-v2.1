@@ -4,6 +4,7 @@ slug: 'storage'
 category: 'Storage'
 tags: ['storage']
 title: 'Widget components with tailwind CSS'
+visible: true
 ---
 
 <article class="border shadow-sm break-inside flex items-center justify-between rounded-xl p-4 mb-3 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="storage">

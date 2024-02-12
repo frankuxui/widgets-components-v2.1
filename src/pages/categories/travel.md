@@ -4,6 +4,7 @@ slug: 'travel'
 category: 'Travel'
 tags: ['travel']
 title: 'Widget components with tailwind CSS'
+visible: true
 ---
 
 <section class="grid grid-cols-2 gap-3">
