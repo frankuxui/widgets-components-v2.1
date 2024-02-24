@@ -37,6 +37,7 @@ const pageSlug = Astro.url.pathname.split('/')[2]
 
 	<script>
 		const themeToggle = document.querySelectorAll('[data-toggle="theme"]');
+import { navigate } from "astro:transitions/client";
 		const prefersDark = window.matchMedia('(prefers-color-scheme: dark)');
 		const prefersLight = window.matchMedia('(prefers-color-scheme: light)');
 		const prefersNone = window.matchMedia('(prefers-color-scheme: no-preference)');
@@ -214,9 +215,11 @@ const pageSlug = Astro.url.pathname.split('/')[2]
 		});
 
 		
+		
 	</script>
 
 	<body>
+
 		<header class="z-30 sticky top-0 py-4 bg-white dark:bg-gray-950">
 			<div class="flex items-center justify-between container">
 				<h1 class="flex-none text-xl md:text-2xl xl:text-3xl font-bold dark:text-white">Widgets</h1>
@@ -464,4 +467,102 @@ const pageSlug = Astro.url.pathname.split('/')[2]
 			max-width: 2460px;
 		}
 	}
+
+	@keyframes shake {
+		0%{
+			transform: translate3d(-4px, 0, 0);	
+		},
+		100% {
+			transform: translate3d(4px, 0, 0);	
+		}
+	}
+
+	.switch {
+  	@apply relative flex-none cursor-pointer h-5 px-1 w-10 appearance-none rounded-full bg-gray-300;
+	}
+	.switch:before{
+		@apply transition-transform duration-200 pointer-events-none absolute top-1/2 -translate-y-1/2 h-4 w-4 rounded-full bg-transparent content-[''] transform translate-x-0 bg-white;
+	}
+	.switch:focus{
+		@apply bg-gray-400;
+	}
+	.switch:checked{
+		@apply bg-blue-600;
+	}
+	.switch:checked:before{
+		@apply translate-x-full bg-white ;
+	}
+
+	/* Primary */
+
+	.switch.switch-primary:checked {
+		@apply bg-blue-600
+	}
+
+	/* Dark */
+
+	.switch.switch-dark:checked {
+		@apply bg-black;
+	}
+
+	/* Light */
+
+	.switch.switch-light:checked {
+		@apply bg-white;
+	}
+	.switch.switch-light:checked:before {
+		@apply bg-black;
+	}
+
+	/* xs */
+
+	.switch-xs {
+		@apply h-[16px] px-[3px] w-[30px];
+	}
+	.switch-xs:before{
+		@apply h-[12px] w-[12px];
+	}
+
+	/* sm */
+
+	.switch-sm {
+		@apply h-[18px] px-[3px] w-[34px];
+	}
+	.switch-sm:before{
+		@apply h-[14px] w-[14px];
+	}
+
+	/* md */
+
+	.switch-md {
+		@apply h-[20px] px-[3px] w-[40px];
+	}
+	.switch-md:before{
+		@apply h-[16px] w-[16px];
+	}
+
+	/* lg */
+
+	.switch-lg {
+		@apply h-[24px] px-[3px] w-[48px];
+	}
+	.switch-lg:before{
+		@apply h-[20px] w-[20px];
+	}
+
+	/* xl */
+
+	.switch-xl {
+		@apply h-[28px] px-[3px] w-[56px];
+	}
+	.switch-xl:before{
+		@apply h-[24px] w-[24px];
+	}
+
+	.switch:disabled, .switch[disabled], .switch.input-disabled {
+		@apply pointer-events-none cursor-default opacity-40;
+	}
+
+
+	
 </style>

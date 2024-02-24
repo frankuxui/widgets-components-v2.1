@@ -23,11 +23,17 @@ visible: true
 </article>
 
 <article class="border shadow-sm break-inside relative rounded-xl overflow-hidden p-4 mb-3 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="finance">
-	widget
+	<header class="flex items-center justify-between">
+		<h2 class="font-medium text-base">Credit available</h2>
+		<span class="flex items-center justify-center px-2 py-1 rounded-md font-medium bg-amber-100 dark:text-amber-500 dark:bg-amber-100/20">€ 654</span>
+	</header>
 </article>
 
 <article class="border shadow-sm break-inside relative rounded-xl overflow-hidden p-4 mb-3 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="finance">
-	widget
+	<header class="flex flex-col items-start gap-1">
+		<span class="flex items-center justify-center px-2 py-1 text-xs rounded-md font-medium bg-rose-100 dark:text-rose-500 dark:bg-rose-100/20">€ 9874</span>
+		<h2 class="font-medium text-base">Available cash</h2>
+	</header>
 </article>
 
 <article class="border shadow-sm break-inside relative rounded-xl overflow-hidden p-4 mb-3 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="finance">
@@ -88,8 +94,8 @@ visible: true
 	</div>
 </article>
 
-<section class="grid grid-cols-2 gap-4" data-filter="finance">
-	<article class="relative overflow-hidden border shadow-sm break-inside rounded-xl gap-2 p-4 mb-3 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900">
+<section class="grid grid-cols-2 gap-4" >
+	<article class="relative overflow-hidden border shadow-sm break-inside rounded-xl gap-2 p-4 mb-3 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="finance">
 		<div class="absolute top-0 left-0 w-20 h-20 bg-gradient-to-br from-purple-500/60 to-white dark:to-gray-950 rounded-full flex items-center justify-center blur-2xl"></div>
 		<header class="relative flex flex-col gap-2">
 			<div class="flex items-center justify-center w-12 h-12 rounded-full bg-gradient-to-br from-purple-500 to-blue-500 text-white">
@@ -108,7 +114,7 @@ visible: true
 				</svg>
 		</section>
 	</article>
-	<article class="relative overflow-hidden border shadow-sm break-inside rounded-xl gap-2 mb-3 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900">
+	<article class="relative overflow-hidden border shadow-sm break-inside rounded-xl gap-2 mb-3 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="finance">
 		<div class="absolute top-0 right-0 w-20 h-20 bg-gradient-to-br from-rose-500/80 to-white dark:to-gray-950 rounded-full flex items-center justify-center blur-2xl"></div>
 		<header class="relative flex flex-col gap-2 p-4">
 			<div class="flex items-center justify-center w-12 h-12 rounded-full bg-gradient-to-br from-orange-500 to-rose-500 text-white">
@@ -370,8 +376,8 @@ visible: true
 	</section>
 </article>
 
-<section class="grid grid-cols-2 gap-4" data-filter="finance">
-	<article class="border shadow-sm break-inside flex items-start flex-col justify-between rounded-xl gap-2 pb-4 mb-3 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900">
+<section class="grid grid-cols-2 gap-4">
+	<article class="border shadow-sm break-inside flex items-start flex-col justify-between rounded-xl gap-2 pb-4 mb-3 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="finance">
 		<header class="p-4">
 			<svg width="26" height="26" viewBox="0 0 512 512"><path d="M427.68 351.43C402 320 383.87 304 383.87 217.35 383.87 138 343.35 109.73 310 96c-4.43-1.82-8.6-6-9.95-10.55C294.2 65.54 277.8 48 256 48s-38.21 17.55-44 37.47c-1.35 4.6-5.52 8.71-9.95 10.53-33.39 13.75-73.87 41.92-73.87 121.35C128.13 304 110 320 84.32 351.43 73.68 364.45 83 384 101.61 384h308.88c18.51 0 27.77-19.61 17.19-32.57zM320 384v16a64 64 0 01-128 0v-16" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="32"/></svg>
 		</header>
@@ -390,7 +396,7 @@ visible: true
 			</svg>
 		</section>
 	</article>
-	<article class="border shadow-sm break-inside flex items-start flex-col justify-between rounded-xl gap-2 pb-4 mb-3 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900">
+	<article class="border shadow-sm break-inside flex items-start flex-col justify-between rounded-xl gap-2 pb-4 mb-3 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="finance">
 		<header class="p-4">
 			<svg width="26" height="26" viewBox="0 0 512 512"><path d="M427.68 351.43C402 320 383.87 304 383.87 217.35 383.87 138 343.35 109.73 310 96c-4.43-1.82-8.6-6-9.95-10.55C294.2 65.54 277.8 48 256 48s-38.21 17.55-44 37.47c-1.35 4.6-5.52 8.71-9.95 10.53-33.39 13.75-73.87 41.92-73.87 121.35C128.13 304 110 320 84.32 351.43 73.68 364.45 83 384 101.61 384h308.88c18.51 0 27.77-19.61 17.19-32.57zM320 384v16a64 64 0 01-128 0v-16" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="32"/></svg>
 		</header>
