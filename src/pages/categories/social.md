@@ -429,6 +429,36 @@ visible: true
   </div>
 </article>
 
+<section class="grid grid-cols-12 gap-3 mb-3">
+  <article class="col-span-4 border shadow-sm break-inside relative overflow-hidden flex items-start flex-col justify-start rounded-xl gap-2 p-3 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="social">
+    <div class="absolute right-0 top-0 w-12 h-12 bg-rose-500/40 blur-2xl"></div>
+    <img class="flex-none rounded-full w-11 h-11" src="https://randomuser.me/api/portraits/men/77.jpg" alt="avatar" loading="lazy">
+    <h2 class="font-medium">Frank Mendes</h2>
+    <button class="flex items-center justify-center cursor-pointer rounded-full h-7 px-3 w-full text-sm bg-blue-700 text-white">Edit</button>
+  </article>
+  <label html-for="user-1" class="cursor-pointer col-span-5 border shadow-sm break-inside flex items-start flex-col justify-between rounded-xl gap-2 p-3 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="social">
+    <img class="flex-none w-8 h-8 rounded-full" src="https://randomuser.me/api/portraits/women/85.jpg" alt="avatar" loading="lazy">
+    <h2 class="text-base font-medium">Amanda</h2>
+    <p class="text-xs">Enable user for project</p>
+    <input type="checkbox" name="user-1" checked="" class="h-[16px] px-[3px] w-[30px] relative flex-none cursor-pointer appearance-none rounded-full bg-gray-300 dark:bg-gray-700 before:transition-transform before:duration-200 before:pointer-events-none before:absolute before:top-1/2 before:-translate-y-1/2 before:h-3 before:w-3 before:rounded-full before:bg-transparent before:content-[''] before:transform before:translate-x-0 before:bg-white focus:bg-gray-400 dark:focus:bg-gray-600 focus:checked:bg-green-600 checked:bg-green-600 checked:before:translate-x-full checked:before:bg-white">
+  </label>
+  <article class="col-span-3 border shadow-sm break-inside flex items-center flex-col rounded-xl gap-2 p-3 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="social">
+    <img class="flex-none w-10 h-10 rounded-full object-cover" src="https://randomuser.me/api/portraits/women/67.jpg" alt="avatar" loading="lazy">
+    <div class="w-5 flex-1 overflow-hidden relative rounded-sm bg-gray-200 dark:bg-gray-800">
+      <div class="w-full absolute bottom-0 h-1/4 bg-indigo-700"></div>
+    </div>
+  </article>
+  <article class="col-span-5 border shadow-sm break-inside flex items-start flex-col justify-between rounded-xl gap-2 p-4 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="social">
+    a
+  </article>
+  <article class="col-span-3 border shadow-sm break-inside flex items-start flex-col justify-between rounded-xl gap-2 p-4 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="social">
+    a
+  </article>
+  <article class="col-span-4 border shadow-sm break-inside flex items-start flex-col justify-between rounded-xl gap-2 p-4 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="social">
+    a
+  </article>
+</section>
+
 <article class="border shadow-sm overflow-hidden break-inside grid grid-cols-12 rounded-xl mb-3 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="social">
   <img class="w-full max-w-full h-full object-cover col-span-4" src="https://images.pexels.com/photos/708488/pexels-photo-708488.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" data-author="Sydney Troxell" data-author-profile="https://www.pexels.com/es-es/@sydney-troxell-223521" loading="lazy">
   <div class="p-4 flex flex-col col-span-8">
@@ -476,11 +506,33 @@ visible: true
   </article>
   <article class="border shadow-sm break-inside rounded-full flex items-center p-2 gap-2 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="social">
     <img class="flex-none w-8 h-8 rounded-full" src="https://randomuser.me/api/portraits/men/81.jpg" alt="avatar" loading="lazy">
-    <h2 class="text-sm font-medium">Marcos</h2>
+    <h2 class="text-sm font-medium">Andres</h2>
   </article>
-  <article class="border shadow-sm break-inside rounded-full flex items-center p-2 gap-2 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="social">
-    <img class="flex-none w-8 h-8 rounded-full" src="https://randomuser.me/api/portraits/men/21.jpg" alt="avatar" loading="lazy">
-    <h2 class="text-sm font-medium">Duarte</h2>
+  <article class="border shadow-sm break-inside rounded-full flex items-center gap-2 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="social">
+    <img class="flex-none w-11 h-11 rounded-full" src="https://randomuser.me/api/portraits/men/94.jpg" alt="avatar" loading="lazy">
+    <h2 class="text-sm font-medium">Hendrix</h2>
+  </article>
+  <article class="border shadow-sm break-inside rounded-full flex items-center justify-between p-2 gap-2 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="social">
+    <header class="flex items-center gap-2">
+      <img class="flex-none w-7 h-7 rounded-full" src="https://randomuser.me/api/portraits/men/21.jpg" alt="avatar" loading="lazy">
+      <h2 class="text-sm font-medium">Duarte</h2>
+    </header>
+    <button class="flex flex-none items-center justify-center w-7 h-7 transition-all rounded-full hover:bg-gray-100 dark:hover:bg-gray-900">
+      <svg width="18" height="18" viewBox="0 0 24 24" stroke-width="2" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M14.3632 5.65156L15.8431 4.17157C16.6242 3.39052 17.8905 3.39052 18.6716 4.17157L20.0858 5.58579C20.8668 6.36683 20.8668 7.63316 20.0858 8.41421L18.6058 9.8942M14.3632 5.65156L4.74749 15.2672C4.41542 15.5993 4.21079 16.0376 4.16947 16.5054L3.92738 19.2459C3.87261 19.8659 4.39148 20.3848 5.0115 20.33L7.75191 20.0879C8.21972 20.0466 8.65806 19.8419 8.99013 19.5099L18.6058 9.8942M14.3632 5.65156L18.6058 9.8942" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+      </svg>
+    </button>
+  </article>
+  <article class="border shadow-sm break-inside rounded-full flex items-center justify-between p-2 gap-2 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="social">
+    <header class="flex items-center gap-2">
+      <img class="flex-none w-7 h-7 rounded-full" src="https://randomuser.me/api/portraits/men/21.jpg" alt="avatar" loading="lazy">
+      <h2 class="text-sm font-medium">Jhon</h2>
+    </header>
+    <button class="flex flex-none items-center justify-center w-7 h-7 transition-all rounded-full hover:bg-gray-100 dark:hover:bg-gray-900">
+      <svg width="16" height="16" fill="none" stroke-width="1.5" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        <path stroke-linecap="round" stroke-linejoin="round" d="m14.74 9-.346 9m-4.788 0L9.26 9m9.968-3.21c.342.052.682.107 1.022.166m-1.022-.165L18.16 19.673a2.25 2.25 0 0 1-2.244 2.077H8.084a2.25 2.25 0 0 1-2.244-2.077L4.772 5.79m14.456 0a48.108 48.108 0 0 0-3.478-.397m-12 .562c.34-.059.68-.114 1.022-.165m0 0a48.11 48.11 0 0 1 3.478-.397m7.5 0v-.916c0-1.18-.91-2.164-2.09-2.201a51.964 51.964 0 0 0-3.32 0c-1.18.037-2.09 1.022-2.09 2.201v.916m7.5 0a48.667 48.667 0 0 0-7.5 0"></path>
+      </svg>
+    </button>
   </article>
   <article class="border shadow-sm break-inside rounded-full flex items-center p-2 gap-2 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="social">
     <img class="flex-none w-8 h-8 rounded-full" src="https://randomuser.me/api/portraits/women/41.jpg" alt="avatar" loading="lazy">
@@ -1548,6 +1600,33 @@ visible: true
   </article>
 </section>
 
+<section class="grid grid-cols-4 gap-3 mb-3">
+  <article class="border shadow-sm break-inside flex items-start flex-col justify-between rounded-xl gap-2 p-4 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="social">
+    a
+  </article>
+  <article class="border shadow-sm break-inside flex items-start flex-col justify-between rounded-xl gap-2 p-4 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="social">
+    a
+  </article>
+  <article class="border shadow-sm break-inside flex items-start flex-col justify-between rounded-xl gap-2 p-4 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="social">
+    a
+  </article>
+  <article class="border shadow-sm break-inside flex items-start flex-col justify-between rounded-xl gap-2 p-4 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="social">
+    a
+  </article>
+  <article class="border shadow-sm break-inside flex items-start flex-col justify-between rounded-xl gap-2 p-4 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="social">
+    a
+  </article>
+  <article class="border shadow-sm break-inside flex items-start flex-col justify-between rounded-xl gap-2 p-4 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="social">
+    a
+  </article>
+  <article class="border shadow-sm break-inside flex items-start flex-col justify-between rounded-xl gap-2 p-4 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="social">
+    a
+  </article>
+  <article class="border shadow-sm break-inside flex items-start flex-col justify-between rounded-xl gap-2 p-4 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="social">
+    a
+  </article>
+</section>
+
 <section class="break-inside grid grid-cols-2 mb-3 gap-3" data-filter="social">
   <article class="border relative overflow-hidden shadow-sm break-inside flex flex-col justify-between rounded-xl p-3 text-sm bg-rose-600 border-rose-600 text-white" data-filter="social">
     <div class="absolute right-0 top-0 w-14 h-14 bg-yellow-500/60 blur-2xl"></div>
@@ -1793,4 +1872,30 @@ visible: true
   </div>
 </article>
 
+<section class="grid grid-cols-2 gap-4 mb-3">
+  <article class="border shadow-sm break-inside flex items-start flex-col justify-between rounded-xl gap-2 p-4 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="social">
+    a
+  </article>
+  <article class="border shadow-sm break-inside flex items-start flex-col justify-between rounded-xl gap-2 p-4 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="social">
+    a
+  </article>
+  <article class="border shadow-sm break-inside flex items-start flex-col justify-between rounded-xl gap-2 p-4 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="social">
+    a
+  </article>
+  <article class="border shadow-sm break-inside flex items-start flex-col justify-between rounded-xl gap-2 p-4 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="social">
+    a
+  </article>
+  <article class="border shadow-sm break-inside flex items-start flex-col justify-between rounded-xl gap-2 p-4 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="social">
+    a
+  </article>
+  <article class="border shadow-sm break-inside flex items-start flex-col justify-between rounded-xl gap-2 p-4 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="social">
+    a
+  </article>
+  <article class="border shadow-sm break-inside flex items-start flex-col justify-between rounded-xl gap-2 p-4 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="social">
+    a
+  </article>
+  <article class="border shadow-sm break-inside flex items-start flex-col justify-between rounded-xl gap-2 p-4 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="social">
+    a
+  </article>
+</section>
 
