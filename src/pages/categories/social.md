@@ -74,11 +74,11 @@ visible: true
   <div class="flex items-center justify-between">
     <div class="flex items-center gap-3">
       <span class="flex flex-none items-center justify-center font-medium w-5 h-5 text-xs rounded-full transition-colors bg-fuchsia-600 text-white">3</span>
-      <svg width="28" height="28" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+      <svg width="26" height="26" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
         <path d="M5.25 12a.75.75 0 0 1 .75-.75h.01a.75.75 0 0 1 .75.75v.01a.75.75 0 0 1-.75.75H6a.75.75 0 0 1-.75-.75V12ZM6 13.25a.75.75 0 0 0-.75.75v.01c0 .414.336.75.75.75h.01a.75.75 0 0 0 .75-.75V14a.75.75 0 0 0-.75-.75H6ZM7.25 12a.75.75 0 0 1 .75-.75h.01a.75.75 0 0 1 .75.75v.01a.75.75 0 0 1-.75.75H8a.75.75 0 0 1-.75-.75V12ZM8 13.25a.75.75 0 0 0-.75.75v.01c0 .414.336.75.75.75h.01a.75.75 0 0 0 .75-.75V14a.75.75 0 0 0-.75-.75H8ZM9.25 10a.75.75 0 0 1 .75-.75h.01a.75.75 0 0 1 .75.75v.01a.75.75 0 0 1-.75.75H10a.75.75 0 0 1-.75-.75V10ZM10 11.25a.75.75 0 0 0-.75.75v.01c0 .414.336.75.75.75h.01a.75.75 0 0 0 .75-.75V12a.75.75 0 0 0-.75-.75H10ZM9.25 14a.75.75 0 0 1 .75-.75h.01a.75.75 0 0 1 .75.75v.01a.75.75 0 0 1-.75.75H10a.75.75 0 0 1-.75-.75V14ZM12 9.25a.75.75 0 0 0-.75.75v.01c0 .414.336.75.75.75h.01a.75.75 0 0 0 .75-.75V10a.75.75 0 0 0-.75-.75H12ZM11.25 12a.75.75 0 0 1 .75-.75h.01a.75.75 0 0 1 .75.75v.01a.75.75 0 0 1-.75.75H12a.75.75 0 0 1-.75-.75V12ZM12 13.25a.75.75 0 0 0-.75.75v.01c0 .414.336.75.75.75h.01a.75.75 0 0 0 .75-.75V14a.75.75 0 0 0-.75-.75H12ZM13.25 10a.75.75 0 0 1 .75-.75h.01a.75.75 0 0 1 .75.75v.01a.75.75 0 0 1-.75.75H14a.75.75 0 0 1-.75-.75V10ZM14 11.25a.75.75 0 0 0-.75.75v.01c0 .414.336.75.75.75h.01a.75.75 0 0 0 .75-.75V12a.75.75 0 0 0-.75-.75H14Z"></path>
         <path clip-rule="evenodd" fill-rule="evenodd" d="M5.75 2a.75.75 0 0 1 .75.75V4h7V2.75a.75.75 0 0 1 1.5 0V4h.25A2.75 2.75 0 0 1 18 6.75v8.5A2.75 2.75 0 0 1 15.25 18H4.75A2.75 2.75 0 0 1 2 15.25v-8.5A2.75 2.75 0 0 1 4.75 4H5V2.75A.75.75 0 0 1 5.75 2Zm-1 5.5c-.69 0-1.25.56-1.25 1.25v6.5c0 .69.56 1.25 1.25 1.25h10.5c.69 0 1.25-.56 1.25-1.25v-6.5c0-.69-.56-1.25-1.25-1.25H4.75Z"></path>
       </svg>
-      <span class="font-medium text-lg">23 24 2024</span>
+      <span class="font-medium text-base">23 24 2024</span>
     </div>
     <button class="flex flex-none items-center justify-center w-9 h-9 transition-all rounded-full hover:bg-gray-100 dark:hover:bg-gray-900">
       <svg width="28" height="28" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
@@ -91,9 +91,9 @@ visible: true
 <article class="border shadow-sm break-inside divide-y rounded-xl p-4 mb-3 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="social">
   <div class="flex items-center justify-between">
     <div class="flex items-center gap-3">
-      <span class="flex flex-none items-center justify-center font-medium w-5 h-5 text-xs rounded-full transition-colors bg-cyan-500 text-white">3</span>
-      <div class="h-10 flex items-center justify-center rounded-full gap-2 px-3 bg-cyan-100 dark:bg-cyan-600/30 dark:text-cyan-400">
-        <svg width="28" height="28" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+      <span class="flex flex-none items-center justify-center font-medium w-5 h-5 text-xs rounded-full transition-colors bg-blue-700 dark:bg-blue-500 text-white">3</span>
+      <div class="h-9 flex items-center justify-center rounded-full gap-2 px-3 bg-cyan-100 dark:bg-cyan-600/30 dark:text-cyan-400">
+        <svg width="24" height="24" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
           <path d="M5.25 12a.75.75 0 0 1 .75-.75h.01a.75.75 0 0 1 .75.75v.01a.75.75 0 0 1-.75.75H6a.75.75 0 0 1-.75-.75V12ZM6 13.25a.75.75 0 0 0-.75.75v.01c0 .414.336.75.75.75h.01a.75.75 0 0 0 .75-.75V14a.75.75 0 0 0-.75-.75H6ZM7.25 12a.75.75 0 0 1 .75-.75h.01a.75.75 0 0 1 .75.75v.01a.75.75 0 0 1-.75.75H8a.75.75 0 0 1-.75-.75V12ZM8 13.25a.75.75 0 0 0-.75.75v.01c0 .414.336.75.75.75h.01a.75.75 0 0 0 .75-.75V14a.75.75 0 0 0-.75-.75H8ZM9.25 10a.75.75 0 0 1 .75-.75h.01a.75.75 0 0 1 .75.75v.01a.75.75 0 0 1-.75.75H10a.75.75 0 0 1-.75-.75V10ZM10 11.25a.75.75 0 0 0-.75.75v.01c0 .414.336.75.75.75h.01a.75.75 0 0 0 .75-.75V12a.75.75 0 0 0-.75-.75H10ZM9.25 14a.75.75 0 0 1 .75-.75h.01a.75.75 0 0 1 .75.75v.01a.75.75 0 0 1-.75.75H10a.75.75 0 0 1-.75-.75V14ZM12 9.25a.75.75 0 0 0-.75.75v.01c0 .414.336.75.75.75h.01a.75.75 0 0 0 .75-.75V10a.75.75 0 0 0-.75-.75H12ZM11.25 12a.75.75 0 0 1 .75-.75h.01a.75.75 0 0 1 .75.75v.01a.75.75 0 0 1-.75.75H12a.75.75 0 0 1-.75-.75V12ZM12 13.25a.75.75 0 0 0-.75.75v.01c0 .414.336.75.75.75h.01a.75.75 0 0 0 .75-.75V14a.75.75 0 0 0-.75-.75H12ZM13.25 10a.75.75 0 0 1 .75-.75h.01a.75.75 0 0 1 .75.75v.01a.75.75 0 0 1-.75.75H14a.75.75 0 0 1-.75-.75V10ZM14 11.25a.75.75 0 0 0-.75.75v.01c0 .414.336.75.75.75h.01a.75.75 0 0 0 .75-.75V12a.75.75 0 0 0-.75-.75H14Z"></path>
           <path clip-rule="evenodd" fill-rule="evenodd" d="M5.75 2a.75.75 0 0 1 .75.75V4h7V2.75a.75.75 0 0 1 1.5 0V4h.25A2.75 2.75 0 0 1 18 6.75v8.5A2.75 2.75 0 0 1 15.25 18H4.75A2.75 2.75 0 0 1 2 15.25v-8.5A2.75 2.75 0 0 1 4.75 4H5V2.75A.75.75 0 0 1 5.75 2Zm-1 5.5c-.69 0-1.25.56-1.25 1.25v6.5c0 .69.56 1.25 1.25 1.25h10.5c.69 0 1.25-.56 1.25-1.25v-6.5c0-.69-.56-1.25-1.25-1.25H4.75Z"></path>
         </svg>
@@ -200,6 +200,123 @@ visible: true
     <div class="flex items-center gap-1 text-gray-600">
       <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="16 3 21 8 8 21 3 21 3 16 16 3"></polygon></svg>
       <span class="font-medium mt-[2px]">17</span>
+    </div>
+  </section>
+</article>
+
+<article class="border shadow-sm break-inside rounded-xl p-4 mb-3 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="social">
+  <header class="flex items-center justify-between">
+    <section class="flex items-center gap-1">
+      <span class="h-6 text-xs px-2 font-medium rounded-full flex items-center border border-green-100 dark:border-gray-900 bg-green-100 text-green-700 dark:bg-green-500/30 dark:text-green-300">Development</span>
+      <span class="h-6 text-xs px-2 font-medium rounded-full flex items-center border border-cyan-100 dark:border-gray-900 bg-cyan-100 text-cyan-700 dark:bg-cyan-500/30 dark:text-cyan-300">Backlog</span>
+    </section>
+    <button class="inline-flex items-center justify-center w-9 h-9 transition-all rounded-full hover:bg-gray-100 dark:hover:bg-gray-900">
+      <svg width="30" height="30" fill="none" stroke-width="1.5" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M6.75 12a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0ZM12.75 12a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0ZM18.75 12a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z"></path>
+      </svg>
+    </button>
+  </header>
+  <section class="mt-2">
+    <h2 class="text-base font-medium">New collaborative project for the marketing team</h2>
+  </section>
+  <section class="flex items-center justify-between mt-4">
+    <div class="col-start-2 row-start-1 row-end-3">
+      <dt class="sr-only">Users</dt>
+      <dd class="flex justify-start -space-x-1.5">
+        <a href="#" class="inline-block -m-1">
+          <img class="w-6 h-6 rounded-full bg-gray-100 ring-2 ring-white dark:bg-gray-600 dark:ring-gray-950" src="https://randomuser.me/api/portraits/women/65.jpg" alt="avatar" loading="lazy">
+        </a>
+        <a href="#" class="inline-block -m-1">
+          <img class="w-6 h-6 rounded-full bg-gray-100 ring-2 ring-white dark:bg-gray-600 dark:ring-gray-950" src="https://randomuser.me/api/portraits/men/67.jpg" alt="avatar" loading="lazy">
+        </a>
+        <a href="#" class="inline-block -m-1">
+          <img class="w-6 h-6 rounded-full bg-gray-100 ring-2 ring-white dark:bg-gray-600 dark:ring-gray-950" src="https://randomuser.me/api/portraits/women/68.jpg" alt="avatar" loading="lazy">
+        </a>
+        <a href="#" class="inline-block -m-1">
+          <span class="flex items-center justify-center font-medium w-6 h-6 rounded-full bg-black text-white ring-2 ring-white dark:bg-white dark:text-black dark:ring-gray-950">+4</span>
+        </a>
+      </dd>
+    </div>
+    <button class="w-7 h-7 flex items-center justify-center rounded-full bg-gray-200 dark:bg-gray-700">
+      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21.44 11.05l-9.19 9.19a6 6 0 0 1-8.49-8.49l9.19-9.19a4 4 0 0 1 5.66 5.66l-9.2 9.19a2 2 0 0 1-2.83-2.83l8.49-8.48"></path></svg>
+    </button>
+    <div class="flex items-center gap-1 text-gray-600">
+      <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="16 3 21 8 8 21 3 21 3 16 16 3"></polygon></svg>
+      <span class="font-medium mt-[2px]">17</span>
+    </div>
+  </section>
+</article>
+
+<article class="border shadow-sm break-inside rounded-xl overflow-hidden mb-3 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="social">
+  <header class="relative w-full mb-auto">
+    <img class="w-full max-w-full h-[6rem] object-cover" src="https://images.pexels.com/photos/185576/pexels-photo-185576.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" data-author="Timur Saglambilek" alt="portada" data-author-profile="https://www.pexels.com/es-es/@marketingtuig/"/>
+    <div class="flex flex-col p-4 relative -mt-10 z-[1]">
+      <img class="flex-none w-14 h-14 rounded-full ring-4 ring-white dark:ring-gray-950" src="https://randomuser.me/api/portraits/men/20.jpg" alt="avatar" loading="lazy">
+      <div class="mt-2">
+        <h2 class="font-semibold text-base">Hendrik</h2>
+        <p class="text-gray-500">Director of Marketing</p>
+      </div>
+    </div>
+  </header>
+  <section class="flex items-start justify-between px-4">
+    <section class="flex items-center gap-1 flex-wrap">
+      <span class="h-6 text-xs px-2 font-medium rounded-full flex items-center border border-green-100 dark:border-gray-900 bg-green-100 text-green-700 dark:bg-green-500/30 dark:text-green-300">
+        Development
+      </span>
+      <span class="h-6 text-xs px-2 font-medium rounded-full flex items-center border border-amber-100 dark:border-gray-900 bg-amber-100 text-amber-700 dark:bg-amber-500/30 dark:text-amber-300">
+        Design
+      </span>
+      <span class="h-6 text-xs px-2 font-medium rounded-full flex items-center border border-cyan-100 dark:border-gray-900 bg-cyan-100 text-cyan-700 dark:bg-cyan-500/30 dark:text-cyan-300">
+        Backlog
+      </span>
+      <span class="h-6 text-xs px-2 font-medium rounded-full flex items-center border border-rose-100 dark:border-gray-900 bg-rose-100 text-rose-700 dark:bg-rose-500/30 dark:text-rose-300">
+        News
+      </span>
+      <span class="h-6 text-xs px-2 font-medium rounded-full flex items-center border border-indigo-100 dark:border-gray-900 bg-indigo-100 text-indigo-700 dark:bg-indigo-500/30 dark:text-indigo-300">
+        Web
+      </span>
+    </section>
+    <button class="flex-none inline-flex items-center justify-center w-9 h-9 transition-all rounded-full hover:bg-gray-100 dark:hover:bg-gray-900">
+      <svg width="30" height="30" fill="none" stroke-width="1.5" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M6.75 12a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0ZM12.75 12a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0ZM18.75 12a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z"></path>
+      </svg>
+    </button>
+  </section>
+  <section class="mt-3 px-4">
+    <h2 class="text-base font-medium">New collaborative project for the marketing team</h2>
+  </section>
+  <section class="border-t p-4 flex items-center justify-between mt-4 dark:border-gray-800">
+    <div class="col-start-2 row-start-1 row-end-3">
+      <dt class="sr-only">Users</dt>
+      <dd class="flex justify-start -space-x-1.5">
+        <a href="#" class="inline-block -m-1">
+          <img class="w-6 h-6 rounded-full bg-gray-100 ring-2 ring-white dark:bg-gray-600 dark:ring-gray-950" src="https://randomuser.me/api/portraits/women/65.jpg" alt="avatar" loading="lazy">
+        </a>
+        <a href="#" class="inline-block -m-1">
+          <img class="w-6 h-6 rounded-full bg-gray-100 ring-2 ring-white dark:bg-gray-600 dark:ring-gray-950" src="https://randomuser.me/api/portraits/men/67.jpg" alt="avatar" loading="lazy">
+        </a>
+        <a href="#" class="inline-block -m-1">
+          <img class="w-6 h-6 rounded-full bg-gray-100 ring-2 ring-white dark:bg-gray-600 dark:ring-gray-950" src="https://randomuser.me/api/portraits/women/68.jpg" alt="avatar" loading="lazy">
+        </a>
+      </dd>
+    </div>
+    <div class="flex items-center gap-3">
+      <button class="flex items-center gap-1 text-gray-600">
+        <svg width="18" height="18" fill="none" stroke-width="2" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M12 20.25c4.97 0 9-3.694 9-8.25s-4.03-8.25-9-8.25S3 7.444 3 12c0 2.104.859 4.023 2.273 5.48.432.447.74 1.04.586 1.641a4.483 4.483 0 0 1-.923 1.785A5.969 5.969 0 0 0 6 21c1.282 0 2.47-.402 3.445-1.087.81.22 1.668.337 2.555.337Z"></path>
+        </svg>
+        <span class="font-medium mt-[2px]">2</span>
+      </button>
+      <button class="flex items-center gap-1 text-gray-600">
+        <svg width="18" height="18" fill="none" stroke-width="2" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12Z"></path>
+        </svg>
+        <span class="font-medium mt-[2px]">8</span>
+      </button>
+      <button class="flex items-center gap-1 text-gray-600">
+        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="16 3 21 8 8 21 3 21 3 16 16 3"></polygon></svg>
+        <span class="font-medium mt-[2px]">11</span>
+      </button>
     </div>
   </section>
 </article>
@@ -369,19 +486,50 @@ visible: true
 <article class="border shadow-sm break-inside rounded-xl p-4 mb-3 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="social">
   <header class="flex items-center justify-between gap-2">
     <div class="flex items-center gap-3">
-      <div class="w-12 h-12 flex items-center justify-center rounded-full border">
+      <div class="flex-none w-12 h-12 flex items-center justify-center rounded-full border">
         <svg width="26" height="26" fill="none" stroke-width="2" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
           <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 3v11.25A2.25 2.25 0 0 0 6 16.5h2.25M3.75 3h-1.5m1.5 0h16.5m0 0h1.5m-1.5 0v11.25A2.25 2.25 0 0 1 18 16.5h-2.25m-7.5 0h7.5m-7.5 0-1 3m8.5-3 1 3m0 0 .5 1.5m-.5-1.5h-9.5m0 0-.5 1.5m.75-9 3-3 2.148 2.148A12.061 12.061 0 0 1 16.5 7.605"></path>
         </svg>
       </div>
-      <h2 class="font-medium text-lg">Analytics</h2>
+      <div class="flex flex-col">
+        <h2 class="font-medium text-lg">Analytics</h2>
+        <p class="text-xs">Loerm ipsum permiso flinte lor dolor sit amet...</p>
+      </div>
     </div>
     <input type="checkbox" checked class="h-[20px] px-[3px] w-[38px] relative flex-none cursor-pointer appearance-none rounded-full bg-gray-300 dark:bg-gray-700 before:transition-transform before:duration-200 before:pointer-events-none before:absolute before:top-1/2 before:-translate-y-1/2 before:h-4 before:w-4 before:rounded-full before:bg-transparent before:content-[''] before:transform before:translate-x-0 before:bg-white focus:bg-gray-400 dark:focus:bg-gray-600 focus:checked:bg-blue-600 checked:bg-blue-600 checked:before:translate-x-full checked:before:bg-white" />
   </header>
-  <div class="flex flex-col mt-3">
-    <h3 class="font-medium text-base">Descriptions</h3>
-    <p class="text-sm font-normal">Lorem ipsum dolor sit amet, consectetur paded dej adipiscing..</p>
-  </div>
+</article>
+
+<article class="border shadow-sm break-inside rounded-xl p-2 mb-3 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="social">
+  <header class="flex items-center justify-between gap-2">
+    <div class="flex items-center gap-3">
+      <div class="flex-none w-6 h-6 flex items-center justify-center rounded-full bg-rose-200 text-rose-800 dark:bg-rose-600/40 dark:text-rose-300">
+        2
+      </div>
+      <h2 class="font-medium text-base">My assignment</h2>
+    </div>
+    <button class="inline-flex items-center justify-center w-9 h-9 transition-all rounded-full hover:bg-gray-100 dark:hover:bg-gray-900">
+      <svg width="30" height="30" fill="none" stroke-width="1.5" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M6.75 12a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0ZM12.75 12a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0ZM18.75 12a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z"></path>
+      </svg>
+    </button>
+  </header>
+</article>
+
+<article class="break-inside rounded-xl p-2 mb-3 text-sm bg-emerald-100 dark:bg-emerald-600/30 dark:text-emerald-200" data-filter="social">
+  <header class="flex items-center justify-between gap-2">
+    <div class="flex items-center gap-3">
+      <div class="flex-none w-6 h-6 flex items-center justify-center rounded-full bg-emerald-500 text-white">
+        4
+      </div>
+      <h2 class="font-medium text-base">Assignment</h2>
+    </div>
+    <button class="inline-flex items-center justify-center w-9 h-9 transition-all rounded-full hover:bg-black/10 dark:hover:bg-white/10">
+      <svg width="30" height="30" fill="none" stroke-width="1.5" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M6.75 12a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0ZM12.75 12a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0ZM18.75 12a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z"></path>
+      </svg>
+    </button>
+  </header>
 </article>
 
 <article class="shadow-sm relative break-inside rounded-xl overflow-hidden mb-3 text-sm" data-filter="social">
@@ -461,7 +609,7 @@ visible: true
 
 <article class="border shadow-sm overflow-hidden break-inside grid grid-cols-12 rounded-xl mb-3 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="social">
   <img class="w-full max-w-full h-full object-cover col-span-4" src="https://images.pexels.com/photos/708488/pexels-photo-708488.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" data-author="Sydney Troxell" data-author-profile="https://www.pexels.com/es-es/@sydney-troxell-223521" loading="lazy">
-  <div class="p-4 flex flex-col col-span-8">
+  <div class="p-3 flex flex-col col-span-8">
     <a href="#" class="text-base font-semibold block">Jhoanna Millers</a>
     <span class="text-gray-600 dark:text-gray-400">Auxiliar</span>
   </div>
@@ -492,19 +640,19 @@ visible: true
 </article>
 
 <section class="grid grid-cols-2 gap-3 mb-3">
-  <article class="border shadow-sm break-inside rounded-full flex items-center p-2 gap-2 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="social">
+  <article class="border shadow-sm break-inside rounded-full flex items-center p-1.5 gap-2 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="social">
     <img class="flex-none w-8 h-8 rounded-full" src="https://randomuser.me/api/portraits/women/81.jpg" alt="avatar" loading="lazy">
     <h2 class="text-sm font-medium">Natalia G.</h2>
   </article>
-  <article class="border shadow-sm break-inside rounded-full flex items-center p-2 gap-2 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="social">
+  <article class="border shadow-sm break-inside rounded-full flex items-center p-1.5 gap-2 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="social">
     <img class="flex-none w-8 h-8 rounded-full" src="https://randomuser.me/api/portraits/men/81.jpg" alt="avatar" loading="lazy">
     <h2 class="text-sm font-medium">Bruce W.</h2>
   </article>
-  <article class="border shadow-sm break-inside rounded-full flex items-center p-2 gap-2 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="social">
+  <article class="border shadow-sm break-inside rounded-full flex items-center p-1.5 gap-2 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="social">
     <img class="flex-none w-8 h-8 rounded-full" src="https://randomuser.me/api/portraits/men/81.jpg" alt="avatar" loading="lazy">
     <h2 class="text-sm font-medium">Marcos</h2>
   </article>
-  <article class="border shadow-sm break-inside rounded-full flex items-center p-2 gap-2 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="social">
+  <article class="border shadow-sm break-inside rounded-full flex items-center p-1.5 gap-2 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="social">
     <img class="flex-none w-8 h-8 rounded-full" src="https://randomuser.me/api/portraits/men/81.jpg" alt="avatar" loading="lazy">
     <h2 class="text-sm font-medium">Andres</h2>
   </article>
@@ -512,7 +660,7 @@ visible: true
     <img class="flex-none w-11 h-11 rounded-full" src="https://randomuser.me/api/portraits/men/94.jpg" alt="avatar" loading="lazy">
     <h2 class="text-sm font-medium">Hendrix</h2>
   </article>
-  <article class="border shadow-sm break-inside rounded-full flex items-center justify-between p-2 gap-2 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="social">
+  <article class="border shadow-sm break-inside rounded-full flex items-center justify-between p-1.5 gap-2 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="social">
     <header class="flex items-center gap-2">
       <img class="flex-none w-7 h-7 rounded-full" src="https://randomuser.me/api/portraits/men/21.jpg" alt="avatar" loading="lazy">
       <h2 class="text-sm font-medium">Duarte</h2>
@@ -523,34 +671,41 @@ visible: true
       </svg>
     </button>
   </article>
-  <article class="border shadow-sm break-inside rounded-full flex items-center justify-between p-2 gap-2 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="social">
+  <article class="border shadow-sm break-inside rounded-full flex items-center justify-between p-1.5 gap-2 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="social">
     <header class="flex items-center gap-2">
       <img class="flex-none w-7 h-7 rounded-full" src="https://randomuser.me/api/portraits/men/21.jpg" alt="avatar" loading="lazy">
-      <h2 class="text-sm font-medium">Jhon</h2>
+      <h2 class="text-xs font-medium">Jhon M.</h2>
     </header>
     <button class="flex flex-none items-center justify-center w-7 h-7 transition-all rounded-full hover:bg-gray-100 dark:hover:bg-gray-900">
-      <svg width="16" height="16" fill="none" stroke-width="1.5" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+      <svg width="16" height="16" fill="none" stroke-width="2" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
         <path stroke-linecap="round" stroke-linejoin="round" d="m14.74 9-.346 9m-4.788 0L9.26 9m9.968-3.21c.342.052.682.107 1.022.166m-1.022-.165L18.16 19.673a2.25 2.25 0 0 1-2.244 2.077H8.084a2.25 2.25 0 0 1-2.244-2.077L4.772 5.79m14.456 0a48.108 48.108 0 0 0-3.478-.397m-12 .562c.34-.059.68-.114 1.022-.165m0 0a48.11 48.11 0 0 1 3.478-.397m7.5 0v-.916c0-1.18-.91-2.164-2.09-2.201a51.964 51.964 0 0 0-3.32 0c-1.18.037-2.09 1.022-2.09 2.201v.916m7.5 0a48.667 48.667 0 0 0-7.5 0"></path>
       </svg>
     </button>
   </article>
-  <article class="border shadow-sm break-inside rounded-full flex items-center p-2 gap-2 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="social">
+  <article class="border shadow-sm break-inside rounded-full flex items-center p-1.5 gap-2 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="social">
     <img class="flex-none w-8 h-8 rounded-full" src="https://randomuser.me/api/portraits/women/41.jpg" alt="avatar" loading="lazy">
     <h2 class="text-sm font-medium">Cristina</h2>
   </article>
-  <article class="shadow-sm break-inside rounded-full flex items-center p-2 gap-2 text-sm text-white bg-gradient-to-tr from-rose-600 to-amber-500" data-filter="social">
+  <article class="shadow-sm break-inside rounded-full flex items-center p-1.5 gap-2 text-sm text-white bg-gradient-to-tr from-rose-600 to-amber-500" data-filter="social">
     <img class="flex-none w-8 h-8 rounded-full" src="https://randomuser.me/api/portraits/women/11.jpg" alt="avatar" loading="lazy">
     <h2 class="text-sm font-medium">Fabiola</h2>
   </article>
-  <article class="shadow-sm break-inside rounded-full flex items-center p-2 gap-2 text-sm text-white bg-gradient-to-tl from-indigo-600 to-emerald-500" data-filter="social">
+  <article class="shadow-sm break-inside rounded-full flex items-center p-1.5 gap-2 text-sm text-white bg-gradient-to-tl from-indigo-600 to-emerald-500" data-filter="social">
     <img class="flex-none w-8 h-8 rounded-full" src="https://randomuser.me/api/portraits/women/61.jpg" alt="avatar" loading="lazy">
     <h2 class="text-sm font-medium">Laritha</h2>
   </article>
-  <article class="shadow-sm break-inside rounded-full flex items-center p-2 gap-2 text-sm text-white bg-gradient-to-tl from-pink-600 to-rose-600" data-filter="social">
-    <img class="flex-none w-8 h-8 rounded-full" src="https://randomuser.me/api/portraits/men/51.jpg" alt="avatar" loading="lazy">
-    <h2 class="text-sm font-medium">Luis</h2>
+  <article class="shadow-sm break-inside rounded-full flex items-center justify-between p-1.5 gap-2 text-sm text-white bg-gradient-to-tl from-pink-600 to-rose-600" data-filter="social">
+    <header class="flex items-center gap-2">
+      <img class="flex-none w-8 h-8 rounded-full" src="https://randomuser.me/api/portraits/men/51.jpg" alt="avatar" loading="lazy">
+      <h2 class="text-sm font-medium">Luis P.</h2>
+    </header>
+    <button class="flex flex-none items-center justify-center w-7 h-7 transition-all rounded-full hover:bg-white/10 dark:hover:bg-gray-900">
+      <svg width="16" height="16" fill="none" stroke-width="2" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        <path stroke-linecap="round" stroke-linejoin="round" d="m14.74 9-.346 9m-4.788 0L9.26 9m9.968-3.21c.342.052.682.107 1.022.166m-1.022-.165L18.16 19.673a2.25 2.25 0 0 1-2.244 2.077H8.084a2.25 2.25 0 0 1-2.244-2.077L4.772 5.79m14.456 0a48.108 48.108 0 0 0-3.478-.397m-12 .562c.34-.059.68-.114 1.022-.165m0 0a48.11 48.11 0 0 1 3.478-.397m7.5 0v-.916c0-1.18-.91-2.164-2.09-2.201a51.964 51.964 0 0 0-3.32 0c-1.18.037-2.09 1.022-2.09 2.201v.916m7.5 0a48.667 48.667 0 0 0-7.5 0"></path>
+      </svg>
+    </button>
   </article>
-  <article class="shadow-sm break-inside rounded-full flex items-center p-2 gap-2 text-sm text-white bg-gradient-to-tl from-blue-600 to-emerald-500" data-filter="social">
+  <article class="shadow-sm break-inside rounded-full flex items-center p-1.5 gap-2 text-sm text-white bg-gradient-to-tl from-blue-600 to-emerald-500" data-filter="social">
     <img class="flex-none w-8 h-8 rounded-full" src="https://randomuser.me/api/portraits/men/41.jpg" alt="avatar" loading="lazy">
     <h2 class="text-sm font-medium">Ernesto</h2>
   </article>
@@ -568,7 +723,7 @@ visible: true
   </div>
   <div class="flex items-center justify-between relative z-1 w-full rounded-xl p-4 bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900">
     <div class="flex items-center gap-4">
-      <div class="flex-none w-14 h-14 rounded-full flex items-center justify-center text-lg font-semibold bg-emerald-100 text-emerald-500 dark:bg-emerald-600/50 dark:text-white">
+      <div class="flex-none w-12 h-12 rounded-full flex items-center justify-center text-lg font-semibold bg-emerald-100 text-emerald-500 dark:bg-emerald-600/50 dark:text-white">
         <svg width="28" height="28" class="ionicon" viewBox="0 0 512 512">
           <path d="M430.11 347.9c-6.6-6.1-16.3-7.6-24.6-9-11.5-1.9-15.9-4-22.6-10-14.3-12.7-14.3-31.1 0-43.8l30.3-26.9c46.4-41 46.4-108.2 0-149.2-34.2-30.1-80.1-45-127.8-45-55.7 0-113.9 20.3-158.8 60.1-83.5 73.8-83.5 194.7 0 268.5 41.5 36.7 97.5 55 152.9 55.4h1.7c55.4 0 110-17.9 148.8-52.4 14.4-12.7 11.99-36.6.1-47.7z" fill="none" stroke="currentColor" stroke-miterlimit="10" stroke-width="32"></path>
           <circle fill="currentColor" cx="144" cy="208" r="32"></circle>
@@ -1291,8 +1446,8 @@ visible: true
 </article>
 
 <article class="border shadow-sm break-inside flex flex-col rounded-xl overflow-hidden py-4 mb-3 gap-4 text-sm divide-y dark:divide-gray-800 bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="social">
-  <header class="flex justify-between items-center px-4">
-    <button type="button" class="h-8 px-4 font-medium text-base transition-colors duration-200 hover:bg-gray-100 rounded-md dark:hover:bg-gray-900">September</button>
+  <header class="flex justify-between items-center px-3">
+    <button type="button" class="h-8 px-3 font-medium text-base transition-colors duration-200 hover:bg-gray-100 rounded-md dark:hover:bg-gray-900">September</button>
     <div class="flex justify-center items-center">
       <button class="flex h-7 w-7 items-center justify-center transition-colors duration-200 hover:bg-gray-100 rounded-md dark:hover:bg-gray-900">
         <svg width="24" height="24" viewBox="0 0 24 24">
@@ -1306,23 +1461,23 @@ visible: true
       </button>
     </div>
   </header>
-  <section class="flex items-center gap-1 pt-4 px-4">
+  <section class="flex items-center gap-1 pt-3 px-4">
     <button class="flex items-center justify-center h-7 w-7 hover:bg-gray-100 rounded-md dark:hover:bg-gray-900">
       <svg width="28" height="28" viewBox="0 0 24 24">
         <path fill="currentColor" d="M15.41,16.58L10.83,12L15.41,7.41L14,6L8,12L14,18L15.41,16.58Z"></path>
       </svg>
     </button>
-    <button class="flex-auto text-center rounded-md p-1 transition-colors duration-200 hover:bg-gray-200 bg-transparent text-black dark:text-white dark:hover:bg-gray-900">
-      <span class="font-semibold block">2021</span>
+    <button class="flex-auto text-center rounded-md px-1 h-6 transition-colors duration-200 hover:bg-gray-200 bg-transparent text-black dark:text-white dark:hover:bg-gray-900">
+      <span class="block">2021</span>
     </button>
-    <button class="flex-auto text-center rounded-md p-1 transition-colors duration-200 hover:bg-rose-600 bg-rose-500 text-white dark:text-white dark:hover:bg-rose-600">
-      <span class="font-semibold block">2022</span>
+    <button class="flex-auto text-center rounded-md px-1 h-6 transition-colors duration-200 hover:bg-rose-600 bg-rose-500 text-white dark:text-white dark:hover:bg-rose-600">
+      <span class="block">2022</span>
     </button>
-    <button class="flex-auto text-center rounded-md p-1 transition-colors duration-200 hover:bg-gray-200 bg-transparent text-black dark:text-white dark:hover:bg-gray-900">
-      <span class="font-semibold block">2023</span>
+    <button class="flex-auto text-center rounded-md px-1 h-6 transition-colors duration-200 hover:bg-gray-200 bg-transparent text-black dark:text-white dark:hover:bg-gray-900">
+      <span class="block">2023</span>
     </button>
-    <button class="flex-auto text-center rounded-md p-1 transition-colors duration-200 hover:bg-gray-200 bg-transparent text-black dark:text-white dark:hover:bg-gray-900">
-      <span class="font-semibold block">2024</span>
+    <button class="flex-auto text-center rounded-md px-1 h-6 transition-colors duration-200 hover:bg-gray-200 bg-transparent text-black dark:text-white dark:hover:bg-gray-900">
+      <span class="block">2024</span>
     </button>
     <button class="flex items-center justify-center h-7 w-7 hover:bg-gray-100 rounded-md dark:hover:bg-gray-900">
       <svg width="28" height="28" viewBox="0 0 24 24">
@@ -1601,29 +1756,37 @@ visible: true
 </section>
 
 <section class="grid grid-cols-4 gap-3 mb-3">
-  <article class="border shadow-sm break-inside flex items-start flex-col justify-between rounded-xl gap-2 p-4 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="social">
-    a
+  <article class="border shadow-sm break-inside flex flex-col justify-start items-center rounded-xl p-2 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="social">
+    <img class="flex-none rounded-full w-8 h-8" src="https://randomuser.me/api/portraits/men/76.jpg" alt="avatar" loading="lazy">
+    <h2 class="text-xs font-medium mt-1">Jhon</h2>
   </article>
-  <article class="border shadow-sm break-inside flex items-start flex-col justify-between rounded-xl gap-2 p-4 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="social">
-    a
+  <article class="border shadow-sm break-inside flex flex-col justify-start items-center rounded-xl p-2 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="social">
+    <img class="flex-none rounded-full w-8 h-8" src="https://randomuser.me/api/portraits/women/76.jpg" alt="avatar" loading="lazy">
+    <h2 class="text-xs font-medium mt-1">Tina</h2>
   </article>
-  <article class="border shadow-sm break-inside flex items-start flex-col justify-between rounded-xl gap-2 p-4 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="social">
-    a
+  <article class="border shadow-sm break-inside flex flex-col justify-start items-center rounded-xl p-2 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="social">
+    <img class="flex-none rounded-full w-8 h-8" src="https://randomuser.me/api/portraits/men/78.jpg" alt="avatar" loading="lazy">
+    <h2 class="text-xs font-medium mt-1">Jhonas</h2>
   </article>
-  <article class="border shadow-sm break-inside flex items-start flex-col justify-between rounded-xl gap-2 p-4 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="social">
-    a
+  <article class="border shadow-sm break-inside flex flex-col justify-start items-center rounded-xl p-2 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="social">
+    <img class="flex-none rounded-full w-8 h-8" src="https://randomuser.me/api/portraits/men/79.jpg" alt="avatar" loading="lazy">
+    <h2 class="text-xs font-medium mt-1">Mathiaz</h2>
   </article>
-  <article class="border shadow-sm break-inside flex items-start flex-col justify-between rounded-xl gap-2 p-4 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="social">
-    a
+  <article class="border shadow-sm break-inside flex flex-col justify-start items-center rounded-xl p-2 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="social">
+    <img class="flex-none rounded-full w-8 h-8" src="https://randomuser.me/api/portraits/men/16.jpg" alt="avatar" loading="lazy">
+    <h2 class="text-xs font-medium mt-1">Fabio</h2>
   </article>
-  <article class="border shadow-sm break-inside flex items-start flex-col justify-between rounded-xl gap-2 p-4 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="social">
-    a
+  <article class="border shadow-sm break-inside flex flex-col justify-start items-center rounded-xl p-2 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="social">
+    <img class="flex-none rounded-full w-8 h-8" src="https://randomuser.me/api/portraits/men/46.jpg" alt="avatar" loading="lazy">
+    <h2 class="text-xs font-medium mt-1">Miller</h2>
   </article>
-  <article class="border shadow-sm break-inside flex items-start flex-col justify-between rounded-xl gap-2 p-4 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="social">
-    a
+  <article class="border shadow-sm break-inside flex flex-col justify-start items-center rounded-xl p-2 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="social">
+    <img class="flex-none rounded-full w-8 h-8" src="https://randomuser.me/api/portraits/women/86.jpg" alt="avatar" loading="lazy">
+    <h2 class="text-xs font-medium mt-1">Jessy</h2>
   </article>
-  <article class="border shadow-sm break-inside flex items-start flex-col justify-between rounded-xl gap-2 p-4 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="social">
-    a
+  <article class="border shadow-sm break-inside flex flex-col justify-start items-center rounded-xl p-2 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="social">
+    <img class="flex-none rounded-full w-8 h-8" src="https://randomuser.me/api/portraits/men/36.jpg" alt="avatar" loading="lazy">
+    <h2 class="text-xs font-medium mt-1">Jack</h2>
   </article>
 </section>
 
@@ -1873,29 +2036,68 @@ visible: true
 </article>
 
 <section class="grid grid-cols-2 gap-4 mb-3">
-  <article class="border shadow-sm break-inside flex items-start flex-col justify-between rounded-xl gap-2 p-4 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="social">
-    a
+  <article class="border shadow-sm break-inside flex items-center justify-between rounded-full gap-2 p-2.5 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="social">
+    <header class="flex items-center gap-2">
+      <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"></rect><path d="M7 11V7a5 5 0 0 1 10 0v4"></path></svg>
+      <h2 class="font-medium">Private</h2>
+    </header>
+    <input type="checkbox" checked="" class="h-[16px] px-[3px] w-[30px] relative flex-none cursor-pointer appearance-none rounded-full bg-gray-300 dark:bg-gray-700 before:transition-transform before:duration-200 before:pointer-events-none before:absolute before:top-1/2 before:-translate-y-1/2 before:h-3 before:w-3 before:rounded-full before:bg-transparent before:content-[''] before:transform before:translate-x-0 before:bg-white focus:bg-gray-400 dark:focus:bg-gray-600 focus:checked:bg-indigo-600 checked:bg-indigo-600 checked:before:translate-x-full checked:before:bg-white">
   </article>
-  <article class="border shadow-sm break-inside flex items-start flex-col justify-between rounded-xl gap-2 p-4 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="social">
-    a
+  <article class="border shadow-sm break-inside flex items-center justify-start rounded-xl gap-1 p-2.5 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="social">
+    <button>
+      <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24"><path d="M7,19V17H9V19H7M11,19V17H13V19H11M15,19V17H17V19H15M7,15V13H9V15H7M11,15V13H13V15H11M15,15V13H17V15H15M7,11V9H9V11H7M11,11V9H13V11H11M15,11V9H17V11H15M7,7V5H9V7H7M11,7V5H13V7H11M15,7V5H17V7H15Z" fill="currentColor"/></svg>
+    </button>
+    <img class="flex-none w-5 h-5 rounded-full object-cover" src="https://randomuser.me/api/portraits/men/60.jpg" alt="avatar" loading="lazy">
+    <h2 class="font-medium">Albert G.</h2>
   </article>
-  <article class="border shadow-sm break-inside flex items-start flex-col justify-between rounded-xl gap-2 p-4 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="social">
-    a
+  <article class="border shadow-sm break-inside flex items-center justify-start rounded-xl gap-1 p-2.5 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="social">
+    <button>
+      <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24"><path d="M7,19V17H9V19H7M11,19V17H13V19H11M15,19V17H17V19H15M7,15V13H9V15H7M11,15V13H13V15H11M15,15V13H17V15H15M7,11V9H9V11H7M11,11V9H13V11H11M15,11V9H17V11H15M7,7V5H9V7H7M11,7V5H13V7H11M15,7V5H17V7H15Z" fill="currentColor"/></svg>
+    </button>
+    <input type="checkbox" class="checkbox checkbox-sm" />
+    <h2 class="ml-1 font-medium">Mariana</h2>
   </article>
-  <article class="border shadow-sm break-inside flex items-start flex-col justify-between rounded-xl gap-2 p-4 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="social">
-    a
+  <article class="border shadow-sm break-inside flex items-center justify-start rounded-xl gap-1 p-2.5 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="social">
+    <div class="w-1 h-full rounded-full bg-rose-600"></div>
+    <button>
+      <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24"><path d="M7,19V17H9V19H7M11,19V17H13V19H11M15,19V17H17V19H15M7,15V13H9V15H7M11,15V13H13V15H11M15,15V13H17V15H15M7,11V9H9V11H7M11,11V9H13V11H11M15,11V9H17V11H15M7,7V5H9V7H7M11,7V5H13V7H11M15,7V5H17V7H15Z" fill="currentColor"/></svg>
+    </button>
+    <img class="flex-none w-5 h-5 rounded-full object-cover" src="https://randomuser.me/api/portraits/men/65.jpg" alt="avatar" loading="lazy">
+    <h2 class="font-medium">Angel.</h2>
   </article>
-  <article class="border shadow-sm break-inside flex items-start flex-col justify-between rounded-xl gap-2 p-4 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="social">
-    a
+  <article class="border shadow-sm break-inside flex items-center justify-start rounded-xl gap-1 p-2.5 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="social">
+    <div class="w-1 h-full rounded-full bg-cyan-500"></div>
+    <button>
+      <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24"><path d="M7,19V17H9V19H7M11,19V17H13V19H11M15,19V17H17V19H15M7,15V13H9V15H7M11,15V13H13V15H11M15,15V13H17V15H15M7,11V9H9V11H7M11,11V9H13V11H11M15,11V9H17V11H15M7,7V5H9V7H7M11,7V5H13V7H11M15,7V5H17V7H15Z" fill="currentColor"/></svg>
+    </button>
+    <img class="flex-none w-5 h-5 rounded-full object-cover" src="https://randomuser.me/api/portraits/women/65.jpg" alt="avatar" loading="lazy">
+    <h2 class="font-medium">Jhonny</h2>
   </article>
-  <article class="border shadow-sm break-inside flex items-start flex-col justify-between rounded-xl gap-2 p-4 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="social">
-    a
+  <article class="border shadow-sm break-inside flex items-center justify-start rounded-xl gap-1 p-2.5 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="social">
+    <div class="w-1 h-full rounded-full bg-emerald-500"></div>
+    <button>
+      <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24"><path d="M7,19V17H9V19H7M11,19V17H13V19H11M15,19V17H17V19H15M7,15V13H9V15H7M11,15V13H13V15H11M15,15V13H17V15H15M7,11V9H9V11H7M11,11V9H13V11H11M15,11V9H17V11H15M7,7V5H9V7H7M11,7V5H13V7H11M15,7V5H17V7H15Z" fill="currentColor"/></svg>
+    </button>
+    <img class="flex-none w-5 h-5 rounded-full object-cover" src="https://randomuser.me/api/portraits/men/65.jpg" alt="avatar" loading="lazy">
+    <h2 class="font-medium">Jenrry</h2>
   </article>
-  <article class="border shadow-sm break-inside flex items-start flex-col justify-between rounded-xl gap-2 p-4 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="social">
-    a
+  <article class="border shadow-sm break-inside flex items-center justify-start rounded-xl gap-1 p-2.5 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="social">
+    <div class="w-1 h-full rounded-full bg-indigo-500"></div>
+    <button>
+      <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24"><path d="M7,19V17H9V19H7M11,19V17H13V19H11M15,19V17H17V19H15M7,15V13H9V15H7M11,15V13H13V15H11M15,15V13H17V15H15M7,11V9H9V11H7M11,11V9H13V11H11M15,11V9H17V11H15M7,7V5H9V7H7M11,7V5H13V7H11M15,7V5H17V7H15Z" fill="currentColor"/></svg>
+    </button>
+    <img class="flex-none w-5 h-5 rounded-full object-cover" src="https://randomuser.me/api/portraits/women/15.jpg" alt="avatar" loading="lazy">
+    <h2 class="font-medium">Marina</h2>
   </article>
-  <article class="border shadow-sm break-inside flex items-start flex-col justify-between rounded-xl gap-2 p-4 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="social">
-    a
+  <article class="border shadow-sm break-inside flex items-center justify-start rounded-xl gap-1 p-2.5 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="social">
+    <div class="w-1 h-full rounded-full bg-amber-400"></div>
+    <button>
+      <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24"><path d="M7,19V17H9V19H7M11,19V17H13V19H11M15,19V17H17V19H15M7,15V13H9V15H7M11,15V13H13V15H11M15,15V13H17V15H15M7,11V9H9V11H7M11,11V9H13V11H11M15,11V9H17V11H15M7,7V5H9V7H7M11,7V5H13V7H11M15,7V5H17V7H15Z" fill="currentColor"/></svg>
+    </button>
+    <input type="checkbox" class="checkbox checkbox-sm" />
+    <h2 class="font-medium">Jonaz</h2>
   </article>
 </section>
+
+
 
