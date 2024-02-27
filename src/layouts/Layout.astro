@@ -214,8 +214,65 @@ import { navigate } from "astro:transitions/client";
 			}
 		});
 
+		// Inspect cursor
+
+		const widgets = document.querySelectorAll('[data-filter]');
 		
+		widgets.forEach((widget) => {
+			const box = document.createElement('div');
+			widget.addEventListener('mouseenter', (e) => {
+				const target = e.target as HTMLElement;
+				const { top, left, width, height } = (e.target as HTMLElement).getBoundingClientRect();
+				box.style.position = 'fixed';
+				box.style.top = `${top}px`;
+				box.style.left = `${left}px`;
+				box.style.width = `${width}px`;
+				box.style.height = `${height}px`;
+				box.style.border = '2px solid blue';
+				box.style.backgroundColor = 'rgba(0, 0, 255, 0.1)';
+				box.style.zIndex = '9999';
+				box.style.pointerEvents = 'none';
+				box.style.display = 'none';
+				document.body.appendChild(box);
+				if (widget.contains(target)) {
+					box.style.display = 'block';
+				} else {
+					box.remove();
+				}
+			});
+
+			widget.addEventListener('mouseleave', () => {
+				box.remove();
+			});
+
+			window.addEventListener('resize', () => {
+				box.remove();
+			});
+
+			window.addEventListener('scroll', () => {
+				box.remove();
+			});
+
+			// Copy code
+
+			widget.addEventListener('click', (e) => {
+				const target = e.target as HTMLElement;
+				const content = target.innerHTML.trim();
+				
+				navigator.clipboard.writeText(content).then(() => {
+					widget.style.animation = 'shake 0.3s';
+					setTimeout(() => {
+						widget.style.animation = 'none';
+					}, 300);
+				});
+
+			});
+			
+		});
 		
+
+		
+
 	</script>
 
 	<body>
