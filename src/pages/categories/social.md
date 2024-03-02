@@ -1,9 +1,9 @@
 ---
-layout: "../../layouts/Layout.astro"
+layout: "../../layouts/ExpoLayout.astro"
 slug: 'social'
 category: 'Social'
 tags: ['social']
-title: 'Widget components with tailwind CSS'
+title: 'Widget components with tailwind CSS - Social'
 visible: true
 ---
 
@@ -748,8 +748,80 @@ visible: true
   </div>
 </article>
 
-<article class="border shadow-sm break-inside rounded-xl p-4 mb-3 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="social">
-  a
+<article class="border group shadow-sm break-inside rounded-xl p-3 mb-3 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="social">
+  <div class="grid grid-cols-12 gap-3">
+    <div class="flex flex-col gap-2 items-center flex-none h-full col-span-2">
+      <a class="inline-block" href="#">
+        <img class="rounded-full max-w-none w-9 h-9" src="https://randomuser.me/api/portraits/women/54.jpg" alt="Avatar">
+      </a>
+      <span class="w-0.5 h-full rounded bg-gray-200"></span>
+    </div>
+    <div class="col-span-10">
+      <div class="flex-1 relative">
+        <button class="hidden absolute right-0 top-0 group-hover:flex items-center justify-center rounded-full p-1 transition-all hover:bg-gray-200 dark:hover:bg-white/10">
+          <svg width="22" height="22" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12,16A2,2 0 0,1 14,18A2,2 0 0,1 12,20A2,2 0 0,1 10,18A2,2 0 0,1 12,16M12,10A2,2 0 0,1 14,12A2,2 0 0,1 12,14A2,2 0 0,1 10,12A2,2 0 0,1 12,10M12,4A2,2 0 0,1 14,6A2,2 0 0,1 12,8A2,2 0 0,1 10,6A2,2 0 0,1 12,4Z" fill="currentColor"></path></svg>
+        </button>
+        <div class="flex items-center">
+          <a class="inline-block font-bold mr-2" href="#">Dianne Russell</a>
+          <span class="text-xs text-gray-400">3 min ago</span>
+        </div>
+        <p class="text-xs"> Dolor sit ameteiusmod Dolor sit ameteiusmod 🐸conse tetur. </p>
+        <div class="mt-1 flex items-center">
+          <a class="inline-flex items-center py-2 mr-3" href="#">
+            <span class="mr-2">
+              <svg class="fill-rose-600" width="18" height="18" viewBox="0 0 24 24"><path d="M12,21.35L10.55,20.03C5.4,15.36 2,12.27 2,8.5C2,5.41 4.42,3 7.5,3C9.24,3 10.91,3.81 12,5.08C13.09,3.81 14.76,3 16.5,3C19.58,3 22,5.41 22,8.5C22,12.27 18.6,15.36 13.45,20.03L12,21.35Z"></path></svg>
+            </span>
+            <span class="font-bold">2</span>
+          </a>
+          <button class="py-1 px-4 font-medium transition-colors duration-300 hover:bg-gray-50 dark:hover:bg-white/10 rounded-md">Repply</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="grid grid-cols-12 gap-3 pt-2">
+    <div class="flex flex-col gap-2 items-center flex-none h-full col-span-2">
+      <a class="inline-block" href="#">
+        <img class="rounded-full max-w-none w-9 h-9" src="https://randomuser.me/api/portraits/men/57.jpg" alt="Avatar">
+      </a>
+    </div>
+    <div class="col-span-10">
+      <div class="flex-1 relative">
+        <button class="hidden absolute right-0 top-0 group-hover:flex items-center justify-center rounded-full p-1 transition-all hover:bg-gray-200 dark:hover:bg-white/10">
+          <svg width="22" height="22" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12,16A2,2 0 0,1 14,18A2,2 0 0,1 12,20A2,2 0 0,1 10,18A2,2 0 0,1 12,16M12,10A2,2 0 0,1 14,12A2,2 0 0,1 12,14A2,2 0 0,1 10,12A2,2 0 0,1 12,10M12,4A2,2 0 0,1 14,6A2,2 0 0,1 12,8A2,2 0 0,1 10,6A2,2 0 0,1 12,4Z" fill="currentColor"></path></svg>
+        </button>
+        <div class="flex items-center">
+          <a class="inline-block font-bold mr-2" href="#">Jhon</a>
+          <span class="text-xs text-gray-400">3 min ago</span>
+        </div>
+        <p class="text-xs"> Dolor sit ametei usm odolor sit amet onse tetur. </p>
+        <div class="mt-1 flex items-center">
+          <a class="inline-flex items-center py-2 mr-3" href="#">
+            <span class="mr-2">
+              <svg class="fill-rose-600" width="18" height="18" viewBox="0 0 24 24"><path d="M12,21.35L10.55,20.03C5.4,15.36 2,12.27 2,8.5C2,5.41 4.42,3 7.5,3C9.24,3 10.91,3.81 12,5.08C13.09,3.81 14.76,3 16.5,3C19.58,3 22,5.41 22,8.5C22,12.27 18.6,15.36 13.45,20.03L12,21.35Z"></path></svg>
+            </span>
+            <span class="font-bold">2</span>
+          </a>
+          <button class="py-1 px-4 font-medium transition-colors duration-300 hover:bg-gray-50 dark:hover:bg-white/10 rounded-md">Repply</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</article>
+
+<article class="border shadow-sm break-inside rounded-xl flex py-4 pl-0 pr-4 mb-3 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="social">
+  <header class="flex items-center justify-start gap-4">
+    <span class="w-1.5 h-full rounded-full bg-green-600"></span>
+    <div class="flex flex-col">
+      <div class="flex items-center justify-between">
+        <h2 class="font-medium text-lg">Reunión</h2>
+        <span class="text-xs text-gray-500">10:00 AM</span>
+      </div>
+      <div class="flex items-center justify-between gap-4">
+        <p class="text-xs">Loren ipsum dolor sit amet, conct etur adip iscing elit.</p>
+        <button class="flex items-center justify-center cursor-pointer rounded-full h-7 px-3 text-sm bg-indigo-600 text-white">Join</button>
+      </div>
+    </div>
+  </header>
 </article>
 
 <section class="grid grid-cols-2 gap-4">
@@ -971,9 +1043,9 @@ visible: true
   </svg>
 </article>
 
-<article class="border shadow-sm break-inside flex items-center justify-between rounded-xl p-4 mb-3 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="social">
-  <header class="flex items-center gap-4">
-    <div class="flex-none w-12 h-12 rounded-full flex items-center justify-center font-medium text-lg text-amber-700 bg-amber-200">AB</div>
+<article class="border shadow-sm break-inside flex items-start justify-between rounded-xl p-4 mb-3 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="social">
+  <header class="flex items-start gap-4">
+    <div class="flex-none w-10 h-10 rounded-full flex items-center justify-center font-semibold text-base text-amber-700 bg-amber-200">AB</div>
     <div class="flex-auto">
       <h2 class="text-base font-medium block">Annette Black</h2>
       <p class="text-xs text-gray-600 dark:text-gray-300">Hi there! I'm a designer and developer from San Francisco.</p>

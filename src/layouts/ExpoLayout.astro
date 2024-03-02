@@ -1,0 +1,12 @@
+---
+import RootLayout from '../layouts/RootLayout.astro'
+
+const { frontmatter } = Astro.props;
+
+---
+
+<RootLayout title={frontmatter.title}>
+	<main class="main-expo mt-8">
+		<slot />
+	</main>
+</RootLayout>

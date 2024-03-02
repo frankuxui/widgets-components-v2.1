@@ -1,0 +1,172 @@
+---
+
+---
+
+<script>
+  const widgets = document.querySelectorAll('[data-widget]') as NodeListOf<HTMLElement>;
+
+  
+
+  widgets.forEach((widget, index) => {
+    const width = widget.clientWidth;
+    const height = widget.clientHeight;
+    const top = widget.offsetTop;
+    const left = widget.offsetLeft;
+
+    const createMasonry = () => {
+      const columns = Math.floor(window.innerWidth / width);
+      const margin = 16;
+      const columnHeights = Array.from({ length: columns }, () => 0);
+      widget.style.position = 'absolute';
+      widget.style.width = `${width}px`;
+      widget.style.height = `${height}px`;
+      widget.style.top = `${columnHeights.reduce((acc, cur, i) => cur < columnHeights[acc] ? i : acc, 0) * (height + margin) + margin}px`;
+      widget.style.left = `${columnHeights.reduce((acc, cur, i) => cur < columnHeights[acc] ? i : acc, 0) * (width + margin) + margin}px`;
+      columnHeights[columnHeights.reduce((acc, cur, i) => cur < columnHeights[acc] ? i : acc, 0)] += height + margin;
+    };
+
+    createMasonry();
+
+    
+});
+
+  const observer = new IntersectionObserver(entries => {
+    entries.forEach(entry => {
+      const widget = entry.target;
+      if (entry.isIntersecting) {
+        widget.style.position = 'static';
+        widget.style.width = 'auto';
+        widget.style.height = 'auto';
+        widget.style.top = 'auto';
+        widget.style.left = 'auto';
+      } else {
+        widget.style.position = 'absolute';
+        widget.style.width = `${widget.clientWidth}px`;
+        widget.style.height = `${widget.clientHeight}px`;
+        widget.style.top = `${widget.offsetTop}px`;
+        widget.style.left = `${widget.offsetLeft}px`;
+      }
+    });
+  });
+
+  widgets.forEach(widget => {
+    observer.observe(widget);
+
+  });
+  
+</script>
+
+<div class="w-full relative">
+  <div class="absolute blur-3xl rounded-full w-[20rem] h-[20rem] bg-gradient-to-b opacity-20 from-[#89416d] to-[#cc7e00] dark:from-[#ff88a908] dark:to-[#ffb23615]"></div>
+    
+  <div class="masonry relative z-[1]">
+
+    <article class="max-w-[290px] border shadow-sm overflow-hidden break-inside grid grid-cols-12 rounded-xl mb-3 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-widget>
+      <img class="w-full max-w-full h-[8rem] object-cover col-span-5" src="https://images.pexels.com/photos/3182452/pexels-photo-3182452.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1260&amp;h=750&amp;dpr=2" data-author="Alex Azabache" data-author-profile="https://www.pexels.com/es-es/@alexazabache/" loading="lazy">
+      <div class="h-full flex items-center col-span-7">
+        <div class="p-4 flex items-center gap-3 relative -ml-[3rem]">
+          <img class="flex-none mt-1 w-14 h-14 rounded-full border-2 border-white dark:border-gray-950" src="https://randomuser.me/api/portraits/men/95.jpg" alt="avatar" loading="lazy">
+          <div class="flex flex-col">
+            <a href="#" class="text-base font-semibold block">Roman</a>
+            <span class="text-gray-600 dark:text-gray-400">Photographer</span>
+          </div>
+        </div>
+      </div>
+    </article>
+  
+    <article class="max-w-[140px] border shadow-sm break-inside flex items-start flex-col justify-between rounded-xl gap-2 p-4 mb-3 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-widget>
+      <header>
+        <svg width="26" height="26" viewBox="0 0 512 512"><path d="M384 240H96V136a40.12 40.12 0 0140-40h240a40.12 40.12 0 0140 40v104zM48 416V304a64.19 64.19 0 0164-64h288a64.19 64.19 0 0164 64v112" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="32"></path><path d="M48 416v-8a24.07 24.07 0 0124-24h368a24.07 24.07 0 0124 24v8M112 240v-16a32.09 32.09 0 0132-32h80a32.09 32.09 0 0132 32v16M256 240v-16a32.09 32.09 0 0132-32h80a32.09 32.09 0 0132 32v16" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="32"></path></svg>
+      </header>
+      <section>
+        <h2 class="text-base font-medium">Bed time</h2>
+        <h3 class="text-lg font-semibold">10:00 PM</h3>
+      </section>
+      <p class="text-xs text-gray-500">Set your bedtime and wake up time...</p>
+    </article>
+  
+    <article class="max-w-[290px] border shadow-sm break-inside flex items-center flex-row justify-between rounded-xl p-4 mb-3 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-widget>
+      <header class="flex flex-col items-start gap-2">
+        <span class="uppercase text-xs font-medium text-gray-600 dark:text-gray-400">CURRENT PRICE</span>
+        <div class="flex items-center justify-center gap-2">
+          <h2 class="text-sm sm:text-base font-semibold">€45.00</h2>
+          <span class="px-2 py-[2px] text-xs rounded-sm bg-[#D1FFD6] text-black">-082%</span>
+        </div>
+        <p class="text-xs text-gray-500">Update now - 3:23AM</p>
+      </header>
+      <section class="flex flex-col gap-2 max-w-[7rem]">
+        <div class="flex flex-row items-center gap-2">
+          <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M17 17L7.8 7.7M7 17V7h10"></path>
+          </svg>
+          <span class="font-semibold uppercase text-xs">Upward</span>
+        </div>
+        <div class="w-full">
+          <svg class="w-full" viewBox="0 0 141 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <g>
+              <path d="M5 1.06827C21.6434 0.767281 22.9399 12.3208 34.9648 17.0373C40.1853 19.085 49.7907 6.92438 50.5584 9.19207C52.0191 13.5068 56.5137 13.1684 59.691 15.8304C62.3177 18.031 66.82 17.223 70.2031 17.223C71.4937 17.223 70.5663 21.5846 71.8795 22.3604C76.5857 25.1406 100.925 -1.04184 101.181 7.6911C101.267 10.6171 104.228 14.784 107.729 14.9638C112.327 15.2001 116.088 13.9989 118.887 18.0586C121.415 21.7246 125.071 23.9078 129.941 23.9078C133.089 23.9078 132.858 20.66 136 24.0625" stroke="url(#paint0_linear_228_43)" stroke-width="3" stroke-linecap="round"> </path>
+            </g>
+            <defs>
+              <linearGradient id="paint0_linear_228_43" x1="5" y1="1.0625" x2="139.386" y2="19.4725" gradientUnits="userSpaceOnUse">
+                <stop stop-color="#7000FF"></stop>
+                <stop offset="1" stop-color="#EA00B6"> </stop>
+              </linearGradient>
+            </defs>
+          </svg>
+        </div>
+      </section>
+    </article>
+
+    <article class="max-w-[290px] border shadow-2xl break-inside flex items-center justify-between rounded-xl p-4 mb-3 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-widget>
+      <div class="flex items-center space-x-4">
+        <header class="flex-auto">
+          <h2 class="text-base font-medium">California</h2>
+          <p class="text-gray-500">We'll be there soon</p>
+        </header>
+      </div>
+      <div class="flex items-center gap-2">
+        <span class="text-3xl font-bold">24°</span>
+        <img class="w-12 h-12 object-cover" src="https://www.svgrepo.com/show/452177/cloud.svg" alt="weather">
+      </div>
+    </article>
+
+    <article class="max-w-[140px] border shadow-sm break-inside flex flex-col justify-between rounded-xl p-4 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-widget>
+      <header class="flex items-center justify-between">
+        <span class="h-6 px-2 text-xs font-medium rounded-md flex items-center justify-center bg-green-100 text-green-600 dark:bg-green-500/30 dark:text-green-300">NEW</span>
+        <button class="inline-flex items-center justify-center w-7 h-7 transition-all rounded-full hover:bg-gray-100 dark:hover:bg-gray-900">
+          <svg width="28" height="28" fill="none" stroke-width="1.5" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M6.75 12a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0ZM12.75 12a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0ZM18.75 12a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z"></path>
+          </svg>
+        </button>
+      </header>
+      <section class="mt-3">
+        <h2 class="text-base font-bold">Project members</h2>
+        <p class="text-[10px] mt-1 text-gray-500">03:00 PM - 05:00 PM</p>
+      </section>
+      <div class="flex items-center justify-between mt-auto">
+        <div class="block">
+          <dt class="sr-only">Users</dt>
+          <dd class="flex justify-start -space-x-1.5">
+            <a href="#" class="inline-block -m-1">
+              <img class="w-6 h-6 rounded-full ring-2 ring-white dark:ring-gray-950" src="https://randomuser.me/api/portraits/women/48.jpg" alt="avatar" loading="lazy">
+            </a>
+            <a href="#" class="inline-block -m-1">
+              <img class="w-6 h-6 rounded-full ring-2 ring-white dark:ring-gray-950" src="https://randomuser.me/api/portraits/men/15.jpg" alt="avatar" loading="lazy">
+            </a>
+            <a href="#" class="inline-block -m-1">
+              <img class="w-6 h-6 rounded-full ring-2 ring-white dark:ring-gray-950" src="https://randomuser.me/api/portraits/women/37.jpg" alt="avatar" loading="lazy">
+            </a>
+          </dd>
+        </div>
+        <button class="rounded-full flex items-center justify-center w-8 h-8 transition-all hover:bg-gray-100 dark:hover:bg-gray-900">
+          <svg width="16" height="16" fill="none" stroke-width="3" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25"></path>
+          </svg>
+        </button>
+      </div>
+    </article>
+
+  </div>
+
+
+</div>

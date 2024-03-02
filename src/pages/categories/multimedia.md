@@ -1,5 +1,5 @@
 ---
-layout: "../../layouts/Layout.astro"
+layout: "../../layouts/ExpoLayout.astro"
 slug: 'multimedia'
 category: 'Multimedia'
 tags: ['multimedia']

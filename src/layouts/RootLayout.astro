@@ -1,0 +1,686 @@
+---
+interface Props {
+	title: string;
+}
+
+const { title } = Astro.props;
+
+let pages = []
+pages = await Astro.glob('../pages/categories/*.md')
+
+const data = pages.map((item) => {
+	const { category, title, slug, tags, visible } = item.frontmatter
+
+	return {
+		category,
+		title,
+		slug,
+		tags,
+		visible
+	}
+})
+
+const pageSlug = Astro.url.pathname.split('/')[2]
+
+---
+
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="description" content="Astro description" />
+		<meta name="viewport" content="width=device-width" />
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<meta name="generator" content={Astro.generator} />
+		<title>{title}</title>
+	</head>
+
+	<script>
+		const themeToggle = document.querySelectorAll('[data-toggle="theme"]');
+    import { navigate } from "astro:transitions/client";
+		const prefersDark = window.matchMedia('(prefers-color-scheme: dark)');
+		const prefersLight = window.matchMedia('(prefers-color-scheme: light)');
+		const prefersNone = window.matchMedia('(prefers-color-scheme: no-preference)');
+
+		const setTheme = (theme: string) => {
+			if (theme === 'dark') {
+				document.documentElement.classList.add('dark');
+				document.documentElement.classList.remove('light');
+				themeToggle.forEach((toggle) => {
+					(toggle as HTMLInputElement).checked = true;
+				});
+			} else {
+				document.documentElement.classList.add('light');
+				document.documentElement.classList.remove('dark');
+				themeToggle.forEach((toggle) => {
+					(toggle as HTMLInputElement).checked = false;
+				});	
+			}
+		};
+
+		if (prefersDark.matches) {
+			setTheme('dark');
+		}
+		if (prefersLight.matches) {
+			setTheme('light');
+		}
+		if (prefersNone.matches) {
+			setTheme('light');
+		}
+
+		// Save the user's theme preference to localStorage
+
+		const savedTheme = localStorage.getItem('theme');
+
+		if (savedTheme) {
+			setTheme(savedTheme);
+		}
+
+		themeToggle.forEach((toggle) => {
+			toggle.addEventListener('change', (e: Event) => {
+				const isChecked = (e.target as HTMLInputElement).checked;
+				const theme = localStorage.getItem('theme');
+
+				if (theme === 'dark') {
+					localStorage.setItem('theme', 'light');
+					setTheme('light');
+				} else {
+					localStorage.setItem('theme', 'dark');
+					setTheme('dark');
+				}
+			});
+		});
+
+		prefersDark.addEventListener('change', (e) => {
+			if (e.matches) {
+				setTheme('dark');
+			}
+		});
+
+		prefersLight.addEventListener('change', (e) => {
+			if (e.matches) {
+				setTheme('light');
+			}
+		});
+
+		prefersNone.addEventListener('change', (e) => {
+			if (e.matches) {
+				setTheme('light');
+			}
+		});
+
+		
+
+		
+		// Filter widgets categories
+
+		/*
+
+		const filter = document.querySelector('#filter');
+
+		const widgets = document.querySelectorAll('[data-filter]');
+		const widgetCategories = Array.from(widgets).map((widget) => (widget as HTMLElement).dataset.filter);
+		const uniqueWidgetCategories = [...new Set(widgetCategories)];
+		
+		uniqueWidgetCategories.forEach((category) => {
+			const option = document.createElement('option');
+
+			if (category.length > 0) {
+				option.value = category;
+				option.textContent = category;
+				filter.appendChild(option);
+			}
+
+			return option;
+		});
+
+		filter.addEventListener('change', (e) => {
+			const selectedCategory = (e.target as HTMLSelectElement).value;
+
+			widgets.forEach((widget) => {
+				if (selectedCategory === 'all') {
+					widget.classList.remove('hidden');
+				} else if ((widget as HTMLElement).dataset.filter === selectedCategory) {
+					widget.classList.remove('hidden');
+				} else {
+					widget.classList.add('hidden');
+				}
+			});
+		});
+		
+		*/
+
+		// Aside toggle
+
+		const asideToggle = document.querySelectorAll('[data-toggle="aside"]');
+		const asideContent = document.querySelector('.aside-content') as HTMLElement;
+		const aside = document.querySelector('aside');
+
+		asideToggle.forEach((toggle) => {
+			toggle.addEventListener('click', () => {
+				if (aside.style.display === 'none') {
+					aside.style.display = 'block';
+					document.body.style.overflow = 'hidden';
+					setTimeout(() => {
+						asideContent.style.transform = 'translateX(0)';
+					}, 100);
+				} else {
+					asideContent.style.transform = 'translateX(-100%)';
+					document.body.style.overflow = 'auto';
+					setTimeout(() => {
+						aside.style.display = 'none';
+					}, 300);
+				}
+			});
+		});
+		
+
+		// Menu more toggle
+
+		const menuMoreToggle = document.querySelectorAll('[data-toggle="menu-more"]');
+		const menuDropdown = document.querySelectorAll('.menu-dropdown');
+		
+		menuMoreToggle.forEach((toggle) => {
+			toggle.addEventListener('click', () => {
+				const dropdown = toggle.nextElementSibling as HTMLElement;
+
+				if (dropdown.style.display === 'none') {
+					dropdown.style.display = 'block';
+				} else {
+					dropdown.style.display = 'none';
+				}
+			});
+		});
+
+		// Close menu more dropdown when clicking outside of it
+
+		document.addEventListener('click', (e) => {
+			menuMoreToggle.forEach((item) => {
+				if (!item.contains(e.target as Node)) {
+					menuDropdown.forEach((dropdown) => {
+						(dropdown as HTMLElement).style.display = 'none';
+					});
+				}
+			});
+		});
+
+		// Close menu more dropdown when clicking the escape key
+
+		document.addEventListener('keydown', (e) => {
+			if (e.key === 'Escape') {
+				menuDropdown.forEach((dropdown) => {
+					(dropdown as HTMLElement).style.display = 'none';
+				});
+			}
+		});
+
+		// Inspect cursor
+
+		/*
+		const widgets = document.querySelectorAll('[data-filter]');
+		
+		widgets.forEach((widget) => {
+			const box = document.createElement('div');
+			window.addEventListener('mousemove', (e) => {
+				const target = e.target as HTMLElement;
+				const { top, left, width, height } = widget.getBoundingClientRect();
+				box.style.position = 'fixed';
+				box.style.top = `${top}px`;
+				box.style.left = `${left}px`;
+				box.style.width = `${width}px`;
+				box.style.height = `${height}px`;
+				box.style.border = '2px solid blue';
+				box.style.backgroundColor = 'rgba(0, 0, 255, 0.1)';
+				box.style.zIndex = '9999';
+				box.style.pointerEvents = 'none';
+				box.style.display = 'none';
+				document.body.appendChild(box);
+				if (widget.contains(target)) {
+					box.style.display = 'block';
+				} else {
+					box.remove();
+				}
+			});
+
+			widget.addEventListener('mouseleave', () => {
+				box.remove();
+			});
+
+			window.addEventListener('resize', () => {
+				box.remove();
+			});
+
+			window.addEventListener('scroll', () => {
+				box.remove();
+			});
+
+			// Copy code
+
+			widget.addEventListener('click', (e) => {
+				const target = e.target as HTMLElement;
+				const content = target.innerHTML.trim();
+				
+				navigator.clipboard.writeText(content).then(() => {
+					widget.style.animation = 'shake 0.3s';
+					setTimeout(() => {
+						widget.style.animation = 'none';
+					}, 300);
+				});
+
+			});
+			
+		});
+		
+		*/
+		
+
+	</script>
+
+	<body>
+
+		<header class="z-30 sticky top-0 py-4 bg-white dark:bg-gray-950">
+			<div class="flex items-center justify-between container">
+				<a href="/" class="flex items-center gap-2">
+					<h1 class="flex-none text-xl md:text-2xl xl:text-3xl font-bold dark:text-white">Widgets</h1>
+				</a>
+				<ul class="hidden lg:flex items-center justify-center gap-4 w-full">
+					{
+						data.filter((item) => item.visible).map((item) => {
+							return (
+								<li>
+									<a 
+										href={`/categories/${item.slug}`}
+										class="flex items-center justify-center uppercase text-sm tracking-wider rounded-sm transition-colors duration-200"
+										class:list={{
+											'font-medium hover:text-black text-gray-600 dark:text-gray-500 dark:hover:text-gray-400': pageSlug !== item.slug,
+											'font-extrabold text-black dark:text-white': pageSlug === item.slug
+										}}
+										>
+										{item.category}
+									</a>
+								</li>
+							)
+						})
+
+					}
+					<li class="relative">
+						<button data-toggle="menu-more" class="flex items-center justify-center w-10 h-10 flex-none transition-colors duration-300 rounded-full hover:bg-gray-200 dark:hover:bg-gray-900 dark:text-white focus:bg-gray-300 dark:focus:bg-gray-700" >
+							<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="1"></circle><circle cx="19" cy="12" r="1"></circle><circle cx="5" cy="12" r="1"></circle></svg>
+						</button>
+						<div 
+							class="menu-dropdown flex flex-col absolute mt-2 top-full left-1/2 -translate-x-1/2 w-full min-w-[15rem]"
+							style="display: none;"
+						>
+							<div class="border p-4 rounded shadow-xl bg-white dark:bg-gray-800 dark:border-gray-800">
+								{
+									data.filter((item) => item.visible === false).map((item) => {
+										return (
+											<a 
+												href={`/categories/${item.slug}`}
+												class="relative block py-2 px-4 w-full rounded transition-colors duration-200"
+												class:list={{
+													'text-gray-600 hover:text-black hover:bg-gray-100 dark:text-gray-300 dark:hover:bg-white/5 dark:hover:text-white': pageSlug !== item.slug,
+													'text-black font-bold dark:text-white hover:bg-black/5 dark:hover:bg-white/5': pageSlug === item.slug
+												}}
+												>
+												{item.category}
+											</a>
+										)
+									})
+								}
+							</div>
+						</div>
+					</li>
+				</ul>
+				<div class="flex items-center flex-none gap-4">
+					<label class="relative inline-flex items-center cursor-pointer">
+						<input type="checkbox" class="sr-only peer" data-toggle="theme" />
+						<div class="w-11 h-6 bg-gray-200 peer-focus:outline-none peer-focus:ring-4 peer-focus:ring-blue-300 dark:peer-focus:ring-blue-800 rounded-full peer dark:bg-gray-800 peer-checked:after:translate-x-full rtl:peer-checked:after:-translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:start-[2px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-5 after:w-5 after:transition-all dark:border-gray-600 peer-checked:bg-blue-600"></div>
+					</label>
+					<!-- Menu button -->
+					<button data-toggle="aside" class="flex lg:hidden items-center justify-center w-10 h-10 flex-none transition-colors duration-300 rounded-full hover:bg-gray-200 dark:hover:bg-gray-700 dark:text-white">
+						<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg>
+					</button>
+					<!-- End menu button -->
+				</div>
+				
+
+			</div>
+		</header>
+
+    <slot />
+		
+
+		<aside
+			class="fixed top-0 left-0 h-full w-full z-50"
+			style="display: none;"
+		>
+			<div data-toggle="aside" class="absolute top-0 left-0 w-full h-full bg-black bg-opacity-70 backdrop-blur"></div>
+
+			<div 
+				class="aside-content relative flex flex-col w-full h-full max-w-xs z-10 bg-white"
+				style="transition: transform 200ms ease-in-out; transform: translateX(-100%);"
+			>
+				<header class="w-full flex items-center justify-between px-6 p-4 border-b">
+					<h2 class="text-lg font-medium">Widgets</h2>
+
+					<!-- Close button -->
+					<button data-toggle="aside" class="flex lg:hidden items-center justify-center w-9 h-9 flex-none transition-colors duration-300 text-black rounded-full hover:bg-gray-200">
+						<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+					</button>
+					<!-- End close button -->
+
+				</header>
+				<section class="flex-1 py-8 px-6 overflow-y-auto">
+					<h2 class="text-lg font-medium">Categories</h2>
+					<ul class="flex flex-col w-full mt-4">
+						{
+							data.map((item) => {
+								return (
+									<li>
+										<a 
+											href={`/categories/${item.slug}`}
+											class="relative block py-2 w-full rounded transition-colors duration-200"
+											class:list={{
+												'text-gray-600 hover:text-black': pageSlug !== item.slug,
+												'text-black font-bold': pageSlug === item.slug
+											}}
+											>
+											{item.category}
+										</a>
+									</li>
+								)
+							})
+						}
+					</ul>
+				</section>
+
+				<footer class="flex items-center justify-between w-full bg-gray-50 py-8 px-6">
+					<h2 class="text-base font-medium">Settings</h2>
+					<!-- Theme toggle -->
+					<label class="relative inline-flex items-center cursor-pointer">
+						<input type="checkbox" value="" class="sr-only peer" data-toggle="theme">
+						<div class="w-11 h-6 bg-gray-200 peer-focus:outline-none peer-focus:ring-4 peer-focus:ring-blue-300 rounded-full peer peer-checked:after:translate-x-full rtl:peer-checked:after:-translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:start-[2px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-5 after:w-5 after:transition-all peer-checked:bg-blue-600"></div>
+					</label>
+					<!-- End theme toggle -->
+
+				</footer>
+			</div>
+		</aside>
+	</body>
+</html>
+
+<style is:global>
+	@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+
+	/*
+	px-6 mt-16 py-20 box-border m-auto w-full lg:max-w-full max-w-[75rem] xl:max-w-[85rem] 3xl:max-w-[120rem] 4xl:max-w-[145rem] columns-1xs sm:columns-2xs md:columns-2 lg:columns-3 xl:columns-4 3xl:columns-6 4xl:columns-7
+	*/
+	:root {
+		--dark-bg: theme('colors.gray.950');
+		--light-bg: #ffffff;
+	}
+	body {
+		font-family: 'Roboto', sans-serif;
+		background: var(--light-bg);
+	}
+	.dark body {
+		background: var(--dark-bg);
+	}
+	.break-inside {
+  	-moz-column-break-inside: avoid;
+  	break-inside: avoid;
+	}
+
+
+	.main-expo {
+		column-count: 1;
+		column-gap: 0.75rem;
+		padding: 0 1.5rem;
+		margin: 0 auto;
+		max-width: 100%;
+		padding-bottom: 2rem;
+	}
+	.container {
+		padding: 0 1.5rem;
+		margin: 0 auto;
+		width: 100%;
+		max-width: 100%;
+	}
+
+
+	@media screen and (980px >= width > 640px) {
+		.main-expo {
+			column-count: 2;
+			max-width: 660px;
+		}
+		.container {
+			max-width: 660px;
+		}
+	}
+
+	@media screen and (1280px >= width > 980px) {
+		.main-expo {
+			column-count: 3;
+			max-width: 980px;
+		}
+		.container {
+			max-width: 980px;
+		}
+	}
+
+	@media screen and (1600px >= width > 1280px) {
+		.main-expo {
+			column-count: 4;
+			max-width: 1340px;
+		}
+		.container {
+			max-width: 1340px;
+		}
+	}
+
+	@media screen and (1920px >= width > 1600px) {
+		.main-expo {
+			column-count: 5;
+			max-width: 1600px;
+		}
+		.container {
+			max-width: 1600px;
+		}
+	}
+
+	@media screen and (1920px >= width > 1600px) {
+		.main-expo {
+			column-count: 5;
+			max-width: 1600px;
+		}
+	}
+	
+	@media screen and (2048px >= width > 1920px) {
+		.main-expo {
+			column-count: 6;
+			max-width: 1920px;
+		}
+		.container {
+			max-width: 1920px;
+		}
+	}
+
+	@media screen and (2460px >= width > 2048px) {
+		.main-expo {
+			column-count: 7;
+			max-width: 2048px;
+		}
+		.container {
+			max-width: 2048px;
+		}
+	}
+
+	@media screen and (2560px >= width > 2460px) {
+		.main-expo {
+			column-count: 8;
+			max-width: 2460px;
+		}
+		.container {
+			max-width: 2460px;
+		}
+	}
+
+	@keyframes shake {
+		0%{
+			transform: translate3d(-4px, 0, 0);	
+		},
+		100% {
+			transform: translate3d(4px, 0, 0);	
+		}
+	}
+
+	.checkbox {
+  @apply relative flex-none cursor-pointer rounded-sm border-[2px] border-solid border-indigo-600 outline-none focus:shadow-none focus:transition-[border-color_0.2s] appearance-none checked:focus:after:rounded-none focus:after:rounded-[2px]  
+}
+.checkbox:hover:before{
+  @apply opacity-[0.04] shadow-[0px_0px_0px_13px_rgba(0,0,0,0.1)]
+}
+.checkbox:before{
+  @apply pointer-events-none absolute scale-0 bg-transparent opacity-0 shadow-[0px_0px_0px_13px_transparent] content-[''] rounded-full border-[8px] border-solid border-transparent -translate-x-1/2 -translate-y-1/2 z-[0]
+}
+.checkbox:after, .checkbox:focus:after{
+  @apply absolute z-[1] block content-['']
+}
+.checkbox:focus:before {
+  @apply left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 scale-100 opacity-95 transition-[box-shadow_0.2s,transform_0.2s]
+}
+.checkbox:checked{
+  @apply border-indigo-600 bg-indigo-600
+}
+.checkbox:checked:after{
+  @apply border-white
+}
+.checkbox:checked:before{
+  @apply bg-opacity-90 
+}
+
+/** light **/
+
+.checkbox.checkbox-light {
+  @apply border-white
+}
+.checkbox.checkbox-light:checked{
+  @apply border-white bg-white
+}
+.checkbox.checkbox-light:checked:after{
+  @apply border-black
+}
+.checkbox.checkbox-light.checkbox-xs:focus:before, .checkbox.checkbox-light.checkbox-xs:checked:focus:before {
+  @apply shadow-[0px_0px_0px_10px_#ffffff37]
+}
+.checkbox.checkbox-light.checkbox-sm:focus:before, .checkbox.checkbox-light.checkbox-sm:checked:focus:before {
+  @apply shadow-[0px_0px_0px_10px_#ffffff37]
+}
+.checkbox.checkbox-light.checkbox-md:focus:before, .checkbox.checkbox-light.checkbox-md:checked:focus:before {
+  @apply shadow-[0px_0px_0px_12px_#ffffff37]
+}
+.checkbox.checkbox-light.checkbox-xl:focus:before, .checkbox.checkbox-light.checkbox-xl:checked:focus:before {
+  @apply shadow-[0px_0px_0px_12px_#ffffff37]
+}
+
+/* Checkbox xs */
+.checkbox.checkbox-xs {
+  @apply h-[14px] w-[14px] border-[2px]
+}
+.checkbox.checkbox-xs:before{
+  @apply border-[6px]
+}
+.checkbox.checkbox-xs:checked:focus:after, 
+.checkbox.checkbox-xs:checked:after{
+  @apply h-[10px] w-[4px]
+}
+.checkbox.checkbox-xs:focus:before,
+.checkbox.checkbox-xs:checked:focus:before {
+  @apply shadow-[0px_0px_0px_10px_#00000017]
+}
+.checkbox.checkbox-xs:checked:after{
+  @apply absolute border-l-0 border-[1px] border-t-0 border-solid rotate-45  bg-transparent top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 border-b-[2px] border-r-[2px] -mt-[1px]
+}
+
+/* Checkbox sm */
+.checkbox.checkbox-sm {
+  @apply h-[16px] w-[16px] 
+}
+.checkbox.checkbox-sm:before{
+  @apply border-[7px]
+}
+.checkbox.checkbox-sm:checked:focus:after, 
+.checkbox.checkbox-sm:checked:after{
+  @apply h-[11px] w-[5px]
+}
+.checkbox.checkbox-sm:focus:before,
+.checkbox.checkbox-sm:checked:focus:before {
+  @apply shadow-[0px_0px_0px_10px_#00000017]
+}
+.checkbox.checkbox-sm:checked:after{
+  @apply absolute border-l-0 border-[1px] border-t-0 border-solid rotate-45 bg-transparent top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 border-b-[2px] border-r-[2px] -mt-[1px]
+}
+
+/* Checkbox md */
+.checkbox.checkbox-md {
+  @apply h-[18px] w-[18px]
+}
+.checkbox.checkbox-md:before{
+  @apply border-[8px]
+}
+.checkbox.checkbox-md:checked:focus:after,
+.checkbox.checkbox-md:checked:after{
+  @apply h-[13px] w-[5px]
+}
+.checkbox.checkbox-md:focus:before,
+.checkbox.checkbox-md:checked:focus:before {
+  @apply shadow-[0px_0px_0px_13px_#00000017]
+}
+.checkbox.checkbox-md:checked:after{
+  @apply absolute border-l-0 border-t-0 border-solid rotate-45 bg-transparent top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 border-b-[2px] border-r-[2px] -mt-[1px]
+}
+
+/* Checkbox lg */
+.checkbox.checkbox-lg {
+  @apply h-[22px] w-[22px] border-[3px]
+}
+.checkbox.checkbox-lg:before{
+  @apply border-[12px]
+}
+.checkbox.checkbox-lg:checked:focus:after,
+.checkbox.checkbox-lg:checked:after{
+  @apply h-[16px] w-[7px]
+}
+.checkbox.checkbox-lg:focus:before,
+.checkbox.checkbox-lg:checked:focus:before {
+  @apply shadow-[0px_0px_0px_12px_#00000017]
+}
+.checkbox.checkbox-lg:checked:after{
+  @apply absolute border-l-0 border-[2px] border-t-0 border-solid rotate-45 bg-transparent top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 border-b-[3px] border-r-[3px] -mt-[2px]
+}
+
+/* Checkbox xl */
+.checkbox.checkbox-xl {
+  @apply h-[26px] w-[26px] border-[3px]
+}
+.checkbox.checkbox-xl:before{
+  @apply border-[14px]
+}
+.checkbox.checkbox-xl:checked:focus:after,
+.checkbox.checkbox-xl:checked:after{
+  @apply h-[20px] w-[8px]
+}
+.checkbox.checkbox-xl:focus:before,
+.checkbox.checkbox-xl:checked:focus:before {
+  @apply shadow-[0px_0px_0px_12px_#00000017]
+}
+.checkbox.checkbox-xl:checked:after{
+  @apply absolute border-l-0 border-[2px] border-t-0 border-solid rotate-45 bg-transparent top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 border-b-[3px] border-r-[3px] -mt-[2px]
+}
+
+/* Checkbox disabled */
+.checkbox:disabled, .checkbox[disabled], .checkbox:disabled:checked {
+  @apply cursor-default opacity-30
+}
+</style>
