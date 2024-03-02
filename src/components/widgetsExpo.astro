@@ -7,7 +7,7 @@
 
   
 
-  widgets.forEach((widget, index) => {
+  widgets.forEach((widget: HTMLElement, index) => {
     const width = widget.clientWidth;
     const height = widget.clientHeight;
     const top = widget.offsetTop;
@@ -32,7 +32,7 @@
 
   const observer = new IntersectionObserver(entries => {
     entries.forEach(entry => {
-      const widget = entry.target;
+      const widget = entry.target as HTMLElement;
       if (entry.isIntersecting) {
         widget.style.position = 'static';
         widget.style.width = 'auto';
