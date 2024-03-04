@@ -671,6 +671,17 @@ visible: true
       </svg>
     </button>
   </article>
+  <article class="relative rounded-full bg-gray-200 dark:bg-gray-900" data-filter="social">
+    <div class="relative -top-2 -left-4 rotate-3 border shadow-lg break-inside rounded-full flex items-center justify-between p-1.5 gap-2 text-sm bg-white dark:bg-gray-700 dark:text-white dark:border-gray-700">
+      <header class="flex items-center gap-2">
+      <img class="flex-none w-7 h-7 rounded-full" src="https://randomuser.me/api/portraits/men/11.jpg" alt="avatar" loading="lazy">
+      <h2 class="text-sm font-medium">Manolo</h2>
+    </header>
+    <button class="flex flex-none items-center justify-center w-7 h-7 transition-all rounded-full hover:bg-gray-100 dark:hover:bg-gray-900">
+      <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+    </button>
+    </div>
+  </article>
   <article class="border shadow-sm break-inside rounded-full flex items-center justify-between p-1.5 gap-2 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="social">
     <header class="flex items-center gap-2">
       <img class="flex-none w-7 h-7 rounded-full" src="https://randomuser.me/api/portraits/men/21.jpg" alt="avatar" loading="lazy">
@@ -2170,8 +2181,23 @@ visible: true
   </article>
 </section>
 
-<article class="border shadow-sm break-inside flex items-center justify-between rounded-lg gap-2 p-2.5 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="social">
-  widget
+<article class="border shadow-sm break-inside overflow-hidden flex items-center justify-start rounded-2xl gap-2 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="social">
+  <img src="https://images.pexels.com/photos/3183150/pexels-photo-3183150.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="avatar" class="w-full h-full max-w-[5rem] min-h-[5rem] object-cover rounded-2xl" />
+  <div class="flex justify-between items-center flex-1 p-2.5">
+    <div class="flex flex-col flex-none">
+      <div class="flex items-center gap-2 text-xs">
+        <span class="font-medium">Next week</span>
+        <span class="font-medium text-rose-600">09:00 AM</span>
+      </div>
+      <div class="flex flex-col">
+        <h2 class="font-medium text-base">Meeting</h2>
+        <p class="text-xs">Loke at the new features</p>
+      </div>
+    </div>
+    <button class="flex flex-none items-center justify-center w-6 h-6 transition-all rounded-full bg-slate-200 dark:bg-gray-800">
+      <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18l6-6-6-6"/></svg>
+    </button>
+  </div>
 </article>
 
 
