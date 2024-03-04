@@ -2170,5 +2170,8 @@ visible: true
   </article>
 </section>
 
+<article class="border shadow-sm break-inside flex items-center justify-between rounded-lg gap-2 p-2.5 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="social">
+  widget
+</article>
 
 
