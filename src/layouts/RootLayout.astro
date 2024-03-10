@@ -33,7 +33,9 @@ const pageSlug = Astro.url.pathname.split('/')[2]
 		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 		<meta name="generator" content={Astro.generator} />
 		<title>{title}</title>
+		
 	</head>
+
 
 	<script>
 		const themeToggle = document.querySelectorAll('[data-toggle="theme"]');
@@ -278,7 +280,7 @@ const pageSlug = Astro.url.pathname.split('/')[2]
 
 	<body>
 
-		<header class="z-30 fixed left-0 w-full top-0 py-4 bg-white/80 dark:bg-gray-950/80 backdrop-blur-sm">
+		<header class="z-30 fixed left-0 w-full top-0 py-4 bg-white/80 dark:bg-gray-950/80 backdrop-blur-lg">
 			<div class="flex items-center justify-between px-6">
 				<a href="/" class="relative overflow-hidden flex group items-center gap-2 border px-4 py-2 rounded-md shadow bg-white/60 dark:border-gray-900 dark:bg-gray-950/60">
 					<div class="absolute z-0 -bottom-12 transition-all duration-300 opacity-60 left-0 w-14 h-10 blur-lg bg-indigo-600 group-hover:blur-2xl group-hover:opacity-80"></div>
@@ -334,10 +336,8 @@ const pageSlug = Astro.url.pathname.split('/')[2]
 					</li>
 				</ul>
 				<div class="flex items-center flex-none gap-4">
-					<label class="relative inline-flex items-center cursor-pointer">
-						<input type="checkbox" class="sr-only peer" data-toggle="theme" />
-						<div class="w-11 h-6 bg-gray-200 peer-focus:outline-none peer-focus:ring-4 peer-focus:ring-blue-300 dark:peer-focus:ring-blue-800 rounded-full peer dark:bg-gray-800 peer-checked:after:translate-x-full rtl:peer-checked:after:-translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:start-[2px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-5 after:w-5 after:transition-all dark:border-gray-600 peer-checked:bg-blue-600"></div>
-					</label>
+					<input type="checkbox" data-toggle="theme" class="h-[20px] px-[3px] w-[38px] relative flex-none cursor-pointer appearance-none rounded-full bg-gray-300 dark:bg-gray-700 before:transition-transform before:duration-200 before:pointer-events-none before:absolute before:top-1/2 before:-translate-y-1/2 before:h-4 before:w-4 before:rounded-full before:bg-transparent before:content-[''] before:transform before:translate-x-0 before:bg-white focus:bg-gray-400 dark:focus:bg-gray-600 focus:checked:bg-emerald-500 checked:bg-emerald-500 checked:before:translate-x-full checked:before:bg-white" />
+					
 					<!-- Menu button -->
 					<button data-toggle="aside" class="flex lg:hidden items-center justify-center w-10 h-10 flex-none transition-colors duration-300 rounded-full hover:bg-gray-200 dark:hover:bg-gray-700 dark:text-white">
 						<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg>
@@ -685,4 +685,8 @@ const pageSlug = Astro.url.pathname.split('/')[2]
 .checkbox:disabled, .checkbox[disabled], .checkbox:disabled:checked {
   @apply cursor-default opacity-30
 }
+
+
+  
+
 </style>
