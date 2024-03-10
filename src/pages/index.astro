@@ -5,27 +5,31 @@ import Layout from '../layouts/Layout.astro';
 ---
 
 <Layout title="Widget components with tailwind CSS">
-	<div class="px-6 mx-auto w-full max-w-[100rem]">
-		<section class="flex items-center justify-between w-full py-40">
-			<div class="grid lg:grid-cols-12 gap-36">
-				<div class="flex flex-col items-start col-span-6 dark:text-white">
-					<h1 class="text-5xl text-center md:text-left lg:text-5xl xl:text-6xl 2xl:text-7xl 2xl:leading-[5rem] font-bold ">
-						Widgets <span class="text-indigo-700">components</span> with tailwind CSS</span>
-					</h1>
-					<p class="mt-8 text-lg xl:text-xl 2xl:text-xl">
-						Explore our extensive gallery of over 500 widgets designed using tailwindcss. These widgets are carefully crafted to enhance productivity and offer a practical solution for your projects. With a simple and minimalist design, these elements are ideal for integration into your applications, with support for both light and dark themes.
-					</p>
-					<a 
-						href="/categories/food" 
-						class="mt-8 px-8 h-12 flex items-center justify-center bg-indigo-700 text-white rounded-md font-medium text-lg xl:text-xl 2xl:text-xl">
-						Explore widgets
-					</a>
+	<div class="container">
+		<section class="w-full pt-10 sm:pt-36 mx-auto max-w-[100rem]">
+			<div class="w-full grid grid-cols-1 xl:grid-cols-12">
+				<div class="flex flex-col items-start xl:col-span-6 dark:text-white">
+					<div class="flex flex-col items-start max-w-2xl">
+						<h1 class="font-bold !leading-tight text-4xl sm:text-5xl lg:text-6xl xl:text-6xl 3xl:text-7xl">
+							Widgets <span class="text-indigo-700">components</span> with tailwind CSS</span>
+						</h1>
+						<p class="mt-4 sm:mt-8 text-base md:text-lg xl:text-xl 2xl:text-xl">
+							Explore our extensive gallery of over 500 widgets designed using tailwindcss. These widgets are carefully crafted to enhance productivity and offer a practical solution for your projects. With a simple and minimalist design, these elements are ideal for integration into your applications, with support for both light and dark themes.
+						</p>
+						<a 
+							href="/categories/food" 
+							class="mt-8 px-8 h-12 flex items-center justify-center bg-indigo-700 text-white rounded-md font-medium text-lg xl:text-xl 2xl:text-xl">
+							Explore widgets
+						</a>
+					</div>
 				</div>
-				<div class="col-span-6">
+				<div class="relative xl:col-span-6 flex justify-center items-center w-full mt-10 xl:mt-0">
 					<WidgetsExpo />
+					<div class="block sm:hidden absolute z-[1] h-[20rem] bottom-0 left-0 w-full bg-gradient-to-t from-white via-white dark:from-gray-950 dark:via-gray-950 to-transparent dark:to-transparent"></div>
 				</div>
 			</div>
 		</section>
 	</div>
+
 </Layout>
 

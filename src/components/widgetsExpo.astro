@@ -3,7 +3,7 @@
 ---
 
 <script>
-  const widgets = document.querySelectorAll('[data-widget]') as NodeListOf<HTMLElement>;
+  /* const widgets = document.querySelectorAll('[data-widget]') as NodeListOf<HTMLElement>;
 
   
 
@@ -53,118 +53,306 @@
     observer.observe(widget);
 
   });
-  
+   */
 </script>
 
 <div class="w-full relative">
   <div class="absolute blur-3xl rounded-full w-[20rem] h-[20rem] bg-gradient-to-b opacity-20 from-[#89416d] to-[#cc7e00] dark:from-[#ff88a908] dark:to-[#ffb23615]"></div>
     
-  <div class="masonry relative z-[1]">
+  <div class="flex flex-col relative z-[1]">
 
-    <article class="max-w-[290px] border shadow-sm overflow-hidden break-inside grid grid-cols-12 rounded-xl mb-3 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-widget>
-      <img class="w-full max-w-full h-[8rem] object-cover col-span-5" src="https://images.pexels.com/photos/3182452/pexels-photo-3182452.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1260&amp;h=750&amp;dpr=2" data-author="Alex Azabache" data-author-profile="https://www.pexels.com/es-es/@alexazabache/" loading="lazy">
-      <div class="h-full flex items-center col-span-7">
-        <div class="p-4 flex items-center gap-3 relative -ml-[3rem]">
-          <img class="flex-none mt-1 w-14 h-14 rounded-full border-2 border-white dark:border-gray-950" src="https://randomuser.me/api/portraits/men/95.jpg" alt="avatar" loading="lazy">
-          <div class="flex flex-col">
-            <a href="#" class="text-base font-semibold block">Roman</a>
-            <span class="text-gray-600 dark:text-gray-400">Photographer</span>
+    <div class="flex justify-start w-full">
+      <article class="max-w-[290px] border shadow-sm overflow-hidden break-inside grid grid-cols-12 rounded-xl mb-3 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-widget>
+        <img class="w-full max-w-full h-[8rem] object-cover col-span-5" src="https://images.pexels.com/photos/3182452/pexels-photo-3182452.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1260&amp;h=750&amp;dpr=2" data-author="Alex Azabache" data-author-profile="https://www.pexels.com/es-es/@alexazabache/" loading="lazy">
+        <div class="h-full flex items-center col-span-7">
+          <div class="p-4 flex items-center gap-3 relative -ml-[3rem]">
+            <img class="flex-none mt-1 w-14 h-14 rounded-full border-2 border-white dark:border-gray-950" src="https://randomuser.me/api/portraits/men/95.jpg" alt="avatar" loading="lazy">
+            <div class="flex flex-col">
+              <a href="#" class="text-base font-semibold block">Roman</a>
+              <span class="text-gray-600 dark:text-gray-400">Photographer</span>
+            </div>
           </div>
         </div>
-      </div>
-    </article>
-  
-    <article class="max-w-[140px] border shadow-sm break-inside flex items-start flex-col justify-between rounded-xl gap-2 p-4 mb-3 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-widget>
-      <header>
-        <svg width="26" height="26" viewBox="0 0 512 512"><path d="M384 240H96V136a40.12 40.12 0 0140-40h240a40.12 40.12 0 0140 40v104zM48 416V304a64.19 64.19 0 0164-64h288a64.19 64.19 0 0164 64v112" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="32"></path><path d="M48 416v-8a24.07 24.07 0 0124-24h368a24.07 24.07 0 0124 24v8M112 240v-16a32.09 32.09 0 0132-32h80a32.09 32.09 0 0132 32v16M256 240v-16a32.09 32.09 0 0132-32h80a32.09 32.09 0 0132 32v16" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="32"></path></svg>
-      </header>
-      <section>
-        <h2 class="text-base font-medium">Bed time</h2>
-        <h3 class="text-lg font-semibold">10:00 PM</h3>
-      </section>
-      <p class="text-xs text-gray-500">Set your bedtime and wake up time...</p>
-    </article>
-  
-    <article class="max-w-[290px] border shadow-sm break-inside flex items-center flex-row justify-between rounded-xl p-4 mb-3 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-widget>
-      <header class="flex flex-col items-start gap-2">
-        <span class="uppercase text-xs font-medium text-gray-600 dark:text-gray-400">CURRENT PRICE</span>
-        <div class="flex items-center justify-center gap-2">
-          <h2 class="text-sm sm:text-base font-semibold">€45.00</h2>
-          <span class="px-2 py-[2px] text-xs rounded-sm bg-[#D1FFD6] text-black">-082%</span>
-        </div>
-        <p class="text-xs text-gray-500">Update now - 3:23AM</p>
-      </header>
-      <section class="flex flex-col gap-2 max-w-[7rem]">
-        <div class="flex flex-row items-center gap-2">
-          <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-            <path d="M17 17L7.8 7.7M7 17V7h10"></path>
-          </svg>
-          <span class="font-semibold uppercase text-xs">Upward</span>
-        </div>
-        <div class="w-full">
-          <svg class="w-full" viewBox="0 0 141 34" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <g>
-              <path d="M5 1.06827C21.6434 0.767281 22.9399 12.3208 34.9648 17.0373C40.1853 19.085 49.7907 6.92438 50.5584 9.19207C52.0191 13.5068 56.5137 13.1684 59.691 15.8304C62.3177 18.031 66.82 17.223 70.2031 17.223C71.4937 17.223 70.5663 21.5846 71.8795 22.3604C76.5857 25.1406 100.925 -1.04184 101.181 7.6911C101.267 10.6171 104.228 14.784 107.729 14.9638C112.327 15.2001 116.088 13.9989 118.887 18.0586C121.415 21.7246 125.071 23.9078 129.941 23.9078C133.089 23.9078 132.858 20.66 136 24.0625" stroke="url(#paint0_linear_228_43)" stroke-width="3" stroke-linecap="round"> </path>
-            </g>
-            <defs>
-              <linearGradient id="paint0_linear_228_43" x1="5" y1="1.0625" x2="139.386" y2="19.4725" gradientUnits="userSpaceOnUse">
-                <stop stop-color="#7000FF"></stop>
-                <stop offset="1" stop-color="#EA00B6"> </stop>
-              </linearGradient>
-            </defs>
-          </svg>
-        </div>
-      </section>
-    </article>
+      </article>
+    </div>
 
-    <article class="max-w-[290px] border shadow-2xl break-inside flex items-center justify-between rounded-xl p-4 mb-3 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-widget>
-      <div class="flex items-center space-x-4">
-        <header class="flex-auto">
-          <h2 class="text-base font-medium">California</h2>
-          <p class="text-gray-500">We'll be there soon</p>
+    <div class="flex justify-start items-start w-full gap-3">
+
+      <article class="max-w-[140px] border shadow-sm break-inside flex items-start flex-col justify-between rounded-xl gap-2 p-4 mb-3 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-widget>
+        <header>
+          <svg width="26" height="26" viewBox="0 0 512 512"><path d="M384 240H96V136a40.12 40.12 0 0140-40h240a40.12 40.12 0 0140 40v104zM48 416V304a64.19 64.19 0 0164-64h288a64.19 64.19 0 0164 64v112" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="32"></path><path d="M48 416v-8a24.07 24.07 0 0124-24h368a24.07 24.07 0 0124 24v8M112 240v-16a32.09 32.09 0 0132-32h80a32.09 32.09 0 0132 32v16M256 240v-16a32.09 32.09 0 0132-32h80a32.09 32.09 0 0132 32v16" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="32"></path></svg>
         </header>
-      </div>
-      <div class="flex items-center gap-2">
-        <span class="text-3xl font-bold">24°</span>
-        <img class="w-12 h-12 object-cover" src="https://www.svgrepo.com/show/452177/cloud.svg" alt="weather">
-      </div>
-    </article>
+        <section>
+          <h2 class="text-sm font-medium">Bed time</h2>
+          <h3 class="text-base font-semibold">10:00 PM</h3>
+        </section>
+        <p class="text-xs text-gray-500">Set your bedtime and wake up time...</p>
+      </article>
 
-    <article class="max-w-[140px] border shadow-sm break-inside flex flex-col justify-between rounded-xl p-4 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-widget>
-      <header class="flex items-center justify-between">
-        <span class="h-6 px-2 text-xs font-medium rounded-md flex items-center justify-center bg-green-100 text-green-600 dark:bg-green-500/30 dark:text-green-300">NEW</span>
-        <button class="inline-flex items-center justify-center w-7 h-7 transition-all rounded-full hover:bg-gray-100 dark:hover:bg-gray-900">
-          <svg width="28" height="28" fill="none" stroke-width="1.5" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-            <path stroke-linecap="round" stroke-linejoin="round" d="M6.75 12a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0ZM12.75 12a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0ZM18.75 12a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z"></path>
-          </svg>
-        </button>
-      </header>
-      <section class="mt-3">
-        <h2 class="text-base font-bold">Project members</h2>
-        <p class="text-[10px] mt-1 text-gray-500">03:00 PM - 05:00 PM</p>
-      </section>
-      <div class="flex items-center justify-between mt-auto">
-        <div class="block">
-          <dt class="sr-only">Users</dt>
-          <dd class="flex justify-start -space-x-1.5">
-            <a href="#" class="inline-block -m-1">
-              <img class="w-6 h-6 rounded-full ring-2 ring-white dark:ring-gray-950" src="https://randomuser.me/api/portraits/women/48.jpg" alt="avatar" loading="lazy">
+      <article class="max-w-[300px] border shadow-sm break-inside relative overflow-hidden flex flex-col items-start rounded-xl mb-3 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="social">
+        <div class="flex flex-col pb-4 group">
+          <header class="flex items-center justify-start gap-3 pl-4 pt-4 pb-2 pr-12">
+            <a class="inline-block" href="#">
+              <img class="rounded-full max-w-none w-8 h-8" src="https://randomuser.me/api/portraits/women/75.jpg" alt="Avatar" />
             </a>
-            <a href="#" class="inline-block -m-1">
-              <img class="w-6 h-6 rounded-full ring-2 ring-white dark:ring-gray-950" src="https://randomuser.me/api/portraits/men/15.jpg" alt="avatar" loading="lazy">
-            </a>
-            <a href="#" class="inline-block -m-1">
-              <img class="w-6 h-6 rounded-full ring-2 ring-white dark:ring-gray-950" src="https://randomuser.me/api/portraits/women/37.jpg" alt="avatar" loading="lazy">
-            </a>
-          </dd>
+            <div class="flex items-center gap-2 w-full flex-1">
+              <a class="font-medium" href="#">Natalia</a>
+              <span class="text-xs text-gray-500 dark:text-gray-300">3 minutes ago</span>
+            </div>
+            <button class="hidden absolute right-4 top-3 group-hover:flex items-center justify-center rounded-full w-8 h-8 transition-colors duration-200 hover:bg-gray-200 dark:hover:bg-gray-900">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-6 h-6">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M6.75 12a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0ZM12.75 12a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0ZM18.75 12a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z" />
+              </svg>
+            </button>
+          </header>
+          <section class="relative px-4">
+            <p class="text-xs"> Dolor sit ameteiusmod consectetur adipi scing elit. Nulla nec purus feugiat, vestibulum.</p>
+            <footer class="flex items-center justify-between w-full mt-2">
+              <div class="flex items-center justify-start gap-2">
+                <a class="inline-flex items-center py-2 mr-3" href="#">
+                  <span class="mr-2">
+                    <svg class="fill-rose-600" width="18" height="18" viewBox="0 0 24 24">
+                      <path d="M12,21.35L10.55,20.03C5.4,15.36 2,12.27 2,8.5C2,5.41 4.42,3 7.5,3C9.24,3 10.91,3.81 12,5.08C13.09,3.81 14.76,3 16.5,3C19.58,3 22,5.41 22,8.5C22,12.27 18.6,15.36 13.45,20.03L12,21.35Z"></path>
+                    </svg>
+                  </span>
+                  <span class="font-bold">2</span>
+                </a>
+                <button class="py-1 px-2 text-sm font-medium hover:bg-gray-50 dark:hover:bg-gray-900 rounded-md" >Repply</button>
+              </div>
+              <a class="inline-flex items-center">
+                <span class="-m-1 rounded-full border-2 border-white dark:border-slate-800">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 16 16" fill="none">
+                    <path fill="url(#a12)" d="M8 0a8 8 0 1 0 0 16A8 8 0 0 0 8 0Z"></path>
+                    <path fill="#fff" d="M12.162 7.338c.176.123.338.245.338.674 0 .43-.229.604-.474.725.1.163.132.36.089.546-.077.344-.392.611-.672.69.121.194.159.385.015.62-.185.295-.346.407-1.058.407H7.5c-.988 0-1.5-.546-1.5-1V7.665c0-1.23 1.467-2.275 1.467-3.13L7.361 3.47c-.005-.065.008-.224.058-.27.08-.079.301-.2.635-.2.218 0 .363.041.534.123.581.277.732.978.732 1.542 0 .271-.414 1.083-.47 1.364 0 0 .867-.192 1.879-.199 1.061-.006 1.749.19 1.749.842 0 .261-.219.523-.316.666ZM3.6 7h.8a.6.6 0 0 1 .6.6v3.8a.6.6 0 0 1-.6.6h-.8a.6.6 0 0 1-.6-.6V7.6a.6.6 0 0 1 .6-.6Z"></path>
+                    <defs>
+                      <linearGradient id="a12" x1="8" x2="8" y2="16" gradientUnits="userSpaceOnUse">
+                        <stop stop-color="#18AFFF"></stop>
+                        <stop offset="1" stop-color="#0062DF"></stop>
+                      </linearGradient>
+                    </defs>
+                  </svg>
+                </span>
+                <span class="-m-1 rounded-full border-2 border-white dark:border-slate-800">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 16 16" fill="none">
+                    <path fill="url(#b1231)" d="M8 0a8 8 0 1 0 0 16A8 8 0 0 0 8 0Z"></path>
+                    <path fill="#fff" d="M10.473 4C8.275 4 8 5.824 8 5.824S7.726 4 5.528 4c-2.114 0-2.73 2.222-2.472 3.41C3.736 10.55 8 12.75 8 12.75s4.265-2.2 4.945-5.34c.257-1.188-.36-3.41-2.472-3.41Z"></path>
+                    <defs>
+                      <linearGradient id="b1231" x1="8" x2="8" y2="16" gradientUnits="userSpaceOnUse">
+                        <stop stop-color="#FF6680"></stop>
+                        <stop offset="1" stop-color="#E61739"></stop>
+                      </linearGradient>
+                    </defs>
+                  </svg>
+                </span>
+                <span class="-m-1 rounded-full border-2 border-white dark:border-slate-800">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 16 16" fill="none">
+                    <path fill="url(#aa)" d="M16 8A8 8 0 1 1-.001 8 8 8 0 0 1 16 8"></path>
+                    <path fill="url(#bb)" d="M3 8.008C3 10.023 4.006 14 8 14c3.993 0 5-3.977 5-5.992C13 7.849 11.39 7 8 7c-3.39 0-5 .849-5 1.008Z"></path>
+                    <path fill="url(#cc)" d="M4.541 12.5c.804.995 1.907 1.5 3.469 1.5 1.563 0 2.655-.505 3.459-1.5-.551-.588-1.599-1.5-3.459-1.5s-2.917.912-3.469 1.5Z"></path>
+                    <path fill="#2A3755" d="M6.213 4.144c.263.188.502.455.41.788-.071.254-.194.369-.422.37-.78.012-1.708.256-2.506.613-.065.029-.197.088-.332.085-.124-.003-.251-.058-.327-.237-.067-.157-.073-.388.276-.598.545-.33 1.257-.48 1.909-.604-.41-.303-.85-.56-1.315-.768-.427-.194-.38-.457-.323-.6.127-.317.609-.196 1.078.026a9 9 0 0 1 1.552.925Zm3.577 0a8.955 8.955 0 0 1 1.55-.925c.47-.222.95-.343 1.078-.026.057.143.104.406-.323.6a7.028 7.028 0 0 0-1.313.768c.65.123 1.363.274 1.907.604.349.21.342.44.276.598-.077.18-.203.234-.327.237-.135.003-.267-.056-.332-.085-.797-.357-1.725-.6-2.504-.612-.228-.002-.351-.117-.422-.37-.091-.333.147-.6.41-.788v-.001Z"></path>
+                    <defs>
+                      <linearGradient id="aa" x1="8" x2="8" y1="1.64" y2="16" gradientUnits="userSpaceOnUse">
+                        <stop stop-color="#FEEA70"></stop>
+                        <stop offset="1" stop-color="#F69B30"></stop>
+                      </linearGradient>
+                      <linearGradient id="bb" x1="8" x2="8" y1="7" y2="14" gradientUnits="userSpaceOnUse">
+                        <stop stop-color="#472315"></stop>
+                        <stop offset="1" stop-color="#8B3A0E"></stop>
+                      </linearGradient>
+                      <linearGradient id="cc" x1="8.005" x2="8.005" y1="11" y2="13.457" gradientUnits="userSpaceOnUse">
+                        <stop stop-color="#FC607C"></stop>
+                        <stop offset="1" stop-color="#D91F3A"></stop>
+                      </linearGradient>
+                    </defs>
+                  </svg>
+                </span>
+                <span class="font-bold ml-3">33</span>
+              </a>
+            </footer>
+          </section>
         </div>
-        <button class="rounded-full flex items-center justify-center w-8 h-8 transition-all hover:bg-gray-100 dark:hover:bg-gray-900">
-          <svg width="16" height="16" fill="none" stroke-width="3" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-            <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25"></path>
+      </article>
+
+    </div>
+    
+    <div class="flex justify-start items-start w-full gap-3">
+      
+      <article class="w-full max-w-[300px] border shadow-sm break-inside flex items-center flex-row justify-between rounded-xl p-3 mb-3 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-widget>
+        <header class="flex flex-col items-start gap-1.5">
+          <span class="uppercase text-xs font-medium text-gray-600 dark:text-gray-400">CURRENT PRICE</span>
+          <div class="flex items-center justify-center gap-2">
+            <h2 class="text-sm sm:text-base font-semibold">€45.00</h2>
+            <span class="px-2 py-[2px] text-xs rounded-sm bg-[#D1FFD6] text-black">-082%</span>
+          </div>
+          <p class="text-xs text-gray-500">Update now - 3:23AM</p>
+        </header>
+        <section class="flex flex-col gap-2 max-w-[7rem]">
+          <div class="flex flex-row items-center gap-2">
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M17 17L7.8 7.7M7 17V7h10"></path>
+            </svg>
+            <span class="font-semibold uppercase text-xs">Upward</span>
+          </div>
+          <div class="w-full">
+            <svg class="w-full" viewBox="0 0 141 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <g>
+                <path d="M5 1.06827C21.6434 0.767281 22.9399 12.3208 34.9648 17.0373C40.1853 19.085 49.7907 6.92438 50.5584 9.19207C52.0191 13.5068 56.5137 13.1684 59.691 15.8304C62.3177 18.031 66.82 17.223 70.2031 17.223C71.4937 17.223 70.5663 21.5846 71.8795 22.3604C76.5857 25.1406 100.925 -1.04184 101.181 7.6911C101.267 10.6171 104.228 14.784 107.729 14.9638C112.327 15.2001 116.088 13.9989 118.887 18.0586C121.415 21.7246 125.071 23.9078 129.941 23.9078C133.089 23.9078 132.858 20.66 136 24.0625" stroke="url(#paint0_linear_228_43)" stroke-width="3" stroke-linecap="round"> </path>
+              </g>
+              <defs>
+                <linearGradient id="paint0_linear_228_43" x1="5" y1="1.0625" x2="139.386" y2="19.4725" gradientUnits="userSpaceOnUse">
+                  <stop stop-color="#7000FF"></stop>
+                  <stop offset="1" stop-color="#EA00B6"> </stop>
+                </linearGradient>
+              </defs>
+            </svg>
+          </div>
+        </section>
+      </article>
+
+      <article class="w-full max-w-[140px] border shadow-sm break-inside rounded-xl p-4 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="social">
+        <header class="w-full flex items-center justify-between">
+          <h2 class="text-sm font-bold">Members</h2>
+          <span class="flex items-center justify-center w-5 h-5 text-[11px] rounded-full font-medium bg-amber-200 text-black">5</span>
+        </header>
+        <section class="flex items-center justify-between mt-2">
+          <div class="block">
+            <dt class="sr-only">Users</dt>
+            <dd class="flex justify-start -space-x-1.5">
+              <a href="#" class="inline-block -ml-1">
+                <img class="w-6 h-6 rounded-full ring-2 ring-white dark:ring-gray-950" src="https://randomuser.me/api/portraits/women/12.jpg" alt="avatar" loading="lazy">
+              </a>
+              <a href="#" class="inline-block -ml-1">
+                <img class="w-6 h-6 rounded-full ring-2 ring-white dark:ring-gray-950" src="https://randomuser.me/api/portraits/men/13.jpg" alt="avatar" loading="lazy">
+              </a>
+              <a href="#" class="inline-block -ml-1">
+                <span class="flex items-center justify-center text-[11px] font-medium w-6 h-6 rounded-full bg-rose-200 ring-2 ring-white dark:bg-gray-600 dark:ring-gray-950">+3</span>
+              </a>
+            </dd>
+          </div>
+          <button class="rounded-full flex items-center justify-center w-8 h-8 transition-all hover:bg-gray-100 dark:hover:bg-gray-900">
+            <svg width="16" height="16" fill="none" stroke-width="3" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+              <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25"></path>
+            </svg>
+          </button>
+        </section>
+      </article>
+      
+
+    </div>
+    
+    <div class="flex justify-start items-start w-full gap-3">
+
+      <article class="w-full max-w-[270px] border shadow-2xl break-inside flex items-center justify-between rounded-xl p-3 mb-3 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-widget>
+        <div class="flex items-center space-x-4">
+          <header class="flex-auto">
+            <h2 class="text-base font-medium">California</h2>
+            <p class="text-gray-500">We'll be there soon</p>
+          </header>
+        </div>
+        <div class="flex items-center gap-2">
+          <span class="text-2xl font-bold">24°</span>
+          <img class="w-11 h-11 object-cover" src="https://www.svgrepo.com/show/452177/cloud.svg" alt="weather">
+        </div>
+      </article>
+      <article class="hidden sm:block w-full max-w-[300px] border shadow-sm break-inside rounded-xl p-3 mb-3 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="social">
+        <div class="flex justify-between items-center w-full">
+          <div class="flex flex-col justify-center items-center py-1 px-3 border rounded dark:border-gray-900">
+            <span class="font-medium">Jun</span>
+            <span class="text-xs font-medium text-pink-500">23</span>
+          </div>
+          <img class="flex-none w-10 h-10 rounded-xl" src="https://randomuser.me/api/portraits/women/21.jpg" alt="avatar" loading="lazy">
+          <hr class="border h-6 border-gray-200 dark:border-gray-800">
+          <div class="flex flex-col justify-center items-start">
+            <span class="text-base font-medium">Wednesday</span>
+            <span class="text-gray-400">08:00 PM - 18:30 PM</span>
+          </div>
+        </div>
+      </article>
+      
+
+    </div>
+
+    <div class="flex justify-start items-start w-full gap-3">
+
+      <article class="max-w-[140px] border shadow-sm break-inside flex flex-col justify-between rounded-xl p-4 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-widget>
+        <header class="flex items-center justify-between">
+          <span class="h-6 px-2 text-xs font-medium rounded-md flex items-center justify-center bg-green-100 text-green-600 dark:bg-green-500/30 dark:text-green-300">NEW</span>
+          <button class="inline-flex items-center justify-center w-7 h-7 transition-all rounded-full hover:bg-gray-100 dark:hover:bg-gray-900">
+            <svg width="28" height="28" fill="none" stroke-width="1.5" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M6.75 12a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0ZM12.75 12a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0ZM18.75 12a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z"></path>
+            </svg>
+          </button>
+        </header>
+        <section class="mt-3">
+          <h2 class="text-base font-bold">Project members</h2>
+          <p class="text-[10px] mt-1 text-gray-500">03:00 PM - 05:00 PM</p>
+        </section>
+        <div class="flex items-center justify-between mt-auto">
+          <div class="block">
+            <dt class="sr-only">Users</dt>
+            <dd class="flex justify-start -space-x-1.5">
+              <a href="#" class="inline-block -m-1">
+                <img class="w-6 h-6 rounded-full ring-2 ring-white dark:ring-gray-950" src="https://randomuser.me/api/portraits/women/48.jpg" alt="avatar" loading="lazy">
+              </a>
+              <a href="#" class="inline-block -m-1">
+                <img class="w-6 h-6 rounded-full ring-2 ring-white dark:ring-gray-950" src="https://randomuser.me/api/portraits/men/15.jpg" alt="avatar" loading="lazy">
+              </a>
+              <a href="#" class="inline-block -m-1">
+                <img class="w-6 h-6 rounded-full ring-2 ring-white dark:ring-gray-950" src="https://randomuser.me/api/portraits/women/37.jpg" alt="avatar" loading="lazy">
+              </a>
+            </dd>
+          </div>
+          <button class="rounded-full flex items-center justify-center w-8 h-8 transition-all hover:bg-gray-100 dark:hover:bg-gray-900">
+            <svg width="16" height="16" fill="none" stroke-width="3" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+              <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25"></path>
+            </svg>
+          </button>
+        </div>
+      </article>
+      <article class="w-full max-w-[280px] border shadow-sm break-inside hidden sm:flex items-center justify-between rounded-xl p-4 mb-3 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="social">
+        <div class="flex items-center gap-4">
+          <div class="flex-none w-10 h-10 rounded-lg flex items-center justify-center text-lg font-semibold bg-rose-100 text-rose-400 dark:bg-rose-600/50 dark:text-white">
+            <svg width="26" height="26" class="ionicon" viewBox="0 0 512 512">
+              <path d="M430.11 347.9c-6.6-6.1-16.3-7.6-24.6-9-11.5-1.9-15.9-4-22.6-10-14.3-12.7-14.3-31.1 0-43.8l30.3-26.9c46.4-41 46.4-108.2 0-149.2-34.2-30.1-80.1-45-127.8-45-55.7 0-113.9 20.3-158.8 60.1-83.5 73.8-83.5 194.7 0 268.5 41.5 36.7 97.5 55 152.9 55.4h1.7c55.4 0 110-17.9 148.8-52.4 14.4-12.7 11.99-36.6.1-47.7z" fill="none" stroke="currentColor" stroke-miterlimit="10" stroke-width="32"/>
+              <circle fill="currentColor" cx="144" cy="208" r="32"/>
+              <circle fill="currentColor" cx="152" cy="311" r="32"/>
+              <circle fill="currentColor" cx="224" cy="144" r="32"/>
+              <circle fill="currentColor" cx="256" cy="367" r="48"/>
+              <circle fill="currentColor" cx="328" cy="144" r="32"/>
+            </svg>
+          </div>
+          <div class="flex-auto">
+            <a href="#" class="text-base font-medium block">Palette design</a>
+            <span class="text-sm text-gray-600 dark:text-gray-400">
+              This is the best palette
+            </span>
+          </div>
+        </div>
+        <button class="rounded-full flex items-center justify-center w-9 h-9 transition-all hover:bg-gray-100 dark:hover:bg-gray-900">
+          <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24">
+            <path d="M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z" fill="currentColor"></path>
           </svg>
         </button>
-      </div>
-    </article>
+      </article>
+      <article class="hidden w-full max-w-[260px] border shadow-md break-inside xl:flex items-center justify-between rounded-xl p-3 mb-3 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="social">
+        <header class="flex items-center gap-3">
+          <span class="text-base font-medium">01</span>
+          <div class="flex items-center gap-4">
+            <img class="flex-none w-12 h-12 rounded-2xl" src="https://randomuser.me/api/portraits/women/82.jpg" alt="avatar" loading="lazy">
+            <div class="flex-auto">
+              <span class="text-sm text-gray-600 dark:text-gray-300">September 2023</span>
+              <h2 class="text-base font-medium block">Caroline</h2>
+            </div>
+          </div>
+        </header>
+        <svg width="22" height="22" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" class="fill-gray-900 dark:fill-gray-100">
+          <path clip-rule="evenodd" fill-rule="evenodd" d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12Zm13.36-1.814a.75.75 0 1 0-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 0 0-1.06 1.06l2.25 2.25a.75.75 0 0 0 1.14-.094l3.75-5.25Z"></path>
+        </svg>
+      </article>
+
+    </div>
+
+
 
   </div>
 

@@ -9,7 +9,10 @@ visible: true
 
 <article class="border shadow-sm break-inside rounded-xl p-4 mb-3 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="social">
   <header class="flex items-center justify-between">
-    <span class="h-6 px-2 text-xs rounded-md flex items-center justify-center bg-green-100 text-green-600 dark:bg-green-500/30 dark:text-green-300">Completed</span>
+    <div class="flex items-center gap-2">
+      <h2 class="text-sm font-medium">Project Management</h2>
+      <span class="h-6 px-2 text-xs rounded-md flex items-center justify-center bg-green-100 text-green-600 dark:bg-green-500/30 dark:text-green-300">Success</span>
+    </div>
     <button class="inline-flex items-center justify-center w-8 h-8 transition-all rounded-full hover:bg-gray-100 dark:hover:bg-gray-900">
       <svg width="28" height="28" fill="none" stroke-width="2" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
         <path stroke-linecap="round" stroke-linejoin="round" d="M6.75 12a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0ZM12.75 12a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0ZM18.75 12a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z"></path>
@@ -17,10 +20,10 @@ visible: true
     </button>
   </header>
   <section>
-    <h2 class="text-lg font-semibold">New Design</h2>
+    <h2 class="text-base font-semibold">New Design</h2>
     <p class="text-sm text-gray-500">Design a new logo for our website, we are a startup company.</p>
   </section>
-  <section class="flex items-center justify-between mt-5">
+  <section class="flex items-center justify-between mt-3">
     <div class="col-start-2 row-start-1 row-end-3 flex-none">
       <dt class="sr-only">Users</dt>
       <dd class="flex justify-start -space-x-1.5">
@@ -70,15 +73,14 @@ visible: true
   </section>
 </article>
 
-<article class="border shadow-sm break-inside divide-y rounded-xl p-4 mb-3 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="social">
+<article class="border shadow-sm break-inside divide-y rounded-xl p-3 mb-3 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="social">
   <div class="flex items-center justify-between">
     <div class="flex items-center gap-3">
       <span class="flex flex-none items-center justify-center font-medium w-5 h-5 text-xs rounded-full transition-colors bg-fuchsia-600 text-white">3</span>
-      <svg width="26" height="26" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-        <path d="M5.25 12a.75.75 0 0 1 .75-.75h.01a.75.75 0 0 1 .75.75v.01a.75.75 0 0 1-.75.75H6a.75.75 0 0 1-.75-.75V12ZM6 13.25a.75.75 0 0 0-.75.75v.01c0 .414.336.75.75.75h.01a.75.75 0 0 0 .75-.75V14a.75.75 0 0 0-.75-.75H6ZM7.25 12a.75.75 0 0 1 .75-.75h.01a.75.75 0 0 1 .75.75v.01a.75.75 0 0 1-.75.75H8a.75.75 0 0 1-.75-.75V12ZM8 13.25a.75.75 0 0 0-.75.75v.01c0 .414.336.75.75.75h.01a.75.75 0 0 0 .75-.75V14a.75.75 0 0 0-.75-.75H8ZM9.25 10a.75.75 0 0 1 .75-.75h.01a.75.75 0 0 1 .75.75v.01a.75.75 0 0 1-.75.75H10a.75.75 0 0 1-.75-.75V10ZM10 11.25a.75.75 0 0 0-.75.75v.01c0 .414.336.75.75.75h.01a.75.75 0 0 0 .75-.75V12a.75.75 0 0 0-.75-.75H10ZM9.25 14a.75.75 0 0 1 .75-.75h.01a.75.75 0 0 1 .75.75v.01a.75.75 0 0 1-.75.75H10a.75.75 0 0 1-.75-.75V14ZM12 9.25a.75.75 0 0 0-.75.75v.01c0 .414.336.75.75.75h.01a.75.75 0 0 0 .75-.75V10a.75.75 0 0 0-.75-.75H12ZM11.25 12a.75.75 0 0 1 .75-.75h.01a.75.75 0 0 1 .75.75v.01a.75.75 0 0 1-.75.75H12a.75.75 0 0 1-.75-.75V12ZM12 13.25a.75.75 0 0 0-.75.75v.01c0 .414.336.75.75.75h.01a.75.75 0 0 0 .75-.75V14a.75.75 0 0 0-.75-.75H12ZM13.25 10a.75.75 0 0 1 .75-.75h.01a.75.75 0 0 1 .75.75v.01a.75.75 0 0 1-.75.75H14a.75.75 0 0 1-.75-.75V10ZM14 11.25a.75.75 0 0 0-.75.75v.01c0 .414.336.75.75.75h.01a.75.75 0 0 0 .75-.75V12a.75.75 0 0 0-.75-.75H14Z"></path>
-        <path clip-rule="evenodd" fill-rule="evenodd" d="M5.75 2a.75.75 0 0 1 .75.75V4h7V2.75a.75.75 0 0 1 1.5 0V4h.25A2.75 2.75 0 0 1 18 6.75v8.5A2.75 2.75 0 0 1 15.25 18H4.75A2.75 2.75 0 0 1 2 15.25v-8.5A2.75 2.75 0 0 1 4.75 4H5V2.75A.75.75 0 0 1 5.75 2Zm-1 5.5c-.69 0-1.25.56-1.25 1.25v6.5c0 .69.56 1.25 1.25 1.25h10.5c.69 0 1.25-.56 1.25-1.25v-6.5c0-.69-.56-1.25-1.25-1.25H4.75Z"></path>
+      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M6.75 3v2.25M17.25 3v2.25M3 18.75V7.5a2.25 2.25 0 0 1 2.25-2.25h13.5A2.25 2.25 0 0 1 21 7.5v11.25m-18 0A2.25 2.25 0 0 0 5.25 21h13.5A2.25 2.25 0 0 0 21 18.75m-18 0v-7.5A2.25 2.25 0 0 1 5.25 9h13.5A2.25 2.25 0 0 1 21 11.25v7.5m-9-6h.008v.008H12v-.008ZM12 15h.008v.008H12V15Zm0 2.25h.008v.008H12v-.008ZM9.75 15h.008v.008H9.75V15Zm0 2.25h.008v.008H9.75v-.008ZM7.5 15h.008v.008H7.5V15Zm0 2.25h.008v.008H7.5v-.008Zm6.75-4.5h.008v.008h-.008v-.008Zm0 2.25h.008v.008h-.008V15Zm0 2.25h.008v.008h-.008v-.008Zm2.25-4.5h.008v.008H16.5v-.008Zm0 2.25h.008v.008H16.5V15Z" />
       </svg>
-      <span class="font-medium text-base">23 24 2024</span>
+      <span class="font-medium text-sm">23 24 2024</span>
     </div>
     <button class="flex flex-none items-center justify-center w-9 h-9 transition-all rounded-full hover:bg-gray-100 dark:hover:bg-gray-900">
       <svg width="28" height="28" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
@@ -88,16 +90,15 @@ visible: true
   </div>
 </article>
 
-<article class="border shadow-sm break-inside divide-y rounded-xl p-4 mb-3 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="social">
+<article class="border shadow-sm break-inside divide-y rounded-xl p-3 mb-3 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="social">
   <div class="flex items-center justify-between">
     <div class="flex items-center gap-3">
       <span class="flex flex-none items-center justify-center font-medium w-5 h-5 text-xs rounded-full transition-colors bg-blue-700 dark:bg-blue-500 text-white">3</span>
-      <div class="h-9 flex items-center justify-center rounded-full gap-2 px-3 bg-cyan-100 dark:bg-cyan-600/30 dark:text-cyan-400">
-        <svg width="24" height="24" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-          <path d="M5.25 12a.75.75 0 0 1 .75-.75h.01a.75.75 0 0 1 .75.75v.01a.75.75 0 0 1-.75.75H6a.75.75 0 0 1-.75-.75V12ZM6 13.25a.75.75 0 0 0-.75.75v.01c0 .414.336.75.75.75h.01a.75.75 0 0 0 .75-.75V14a.75.75 0 0 0-.75-.75H6ZM7.25 12a.75.75 0 0 1 .75-.75h.01a.75.75 0 0 1 .75.75v.01a.75.75 0 0 1-.75.75H8a.75.75 0 0 1-.75-.75V12ZM8 13.25a.75.75 0 0 0-.75.75v.01c0 .414.336.75.75.75h.01a.75.75 0 0 0 .75-.75V14a.75.75 0 0 0-.75-.75H8ZM9.25 10a.75.75 0 0 1 .75-.75h.01a.75.75 0 0 1 .75.75v.01a.75.75 0 0 1-.75.75H10a.75.75 0 0 1-.75-.75V10ZM10 11.25a.75.75 0 0 0-.75.75v.01c0 .414.336.75.75.75h.01a.75.75 0 0 0 .75-.75V12a.75.75 0 0 0-.75-.75H10ZM9.25 14a.75.75 0 0 1 .75-.75h.01a.75.75 0 0 1 .75.75v.01a.75.75 0 0 1-.75.75H10a.75.75 0 0 1-.75-.75V14ZM12 9.25a.75.75 0 0 0-.75.75v.01c0 .414.336.75.75.75h.01a.75.75 0 0 0 .75-.75V10a.75.75 0 0 0-.75-.75H12ZM11.25 12a.75.75 0 0 1 .75-.75h.01a.75.75 0 0 1 .75.75v.01a.75.75 0 0 1-.75.75H12a.75.75 0 0 1-.75-.75V12ZM12 13.25a.75.75 0 0 0-.75.75v.01c0 .414.336.75.75.75h.01a.75.75 0 0 0 .75-.75V14a.75.75 0 0 0-.75-.75H12ZM13.25 10a.75.75 0 0 1 .75-.75h.01a.75.75 0 0 1 .75.75v.01a.75.75 0 0 1-.75.75H14a.75.75 0 0 1-.75-.75V10ZM14 11.25a.75.75 0 0 0-.75.75v.01c0 .414.336.75.75.75h.01a.75.75 0 0 0 .75-.75V12a.75.75 0 0 0-.75-.75H14Z"></path>
-          <path clip-rule="evenodd" fill-rule="evenodd" d="M5.75 2a.75.75 0 0 1 .75.75V4h7V2.75a.75.75 0 0 1 1.5 0V4h.25A2.75 2.75 0 0 1 18 6.75v8.5A2.75 2.75 0 0 1 15.25 18H4.75A2.75 2.75 0 0 1 2 15.25v-8.5A2.75 2.75 0 0 1 4.75 4H5V2.75A.75.75 0 0 1 5.75 2Zm-1 5.5c-.69 0-1.25.56-1.25 1.25v6.5c0 .69.56 1.25 1.25 1.25h10.5c.69 0 1.25-.56 1.25-1.25v-6.5c0-.69-.56-1.25-1.25-1.25H4.75Z"></path>
+      <div class="h-9 flex items-center justify-center rounded-full gap-2 px-3 bg-cyan-50 dark:bg-cyan-600/30 dark:text-cyan-400">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M6.75 3v2.25M17.25 3v2.25M3 18.75V7.5a2.25 2.25 0 0 1 2.25-2.25h13.5A2.25 2.25 0 0 1 21 7.5v11.25m-18 0A2.25 2.25 0 0 0 5.25 21h13.5A2.25 2.25 0 0 0 21 18.75m-18 0v-7.5A2.25 2.25 0 0 1 5.25 9h13.5A2.25 2.25 0 0 1 21 11.25v7.5m-9-6h.008v.008H12v-.008ZM12 15h.008v.008H12V15Zm0 2.25h.008v.008H12v-.008ZM9.75 15h.008v.008H9.75V15Zm0 2.25h.008v.008H9.75v-.008ZM7.5 15h.008v.008H7.5V15Zm0 2.25h.008v.008H7.5v-.008Zm6.75-4.5h.008v.008h-.008v-.008Zm0 2.25h.008v.008h-.008V15Zm0 2.25h.008v.008h-.008v-.008Zm2.25-4.5h.008v.008H16.5v-.008Zm0 2.25h.008v.008H16.5V15Z" />
         </svg>
-        <span class="font-medium text-base">23 24 2024</span>
+        <span class="font-medium text-sm">23 24 2024</span>
       </div>
     </div>
     <button class="flex flex-none items-center justify-center w-9 h-9 transition-all rounded-full hover:bg-gray-100 dark:hover:bg-gray-900">
@@ -133,16 +134,16 @@ visible: true
       <dt class="sr-only">Users</dt>
       <dd class="flex justify-start -space-x-1.5">
         <a href="#" class="inline-block -m-1">
-          <img class="w-7 h-7 rounded-full bg-gray-100 ring-2 ring-white dark:bg-gray-600 dark:ring-gray-950" src="https://randomuser.me/api/portraits/women/46.jpg" alt="avatar" loading="lazy">
+          <img class="w-6 h-6 rounded-full bg-gray-100 ring-2 ring-white dark:bg-gray-600 dark:ring-gray-950" src="https://randomuser.me/api/portraits/women/46.jpg" alt="avatar" loading="lazy">
         </a>
         <a href="#" class="inline-block -m-1">
-          <img class="w-7 h-7 rounded-full bg-gray-100 ring-2 ring-white dark:bg-gray-600 dark:ring-gray-950" src="https://randomuser.me/api/portraits/men/45.jpg" alt="avatar" loading="lazy">
+          <img class="w-6 h-6 rounded-full bg-gray-100 ring-2 ring-white dark:bg-gray-600 dark:ring-gray-950" src="https://randomuser.me/api/portraits/men/45.jpg" alt="avatar" loading="lazy">
         </a>
         <a href="#" class="inline-block -m-1">
-          <img class="w-7 h-7 rounded-full bg-gray-100 ring-2 ring-white dark:bg-gray-600 dark:ring-gray-950" src="https://randomuser.me/api/portraits/women/47.jpg" alt="avatar" loading="lazy">
+          <img class="w-6 h-6 rounded-full bg-gray-100 ring-2 ring-white dark:bg-gray-600 dark:ring-gray-950" src="https://randomuser.me/api/portraits/women/47.jpg" alt="avatar" loading="lazy">
         </a>
         <a href="#" class="inline-block -m-1">
-          <span class="flex items-center justify-center font-medium w-7 h-7 rounded-full bg-indigo-200 ring-2 ring-white dark:bg-gray-600 dark:ring-gray-950">+4</span>
+          <span class="flex items-center justify-center font-medium w-6 h-6 text-xs rounded-full bg-indigo-200 ring-2 ring-white dark:bg-gray-600 dark:ring-gray-950">+4</span>
         </a>
       </dd>
     </div>
@@ -179,16 +180,16 @@ visible: true
       <dt class="sr-only">Users</dt>
       <dd class="flex justify-start -space-x-1.5">
         <a href="#" class="inline-block -m-1">
-          <img class="w-7 h-7 rounded-full bg-gray-100 ring-2 ring-white dark:bg-gray-600 dark:ring-gray-950" src="https://randomuser.me/api/portraits/women/12.jpg" alt="avatar" loading="lazy">
+          <img class="w-6 h-6 rounded-full bg-gray-100 ring-2 ring-white dark:bg-gray-600 dark:ring-gray-950" src="https://randomuser.me/api/portraits/women/12.jpg" alt="avatar" loading="lazy">
         </a>
         <a href="#" class="inline-block -m-1">
-          <img class="w-7 h-7 rounded-full bg-gray-100 ring-2 ring-white dark:bg-gray-600 dark:ring-gray-950" src="https://randomuser.me/api/portraits/men/13.jpg" alt="avatar" loading="lazy">
+          <img class="w-6 h-6 rounded-full bg-gray-100 ring-2 ring-white dark:bg-gray-600 dark:ring-gray-950" src="https://randomuser.me/api/portraits/men/13.jpg" alt="avatar" loading="lazy">
         </a>
         <a href="#" class="inline-block -m-1">
-          <img class="w-7 h-7 rounded-full bg-gray-100 ring-2 ring-white dark:bg-gray-600 dark:ring-gray-950" src="https://randomuser.me/api/portraits/women/14.jpg" alt="avatar" loading="lazy">
+          <img class="w-6 h-6 rounded-full bg-gray-100 ring-2 ring-white dark:bg-gray-600 dark:ring-gray-950" src="https://randomuser.me/api/portraits/women/14.jpg" alt="avatar" loading="lazy">
         </a>
         <a href="#" class="inline-block -m-1">
-          <span class="flex items-center justify-center font-medium w-7 h-7 rounded-full bg-green-200 ring-2 ring-white dark:bg-gray-600 dark:ring-gray-950">+4</span>
+          <span class="flex items-center justify-center font-medium w-6 h-6 text-xs rounded-full bg-green-200 ring-2 ring-white dark:bg-gray-600 dark:ring-gray-950">+4</span>
         </a>
       </dd>
     </div>
@@ -204,7 +205,7 @@ visible: true
   </section>
 </article>
 
-<article class="border shadow-sm break-inside rounded-xl p-4 mb-3 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="social">
+<article class="border shadow-sm break-inside rounded-xl p-3 mb-3 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="social">
   <header class="flex items-center justify-between">
     <section class="flex items-center gap-1">
       <span class="h-6 text-xs px-2 font-medium rounded-full flex items-center border border-green-100 dark:border-gray-900 bg-green-100 text-green-700 dark:bg-green-500/30 dark:text-green-300">Development</span>
@@ -217,9 +218,12 @@ visible: true
     </button>
   </header>
   <section class="mt-2">
-    <h2 class="text-base font-medium">New collaborative project for the marketing team</h2>
+    <h2 class="text-base font-medium leading-snug">New collaborative project for the marketing team</h2>
   </section>
-  <section class="flex items-center justify-between mt-4">
+</article>
+
+<article class="border shadow-sm break-inside rounded-xl overflow-hidden mb-3 p-3 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="social">
+  <section class="flex items-center justify-between">
     <div class="col-start-2 row-start-1 row-end-3">
       <dt class="sr-only">Users</dt>
       <dd class="flex justify-start -space-x-1.5">
@@ -233,12 +237,15 @@ visible: true
           <img class="w-6 h-6 rounded-full bg-gray-100 ring-2 ring-white dark:bg-gray-600 dark:ring-gray-950" src="https://randomuser.me/api/portraits/women/68.jpg" alt="avatar" loading="lazy">
         </a>
         <a href="#" class="inline-block -m-1">
-          <span class="flex items-center justify-center font-medium w-6 h-6 rounded-full bg-black text-white ring-2 ring-white dark:bg-white dark:text-black dark:ring-gray-950">+4</span>
+          <span class="text-xs flex items-center justify-center w-6 h-6 rounded-full bg-black text-white ring-2 ring-white dark:bg-white dark:text-black dark:ring-gray-950">+4</span>
         </a>
       </dd>
     </div>
-    <button class="w-7 h-7 flex items-center justify-center rounded-full bg-gray-200 dark:bg-gray-700">
+    <button class="flex-none w-8 h-8 flex items-center justify-center rounded-full bg-gray-200 dark:bg-gray-700">
       <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21.44 11.05l-9.19 9.19a6 6 0 0 1-8.49-8.49l9.19-9.19a4 4 0 0 1 5.66 5.66l-9.2 9.19a2 2 0 0 1-2.83-2.83l8.49-8.48"></path></svg>
+    </button>
+    <button class="flex items-center justify-center border px-3 h-7 rounded dark:border-gray-900">
+      Create
     </button>
     <div class="flex items-center gap-1 text-gray-600">
       <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="16 3 21 8 8 21 3 21 3 16 16 3"></polygon></svg>
@@ -246,6 +253,43 @@ visible: true
     </div>
   </section>
 </article>
+
+<section class="mb-3 grid grid-cols-3 gap-3">
+  <article class="border shadow-sm break-inside overflow-hidden relative flex flex-col items-center justify-center gap-2 rounded-xl text-sm p-3 bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="social">
+    <header class="flex flex-col items-center justify-start">
+      <div class="flex items-center justify-center w-9 h-9 rounded-full text-indigo-500 bg-gray-200 dark:bg-gray-900">
+        <svg width="20" height="20" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+          <path d="M7 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6ZM14.5 9a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5ZM1.615 16.428a1.224 1.224 0 0 1-.569-1.175 6.002 6.002 0 0 1 11.908 0c.058.467-.172.92-.57 1.174A9.953 9.953 0 0 1 7 18a9.953 9.953 0 0 1-5.385-1.572ZM14.5 16h-.106c.07-.297.088-.611.048-.933a7.47 7.47 0 0 0-1.588-3.755 4.502 4.502 0 0 1 5.874 2.636.818.818 0 0 1-.36.98A7.465 7.465 0 0 1 14.5 16Z"></path>
+        </svg>
+      </div>
+      <h2 class="font-medium mt-1">465+</h2>
+      <p class="text-xs text-gray-500 dark:text-gray-400">Followers</p>
+    </header>
+  </article>
+  <article class="border shadow-sm break-inside overflow-hidden relative flex flex-col items-center justify-center gap-2 rounded-xl text-sm p-3 bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="social">
+    <header class="flex flex-col items-center justify-start">
+      <div class="flex items-center justify-center w-9 h-9 rounded-full text-indigo-500 bg-gray-200 dark:bg-gray-900">
+        <svg width="20" height="20" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+          <path clip-rule="evenodd" fill-rule="evenodd" d="M4.25 2A2.25 2.25 0 0 0 2 4.25v11.5A2.25 2.25 0 0 0 4.25 18h11.5A2.25 2.25 0 0 0 18 15.75V4.25A2.25 2.25 0 0 0 15.75 2H4.25Zm4.03 6.28a.75.75 0 0 0-1.06-1.06L4.97 9.47a.75.75 0 0 0 0 1.06l2.25 2.25a.75.75 0 0 0 1.06-1.06L6.56 10l1.72-1.72Zm4.5-1.06a.75.75 0 1 0-1.06 1.06L13.44 10l-1.72 1.72a.75.75 0 1 0 1.06 1.06l2.25-2.25a.75.75 0 0 0 0-1.06l-2.25-2.25Z"></path>
+        </svg>
+      </div>
+      <h2 class="font-medium mt-1">9+</h2>
+      <p class="text-xs text-gray-500 dark:text-gray-400">Projects</p>
+    </header>
+  </article>
+  <article class="border shadow-sm break-inside overflow-hidden relative flex flex-col items-center justify-center gap-2 rounded-xl text-sm p-3 bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="social">
+    <header class="flex flex-col items-center justify-start">
+      <div class="flex items-center justify-center w-9 h-9 rounded-full text-indigo-500 bg-gray-200 dark:bg-gray-900">
+        <svg width="20" height="20" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+          <path clip-rule="evenodd" fill-rule="evenodd" d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401Z"></path>
+        </svg>
+      </div>
+      <h2 class="font-medium mt-1">5.0</h2>
+      <p class="text-xs text-gray-500 dark:text-gray-400">Rating</p>
+    </header>
+  </article>
+</section>
+
 
 <article class="border shadow-sm break-inside rounded-xl overflow-hidden mb-3 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="social">
   <header class="relative w-full mb-auto">
@@ -483,16 +527,16 @@ visible: true
   </section>
 </article>
 
-<article class="border shadow-sm break-inside rounded-xl p-4 mb-3 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="social">
+<article class="border shadow-sm break-inside rounded-xl p-3 mb-3 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="social">
   <header class="flex items-center justify-between gap-2">
     <div class="flex items-center gap-3">
       <div class="flex-none w-12 h-12 flex items-center justify-center rounded-full border">
-        <svg width="26" height="26" fill="none" stroke-width="2" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        <svg width="24" height="24" fill="none" stroke-width="2" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
           <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 3v11.25A2.25 2.25 0 0 0 6 16.5h2.25M3.75 3h-1.5m1.5 0h16.5m0 0h1.5m-1.5 0v11.25A2.25 2.25 0 0 1 18 16.5h-2.25m-7.5 0h7.5m-7.5 0-1 3m8.5-3 1 3m0 0 .5 1.5m-.5-1.5h-9.5m0 0-.5 1.5m.75-9 3-3 2.148 2.148A12.061 12.061 0 0 1 16.5 7.605"></path>
         </svg>
       </div>
       <div class="flex flex-col">
-        <h2 class="font-medium text-lg">Analytics</h2>
+        <h2 class="font-medium text-base">Analytics</h2>
         <p class="text-xs">Loerm ipsum permiso flinte lor dolor sit amet...</p>
       </div>
     </div>
@@ -532,7 +576,7 @@ visible: true
   </header>
 </article>
 
-<article class="shadow-sm relative break-inside rounded-xl overflow-hidden mb-3 text-sm" data-filter="social">
+<article class="shadow-sm relative break-inside rounded-xl overflow-hidden mb-3 text-sm max-h-[10rem]" data-filter="social">
   <button class="absolute top-4 right-4 inline-flex items-center justify-center w-8 h-8 transition-all rounded-full text-white hover:bg-black/20">
     <svg width="28" height="28" fill="none" stroke-width="2" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
       <path stroke-linecap="round" stroke-linejoin="round" d="M6.75 12a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0ZM12.75 12a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0ZM18.75 12a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z"></path>
@@ -559,16 +603,16 @@ visible: true
       <path stroke-linecap="round" stroke-linejoin="round" d="M6.75 12a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0ZM12.75 12a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0ZM18.75 12a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z"></path>
     </svg>
   </button>
-  <img class="w-full max-w-full h-28 object-cover" src="https://images.pexels.com/photos/92866/pexels-photo-92866.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" data-author="Leonie Fahjen" data-author-profile="https://www.pexels.com/es-es/@leonie-fahjen-20345/">
+  <img class="w-full max-w-full h-24 object-cover" src="https://images.pexels.com/photos/92866/pexels-photo-92866.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" data-author="Leonie Fahjen" data-author-profile="https://www.pexels.com/es-es/@leonie-fahjen-20345/">
   <div class="p-4 relative">
-    <figure class="relative w-[70px] h-[70px] -mt-12">
+    <figure class="relative w-14 h-14 -mt-12">
       <img class="flex-none w-full rounded-full border-4 border-white" src="https://randomuser.me/api/portraits/women/20.jpg" alt="avatar" loading="lazy">
       <figcaption class="sr-only">Avatar</figcaption>
     </figure>
     <div class="w-full mt-1">
       <div class="flex items-center justify-between gap-3">
         <div class="flex-auto">
-          <a href="#" class="text-lg font-medium block">Alexandra Flik</a>
+          <a href="#" class="text-base font-medium block">Alexandra Flik</a>
           <span class="text-sm">Designer</span>
         </div>
         <button class="flex items-center justify-center cursor-pointer rounded-full h-7 px-3 text-sm bg-indigo-600 text-white">Follow</button>
@@ -578,7 +622,7 @@ visible: true
 </article>
 
 <section class="grid grid-cols-12 gap-3 mb-3">
-  <article class="col-span-4 border shadow-sm break-inside relative overflow-hidden flex items-start flex-col justify-start rounded-xl gap-2 p-3 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="social">
+  <article class="col-span-4 border shadow-sm break-inside relative overflow-hidden flex items-start flex-col justify-between rounded-xl gap-2 p-3 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="social">
     <div class="absolute right-0 top-0 w-12 h-12 bg-rose-500/40 blur-2xl"></div>
     <img class="flex-none rounded-full w-11 h-11" src="https://randomuser.me/api/portraits/men/77.jpg" alt="avatar" loading="lazy">
     <h2 class="font-medium">Frank Mendes</h2>
@@ -586,15 +630,25 @@ visible: true
   </article>
   <label html-for="user-1" class="cursor-pointer col-span-5 border shadow-sm break-inside flex items-start flex-col justify-between rounded-xl gap-2 p-3 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="social">
     <img class="flex-none w-8 h-8 rounded-full" src="https://randomuser.me/api/portraits/women/85.jpg" alt="avatar" loading="lazy">
-    <h2 class="text-base font-medium">Amanda</h2>
+    <div>
+      <h2 class="text-base font-medium">Amanda</h2>
+      <p class="text-xs">23 years old</p>
+    </div>
     <p class="text-xs">Enable user for project</p>
     <input type="checkbox" name="user-1" checked="" class="h-[16px] px-[3px] w-[30px] relative flex-none cursor-pointer appearance-none rounded-full bg-gray-300 dark:bg-gray-700 before:transition-transform before:duration-200 before:pointer-events-none before:absolute before:top-1/2 before:-translate-y-1/2 before:h-3 before:w-3 before:rounded-full before:bg-transparent before:content-[''] before:transform before:translate-x-0 before:bg-white focus:bg-gray-400 dark:focus:bg-gray-600 focus:checked:bg-green-600 checked:bg-green-600 checked:before:translate-x-full checked:before:bg-white">
   </label>
-  <article class="col-span-3 border shadow-sm break-inside flex items-center flex-col rounded-xl gap-2 p-3 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="social">
+  <article class="col-span-3 border shadow-sm break-inside flex items-center justify-between flex-col rounded-xl gap-2 p-3 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="social">
     <img class="flex-none w-10 h-10 rounded-full object-cover" src="https://randomuser.me/api/portraits/women/67.jpg" alt="avatar" loading="lazy">
-    <div class="w-5 flex-1 overflow-hidden relative rounded-sm bg-gray-200 dark:bg-gray-800">
-      <div class="w-full absolute bottom-0 h-1/4 bg-indigo-700"></div>
-    </div>
+    <button class="inline-flex items-center justify-center w-8 h-8 transition-all rounded-full border hover:bg-black/10 dark:hover:bg-white/10">
+      <svg width="18" height="18" fill="none" stroke-width="1.5" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 0 0 2.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 0 1-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 0 0-1.091-.852H4.5A2.25 2.25 0 0 0 2.25 4.5v2.25Z"></path>
+      </svg>
+    </button>
+    <button class="inline-flex items-center justify-center w-8 h-8 transition-all rounded-full border hover:bg-black/10 dark:hover:bg-white/10">
+      <svg width="18" height="18" fill="none" stroke-width="1.5" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 0 1-2.25 2.25h-15a2.25 2.25 0 0 1-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0 0 19.5 4.5h-15a2.25 2.25 0 0 0-2.25 2.25m19.5 0v.243a2.25 2.25 0 0 1-1.07 1.916l-7.5 4.615a2.25 2.25 0 0 1-2.36 0L3.32 8.91a2.25 2.25 0 0 1-1.07-1.916V6.75"></path>
+      </svg>
+    </button>
   </article>
   <article class="col-span-5 border shadow-sm break-inside flex items-start flex-col justify-between rounded-xl gap-2 p-4 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="social">
     a
@@ -671,8 +725,8 @@ visible: true
       </svg>
     </button>
   </article>
-  <article class="relative rounded-full bg-gray-200 dark:bg-gray-900" data-filter="social">
-    <div class="relative -top-2 -left-4 rotate-3 border shadow-lg break-inside rounded-full flex items-center justify-between p-1.5 gap-2 text-sm bg-white dark:bg-gray-700 dark:text-white dark:border-gray-700">
+  <article class="relative rounded-full bg-gray-100 dark:bg-gray-900" data-filter="social">
+    <div class="relative -top-1 -left-1 rotate-3 border shadow-lg break-inside rounded-full flex items-center justify-between p-1.5 gap-2 text-sm bg-white dark:bg-gray-700 dark:text-white dark:border-gray-700">
       <header class="flex items-center gap-2">
       <img class="flex-none w-7 h-7 rounded-full" src="https://randomuser.me/api/portraits/men/11.jpg" alt="avatar" loading="lazy">
       <h2 class="text-sm font-medium">Manolo</h2>
@@ -897,11 +951,13 @@ visible: true
   </article>
   <article class="border shadow-sm break-inside flex items-start flex-col justify-between rounded-xl gap-2 p-4 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="social">
     <header>
-      <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path></svg>
+      <svg width="26" height="26" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" class="fill-rose-600">
+        <path d="m9.653 16.915-.005-.003-.019-.01a20.759 20.759 0 0 1-1.162-.682 22.045 22.045 0 0 1-2.582-1.9C4.045 12.733 2 10.352 2 7.5a4.5 4.5 0 0 1 8-2.828A4.5 4.5 0 0 1 18 7.5c0 2.852-2.044 5.233-3.885 6.82a22.049 22.049 0 0 1-3.744 2.582l-.019.01-.005.003h-.002a.739.739 0 0 1-.69.001l-.002-.001Z"></path>
+      </svg>
     </header>
     <section>
       <h2 class="text-sm">Events</h2>
-      <h3 class="text-base font-semibold">Favorites</h3>
+      <h3 class="text-base font-semibold text-rose-600">Favorites</h3>
     </section>
     <div class="flex items-center justify-between w-full mt-3">
       <span class="flex items-center justify-center h-5 px-1 gap-1 rounded text-sm bg-red-100/90 text-red-600 dark:bg-red-600/40 dark:text-red-500">
@@ -990,12 +1046,13 @@ visible: true
   </section>
 </section>
 
-<article class="border shadow-sm break-inside rounded-xl p-4 mb-3 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="social">
+<article class="border shadow-sm break-inside rounded-xl p-3 mb-3 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="social">
   <div class="flex justify-between items-center w-full">
-    <div class="flex flex-col justify-center items-center">
-      <span class="text-base font-medium">Jun</span>
-      <span class="text-base font-medium text-pink-500">23</span>
+    <div class="flex flex-col justify-center items-center py-1 px-3 border rounded dark:border-gray-900">
+      <span class="font-medium">Jun</span>
+      <span class="text-xs font-medium text-pink-500">23</span>
     </div>
+    <img class="flex-none w-10 h-10 rounded-xl" src="https://randomuser.me/api/portraits/women/21.jpg" alt="avatar" loading="lazy">
     <hr class="border h-6 border-gray-200 dark:border-gray-800">
     <div class="flex flex-col justify-center items-start">
       <span class="text-base font-medium">Wednesday</span>
@@ -1007,37 +1064,39 @@ visible: true
 <article class="relative border overflow-hidden shadow-sm break-inside rounded-xl p-4 mb-3 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="social">
   <div class="absolute left-1/2 top-0 w-14 h-14 bg-rose-500/30 blur-2xl"></div>
   <div class="absolute left-0 top-0 w-14 h-14 bg-green-500/30 blur-2xl"></div>
-  <div class="absolute right-0 bottom-0 w-14 h-14 bg-yellow-500/40 blur-2xl"></div>
   <div class="flex justify-between items-center w-full relative z-[1]">
-    <div class="flex flex-col justify-center items-center w-14 h-14 rounded-md text-white bg-gray-900 dark:text-black dark:bg-gray-100">
-      <span class="text-base font-medium">Jun</span>
-      <span class="text-base font-medium">23</span>
+    <div class="flex flex-col justify-center items-center w-12 h-12 rounded-full text-white bg-gray-900 dark:text-black dark:bg-gray-100">
+      <span class="font-medium">Jun</span>
+      <span class="text-xs font-medium">23</span>
     </div>
     <hr class="border h-6 border-gray-300 dark:border-gray-800">
     <div class="flex flex-col justify-center items-start">
       <span class="text-base font-medium">Wednesday</span>
-      <span class="text-gray-700 dark:text-gray-200">08:00 PM - 18:30 PM</span>
+      <span class="text-xs text-gray-700 dark:text-gray-200">08:00 PM - 18:30 PM</span>
     </div>
+    <button class="px-2 h-7 text-xs font-medium transition-colors duration-300 text-white bg-rose-500 rounded-md hover:bg-rose-600">
+      Details
+    </button>
   </div>
 </article>
 
-<article class="border shadow-md break-inside flex items-center justify-between rounded-xl p-4 mb-3 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="social">
+<article class="border shadow-md break-inside flex items-center justify-between rounded-xl p-3 mb-3 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="social">
   <header class="flex items-center gap-3">
     <span class="text-base font-medium">01</span>
     <div class="flex items-center gap-4">
-      <img class="flex-none w-12 h-12 rounded-2xl" src="https://randomuser.me/api/portraits/women/21.jpg" alt="avatar" loading="lazy">
+      <img class="flex-none w-12 h-12 rounded-2xl" src="https://randomuser.me/api/portraits/women/82.jpg" alt="avatar" loading="lazy">
       <div class="flex-auto">
         <span class="text-sm text-gray-600 dark:text-gray-300">September 2023</span>
-        <h2 class="text-base font-semibold block">Caroline</h2>
+        <h2 class="text-base font-medium block">Caroline</h2>
       </div>
     </div>
   </header>
-  <svg width="22" height="22" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" class="fill-gray-600 dark:fill-gray-100">
+  <svg width="22" height="22" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" class="fill-gray-900 dark:fill-gray-100">
     <path clip-rule="evenodd" fill-rule="evenodd" d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12Zm13.36-1.814a.75.75 0 1 0-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 0 0-1.06 1.06l2.25 2.25a.75.75 0 0 0 1.14-.094l3.75-5.25Z"></path>
   </svg>
 </article>
 
-<article class="border shadow-md break-inside relative overflow-hidden flex items-center justify-between rounded-xl p-4 mb-3 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="social">
+<article class="border shadow-md break-inside relative overflow-hidden flex items-center justify-between rounded-xl p-3 mb-3 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="social">
   <div class="absolute left-1/2 top-0 w-14 h-14 bg-rose-500/30 blur-2xl"></div>
   <header class="flex items-center gap-3">
     <span class="text-base font-medium">02</span>
@@ -1045,7 +1104,7 @@ visible: true
       <img class="flex-none w-12 h-12 rounded-2xl" src="https://randomuser.me/api/portraits/women/24.jpg" alt="avatar" loading="lazy">
       <div class="flex-auto">
         <span class="text-sm text-gray-600 dark:text-gray-300">September 2023</span>
-        <h2 class="text-base font-semibold block">Stephany</h2>
+        <h2 class="text-base font-medium block">Stephany</h2>
       </div>
     </div>
   </header>
@@ -1086,24 +1145,24 @@ visible: true
   </section>
 </article>
 
-<article class="border shadow-sm break-inside flex items-center justify-between rounded-xl p-4 mb-3 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="social">
-  <div class="flex items-center gap-4">
-    <img class="flex-none w-11 h-11 rounded-full" src="https://randomuser.me/api/portraits/women/44.jpg" alt="avatar" loading="lazy">
+<article class="border shadow-sm break-inside flex items-center justify-between rounded-xl p-3 mb-3 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="social">
+  <div class="flex items-center gap-3">
+    <img class="flex-none w-10 h-10 rounded-full" src="https://randomuser.me/api/portraits/women/44.jpg" alt="avatar" loading="lazy">
     <div class="flex-auto">
       <a href="#" class="text-base font-semibold block">Yolanda</a>
       <span class="text-sm text-gray-600 dark:text-gray-300">Web Development</span>
     </div>
   </div>
-  <button class="flex items-center justify-center w-10 h-10 rounded-full transition-colors hover:bg-gray-100 dark:hover:bg-gray-900">
-    <svg width="26" height="26" fill="none" stroke-width="1.5" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+  <button class="flex items-center justify-center w-8 h-8 rounded-full transition-colors hover:bg-gray-100 dark:hover:bg-gray-900">
+    <svg width="20" height="20" fill="none" stroke-width="2" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
       <path stroke-linecap="round" stroke-linejoin="round" d="M6 12 3.269 3.125A59.769 59.769 0 0 1 21.485 12 59.768 59.768 0 0 1 3.27 20.875L5.999 12Zm0 0h7.5"></path>
     </svg>
   </button>
 </article>
 
-<article class="border shadow-sm break-inside flex items-center justify-between rounded-xl p-4 mb-3 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="social">
+<article class="border shadow-sm break-inside flex items-center justify-between rounded-xl p-3 mb-3 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="social">
   <div class="flex items-center gap-4">
-    <figure class="relative w-12 h-12">
+    <figure class="relative w-10 h-10">
       <img class="flex-none w-full rounded-full" src="https://randomuser.me/api/portraits/men/14.jpg" alt="avatar" loading="lazy">
       <figcaption class="sr-only">Avatar</figcaption>
       <span class="absolute right-0 bottom-0 inline-block w-3.5 h-3.5 rounded-full bg-green-500 border-2 border-white dark:border-gray-950"></span>
@@ -1121,16 +1180,16 @@ visible: true
   </button>
 </article>
 
-<article class="border shadow-sm break-inside flex items-center justify-between rounded-xl p-4 mb-3 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="social">
+<article class="border shadow-sm break-inside flex items-center justify-between rounded-xl p-3 mb-3 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="social">
   <div class="flex items-center gap-4">
-    <img class="flex-none w-12 h-12 rounded-full" src="https://randomuser.me/api/portraits/women/81.jpg" alt="avatar" loading="lazy">
+    <img class="flex-none w-10 h-10 rounded-full" src="https://randomuser.me/api/portraits/women/81.jpg" alt="avatar" loading="lazy">
     <div class="flex-auto">
       <a href="#" class="text-base font-medium block">Marina Flick</a>
       <span class="text-sm text-gray-600 dark:text-gray-400">Technical Director</span>
     </div>
   </div>
   <button class="flex items-center justify-center w-10 h-10 rounded-full transition-colors duration-200 hover:bg-gray-100 dark:hover:bg-gray-900">
-    <svg width="24" height="24" fill="none" stroke-width="2" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+    <svg width="20" height="20" fill="none" stroke-width="2" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
       <path stroke-linecap="round" stroke-linejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 0 1-2.25 2.25h-15a2.25 2.25 0 0 1-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0 0 19.5 4.5h-15a2.25 2.25 0 0 0-2.25 2.25m19.5 0v.243a2.25 2.25 0 0 1-1.07 1.916l-7.5 4.615a2.25 2.25 0 0 1-2.36 0L3.32 8.91a2.25 2.25 0 0 1-1.07-1.916V6.75"></path>
     </svg>
   </button>
@@ -1217,14 +1276,14 @@ visible: true
 
 <article class="border shadow-sm break-inside flex items-center justify-between rounded-xl p-4 mb-3 bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="social">
   <a href="#" class="flex items-center gap-4">
-    <img class="flex-none w-12 h-12 rounded-full ring-1 ring-gray-300 border-2 border-white dark:border-gray-950 dark:ring-gray-400" src="https://randomuser.me/api/portraits/men/85.jpg" alt="avatar" loading="lazy">
+    <img class="flex-none w-10 h-10 rounded-full ring-1 ring-gray-300 border-2 border-white dark:border-gray-950 dark:ring-gray-400" src="https://randomuser.me/api/portraits/men/85.jpg" alt="avatar" loading="lazy">
     <div class="flex-auto">
-      <h2 class="font-semibold block">Alexander</h2>
-      <span class="text-xs text-gray-600 dark:text-gray-400">Last seen 2 hours ago</span>
+      <h2 class="font-medium">Alexander</h2>
+      <span class="text-xs block -mt-0.5 text-gray-600 dark:text-gray-400">Last seen 2 hours ago</span>
     </div>
   </a>
   <button class="flex flex-none items-center justify-center w-10 h-10 transition-all rounded-full hover:bg-gray-100 dark:hover:bg-gray-900">
-    <svg width="26" height="26" viewBox="0 0 24 24" stroke-width="1.5" fill="none" xmlns="http://www.w3.org/2000/svg" ><path d="M14.3632 5.65156L15.8431 4.17157C16.6242 3.39052 17.8905 3.39052 18.6716 4.17157L20.0858 5.58579C20.8668 6.36683 20.8668 7.63316 20.0858 8.41421L18.6058 9.8942M14.3632 5.65156L4.74749 15.2672C4.41542 15.5993 4.21079 16.0376 4.16947 16.5054L3.92738 19.2459C3.87261 19.8659 4.39148 20.3848 5.0115 20.33L7.75191 20.0879C8.21972 20.0466 8.65806 19.8419 8.99013 19.5099L18.6058 9.8942M14.3632 5.65156L18.6058 9.8942" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+    <svg width="22" height="22" viewBox="0 0 24 24" stroke-width="1.5" fill="none" xmlns="http://www.w3.org/2000/svg" ><path d="M14.3632 5.65156L15.8431 4.17157C16.6242 3.39052 17.8905 3.39052 18.6716 4.17157L20.0858 5.58579C20.8668 6.36683 20.8668 7.63316 20.0858 8.41421L18.6058 9.8942M14.3632 5.65156L4.74749 15.2672C4.41542 15.5993 4.21079 16.0376 4.16947 16.5054L3.92738 19.2459C3.87261 19.8659 4.39148 20.3848 5.0115 20.33L7.75191 20.0879C8.21972 20.0466 8.65806 19.8419 8.99013 19.5099L18.6058 9.8942M14.3632 5.65156L18.6058 9.8942" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path></svg>
   </button>
 </article>
 
@@ -1422,34 +1481,34 @@ visible: true
 <article class="border shadow-sm break-inside rounded-xl p-4 mb-3 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="social">
   <header class="flex items-center justify-between">
     <div class="flex flex-col items-start justify-center">
-      <a href="#" class="text-base font-semibold block">Create header here</a>
-      <span class="text-gray-600 dark:text-gray-400">Engineering</span>
+      <a href="#" class="text-base font-medium block">Team meeting</a>
+      <span class="text-xs text-gray-600 dark:text-gray-400">Engineering</span>
     </div>
-    <button class="rounded-full flex items-center justify-center w-10 h-10 transition-all hover:bg-gray-100 dark:hover:bg-gray-900">
-      <svg width="34" height="34" fill="none" stroke-width="1.5" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+    <button class="rounded-full flex items-center justify-center w-8 h-8 transition-all hover:bg-gray-100 dark:hover:bg-gray-900">
+      <svg width="26" height="26" fill="none" stroke-width="1.5" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
         <path stroke-linecap="round" stroke-linejoin="round" d="M6.75 12a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0ZM12.75 12a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0ZM18.75 12a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z"></path>
       </svg>
     </button>
   </header>
-  <section class="flex items-center justify-between mt-5">
+  <section class="flex items-center justify-between mt-3">
     <div class="col-start-2 row-start-1 row-end-3">
       <dt class="sr-only">Users</dt>
       <dd class="flex justify-start -space-x-1.5">
         <a href="#" class="inline-block -m-1">
-          <img class="w-9 h-9 rounded-full bg-gray-100 ring-2 ring-white dark:bg-gray-600 dark:ring-gray-950" src="https://randomuser.me/api/portraits/women/46.jpg" alt="avatar" loading="lazy">
+          <img class="w-6 h-6 rounded-full bg-gray-100 ring-2 ring-white dark:bg-gray-600 dark:ring-gray-950" src="https://randomuser.me/api/portraits/women/46.jpg" alt="avatar" loading="lazy">
         </a>
         <a href="#" class="inline-block -m-1">
-          <img class="w-9 h-9 rounded-full bg-gray-100 ring-2 ring-white dark:bg-gray-600 dark:ring-gray-950" src="https://randomuser.me/api/portraits/men/45.jpg" alt="avatar" loading="lazy">
+          <img class="w-6 h-6 rounded-full bg-gray-100 ring-2 ring-white dark:bg-gray-600 dark:ring-gray-950" src="https://randomuser.me/api/portraits/men/45.jpg" alt="avatar" loading="lazy">
         </a>
         <a href="#" class="inline-block -m-1">
-          <img class="w-9 h-9 rounded-full bg-gray-100 ring-2 ring-white dark:bg-gray-600 dark:ring-gray-950" src="https://randomuser.me/api/portraits/women/47.jpg" alt="avatar" loading="lazy">
+          <img class="w-6 h-6 rounded-full bg-gray-100 ring-2 ring-white dark:bg-gray-600 dark:ring-gray-950" src="https://randomuser.me/api/portraits/women/47.jpg" alt="avatar" loading="lazy">
         </a>
         <a href="#" class="inline-block -m-1">
-          <span class="flex items-center justify-center font-semibold w-9 h-9 rounded-full bg-indigo-200 ring-2 ring-white dark:bg-gray-600 dark:ring-gray-950">AT</span>
+          <span class="flex items-center justify-center font-semibold w-6 h-6 rounded-full bg-indigo-200 ring-2 ring-white dark:bg-gray-600 dark:ring-gray-950">AT</span>
         </a>
       </dd>
     </div>
-    <button class="flex items-center justify-center cursor-pointer rounded-full h-7 px-3 text-sm bg-indigo-600 text-white">View all</button>
+    <button class="flex items-center justify-center cursor-pointer rounded-full h-6 px-3 text-xs bg-indigo-600 text-white">View all</button>
   </section>
 </article>
 
@@ -1459,53 +1518,58 @@ visible: true
       <dt class="sr-only">Users</dt>
       <dd class="flex justify-start -space-x-1.5">
         <a href="#" class="inline-block -m-1">
-          <img class="w-8 h-8 rounded-full ring-2 ring-white dark:ring-gray-950" src="https://randomuser.me/api/portraits/women/48.jpg" alt="avatar" loading="lazy">
+          <img class="w-6 h-6 rounded-full ring-2 ring-white dark:ring-gray-950" src="https://randomuser.me/api/portraits/women/48.jpg" alt="avatar" loading="lazy">
         </a>
         <a href="#" class="inline-block -m-1">
-          <img class="w-8 h-8 rounded-full ring-2 ring-white dark:ring-gray-950" src="https://randomuser.me/api/portraits/men/15.jpg" alt="avatar" loading="lazy">
+          <img class="w-6 h-6 rounded-full ring-2 ring-white dark:ring-gray-950" src="https://randomuser.me/api/portraits/men/15.jpg" alt="avatar" loading="lazy">
         </a>
         <a href="#" class="inline-block -m-1">
-          <img class="w-8 h-8 rounded-full ring-2 ring-white dark:ring-gray-950" src="https://randomuser.me/api/portraits/women/37.jpg" alt="avatar" loading="lazy">
+          <img class="w-6 h-6 rounded-full ring-2 ring-white dark:ring-gray-950" src="https://randomuser.me/api/portraits/women/37.jpg" alt="avatar" loading="lazy">
         </a>
         <a href="#" class="inline-block -m-1">
-          <img class="w-8 h-8 rounded-full ring-2 ring-white dark:ring-gray-950" src="https://randomuser.me/api/portraits/men/78.jpg" alt="avatar" loading="lazy">
+          <img class="w-6 h-6 rounded-full ring-2 ring-white dark:ring-gray-950" src="https://randomuser.me/api/portraits/men/78.jpg" alt="avatar" loading="lazy">
         </a>
       </dd>
     </div>
     <div class="flex justify-center items-center rounded-md px-2 py-1 bg-green-100 gap-1 font-medium dark:bg-green-500/20">
-      <span class="text-sm font-medium text-green-700 dark:text-green-400">23%</span>
+      <span class="text-xs font-medium text-green-700 dark:text-green-400">23%</span>
       <svg width="14" height="14" viewBox="0 0 15 8" fill="none" xmlns="http://www.w3.org/2000/svg">
         <path d="M1.57835 7.65466H14.1787C14.3063 7.6544 14.4313 7.6309 14.5404 7.5867C14.6495 7.5425 14.7384 7.47927 14.7977 7.40382C14.8569 7.32837 14.8842 7.24356 14.8767 7.15851C14.8692 7.07346 14.827 6.9914 14.7548 6.92115L8.45465 0.84365C8.19354 0.591667 7.56492 0.591667 7.30311 0.84365L1.00293 6.92115C0.93001 6.99125 0.887245 7.07336 0.879287 7.15855C0.871328 7.24374 0.898481 7.32876 0.957793 7.40437C1.01711 7.47997 1.10631 7.54328 1.21572 7.58741C1.32512 7.63154 1.45054 7.6548 1.57835 7.65466Z" fill="currentColor" class="fill-green-500 dark:fill-green-400"></path>
       </svg>
     </div>
-    <button class="inline-flex items-center justify-center w-9 h-9 transition-all rounded-full hover:bg-gray-100 dark:hover:bg-gray-900">
-      <svg width="30" height="30" fill="none" stroke-width="1.5" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-        <path stroke-linecap="round" stroke-linejoin="round" d="M6.75 12a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0ZM12.75 12a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0ZM18.75 12a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z"></path>
-      </svg>
-    </button>
+    <div class="flex items-center gap-2">
+      <button class="inline-flex items-center justify-center w-9 h-9 transition-all rounded-full hover:bg-gray-100 dark:hover:bg-gray-900">
+        <svg width="22" height="22" viewBox="0 0 24 24" stroke-width="2" fill="none" xmlns="http://www.w3.org/2000/svg" color="currentColor"><path d="M14.3632 5.65156L15.8431 4.17157C16.6242 3.39052 17.8905 3.39052 18.6716 4.17157L20.0858 5.58579C20.8668 6.36683 20.8668 7.63316 20.0858 8.41421L18.6058 9.8942M14.3632 5.65156L4.74749 15.2672C4.41542 15.5993 4.21079 16.0376 4.16947 16.5054L3.92738 19.2459C3.87261 19.8659 4.39148 20.3848 5.0115 20.33L7.75191 20.0879C8.21972 20.0466 8.65806 19.8419 8.99013 19.5099L18.6058 9.8942M14.3632 5.65156L18.6058 9.8942" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+      </button>
+      <button class="inline-flex items-center justify-center w-9 h-9 transition-all rounded-full hover:bg-gray-100 dark:hover:bg-gray-900">
+        <svg width="30" height="30" fill="none" stroke-width="1.5" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M6.75 12a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0ZM12.75 12a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0ZM18.75 12a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z"></path>
+        </svg>
+      </button>
+    </div>
   </div>
 </article>
 
 
 
 <article class="border shadow-sm break-inside flex items-center space-x-4 rounded-xl overflow-hidden pr-4 mb-3 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="social">
-  <img class="flex-none w-16 object-cover" src="https://randomuser.me/api/portraits/women/45.jpg" alt="avatar" loading="lazy">
+  <img class="flex-none w-14 object-cover" src="https://randomuser.me/api/portraits/women/45.jpg" alt="avatar" loading="lazy">
   <div class="flex-auto">
     <a href="#" class="text-base font-semibold block">Adrianne</a>
-    <span class="text-gray-600 dark:text-gray-400">Frontend Development</span>
+    <span class="text-xs block text-gray-600 dark:text-gray-400">Frontend Development</span>
   </div>
 </article>
 
 <article class="border shadow-sm break-inside flex items-center space-x-4 rounded-xl overflow-hidden pr-4 mb-3 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="social">
   <header class="flex-1 flex items-center gap-2 lg:gap-4">
-    <img class="flex-none w-16 object-cover" src="https://randomuser.me/api/portraits/men/45.jpg" alt="avatar" loading="lazy">
+    <img class="flex-none w-14 object-cover" src="https://randomuser.me/api/portraits/men/45.jpg" alt="avatar" loading="lazy">
     <div class="flex-auto">
-      <a href="#" class="text-base font-medium block">Matheus Duarte</a>
-      <span class="text-gray-600 dark:text-gray-400">Art Director</span>
+      <a href="#" class="text-sm font-medium block">Matheus Duarte</a>
+      <span class="text-xs text-gray-600 dark:text-gray-400">Art Director</span>
     </div>
   </header>
   <button class="rounded-full flex flex-none items-center justify-center w-8 h-8 transition-all hover:bg-gray-100 dark:hover:bg-gray-900">
-    <svg width="30" height="30" fill="none" stroke-width="1.5" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+    <svg width="26" height="26" fill="none" stroke-width="2" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
       <path stroke-linecap="round" stroke-linejoin="round" d="M6.75 12a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0ZM12.75 12a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0ZM18.75 12a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z"></path>
     </svg>
   </button>
@@ -1513,16 +1577,16 @@ visible: true
 
 <article class="border shadow-sm break-inside flex items-center space-x-4 rounded-xl overflow-hidden pr-4 mb-3 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="social">
   <header class="flex-1 flex items-center gap-2 lg:gap-4">
-    <div class="flex items-center justify-center w-16 h-16 font-semibold text-lg bg-purple-100 dark:bg-purple-600/50">
+    <div class="flex items-center justify-center w-14 h-14 font-semibold text-lg bg-purple-100 dark:bg-purple-600/50">
       CM
     </div>
     <div class="flex-auto">
-      <a href="#" class="text-base font-medium block">Carolina Melo</a>
-      <span class="text-gray-600 dark:text-gray-400">UX/UI Designer</span>
+      <a href="#" class="font-medium block">Carolina Melo</a>
+      <span class="text-xs text-gray-600 dark:text-gray-400">UX/UI Designer</span>
     </div>
   </header>
   <button class="rounded-full flex flex-none items-center justify-center w-8 h-8 transition-all hover:bg-gray-100 dark:hover:bg-gray-900">
-    <svg width="30" height="30" fill="none" stroke-width="1.5" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+    <svg width="26" height="26" fill="none" stroke-width="2" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
       <path stroke-linecap="round" stroke-linejoin="round" d="M6.75 12a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0ZM12.75 12a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0ZM18.75 12a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z"></path>
     </svg>
   </button>
@@ -2181,7 +2245,7 @@ visible: true
   </article>
 </section>
 
-<article class="border shadow-sm break-inside overflow-hidden flex items-center justify-start rounded-2xl gap-2 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="social">
+<article class="border shadow-sm break-inside overflow-hidden flex items-center justify-start rounded-2xl gap-2 mb-3 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="social">
   <img src="https://images.pexels.com/photos/3183150/pexels-photo-3183150.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="avatar" class="w-full h-full max-w-[5rem] min-h-[5rem] object-cover rounded-2xl" />
   <div class="flex justify-between items-center flex-1 p-2.5">
     <div class="flex flex-col flex-none">
@@ -2200,4 +2264,372 @@ visible: true
   </div>
 </article>
 
+<article class="border shadow-sm break-inside rounded-md p-3 gap-2 mb-3 text-sm ring-2 ring-indigo-600 border-indigo-600 bg-indigo-50 dark:bg-indigo-600/20 dark:text-white dark:border-gray-900" data-filter="social">
+  <div class="flex flex-col gap-2">
+    <section class="flex items-center justify-between">
+      <div class="flex items-center justify-start gap-2">
+        <h2 class="text-base font-medium">Pablo Garcia</h2>
+        <span class="px-2 py-1 text-xs font-medium rounded-md bg-black/10 dark:bg-white/10">Asistente</span>
+      </div>
+      <span class="text-xs text-gray-700 dark:text-gray-400">06:30 PM</span>
+    </section>
+    <section class="flex items-center justify-between">
+      <div class="flex items-start gap-2">
+        <img src="https://randomuser.me/api/portraits/men/67.jpg" alt="Pablo Garcia" class="w-7 h-7 rounded-full" />
+        <p class="text-xs dark:text-gray-400">Lorem ipsum dolor sit amet, consectr adipiscing elit. Nulla nec.</p>
+      </div>
+      <button class="flex items-center justify-center flex-none rounded-full transition-colors duration-200 w-8 h-8 hover:bg-black/10 dark:hover:bg-white/10">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M9 12h3.75M9 15h3.75M9 18h3.75m3 .75H18a2.25 2.25 0 0 0 2.25-2.25V6.108c0-1.135-.845-2.098-1.976-2.192a48.424 48.424 0 0 0-1.123-.08m-5.801 0c-.065.21-.1.433-.1.664 0 .414.336.75.75.75h4.5a.75.75 0 0 0 .75-.75 2.25 2.25 0 0 0-.1-.664m-5.8 0A2.251 2.251 0 0 1 13.5 2.25H15c1.012 0 1.867.668 2.15 1.586m-5.8 0c-.376.023-.75.05-1.124.08C9.095 4.01 8.25 4.973 8.25 6.108V8.25m0 0H4.875c-.621 0-1.125.504-1.125 1.125v11.25c0 .621.504 1.125 1.125 1.125h9.75c.621 0 1.125-.504 1.125-1.125V9.375c0-.621-.504-1.125-1.125-1.125H8.25ZM6.75 12h.008v.008H6.75V12Zm0 3h.008v.008H6.75V15Zm0 3h.008v.008H6.75V18Z" />
+        </svg>
+      </button>
+    </section>
+  </div>
+</article>
 
+<article class="border shadow-sm break-inside rounded-md p-3 gap-2 mb-3 text-sm ring-2 ring-green-600 border-green-600 bg-white dark:bg-gray-900 dark:text-white dark:border-gray-900" data-filter="social">
+  <div class="flex flex-col gap-2">
+    <section class="flex items-center justify-between">
+      <div class="flex items-center justify-start gap-2">
+        <h2 class="text-base font-medium">Marianna G.</h2>
+        <span class="px-2 py-1 text-xs font-medium rounded-md bg-green-200 text-green-700 dark:bg-green-600/20 dark:text-green-400">Proccessing</span>
+      </div>
+      <span class="text-xs text-gray-700 dark:text-gray-400">02:45 AM</span>
+    </section>
+    <section class="flex items-center justify-between">
+      <div class="flex items-start gap-2">
+        <img src="https://randomuser.me/api/portraits/women/56.jpg" alt="Pablo Garcia" class="w-7 h-7 rounded-full" />
+        <p class="text-xs dark:text-gray-400">Lorem ipsum dolor sit amet, consectr adipiscing elit. Nulla nec.</p>
+      </div>
+      <button class="flex items-center justify-center flex-none rounded-full transition-colors duration-200 w-8 h-8 hover:bg-black/10 dark:hover:bg-white/10">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M7.5 8.25h9m-9 3H12m-9.75 1.51c0 1.6 1.123 2.994 2.707 3.227 1.129.166 2.27.293 3.423.379.35.026.67.21.865.501L12 21l2.755-4.133a1.14 1.14 0 0 1 .865-.501 48.172 48.172 0 0 0 3.423-.379c1.584-.233 2.707-1.626 2.707-3.228V6.741c0-1.602-1.123-2.995-2.707-3.228A48.394 48.394 0 0 0 12 3c-2.392 0-4.744.175-7.043.513C3.373 3.746 2.25 5.14 2.25 6.741v6.018Z" />
+        </svg>
+      </button>
+    </section>
+  </div>
+</article>
+
+<article class="border shadow-sm break-inside relative overflow-hidden flex flex-col items-start rounded-xl mb-3 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="social">
+  <div class="flex flex-col pb-4 group">
+    <header class="flex items-center justify-start gap-3 pl-4 pt-4 pb-2 pr-12">
+      <a class="inline-block" href="#">
+        <img class="rounded-full max-w-none w-6 h-6" src="https://randomuser.me/api/portraits/women/74.jpg" alt="Avatar" />
+      </a>
+      <div class="flex items-center gap-2 w-full flex-1">
+        <a class="font-medium" href="#">Natalia</a>
+        <span class="text-xs text-gray-500 dark:text-gray-300">3 minutes ago</span>
+      </div>
+      <button class="hidden absolute right-4 top-3 group-hover:flex items-center justify-center rounded-full w-8 h-8 transition-colors duration-200 hover:bg-gray-200 dark:hover:bg-gray-900">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-6 h-6">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M6.75 12a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0ZM12.75 12a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0ZM18.75 12a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z" />
+        </svg>
+      </button>
+    </header>
+    <section class="relative px-4">
+      <p class="text-xs"> Dolor sit ameteiusmod consectetur adipi scing elit. Nulla nec purus feugiat, vestibulum.</p>
+      <footer class="flex items-center justify-between w-full mt-2">
+        <div class="flex items-center justify-start gap-2">
+          <a class="inline-flex items-center py-2 mr-3" href="#">
+            <span class="mr-2">
+              <svg class="fill-rose-600" width="18" height="18" viewBox="0 0 24 24">
+                <path d="M12,21.35L10.55,20.03C5.4,15.36 2,12.27 2,8.5C2,5.41 4.42,3 7.5,3C9.24,3 10.91,3.81 12,5.08C13.09,3.81 14.76,3 16.5,3C19.58,3 22,5.41 22,8.5C22,12.27 18.6,15.36 13.45,20.03L12,21.35Z"></path>
+              </svg>
+            </span>
+            <span class="font-bold">2</span>
+          </a>
+          <button class="py-1 px-2 text-sm font-medium hover:bg-gray-50 dark:hover:bg-gray-900 rounded-md" >Repply</button>
+        </div>
+        <a class="inline-flex items-center">
+          <span class="-m-1 rounded-full border-2 border-white dark:border-slate-800">
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 16 16" fill="none">
+              <path fill="url(#a12)" d="M8 0a8 8 0 1 0 0 16A8 8 0 0 0 8 0Z"></path>
+              <path fill="#fff" d="M12.162 7.338c.176.123.338.245.338.674 0 .43-.229.604-.474.725.1.163.132.36.089.546-.077.344-.392.611-.672.69.121.194.159.385.015.62-.185.295-.346.407-1.058.407H7.5c-.988 0-1.5-.546-1.5-1V7.665c0-1.23 1.467-2.275 1.467-3.13L7.361 3.47c-.005-.065.008-.224.058-.27.08-.079.301-.2.635-.2.218 0 .363.041.534.123.581.277.732.978.732 1.542 0 .271-.414 1.083-.47 1.364 0 0 .867-.192 1.879-.199 1.061-.006 1.749.19 1.749.842 0 .261-.219.523-.316.666ZM3.6 7h.8a.6.6 0 0 1 .6.6v3.8a.6.6 0 0 1-.6.6h-.8a.6.6 0 0 1-.6-.6V7.6a.6.6 0 0 1 .6-.6Z"></path>
+              <defs>
+                <linearGradient id="a12" x1="8" x2="8" y2="16" gradientUnits="userSpaceOnUse">
+                  <stop stop-color="#18AFFF"></stop>
+                  <stop offset="1" stop-color="#0062DF"></stop>
+                </linearGradient>
+              </defs>
+            </svg>
+          </span>
+          <span class="-m-1 rounded-full border-2 border-white dark:border-slate-800">
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 16 16" fill="none">
+              <path fill="url(#b1231)" d="M8 0a8 8 0 1 0 0 16A8 8 0 0 0 8 0Z"></path>
+              <path fill="#fff" d="M10.473 4C8.275 4 8 5.824 8 5.824S7.726 4 5.528 4c-2.114 0-2.73 2.222-2.472 3.41C3.736 10.55 8 12.75 8 12.75s4.265-2.2 4.945-5.34c.257-1.188-.36-3.41-2.472-3.41Z"></path>
+              <defs>
+                <linearGradient id="b1231" x1="8" x2="8" y2="16" gradientUnits="userSpaceOnUse">
+                  <stop stop-color="#FF6680"></stop>
+                  <stop offset="1" stop-color="#E61739"></stop>
+                </linearGradient>
+              </defs>
+            </svg>
+          </span>
+          <span class="-m-1 rounded-full border-2 border-white dark:border-slate-800">
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 16 16" fill="none">
+              <path fill="url(#aa)" d="M16 8A8 8 0 1 1-.001 8 8 8 0 0 1 16 8"></path>
+              <path fill="url(#bb)" d="M3 8.008C3 10.023 4.006 14 8 14c3.993 0 5-3.977 5-5.992C13 7.849 11.39 7 8 7c-3.39 0-5 .849-5 1.008Z"></path>
+              <path fill="url(#cc)" d="M4.541 12.5c.804.995 1.907 1.5 3.469 1.5 1.563 0 2.655-.505 3.459-1.5-.551-.588-1.599-1.5-3.459-1.5s-2.917.912-3.469 1.5Z"></path>
+              <path fill="#2A3755" d="M6.213 4.144c.263.188.502.455.41.788-.071.254-.194.369-.422.37-.78.012-1.708.256-2.506.613-.065.029-.197.088-.332.085-.124-.003-.251-.058-.327-.237-.067-.157-.073-.388.276-.598.545-.33 1.257-.48 1.909-.604-.41-.303-.85-.56-1.315-.768-.427-.194-.38-.457-.323-.6.127-.317.609-.196 1.078.026a9 9 0 0 1 1.552.925Zm3.577 0a8.955 8.955 0 0 1 1.55-.925c.47-.222.95-.343 1.078-.026.057.143.104.406-.323.6a7.028 7.028 0 0 0-1.313.768c.65.123 1.363.274 1.907.604.349.21.342.44.276.598-.077.18-.203.234-.327.237-.135.003-.267-.056-.332-.085-.797-.357-1.725-.6-2.504-.612-.228-.002-.351-.117-.422-.37-.091-.333.147-.6.41-.788v-.001Z"></path>
+              <defs>
+                <linearGradient id="aa" x1="8" x2="8" y1="1.64" y2="16" gradientUnits="userSpaceOnUse">
+                  <stop stop-color="#FEEA70"></stop>
+                  <stop offset="1" stop-color="#F69B30"></stop>
+                </linearGradient>
+                <linearGradient id="bb" x1="8" x2="8" y1="7" y2="14" gradientUnits="userSpaceOnUse">
+                  <stop stop-color="#472315"></stop>
+                  <stop offset="1" stop-color="#8B3A0E"></stop>
+                </linearGradient>
+                <linearGradient id="cc" x1="8.005" x2="8.005" y1="11" y2="13.457" gradientUnits="userSpaceOnUse">
+                  <stop stop-color="#FC607C"></stop>
+                  <stop offset="1" stop-color="#D91F3A"></stop>
+                </linearGradient>
+              </defs>
+            </svg>
+          </span>
+          <span class="font-bold ml-3">33</span>
+        </a>
+      </footer>
+    </section>
+  </div>
+</article>
+
+<article class="border shadow-sm break-inside overflow-hidden relative flex flex-col rounded-xl p-3 mb-3 bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="social">
+  <div class="w-32 h-32 absolute top-0 left-0 z-0 bg-gradient-to-br blur-2xl from-white to-gray-100 dark:from-transparent dark:to-gray-900"></div>
+  <header class="flex flex-col w-full gap-2 relative">
+    <div class="flex items-center justify-between w-full gap-2">
+      <h2 class="font-medium">Wireframes</h2>
+      <span class="text-xs border px-2 py-1 bg-white dark:bg-gray-900 dark:text-gray-500 text-gray-500 rounded dark:border-gray-800">January 12</span>
+      <button class="ml-auto flex flex-none items-center justify-center w-8 h-8 rounded-full transition-colors hover:bg-gray-200 dark:hover:bg-gray-900">
+        <svg width="26" height="26" fill="none" stroke-width="2" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M6.75 12a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0ZM12.75 12a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0ZM18.75 12a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z"></path>
+        </svg>
+      </button>
+    </div>
+    <div class="flex items-center justify-between w-full">
+      <div class="flex items-center gap-2">
+        <span class="rounded flex items-center justify-center w-6 h-6 border dark:border-gray-800 dark:text-gray-400">
+          <svg width="14" height="14" fill="none" stroke-width="2" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M3 3v1.5M3 21v-6m0 0 2.77-.693a9 9 0 0 1 6.208.682l.108.054a9 9 0 0 0 6.086.71l3.114-.732a48.524 48.524 0 0 1-.005-10.499l-3.11.732a9 9 0 0 1-6.085-.711l-.108-.054a9 9 0 0 0-6.208-.682L3 4.5M3 15V4.5"></path>
+          </svg>
+        </span>
+        <span class="rounded flex items-center justify-center w-6 h-6 border dark:border-gray-800 dark:text-gray-400">
+          <svg width="14" height="14" fill="none" stroke-width="2" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M17.593 3.322c1.1.128 1.907 1.077 1.907 2.185V21L12 17.25 4.5 21V5.507c0-1.108.806-2.057 1.907-2.185a48.507 48.507 0 0 1 11.186 0Z"></path>
+          </svg>
+        </span>
+        <span class="rounded flex items-center justify-center w-6 h-6 border dark:border-gray-800 dark:text-gray-400">
+          <svg width="14" height="14" fill="none" stroke-width="2" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M12 20.25c4.97 0 9-3.694 9-8.25s-4.03-8.25-9-8.25S3 7.444 3 12c0 2.104.859 4.023 2.273 5.48.432.447.74 1.04.586 1.641a4.483 4.483 0 0 1-.923 1.785A5.969 5.969 0 0 0 6 21c1.282 0 2.47-.402 3.445-1.087.81.22 1.668.337 2.555.337Z"></path>
+          </svg>
+        </span>
+      </div>
+      <div class="col-start-2 row-start-1 row-end-3 flex-none">
+        <dt class="sr-only">Users</dt>
+        <dd class="flex justify-start -space-x-1.5">
+          <a href="#" class="inline-block -m-1">
+            <img class="w-5 h-5 rounded-full bg-gray-100 ring-2 ring-white dark:bg-gray-600 dark:ring-gray-950" src="https://randomuser.me/api/portraits/women/46.jpg" alt="avatar" loading="lazy">
+          </a>
+          <a href="#" class="inline-block -m-1">
+            <img class="w-5 h-5 rounded-full bg-gray-100 ring-2 ring-white dark:bg-gray-600 dark:ring-gray-950" src="https://randomuser.me/api/portraits/men/45.jpg" alt="avatar" loading="lazy">
+          </a>
+          <a href="#" class="inline-block -m-1">
+            <img class="w-5 h-5 rounded-full bg-gray-100 ring-2 ring-white dark:bg-gray-600 dark:ring-gray-950" src="https://randomuser.me/api/portraits/women/47.jpg" alt="avatar" loading="lazy">
+          </a>
+        </dd>
+      </div>
+    </div>
+  </header>
+</article>
+
+<section class="grid grid-cols-2 gap-3">
+  <article class="border shadow-sm break-inside overflow-hidden relative flex flex-col justify-between rounded-xl text-sm mb-3 bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="social">
+    <header class="flex items-center gap-1 px-3 pt-3 pb-1">
+      <svg width="24" height="24" class="-mt-1 fill-amber-500" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        <path clip-rule="evenodd" fill-rule="evenodd" d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401Z"></path>
+      </svg>
+      <h2 class="font-bold text-xl">3.5</h2>
+      <span class="text-xs mt-1.5 text-gray-500">/5.0</span>
+    </header>
+    <p class="text-xs mt-2 px-3 border-y py-2 bg-gray-50 dark:bg-gray-900 dark:border-gray-800 dark:text-gray-400">Based on 3,000+ reviews</p>
+    <footer class="flex items-center justify-start w-full gap-2 p-3">
+      <figure class="relative flex-none w-8 h-8">
+        <img class="flex-none w-full rounded-full object-cover" src="https://randomuser.me/api/portraits/men/27.jpg" alt="avatar" loading="lazy">
+        <figcaption class="sr-only">Michael</figcaption>
+        <span class="absolute right-0 bottom-0 inline-block w-2.5 h-2.5 rounded-full bg-green-500 border-2 border-white dark:border-gray-950"></span>
+      </figure>
+      <div class="flex flex-col">
+        <span class="font-medium">Michael</span>
+        <span class="text-xs text-gray-500">Doctor</span>
+      </div>
+    </footer>
+  </article>
+  <article class="border shadow-sm break-inside overflow-hidden relative flex flex-col justify-between rounded-xl text-sm mb-3 bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="social">
+    <header class="flex items-center justify-between w-full gap-1 px-3 pt-3 pb-1">
+      <span class="flex items-center justify-center border rounded px-2 py-1 font-medium text-xs bg-green-50 border-green-100 text-green-700 dark:bg-green-600/10 dark:border-green-500/20 dark:text-green-500">Verified</span>
+      <button class="ml-auto flex flex-none items-center justify-center w-8 h-8 rounded-full transition-colors hover:bg-gray-200 dark:hover:bg-gray-900">
+        <svg width="26" height="26" fill="none" stroke-width="2" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M6.75 12a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0ZM12.75 12a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0ZM18.75 12a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z"></path>
+        </svg>
+      </button>
+    </header>
+    <section class="flex items-center justify-start gap-2 mt-2 px-3 border-y py-2 bg-gray-50 dark:bg-gray-900 dark:border-gray-800 dark:text-gray-400">
+      <img class="flex-none rounded-full w-8 h-8 object-cover" src="https://randomuser.me/api/portraits/women/32.jpg" alt="avatar" loading="lazy">
+      <div class="flex flex-col">
+        <span class="font-medium">Alice</span>
+        <span class="text-xs text-gray-500">Engineer</span>
+      </div>
+    </section>
+    <footer class="flex items-center justify-start w-full mt-2 gap-2 p-3">
+      <button class="flex items-center justify-center h-8 w-full rounded text-xs font-medium uppercase transition-colors duration-300 bg-gray-100 hover:bg-gray-200 dark:bg-gray-900 dark:hover:bg-gray-800 dark:text-gray-400">
+        View profile
+      </button>
+    </footer>
+  </article>
+</section>
+
+<section class="grid grid-cols-2 gap-3 mb-3">
+  <article class="border shadow-sm break-inside overflow-hidden relative flex flex-col rounded-xl text-sm p-3 bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="social">
+    <div class="absolute w-20 h-20 top-0 right-0 -mt-10 -mr-10 bg-gradient-to-br from-rose-500 to-amber-500 rounded-full"></div>
+    <div class="absolute left-1/2 top-0 w-14 h-14 bg-rose-500/40 blur-2xl"></div>
+    <header class="relative">
+      <h2 class="text-base font-semibold mb-2">Meetings</h2>
+      <p class="text-gray-500 dark:text-gray-400">Social media widgets</p>
+    </header>
+    <section class="flex items-center justify-between w-full gap-2 mt-2">
+      <button class="h-8 flex-1 px-2 flex items-center justify-center rounded-full font-medium bg-gray-200 dark:bg-gray-800">
+        <span class="w-2 h-2 bg-rose-500 rounded-full mr-2"></span>
+        <span>Offline</span>
+      </button>
+      <button class="flex-none h-8 w-8 flex items-center justify-center rounded-full bg-gray-200 dark:bg-gray-800">
+        <svg width="24" height="24" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+          <path d="M3 10a1.5 1.5 0 1 1 3 0 1.5 1.5 0 0 1-3 0ZM8.5 10a1.5 1.5 0 1 1 3 0 1.5 1.5 0 0 1-3 0ZM15.5 8.5a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3Z"></path>
+        </svg>
+      </button>
+    </section>
+  </article>
+  <article class="border shadow-sm break-inside overflow-hidden relative flex flex-col rounded-xl text-sm p-3 bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="social">
+    <div class="absolute w-20 h-20 top-0 right-0 -mt-10 -mr-10 bg-gradient-to-br from-green-500 to-cyan-500 rounded-full"></div>
+    <div class="absolute right-1/2 top-0 w-14 h-14 bg-green-500/40 blur-2xl"></div>
+    <header class="relative">
+      <h2 class="text-base font-semibold mb-2">Chat</h2>
+      <p class="text-gray-500 dark:text-gray-400">Social media widgets</p>
+    </header>
+    <section class="flex items-center justify-between w-full gap-2 mt-2">
+      <button class="h-8 flex-1 px-2 flex items-center justify-center rounded-full font-medium bg-gray-200 dark:bg-gray-800">
+        <span class="w-2 h-2 bg-green-500 rounded-full mr-2"></span>
+        <span>Online</span>
+      </button>
+      <button class="flex-none h-8 w-8 flex items-center justify-center rounded-full bg-gray-200 dark:bg-gray-800">
+        <svg width="24" height="24" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+          <path d="M3 10a1.5 1.5 0 1 1 3 0 1.5 1.5 0 0 1-3 0ZM8.5 10a1.5 1.5 0 1 1 3 0 1.5 1.5 0 0 1-3 0ZM15.5 8.5a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3Z"></path>
+        </svg>
+      </button>
+    </section>
+  </article>
+</section>
+
+<section class="grid grid-cols-2 gap-3 mb-3">
+  <article class="border shadow-sm break-inside overflow-hidden relative flex flex-col gap-2 rounded-xl text-sm p-3 bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="social">
+    <header class="flex items-center gap-2 justify-start">
+      <img class="w-9 h-9 rounded-full" src="https://randomuser.me/api/portraits/women/65.jpg" alt="avatar" loading="lazy">
+      <div class="flex flex-col">
+        <h2 class="text-sm font-medium leading-snug">
+          Alice
+          <br>
+          Anderson
+        </h2>
+      </div>
+    </header>
+    <p class="text-xs mt-2 text-gray-500 dark:text-gray-400">Personal assistant from company</p>
+    <button class="flex-none w-full px-3 border h-7 text-xs flex items-center justify-center rounded-full transition-colors duration-200 bg-white hover:border-gray-300 dark:bg-gray-950 dark:border-gray-800 dark:hover:border-gray-700">
+      Connect
+    </button>
+  </article>
+  <article class="border shadow-sm break-inside overflow-hidden relative flex flex-col gap-2 rounded-xl text-sm p-3 bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="social">
+    <header class="flex items-center gap-2 justify-start">
+      <img class="w-9 h-9 rounded-full" src="https://randomuser.me/api/portraits/men/66.jpg" alt="avatar" loading="lazy">
+      <div class="flex flex-col">
+        <h2 class="text-sm font-medium leading-snug">
+          Armando
+          <br>
+          Ortega
+        </h2>
+      </div>
+    </header>
+    <p class="text-xs mt-2 text-gray-500 dark:text-gray-400">Personal assistant from company</p>
+    <button class="flex-none w-full px-3 border h-7 text-xs flex items-center justify-center rounded-full transition-colors duration-200 bg-white hover:border-gray-300 dark:bg-gray-950 dark:border-gray-800 dark:hover:border-gray-700">
+      Connect
+    </button>
+  </article>
+</section>
+
+<article class="border shadow-sm break-inside overflow-hidden relative flex flex-row items-start gap-3 rounded-xl text-sm mb-3 p-3 bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="social">
+  <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0 0 512 512" width="36" height="36">
+    <path fill="#73A1FB" d="M160.325,256.018c0,52.754,42.919,95.67,95.675,95.67c52.753,0,95.668-42.917,95.668-95.67 c0-52.754-42.916-95.673-95.668-95.673C203.244,160.344,160.325,203.263,160.325,256.018z"></path><path fill="#DA143A" d="M476.299,129.73c0.745-1.311,0.732-2.921-0.039-4.219c-22.285-37.532-53.998-68.971-91.712-90.916 C345.679,11.975,301.226,0.019,256,0.019c-78.269,0-151.211,35.125-200.125,96.368c-1.079,1.35-1.22,3.221-0.356,4.717 l72.066,124.819c0.755,1.309,2.149,2.098,3.633,2.098c0.188,0,0.379-0.013,0.569-0.039c1.689-0.23,3.07-1.459,3.497-3.109 c14.21-55.059,63.851-93.513,120.716-93.513c3.529,0,7.173,0.161,10.836,0.473c0.119,0.012,0.24,0.017,0.359,0.017h205.456 C474.161,131.852,475.554,131.043,476.299,129.73z"></path>
+    <path fill="#78B86D" d="M293.829,377.597c-1.042-1.348-2.792-1.927-4.442-1.471c-10.839,3.018-22.071,4.548-33.387,4.548 c-48.079,0-92.392-28.199-112.893-71.838c-0.05-0.107-0.106-0.212-0.165-0.316L40.139,130.465c-0.749-1.301-2.135-2.098-3.634-2.098 c-0.007,0-0.015,0-0.022,0c-1.507,0.008-2.896,0.823-3.634,2.135C11.36,168.633,0,212.036,0,256.018 c0,61.7,22.259,121.299,62.677,167.817c40.017,46.055,95.108,76.364,155.129,85.345c0.208,0.032,0.416,0.045,0.623,0.045 c1.482,0,2.876-0.789,3.633-2.098l72.085-124.857C294.999,380.791,294.873,378.945,293.829,377.597z"></path>
+    <path fill="#F1CB30" d="M490.471,159.854H346.147c-1.706,0-3.242,1.032-3.884,2.61c-0.645,1.578-0.27,3.391,0.947,4.583 c24.148,23.673,37.447,55.269,37.447,88.97c0,25.513-7.698,50.065-22.264,71.005c-0.067,0.097-0.129,0.196-0.188,0.299 L255.223,505.686c-0.754,1.306-0.749,2.916,0.012,4.219c0.754,1.288,2.134,2.077,3.623,2.077c0.015,0,0.032,0,0.047,0 c67.769-0.755,131.362-27.717,179.064-75.914C485.708,387.83,512,323.887,512,256.018c0-32.259-5.929-63.716-17.623-93.5 C493.746,160.91,492.197,159.854,490.471,159.854z"></path>
+  </svg>
+  <div class="flex flex-col">
+    <header class="flex items-center justify-between w-full">
+      <h2 class="text-base font-medium">UX/UI Designer</h2>
+      <span class="h-5 px-2 text-xs rounded-md flex items-center justify-center bg-green-100 text-green-600 dark:bg-green-500/30 dark:text-green-300">Pending</span>
+    </header>
+    <p class="text-xs mt-1">
+      Minim dolor in amet nulla laboris enim dolore consequat proident.
+    </p>
+    <div class="flex items-center gap-2 text-xs mt-1">
+      <span>September 22 - 2022</span>
+      <svg xmlns="http://www.w3.org/2000/svg" class="flex-none ml-1" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <polyline points="20 6 9 17 4 12"></polyline>
+      </svg>
+    </div>
+  </div>
+</article>
+
+<section class="mb-3 grid grid-cols-2 gap-3">
+  <article class="shadow-md break-inside dark:shadow-gray-700/5 overflow-hidden relative flex flex-col gap-2 rounded-xl text-sm bg-white dark:bg-gray-950 dark:text-white" data-filter="social">
+    <figure class="relative">
+      <img class="w-full max-w-full h-full max-h-[5rem] object-cover" src="https://images.pexels.com/photos/3760956/pexels-photo-3760956.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" data-author="Sound On" alt="portada" data-author-profile="https://www.pexels.com/es-es/@sound-on/"/>
+      <button class="absolute w-6 h-6 top-3 right-3 rounded-full flex items-center justify-center bg-white text-rose-600">
+        <svg width="16" height="16" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+          <path d="m9.653 16.915-.005-.003-.019-.01a20.759 20.759 0 0 1-1.162-.682 22.045 22.045 0 0 1-2.582-1.9C4.045 12.733 2 10.352 2 7.5a4.5 4.5 0 0 1 8-2.828A4.5 4.5 0 0 1 18 7.5c0 2.852-2.044 5.233-3.885 6.82a22.049 22.049 0 0 1-3.744 2.582l-.019.01-.005.003h-.002a.739.739 0 0 1-.69.001l-.002-.001Z"></path>
+        </svg>
+      </button>
+    </figure>
+    <section class="flex flex-col gap-1 px-3 pb-3 mt-1">
+      <header class="flex items-center justify-between w-full">
+        <h3 class="text-sm font-medium">Maria Doe</h3>
+        <span class="flex items-center gap-1 text-amber-500">
+          <svg width="14" height="14" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <path clip-rule="evenodd" fill-rule="evenodd" d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401Z"></path>
+          </svg>
+          <span class="text-xs mt-0.5 font-medium text-black dark:text-gray-300">4.5</span>
+        </span>
+      </header>
+      <p class="text-xs">Lorem ipsum dolor sit amet, con seccgel.</p>
+    </section>
+  </article>
+  <article class="shadow-md break-inside dark:shadow-gray-700/5 overflow-hidden relative flex flex-col gap-2 rounded-xl text-sm bg-white dark:bg-gray-950 dark:text-white" data-filter="social">
+    <figure class="relative">
+      <img class="w-full max-w-full h-full max-h-[5rem] object-cover" src="https://images.pexels.com/photos/3658708/pexels-photo-3658708.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" data-author="Craig Adderley" alt="portada" data-author-profile="https://www.pexels.com/es-es/@thatguycraig000/" />
+      <button class="absolute w-6 h-6 top-3 right-3 rounded-full flex items-center justify-center bg-white text-rose-600">
+        <svg width="16" height="16" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+          <path d="m9.653 16.915-.005-.003-.019-.01a20.759 20.759 0 0 1-1.162-.682 22.045 22.045 0 0 1-2.582-1.9C4.045 12.733 2 10.352 2 7.5a4.5 4.5 0 0 1 8-2.828A4.5 4.5 0 0 1 18 7.5c0 2.852-2.044 5.233-3.885 6.82a22.049 22.049 0 0 1-3.744 2.582l-.019.01-.005.003h-.002a.739.739 0 0 1-.69.001l-.002-.001Z"></path>
+        </svg>
+      </button>
+    </figure>
+    <section class="flex flex-col gap-1 px-3 pb-3 mt-1">
+      <header class="flex items-center justify-between w-full">
+        <h3 class="text-sm font-medium">Jhonas Karl</h3>
+        <span class="flex items-center gap-1 text-amber-500">
+          <svg width="14" height="14" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <path clip-rule="evenodd" fill-rule="evenodd" d="M10.868 2.884c-.321-.772-1.415-.772-1.736 0l-1.83 4.401-4.753.381c-.833.067-1.171 1.107-.536 1.651l3.62 3.102-1.106 4.637c-.194.813.691 1.456 1.405 1.02L10 15.591l4.069 2.485c.713.436 1.598-.207 1.404-1.02l-1.106-4.637 3.62-3.102c.635-.544.297-1.584-.536-1.65l-4.752-.382-1.831-4.401Z"></path>
+          </svg>
+          <span class="text-xs mt-0.5 font-medium text-black dark:text-gray-300">4.5</span>
+        </span>
+      </header>
+      <p class="text-xs">Lorem ipsum dolor sit ametaau.</p>
+    </section>
+  </article>
+</section>
