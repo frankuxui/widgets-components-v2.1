@@ -1071,7 +1071,7 @@ visible: true
     </div>
     <hr class="border h-6 border-gray-300 dark:border-gray-800">
     <div class="flex flex-col justify-center items-start">
-      <span class="text-base font-medium">Wednesday</span>
+      <span class="text-base font-medium">Thursday</span>
       <span class="text-xs text-gray-700 dark:text-gray-200">08:00 PM - 18:30 PM</span>
     </div>
     <button class="px-2 h-7 text-xs font-medium transition-colors duration-300 text-white bg-rose-500 rounded-md hover:bg-rose-600">

@@ -2,34 +2,78 @@
 import WidgetsExpo from '../components/widgetsExpo.astro';
 import Layout from '../layouts/Layout.astro';
 
+let pages = []
+pages = await Astro.glob('../pages/categories/*.md')
+
+const data = pages.map((item) => {
+	const { category, title, slug, tags, visible } = item.frontmatter
+
+	return {
+		category,
+		title,
+		slug,
+		tags,
+		visible
+	}
+})
+
+const pageSlug = Astro.url.pathname.split('/')[2]
+
 ---
 
 <Layout title="Widget components with tailwind CSS">
-	<div class="container">
-		<section class="w-full pt-10 sm:pt-36 mx-auto max-w-[100rem]">
-			<div class="w-full grid grid-cols-1 xl:grid-cols-12">
-				<div class="flex flex-col items-start xl:col-span-6 dark:text-white">
-					<div class="flex flex-col items-start max-w-2xl">
-						<h1 class="font-bold !leading-tight text-4xl sm:text-5xl lg:text-6xl xl:text-6xl 3xl:text-7xl">
-							Widgets <span class="text-indigo-700">components</span> with tailwind CSS</span>
-						</h1>
-						<p class="mt-4 sm:mt-8 text-base md:text-lg xl:text-xl 2xl:text-xl">
-							Explore our extensive gallery of over 500 widgets designed using tailwindcss. These widgets are carefully crafted to enhance productivity and offer a practical solution for your projects. With a simple and minimalist design, these elements are ideal for integration into your applications, with support for both light and dark themes.
-						</p>
-						<a 
-							href="/categories/food" 
-							class="mt-8 px-8 h-12 flex items-center justify-center bg-indigo-700 text-white rounded-md font-medium text-lg xl:text-xl 2xl:text-xl">
-							Explore widgets
-						</a>
-					</div>
-				</div>
-				<div class="relative xl:col-span-6 flex justify-center items-center w-full mt-10 xl:mt-0">
-					<WidgetsExpo />
-					<div class="block sm:hidden absolute z-[1] h-[20rem] bottom-0 left-0 w-full bg-gradient-to-t from-white via-white dark:from-gray-950 dark:via-gray-950 to-transparent dark:to-transparent"></div>
+	<section class="w-full pt-10 sm:pt-36 mx-auto max-w-full">
+		<div class="w-full flex items-start justify-between mx-auto gap-4">
+			<div class="flex flex-col items-end w-full px-6 pb-20 dark:text-white">
+				<div class="flex flex-col items-start flex-none w-full md:w-[40rem]">
+					<h1 class="font-extrabold !leading-tight text-4xl sm:text-5xl md:text-6xl lg:text-6xl xl:text-6xl 3xl:text-7xl">
+						Widgets
+						<br />
+						<span class="text-indigo-700">
+							components
+						</span> 
+						with 
+						<br />
+						<span class="bg-gradient-to-r from-blue-600 via-cyan-500 to-cyan-500 inline-block text-transparent bg-clip-text">
+							Tailwind CSS
+						</span>
+					</span>
+					</h1>
+					<p class="mt-4 sm:mt-8 text-base md:text-xl">
+						Explore our extensive gallery of over 500 widgets designed using tailwindcss. These widgets are carefully crafted to enhance productivity and offer a practical solution for your projects. With a simple and minimalist design, these elements are ideal for integration into your applications, with support for both light and dark themes.
+					</p>
+					<a 
+						href="/categories/food" 
+						class="mt-8 px-8 h-12 flex group gap-3 items-center justify-center transition-colors duration-500 rounded-md font-medium text-lg xl:text-xl 2xl:text-xl bg-indigo-700 text-white hover:bg-indigo-600">
+						<span>Explore widgets</span>
+						<span class="transition-all duration-500 -translate-x-0 group-hover:translate-x-2">
+							<svg width="22" height="22" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+								<path clip-rule="evenodd" fill-rule="evenodd" d="M2 10a.75.75 0 0 1 .75-.75h12.59l-2.1-1.95a.75.75 0 1 1 1.02-1.1l3.5 3.25a.75.75 0 0 1 0 1.1l-3.5 3.25a.75.75 0 1 1-1.02-1.1l2.1-1.95H2.75A.75.75 0 0 1 2 10Z"></path>
+							</svg>
+						</span>
+					</a>
+
+				<article>
+					<h2 class="mt-12 text-2xl font-bold">Explore by category</h2>
+					<ul class="flex items-center justify-start flex-wrap gap-2 mt-8 max-w-xl">
+						{data.map(({ category, slug}) => {
+							return (
+								<li class="block">
+									<a href={`/categories/${slug}`} class="px-3 py-2 rounded flex items-center justify-center text-sm font-medium transition-colors duration-300 bg-indigo-50 text-indigo-700 hover:bg-indigo-100 dark:bg-indigo-600/20 dark:text-indigo-500 dark:hover:bg-indigo-600/30 dark:hover:text-indigo-400">{category}</a>
+								</li>
+							)
+						})}
+					</ul>
+				</article>
 				</div>
 			</div>
-		</section>
-	</div>
-
+			<div class="relative hidden md:flex justify-center items-center w-full">
+				<div class="absolute top-0 left-0 blur-3xl rounded-full w-[20rem] h-[20rem] bg-gradient-to-b opacity-20 from-[#89416d] to-[#da8703] dark:opacity-5"></div>
+				<div class="absolute bottom-0 left-0 blur-3xl rounded-full w-[20rem] h-[20rem] bg-gradient-to-b opacity-20 from-[#ecff8f] to-[#1eff00] dark:opacity-5"></div>
+				<WidgetsExpo />
+			</div>
+		</div>
+	</section>
+	
 </Layout>
 
