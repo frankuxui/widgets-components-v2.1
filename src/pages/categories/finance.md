@@ -7,18 +7,21 @@ title: 'Widget components with tailwind CSS'
 visible: true
 ---
 
-<article class="border shadow-sm break-inside relative rounded-xl flex items-center justify-between overflow-hidden p-4 mb-3 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="finance">
+<article class="border shadow-sm break-inside relative rounded-xl flex items-center justify-between overflow-hidden p-3 mb-3 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="finance">
 	<header class="flex items-center gap-3">
-		<div class="w-10 h-10 flex items-center justify-center rounded-2xl bg-emerald-100 dark:bg-emerald-800/40 dark:text-emerald-500">
-			<svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 10 11" fill="none">
-				<path fill-rule="evenodd" clip-rule="evenodd" d="M6.43216 5.68571C6.34942 5.46903 6.19619 5.28144 5.99356 5.14875C5.79094 5.01607 5.54889 4.94482 5.30073 4.94481V4.66701H4.70083V4.94481C4.38262 4.94481 4.07744 5.06189 3.85243 5.27028C3.62742 5.47867 3.50101 5.76131 3.50101 6.05602C3.50101 6.35073 3.62742 6.63337 3.85243 6.84176C4.07744 7.05015 4.38262 7.16722 4.70083 7.16722V8.27843C4.43987 8.27843 4.2176 8.12425 4.13481 7.90812C4.12253 7.87276 4.10272 7.84004 4.07654 7.81189C4.05037 7.78375 4.01836 7.76075 3.98243 7.74427C3.94649 7.72778 3.90734 7.71813 3.86731 7.7159C3.82728 7.71366 3.78716 7.71889 3.74935 7.73126C3.71153 7.74364 3.67678 7.76291 3.64715 7.78794C3.61751 7.81297 3.5936 7.84325 3.57682 7.87699C3.56005 7.91073 3.55075 7.94724 3.54947 7.98436C3.5482 8.02149 3.55497 8.05847 3.5694 8.09313C3.65214 8.30981 3.80537 8.49741 4.00799 8.63009C4.21062 8.76278 4.45267 8.83402 4.70083 8.83403V9.11183H5.30073V8.83403C5.61894 8.83403 5.92412 8.71695 6.14913 8.50856C6.37414 8.30017 6.50055 8.01753 6.50055 7.72282C6.50055 7.42811 6.37414 7.14548 6.14913 6.93708C5.92412 6.72869 5.61894 6.61162 5.30073 6.61162V5.50042C5.4248 5.50039 5.54582 5.53598 5.64713 5.6023C5.74845 5.66862 5.82507 5.7624 5.86644 5.87073C5.89294 5.9402 5.94814 5.99709 6.01992 6.02887C6.05546 6.0446 6.094 6.0537 6.13334 6.05564C6.17268 6.05759 6.21204 6.05233 6.24919 6.04018C6.28633 6.02804 6.32053 6.00923 6.34983 5.98484C6.37912 5.96045 6.40295 5.93096 6.41994 5.89804C6.43693 5.86513 6.44675 5.82943 6.44885 5.793C6.45095 5.75657 6.44527 5.72011 6.43216 5.68571ZM4.70083 5.50042C4.54172 5.50042 4.38913 5.55895 4.27663 5.66315C4.16412 5.76734 4.10092 5.90866 4.10092 6.05602C4.10092 6.20337 4.16412 6.34469 4.27663 6.44889C4.38913 6.55308 4.54172 6.61162 4.70083 6.61162V5.50042ZM5.30073 8.27843C5.45984 8.27843 5.61243 8.21989 5.72493 8.11569C5.83744 8.0115 5.90064 7.87018 5.90064 7.72282C5.90064 7.57547 5.83744 7.43415 5.72493 7.32995C5.61243 7.22576 5.45984 7.16722 5.30073 7.16722V8.27843Z" fill="#009869"/>
-				<path fill-rule="evenodd" clip-rule="evenodd" d="M1.74718 1.22812C2.48327 0.894477 3.69088 0.5 5.01248 0.5C6.30648 0.5 7.48229 0.878087 8.21448 1.20728L8.25587 1.22589C8.47664 1.32701 8.65481 1.42258 8.78019 1.50008L7.67216 3.00021C10.2266 5.41874 12.1997 10.5 5.01248 10.5C-2.17471 10.5 -0.254704 5.51097 2.3219 3.00021L1.22107 1.50008C1.30595 1.44869 1.41364 1.38896 1.54202 1.32562C1.60561 1.29396 1.674 1.26117 1.74718 1.22812ZM6.96007 2.98021L7.84704 1.77927C7.02216 1.83428 6.04072 2.01374 5.09586 2.26709C4.42097 2.44766 3.67109 2.42016 2.97669 2.30154C2.80171 2.27149 2.62793 2.23573 2.45567 2.19431L3.03158 2.97965C4.26589 3.38663 5.72547 3.38663 6.96007 2.98021ZM2.68514 3.45302C4.12941 3.96973 5.86525 3.96973 7.30952 3.45247C7.91239 4.04104 8.4167 4.7099 8.80569 5.4368C9.21123 6.20297 9.43199 6.96887 9.396 7.62893C9.3612 8.26592 9.09064 8.81014 8.47274 9.21461C7.82874 9.63604 6.74561 9.9444 5.01218 9.9444C3.27695 9.9444 2.18872 9.64132 1.53872 9.22462C0.916314 8.82514 0.643057 8.28843 0.604363 7.66004C0.563869 7.00721 0.779835 6.2452 1.18387 5.47375C1.56931 4.73813 2.10713 4.03002 2.68514 3.45302ZM2.34019 1.58787C2.58016 1.65399 2.83092 1.71149 3.08528 1.7551C3.73018 1.86511 4.37688 1.88123 4.92879 1.73316C5.57196 1.55963 6.22611 1.42315 6.88749 1.32451C6.33557 1.17061 5.69007 1.0556 5.01218 1.0556C3.97884 1.0556 3.01509 1.32257 2.34019 1.58787Z" fill="#009869"/>
-			</svg>
+		<div class="flex-none w-10 h-10 flex items-center justify-center rounded-full text-white bg-emerald-600">
+			<span class="font-bold text-xl">B</span>
 		</div>
-		<h2 class="font-semibold text-lg">Balance</h2>
+		<div class="flex w-full flex-col">
+			<h2 class="font-medium text-base">Balance</h2>
+			<p class="text-xs text-gray-500">Last 30 days</p>
+		</div>
 	</header>
-	<div class="h-8 px-3 flex items-center justify-center rounded-2xl font-medium bg-emerald-100 dark:bg-emerald-800/40 dark:text-emerald-500">
-		+88%
+	<div class="flex items-center gap-2 flex-none">
+		<svg class="text-green-600" width="61" height="26" viewBox="0 0 71 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+			<path d="M1.84302 25C2.10589 23.2857 2.63376 21.7799 3.37603 20.2188C4.66585 17.506 6.18161 14.8883 8.36827 12.846C8.73909 12.4997 9.74038 11.2944 10.2746 11.9856C11.2468 13.2436 11.5995 15.0509 12.2755 16.4783C12.4112 16.765 12.4558 17.3189 12.7632 17.2924C12.9788 17.2738 12.919 16.8745 12.9922 16.6638C13.4176 15.4388 14.1866 14.245 15.2021 13.4591C15.8166 12.9836 17.28 11.8409 18.0591 12.4699C18.9592 13.1966 19.1947 14.393 19.5324 15.4479C19.6915 15.9449 19.933 16.4229 20.1197 16.9111C20.2635 17.2872 20.3337 17.3458 20.5925 16.9832C21.4439 15.7909 22.9324 14.659 24.221 15.9322C24.5822 16.2891 24.8087 16.6538 25.316 16.3238C25.819 15.9965 25.8846 16.2426 26.1024 16.7823C26.3462 17.3863 26.6523 19.1571 27.4314 18.2558C27.5407 18.1293 28.4257 16.9081 28.6209 17.0141C29.1285 17.29 29.4078 18.3465 29.5965 18.8483C29.701 19.1262 30.0425 20.4324 30.3829 20.5331C30.4062 20.54 31.1835 17.5795 31.4082 17.2305C31.7074 16.7661 32.0531 16.3254 32.3838 15.8858C32.4852 15.751 32.9464 14.9916 33.2001 14.9121C33.2405 14.8994 33.3056 15.0713 33.3394 15.0872C33.4324 15.131 33.4707 14.9194 33.5037 14.8193C34.2366 12.5976 36.6071 8.26428 37.7531 8.26428C39.2812 8.26428 41.0354 15.9883 41.1066 15.4479C41.2045 14.705 43.3392 11.2347 43.9511 10.7955C44.7929 10.1911 45.0203 11.3227 45.4442 11.9444C45.951 12.6876 46.0957 12.2816 46.6736 11.7126C46.863 11.5261 48.1415 10.0445 48.3958 10.6048C48.8782 11.668 48.6878 13.0269 49.2569 14.0465C49.3655 14.2412 49.4946 14.5051 49.6252 14.6854C49.6934 14.7795 49.6849 14.3521 49.6849 14.2938C49.6849 14.0011 49.9091 14.5355 49.9188 14.5566C50.1151 14.9805 50.3121 15.4245 50.3121 15.9013C50.3121 15.9977 50.268 15.6829 50.332 15.6128C50.6832 15.2278 51.7191 16.8619 51.8152 17.1069C51.9673 17.4946 52.2752 18.4823 52.8007 18.5186C53.0307 18.5344 53.2542 17.6475 53.2785 17.5809C53.7287 16.3481 54.0777 15.085 54.493 13.8404C54.8921 12.6443 55.4335 11.6167 56.0559 10.543C56.3008 10.1204 56.3487 10.8085 56.4043 11.0428C56.4582 11.2702 56.5661 12.044 56.7328 11.4343C57.2918 9.38967 57.6903 7.30464 58.1961 5.2466C58.2985 4.82988 58.4156 4.41543 58.5395 4.00493C58.6137 3.75939 58.7436 4.11069 58.8033 4.22647C59.6182 5.80551 60.0344 7.56383 60.844 9.14679C61.1406 9.7266 61.0502 9.52833 61.1228 8.98192C61.2819 7.78377 61.4579 6.46232 61.8495 5.31873C62.03 4.79136 62.4806 6.03308 62.5164 6.11216C62.8185 6.77908 63.0977 7.45513 63.4223 8.1112C63.4726 8.21289 63.9155 9.30092 64.139 9.32196C64.1588 9.32383 64.5743 7.54237 64.6119 7.42081C64.9229 6.4135 65.4358 5.74578 65.9806 4.88595C66.0777 4.73275 66.1627 4.43125 66.3191 4.31921C66.5398 4.16104 66.683 4.14979 66.8218 3.88643C66.947 3.64872 68.2977 0.934385 68.519 1.00121C68.6776 1.04909 68.6389 1.14287 68.6982 1.25882C68.762 1.38358 68.9822 1.42638 69.0815 1.53704C69.4438 1.94089 69.843 2.02158 69.843 2.64991" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+		</svg>
+		<span class="font-bold text-base">€ 654</span>
 	</div>
 </article>
 
@@ -29,6 +32,115 @@ visible: true
 	</header>
 </article>
 
+<section class="grid grid-cols-2 gap-3 mb-3">
+  <article class="border shadow-sm break-inside overflow-hidden relative flex flex-col gap-1 rounded-xl text-sm p-3 bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="social">
+    <div class="absolute left-0 top-0 w-14 h-14 bg-rose-500 opacity-40 blur-2xl"></div>
+    <button class="absolute top-3 right-3 inline-flex items-center justify-center w-8 h-8 transition-all rounded-full hover:bg-black/5 dark:hover:bg-gray-900">
+      <svg width="26" height="26" fill="none" stroke-width="2" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M6.75 12a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0ZM12.75 12a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0ZM18.75 12a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z"></path>
+      </svg>
+    </button>
+    <section class="flex flex-col gap-1">
+      <img class="rounded-full max-w-none w-10 h-10" src="https://randomuser.me/api/portraits/men/97.jpg" alt="Avatar" />
+      <h2 class="font-bold text-base">Mathias Felix</h2>
+    </section>
+    <section class="w-full">
+      <h3 class="font-bold text-sm">Є9834.72</h3>
+      <p class="text-xs mt-0.5">Statement of earnings</p>
+    </section>
+    <section class="w-full">
+      <svg class="w-full text-rose-500" viewBox="0 0 145 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path
+          d="M0 35.9933C0.560537 33.6796 1.68615 31.6473 3.26892 29.5403C6.01928 25.8791 9.2514 22.3461 13.9141 19.5898C14.7049 19.1223 16.84 17.4956 17.9791 18.4285C20.0522 20.1264 20.8043 22.5656 22.2456 24.492C22.5352 24.879 22.6303 25.6265 23.2858 25.5907C23.7454 25.5656 23.6179 25.0268 23.774 24.7424C24.6811 23.0891 26.3208 21.4779 28.4863 20.4172C29.7966 19.7755 32.917 18.2331 34.5784 19.0821C36.4977 20.063 36.9999 21.6776 37.72 23.1013C38.0592 23.7721 38.5742 24.4172 38.9723 25.0761C39.279 25.5837 39.4286 25.6628 39.9806 25.1735C41.796 23.5643 44.9701 22.0366 47.7178 23.755C48.488 24.2367 48.9709 24.7289 50.0527 24.2834C51.1253 23.8417 51.2652 24.1739 51.7296 24.9023C52.2494 25.7175 52.9022 28.1075 54.5634 26.891C54.7966 26.7202 56.6838 25.072 57.1 25.2152C58.1823 25.5875 58.7779 27.0135 59.1802 27.6907C59.403 28.0657 60.1313 29.8287 60.8571 29.9645C60.9069 29.9738 62.5642 25.9782 63.0435 25.5073C63.6813 24.8804 64.4185 24.2857 65.1237 23.6924C65.34 23.5104 66.3235 22.4855 66.8643 22.3781C66.9505 22.361 67.0893 22.5931 67.1615 22.6146C67.3598 22.6736 67.4413 22.3881 67.5117 22.253C67.7699 21.7576 68.2817 20.5396 68.4457 20.16C69.5291 17.651 70.591 15.1805 72.691 12.9421C73.7644 11.7981 75.5041 10.4654 77.5838 10.0703C79.2454 9.75459 80.9653 11.4363 81.6593 12.1703C82.5062 13.0658 83.2608 14.1834 84.3551 14.9656C85.4969 15.7817 85.493 17.3581 86.2868 18.3312C86.3917 18.4598 87.6371 19.5063 87.6877 19.2629C87.8964 18.2603 88.4845 17.4151 89.7892 16.8222C91.5844 16.0065 92.0692 17.5338 92.9732 18.3729C94.0539 19.3759 94.3624 18.828 95.5947 18.06C95.9984 17.8084 98.7248 15.8087 99.2669 16.5649C100.296 17.9999 99.8895 19.8338 101.103 21.2099C101.335 21.4727 101.61 21.8289 101.888 22.0722C102.034 22.1993 102.016 21.6224 102.016 21.5437C102.016 21.1487 102.494 21.8699 102.515 21.8983C102.933 22.4705 103.353 23.0698 103.353 23.7132C103.353 23.8434 103.259 23.4184 103.396 23.3238C104.144 22.8043 106.353 25.0098 106.558 25.3404C106.883 25.8636 107.539 27.1967 108.66 27.2457C109.15 27.2671 109.627 26.07 109.679 25.9801C110.639 24.3163 111.383 22.6116 112.268 20.9318C113.119 19.3175 114.274 17.9306 115.601 16.4815C116.123 15.9111 116.225 16.8398 116.344 17.156C116.459 17.463 116.689 18.5072 117.044 17.6845C118.236 14.9249 119.086 12.1108 120.165 9.33321C120.383 8.77079 120.633 8.21143 120.897 7.65739C121.055 7.32601 121.332 7.80013 121.46 7.95639C123.197 10.0875 124.085 12.4606 125.811 14.5971C126.443 15.3796 126.251 15.112 126.405 14.3746C126.745 12.7575 127.12 10.974 127.955 9.43056C128.34 8.7188 129.301 10.3947 129.377 10.5014C130.021 11.4015 130.617 12.3139 131.309 13.1994C131.416 13.3367 132.36 14.8051 132.837 14.8335C132.879 14.836 133.765 12.4317 133.845 12.2676C134.508 10.9081 135.602 10.0069 136.764 8.84645C136.971 8.63969 137.152 8.23277 137.486 8.08156C137.956 7.86809 138.262 7.8529 138.558 7.49746C138.825 7.17664 141.705 3.51325 142.177 3.60344C142.515 3.66807 142.432 3.79463 142.559 3.95112C142.695 4.1195 143.164 4.17727 143.376 4.32662C144.149 4.87168 145 4.98058 145 5.82859"
+          stroke="currentColor" stroke-linecap="round" stroke-width="2" />
+			</svg>
+    </section>
+  </article>
+  <article class="border shadow-sm break-inside overflow-hidden relative flex flex-col gap-1 rounded-xl text-sm p-3 bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="social">
+    <button class="absolute top-3 right-3 inline-flex items-center justify-center w-8 h-8 transition-all rounded-full hover:bg-black/5 dark:hover:bg-gray-900">
+      <svg width="26" height="26" fill="none" stroke-width="2" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M6.75 12a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0ZM12.75 12a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0ZM18.75 12a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z"></path>
+      </svg>
+    </button>
+    <section class="flex flex-col gap-1">
+      <img class="rounded-full max-w-none w-10 h-10" src="https://randomuser.me/api/portraits/women/97.jpg" alt="Avatar" />
+      <h2 class="font-bold text-base">Marina Vargas</h2>
+    </section>
+    <section class="w-full">
+      <h3 class="font-bold text-sm">Є4764.72</h3>
+      <p class="text-xs mt-0.5">Statement of earnings</p>
+    </section>
+    <section class="w-full">
+      <svg class="w-full text-indigo-500" viewBox="0 0 145 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path
+          d="M0 35.9933C0.560537 33.6796 1.68615 31.6473 3.26892 29.5403C6.01928 25.8791 9.2514 22.3461 13.9141 19.5898C14.7049 19.1223 16.84 17.4956 17.9791 18.4285C20.0522 20.1264 20.8043 22.5656 22.2456 24.492C22.5352 24.879 22.6303 25.6265 23.2858 25.5907C23.7454 25.5656 23.6179 25.0268 23.774 24.7424C24.6811 23.0891 26.3208 21.4779 28.4863 20.4172C29.7966 19.7755 32.917 18.2331 34.5784 19.0821C36.4977 20.063 36.9999 21.6776 37.72 23.1013C38.0592 23.7721 38.5742 24.4172 38.9723 25.0761C39.279 25.5837 39.4286 25.6628 39.9806 25.1735C41.796 23.5643 44.9701 22.0366 47.7178 23.755C48.488 24.2367 48.9709 24.7289 50.0527 24.2834C51.1253 23.8417 51.2652 24.1739 51.7296 24.9023C52.2494 25.7175 52.9022 28.1075 54.5634 26.891C54.7966 26.7202 56.6838 25.072 57.1 25.2152C58.1823 25.5875 58.7779 27.0135 59.1802 27.6907C59.403 28.0657 60.1313 29.8287 60.8571 29.9645C60.9069 29.9738 62.5642 25.9782 63.0435 25.5073C63.6813 24.8804 64.4185 24.2857 65.1237 23.6924C65.34 23.5104 66.3235 22.4855 66.8643 22.3781C66.9505 22.361 67.0893 22.5931 67.1615 22.6146C67.3598 22.6736 67.4413 22.3881 67.5117 22.253C67.7699 21.7576 68.2817 20.5396 68.4457 20.16C69.5291 17.651 70.591 15.1805 72.691 12.9421C73.7644 11.7981 75.5041 10.4654 77.5838 10.0703C79.2454 9.75459 80.9653 11.4363 81.6593 12.1703C82.5062 13.0658 83.2608 14.1834 84.3551 14.9656C85.4969 15.7817 85.493 17.3581 86.2868 18.3312C86.3917 18.4598 87.6371 19.5063 87.6877 19.2629C87.8964 18.2603 88.4845 17.4151 89.7892 16.8222C91.5844 16.0065 92.0692 17.5338 92.9732 18.3729C94.0539 19.3759 94.3624 18.828 95.5947 18.06C95.9984 17.8084 98.7248 15.8087 99.2669 16.5649C100.296 17.9999 99.8895 19.8338 101.103 21.2099C101.335 21.4727 101.61 21.8289 101.888 22.0722C102.034 22.1993 102.016 21.6224 102.016 21.5437C102.016 21.1487 102.494 21.8699 102.515 21.8983C102.933 22.4705 103.353 23.0698 103.353 23.7132C103.353 23.8434 103.259 23.4184 103.396 23.3238C104.144 22.8043 106.353 25.0098 106.558 25.3404C106.883 25.8636 107.539 27.1967 108.66 27.2457C109.15 27.2671 109.627 26.07 109.679 25.9801C110.639 24.3163 111.383 22.6116 112.268 20.9318C113.119 19.3175 114.274 17.9306 115.601 16.4815C116.123 15.9111 116.225 16.8398 116.344 17.156C116.459 17.463 116.689 18.5072 117.044 17.6845C118.236 14.9249 119.086 12.1108 120.165 9.33321C120.383 8.77079 120.633 8.21143 120.897 7.65739C121.055 7.32601 121.332 7.80013 121.46 7.95639C123.197 10.0875 124.085 12.4606 125.811 14.5971C126.443 15.3796 126.251 15.112 126.405 14.3746C126.745 12.7575 127.12 10.974 127.955 9.43056C128.34 8.7188 129.301 10.3947 129.377 10.5014C130.021 11.4015 130.617 12.3139 131.309 13.1994C131.416 13.3367 132.36 14.8051 132.837 14.8335C132.879 14.836 133.765 12.4317 133.845 12.2676C134.508 10.9081 135.602 10.0069 136.764 8.84645C136.971 8.63969 137.152 8.23277 137.486 8.08156C137.956 7.86809 138.262 7.8529 138.558 7.49746C138.825 7.17664 141.705 3.51325 142.177 3.60344C142.515 3.66807 142.432 3.79463 142.559 3.95112C142.695 4.1195 143.164 4.17727 143.376 4.32662C144.149 4.87168 145 4.98058 145 5.82859"
+          stroke="currentColor" stroke-linecap="round" stroke-width="2" />
+      </svg>
+    </section>
+  </article>
+</section>
+
+<article class="border shadow-sm break-inside overflow-hidden relative flex flex-col gap-2 rounded-xl text-sm p-3 mb-3 bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="social">
+  <header class="flex items-start justify-between">
+		<div class="flex flex-col gap-1">
+			<h2 class="font-medium text-lg leading-6"> Summary of financials </h2>
+			<p>The best solution for your online payments</p>
+		</div>
+		<button class="rounded-full flex flex-none items-center justify-center w-8 h-8 transition-all hover:bg-gray-100 dark:hover:bg-gray-900">
+			<svg width="30" height="30" fill="none" stroke-width="1.5" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+				<path stroke-linecap="round" stroke-linejoin="round" d="M6.75 12a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0ZM12.75 12a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0ZM18.75 12a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z"></path>
+			</svg>
+		</button>
+	</header>
+  <div class="relative w-full border-x flex items-start justify-start h-36 dark:border-gray-800 text-gray-500">
+    <div class="flex-1 px-3 z-[1] h-full border-r flex flex-col justify-center dark:border-gray-800">
+      <div class="w-full h-full flex-1 flex items-center">
+        <div class="w-full rounded-full h-12 bg-gradient-to-t from-indigo-600 to-violet-500"></div>
+      </div>
+      <div class="flex items-center flex-col justify-center font-medium gap-1">
+        <span class="text-xs text-black dark:text-white">Jan</span>
+        <span class="text-xs text-green-500">2024</span>
+      </div>
+    </div>
+    <div class="flex-1 px-3 z-[1] h-full border-r flex flex-col justify-center dark:border-gray-800">
+      <div class="w-full h-full flex-1 flex items-center">
+        <div class="w-full rounded-full h-24 bg-gradient-to-t from-indigo-600 to-violet-500"></div>
+      </div>
+      <div class="flex items-center flex-col justify-center font-medium gap-1">
+        <span class="text-xs">Feb</span>
+        <span class="text-xs">2023</span>
+      </div>
+    </div>
+    <div class="flex-1 px-3 z-[1] h-full border-r flex flex-col justify-center dark:border-gray-800">
+      <div class="w-full h-full flex-1 flex items-center">
+        <div class="w-full rounded-full h-[4rem] bg-gradient-to-t from-indigo-600 to-violet-500"></div>
+      </div>
+      <div class="flex items-center flex-col justify-center font-medium gap-1">
+        <span class="text-xs">Mar</span>
+        <span class="text-xs">2022</span>
+      </div>
+    </div>
+    <div class="flex-1 px-3 z-[1] h-full border-r flex flex-col justify-center dark:border-gray-800">
+      <div class="w-full h-full flex-1 flex items-center">
+        <div class="w-full rounded-full h-[3rem] bg-gradient-to-t from-indigo-600 to-violet-500"></div>
+      </div>
+      <div class="flex items-center flex-col justify-center font-medium gap-1">
+        <span class="text-xs">Apr</span>
+        <span class="text-xs">2021</span>
+      </div>
+    </div>
+    <div class="flex-1 px-3 z-[1] h-full flex flex-col justify-center">
+      <div class="w-full h-full flex-1 flex items-center">
+        <div class="w-full rounded-full h-[2.5rem] bg-gradient-to-t from-indigo-600 to-violet-500"></div>
+      </div>
+      <div class="flex items-center flex-col justify-center font-medium gap-1">
+        <span class="text-xs">May</span>
+        <span class="text-xs">2020</span>
+      </div>
+    </div>
+  </div>
+</article>
+
 <article class="border shadow-sm break-inside relative rounded-xl overflow-hidden p-4 mb-3 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="finance">
 	<header class="flex flex-col items-start gap-1">
 		<span class="flex items-center justify-center px-2 py-1 text-xs rounded-md font-medium bg-rose-100 dark:text-rose-500 dark:bg-rose-100/20">€ 9874</span>
@@ -37,25 +149,25 @@ visible: true
 </article>
 
 <article class="border shadow-sm break-inside relative rounded-xl overflow-hidden p-4 mb-3 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="finance">
-	widget
+	coming soon...
 </article>
 
 <article class="border shadow-sm break-inside relative rounded-xl overflow-hidden p-4 mb-3 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="finance">
-	widget
+	coming soon...
 </article>
 
 <article class="border shadow-sm break-inside relative rounded-xl overflow-hidden p-4 mb-3 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="finance">
-	widget
+	coming soon...
 </article>
 
 <article class="border shadow-sm break-inside relative rounded-xl overflow-hidden p-4 mb-3 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="finance">
-	widget
+	coming soon...
 </article>
 
 <article class="border shadow-sm break-inside flex items-center justify-between rounded-xl p-4 mb-3 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="finance">
 	<svg width="71" height="26" viewBox="0 0 71 26" fill="none" xmlns="http://www.w3.org/2000/svg">
 		<path d="M1.84302 25C2.10589 23.2857 2.63376 21.7799 3.37603 20.2188C4.66585 17.506 6.18161 14.8883 8.36827 12.846C8.73909 12.4997 9.74038 11.2944 10.2746 11.9856C11.2468 13.2436 11.5995 15.0509 12.2755 16.4783C12.4112 16.765 12.4558 17.3189 12.7632 17.2924C12.9788 17.2738 12.919 16.8745 12.9922 16.6638C13.4176 15.4388 14.1866 14.245 15.2021 13.4591C15.8166 12.9836 17.28 11.8409 18.0591 12.4699C18.9592 13.1966 19.1947 14.393 19.5324 15.4479C19.6915 15.9449 19.933 16.4229 20.1197 16.9111C20.2635 17.2872 20.3337 17.3458 20.5925 16.9832C21.4439 15.7909 22.9324 14.659 24.221 15.9322C24.5822 16.2891 24.8087 16.6538 25.316 16.3238C25.819 15.9965 25.8846 16.2426 26.1024 16.7823C26.3462 17.3863 26.6523 19.1571 27.4314 18.2558C27.5407 18.1293 28.4257 16.9081 28.6209 17.0141C29.1285 17.29 29.4078 18.3465 29.5965 18.8483C29.701 19.1262 30.0425 20.4324 30.3829 20.5331C30.4062 20.54 31.1835 17.5795 31.4082 17.2305C31.7074 16.7661 32.0531 16.3254 32.3838 15.8858C32.4852 15.751 32.9464 14.9916 33.2001 14.9121C33.2405 14.8994 33.3056 15.0713 33.3394 15.0872C33.4324 15.131 33.4707 14.9194 33.5037 14.8193C34.2366 12.5976 36.6071 8.26428 37.7531 8.26428C39.2812 8.26428 41.0354 15.9883 41.1066 15.4479C41.2045 14.705 43.3392 11.2347 43.9511 10.7955C44.7929 10.1911 45.0203 11.3227 45.4442 11.9444C45.951 12.6876 46.0957 12.2816 46.6736 11.7126C46.863 11.5261 48.1415 10.0445 48.3958 10.6048C48.8782 11.668 48.6878 13.0269 49.2569 14.0465C49.3655 14.2412 49.4946 14.5051 49.6252 14.6854C49.6934 14.7795 49.6849 14.3521 49.6849 14.2938C49.6849 14.0011 49.9091 14.5355 49.9188 14.5566C50.1151 14.9805 50.3121 15.4245 50.3121 15.9013C50.3121 15.9977 50.268 15.6829 50.332 15.6128C50.6832 15.2278 51.7191 16.8619 51.8152 17.1069C51.9673 17.4946 52.2752 18.4823 52.8007 18.5186C53.0307 18.5344 53.2542 17.6475 53.2785 17.5809C53.7287 16.3481 54.0777 15.085 54.493 13.8404C54.8921 12.6443 55.4335 11.6167 56.0559 10.543C56.3008 10.1204 56.3487 10.8085 56.4043 11.0428C56.4582 11.2702 56.5661 12.044 56.7328 11.4343C57.2918 9.38967 57.6903 7.30464 58.1961 5.2466C58.2985 4.82988 58.4156 4.41543 58.5395 4.00493C58.6137 3.75939 58.7436 4.11069 58.8033 4.22647C59.6182 5.80551 60.0344 7.56383 60.844 9.14679C61.1406 9.7266 61.0502 9.52833 61.1228 8.98192C61.2819 7.78377 61.4579 6.46232 61.8495 5.31873C62.03 4.79136 62.4806 6.03308 62.5164 6.11216C62.8185 6.77908 63.0977 7.45513 63.4223 8.1112C63.4726 8.21289 63.9155 9.30092 64.139 9.32196C64.1588 9.32383 64.5743 7.54237 64.6119 7.42081C64.9229 6.4135 65.4358 5.74578 65.9806 4.88595C66.0777 4.73275 66.1627 4.43125 66.3191 4.31921C66.5398 4.16104 66.683 4.14979 66.8218 3.88643C66.947 3.64872 68.2977 0.934385 68.519 1.00121C68.6776 1.04909 68.6389 1.14287 68.6982 1.25882C68.762 1.38358 68.9822 1.42638 69.0815 1.53704C69.4438 1.94089 69.843 2.02158 69.843 2.64991" stroke="#0396EA" stroke-width="2" stroke-linecap="round"/>
-		</svg>			
+	</svg>			
 </article>
 
 <article class="border shadow-sm break-inside flex flex-col items-start rounded-xl mb-3 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="finance">
@@ -94,12 +206,85 @@ visible: true
 	</div>
 </article>
 
+<article class="border shadow-sm break-inside overflow-hidden relative flex flex-col gap-2 rounded-xl text-sm mb-3 bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="social">
+  <button class="z-[1] w-9 h-9 absolute top-4 right-4 transition-colors duration-200 flex items-center justify-center rounded-full hover:bg-black/10 dark:hover:bg-white/10">
+    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 14 4" fill="none">
+      <path d="M10.8889 2C10.8889 2.39782 11.0528 2.77936 11.3445 3.06066C11.6362 3.34196 12.0319 3.5 12.4444 3.5C12.857 3.5 13.2527 3.34196 13.5444 3.06066C13.8361 2.77936 14 2.39782 14 2C14 1.60218 13.8361 1.22064 13.5444 0.93934C13.2527 0.658035 12.857 0.5 12.4444 0.5C12.0319 0.5 11.6362 0.658035 11.3445 0.93934C11.0528 1.22064 10.8889 1.60217 10.8889 2ZM5.44444 2C5.44444 2.39782 5.60833 2.77935 5.90006 3.06066C6.19178 3.34196 6.58744 3.5 7 3.5C7.41256 3.5 7.80822 3.34196 8.09994 3.06066C8.39167 2.77935 8.55556 2.39782 8.55556 2C8.55556 1.60217 8.39167 1.22064 8.09994 0.93934C7.80822 0.658035 7.41256 0.499999 7 0.499999C6.58744 0.499999 6.19178 0.658035 5.90006 0.939339C5.60833 1.22064 5.44444 1.60217 5.44444 2ZM-1.31134e-07 2C-1.65913e-07 2.39782 0.163889 2.77935 0.455612 3.06066C0.747335 3.34196 1.143 3.5 1.55556 3.5C1.96811 3.5 2.36378 3.34196 2.6555 3.06066C2.94722 2.77935 3.11111 2.39782 3.11111 2C3.11111 1.60217 2.94722 1.22064 2.6555 0.939339C2.36378 0.658035 1.96811 0.499999 1.55556 0.499999C1.143 0.499999 0.747335 0.658034 0.455612 0.939339C0.163889 1.22064 -9.63552e-08 1.60217 -1.31134e-07 2Z" fill="currentColor"></path>
+    </svg>
+  </button>
+  <header class="p-3 w-full flex items-center text-center justify-center flex-col">
+    <img class="flex-none mt-1 w-14 h-14 rounded-full ring-2 ring-pink-600 border-2 border-white dark:border-gray-950" src="https://randomuser.me/api/portraits/men/86.jpg" alt="avatar" loading="lazy">
+    <div class="flex flex-col mt-2">
+      <a href="#" class="text-base font-semibold block">Jhonathan</a>
+      <span class="text-gray-600 dark:text-gray-400">Economist and writer</span>
+    </div>
+  </header>
+  <div class="relative -mt-3 w-full grid grid-cols-7 items-start justify-start h-36 pb-3 dark:border-gray-800 text-gray-500">
+    <div class="w-full px-2.5 z-[1] h-full border-r flex flex-col justify-center dark:border-gray-800 transition-all duration-300 bg-gradient-to-t from-transparent via-transparent to-transparent hover:via-rose-100 dark:hover:via-rose-500/10">
+      <div class="h-full w-full flex items-center">
+        <div class="w-full rounded-full h-[4rem] shadow-[0px_0px_14px_1px_#ff007e52] bg-gradient-to-t from-rose-600 to-pink-500"></div>
+      </div>
+      <div class="flex items-center flex-col justify-center font-medium gap-1">
+        <span class="text-xs dark:text-white">Mon</span>
+      </div>
+    </div>
+    <div class="w-full px-2.5 z-[1] h-full border-r flex flex-col justify-center dark:border-gray-800 transition-all duration-300 bg-gradient-to-t from-transparent via-transparent to-transparent hover:via-rose-100 dark:hover:via-rose-500/10">
+      <div class="h-full w-full flex items-center">
+        <div class="w-full rounded-full h-[6rem] shadow-[0px_0px_14px_1px_#ff007e52] bg-gradient-to-t from-rose-600 to-pink-500"></div>
+      </div>
+      <div class="flex items-center flex-col justify-center font-medium gap-1">
+        <span class="text-xs">Tue</span>
+      </div>
+    </div>
+    <div class="w-full px-2.5 z-[1] h-full border-r flex flex-col justify-center dark:border-gray-800 transition-all duration-300 bg-gradient-to-t from-transparent via-transparent to-transparent hover:via-rose-100 dark:hover:via-rose-500/10">
+      <div class="h-full w-full flex items-center">
+        <div class="w-full rounded-full h-[2rem] shadow-[0px_0px_14px_1px_#ff007e52] bg-gradient-to-t from-rose-600 to-pink-500"></div>
+      </div>
+      <div class="flex items-center flex-col justify-center font-medium gap-1">
+        <span class="text-xs">Wed</span>
+      </div>
+    </div>
+    <div class="w-full px-2.5 z-[1] h-full border-r flex flex-col justify-center dark:border-gray-800 transition-all duration-300 bg-gradient-to-t from-transparent via-transparent to-transparent hover:via-rose-100 dark:hover:via-rose-500/10">
+      <div class="h-full w-full flex items-center">
+        <div class="w-full rounded-full h-[4rem] shadow-[0px_0px_14px_1px_#ff007e52] bg-gradient-to-t from-rose-600 to-pink-500"></div>
+      </div>
+      <div class="flex items-center flex-col justify-center font-medium gap-1">
+        <span class="text-xs">Thu</span>
+      </div>
+    </div>
+    <div class="w-full px-2.5 z-[1] h-full border-r flex flex-col justify-center dark:border-gray-800 transition-all duration-300 bg-gradient-to-t from-transparent via-transparent to-transparent hover:via-rose-100 dark:hover:via-rose-500/10">
+      <div class="h-full w-full flex items-center">
+        <div class="w-full rounded-full h-[5rem] shadow-[0px_0px_14px_1px_#ff007e52] bg-gradient-to-t from-rose-600 to-pink-500"></div>
+      </div>
+      <div class="flex items-center flex-col justify-center font-medium gap-1">
+        <span class="text-xs">Fri</span>
+      </div>
+    </div>
+    <div class="w-full px-2.5 z-[1] h-full border-r flex flex-col justify-center dark:border-gray-800 transition-all duration-300 bg-gradient-to-t from-transparent via-transparent to-transparent hover:via-rose-100 dark:hover:via-rose-500/10">
+      <div class="h-full w-full flex items-center">
+        <div class="w-full rounded-full h-[4rem] shadow-[0px_0px_14px_1px_#ff007e52] bg-gradient-to-t from-rose-600 to-pink-500"></div>
+      </div>
+      <div class="flex items-center flex-col justify-center font-medium gap-1">
+        <span class="text-xs">Sat</span>
+      </div>
+    </div>
+    <div class="w-full px-2.5 z-[1] h-full flex flex-col justify-center transition-all duration-300 bg-gradient-to-t from-transparent via-transparent to-transparent hover:via-rose-100 dark:hover:via-rose-500/10">
+      <div class="h-full w-full flex items-center">
+        <div class="w-full rounded-full h-[2.5rem] shadow-[0px_0px_14px_1px_#ff007e52] bg-gradient-to-t from-rose-600 to-pink-500"></div>
+      </div>
+      <div class="flex items-center flex-col justify-center font-medium gap-1">
+        <span class="text-xs">Sun</span>
+      </div>
+    </div>
+  </div>
+</article>
+
 <section class="grid grid-cols-2 gap-4" >
 	<article class="relative overflow-hidden border shadow-sm break-inside rounded-xl gap-2 p-4 mb-3 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="finance">
 		<div class="absolute top-0 left-0 w-20 h-20 bg-gradient-to-br from-purple-500/60 to-white dark:to-gray-950 rounded-full flex items-center justify-center blur-2xl"></div>
 		<header class="relative flex flex-col gap-2">
-			<div class="flex items-center justify-center w-12 h-12 rounded-full bg-gradient-to-br from-purple-500 to-blue-500 text-white">
-				<svg width="30" height="24" viewBox="0 0 18 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+			<div class="flex items-center justify-center w-10 h-10 rounded-full bg-gradient-to-br from-purple-500 to-blue-500 text-white">
+				<svg width="28" height="28" viewBox="0 0 18 12" fill="none" xmlns="http://www.w3.org/2000/svg">
 					<path d="M9.80757 2.07613C8.78994 1.88835 7.73713 1.97028 6.76579 2.31284C6.71863 2.33048 6.6756 2.35671 6.63918 2.39005C6.60275 2.42338 6.57364 2.46317 6.55349 2.50713C6.51281 2.59592 6.51115 2.69633 6.54886 2.78627C6.58658 2.87622 6.66059 2.94833 6.75461 2.98675C6.84862 3.02517 6.95495 3.02674 7.0502 2.99112C7.88656 2.6925 8.79379 2.6169 9.6726 2.77262C9.72411 2.78542 9.77787 2.78801 9.8305 2.78021C9.88313 2.77242 9.93347 2.75441 9.97836 2.72733C10.0233 2.70025 10.0617 2.66468 10.0913 2.62287C10.1209 2.58105 10.141 2.53389 10.1504 2.48437C10.1598 2.43485 10.1581 2.38403 10.1457 2.33513C10.1332 2.28623 10.1101 2.24029 10.0779 2.20023C10.0457 2.16016 10.005 2.12683 9.95852 2.10234C9.91199 2.07784 9.8606 2.06272 9.80757 2.05792V2.07613Z" fill="white"/>
 					<path d="M12.536 5.53582C12.8981 5.53582 13.1916 5.25864 13.1916 4.91672C13.1916 4.5748 12.8981 4.29762 12.536 4.29762C12.1739 4.29762 11.8804 4.5748 11.8804 4.91672C11.8804 5.25864 12.1739 5.53582 12.536 5.53582Z" fill="currentColor"/>
 					<path d="M17.4193 5.79075C17.3746 5.72833 17.3142 5.67735 17.2435 5.64239C17.1729 5.60744 17.0941 5.58959 17.0143 5.59045C16.6249 5.5394 16.2675 5.35857 16.0068 5.0806C15.5051 4.56276 15.0788 3.98409 14.739 3.35986L16.1273 1.31135C16.2116 1.19264 16.2632 1.05598 16.2775 0.913718C16.2918 0.771454 16.2684 0.628065 16.2093 0.4965C16.1501 0.376807 16.0607 0.272686 15.9489 0.193304C15.8371 0.113922 15.7064 0.0617143 15.5682 0.0412766C14.6853 -0.0710818 13.7867 0.0469934 12.9699 0.382694C12.5017 0.577417 12.0613 0.826691 11.6587 1.12471C10.8702 0.790838 10.0306 0.57726 9.17125 0.491948C5.75347 0.177844 2.62973 2.27187 2.22963 5.04874C2.0737 4.98249 1.93405 4.88638 1.81953 4.76648C1.70501 4.64658 1.61813 4.50552 1.56439 4.35224C1.53002 4.24714 1.51828 4.1366 1.52987 4.02714C1.54146 3.91768 1.57615 3.81153 1.63188 3.71493C1.68185 3.63383 1.75328 3.56638 1.83916 3.51918C1.89772 3.48571 1.94872 3.44167 1.98925 3.38958C2.02978 3.33749 2.05906 3.27837 2.07539 3.21559C2.09173 3.15282 2.09482 3.08762 2.08448 3.02372C2.07413 2.95982 2.05056 2.89847 2.01511 2.84318C1.97966 2.78788 1.93302 2.73972 1.87786 2.70144C1.8227 2.66316 1.7601 2.63552 1.69362 2.62009C1.62715 2.60466 1.55811 2.60175 1.49045 2.61152C1.42278 2.62129 1.35781 2.64354 1.29926 2.67702C1.0659 2.81228 0.873332 3.00197 0.74007 3.22784C0.616173 3.43982 0.538288 3.67301 0.510973 3.91375C0.483659 4.1545 0.507462 4.39797 0.580991 4.62993C0.671497 4.91101 0.821583 5.17177 1.02213 5.39637C1.22267 5.62096 1.46949 5.80471 1.74757 5.93642L2.19106 6.14582C2.24647 7.25396 2.54524 8.33911 3.06841 9.33239L3.15036 9.50537C3.56847 10.3404 4.10175 11.1195 4.73633 11.8225C4.7815 11.871 4.83711 11.9099 4.89944 11.9366C4.96178 11.9633 5.02942 11.9772 5.09787 11.9772H7.27677C7.35572 11.9769 7.43337 11.9582 7.50289 11.9228C7.57241 11.8875 7.63167 11.8366 7.67546 11.7745C7.71926 11.7125 7.74625 11.6413 7.75406 11.5671C7.76187 11.4929 7.75027 11.418 7.72026 11.349L7.53226 10.9393L8.10109 10.9985C8.74227 11.0584 9.38814 11.0584 10.0293 10.9985C10.2077 11.2716 10.4005 11.5448 10.6126 11.8134C10.657 11.8707 10.715 11.9175 10.782 11.9499C10.8489 11.9823 10.923 11.9995 10.9983 12H13.0904C13.1699 11.9999 13.2483 11.9813 13.3183 11.9457C13.3884 11.9101 13.4481 11.8587 13.492 11.796C13.5359 11.7334 13.5627 11.6614 13.57 11.5866C13.5773 11.5118 13.5649 11.4364 13.5339 11.3672C13.4519 11.1851 13.37 10.9894 13.3073 10.821C13.2205 10.5797 13.153 10.3657 13.1 10.1609C13.6324 9.88948 14.121 9.54764 14.551 9.14575C15.0313 9.20057 15.5169 9.20057 15.9972 9.14575C16.0805 9.13385 16.1591 9.10152 16.2251 9.052C16.291 9.00248 16.3421 8.93749 16.3732 8.86351L17.4626 6.21866C17.4933 6.14948 17.5054 6.07422 17.4978 5.99956C17.4902 5.92491 17.4633 5.85318 17.4193 5.79075ZM15.5971 8.26717C15.2187 8.28751 14.839 8.27073 14.4642 8.21709C14.0375 8.14902 13.6255 8.01522 13.2446 7.82105C13.1319 7.76823 13.0017 7.75918 12.8819 7.79583C12.7621 7.83247 12.6623 7.91191 12.6038 8.01715C12.5452 8.12239 12.5326 8.24509 12.5685 8.35901C12.6045 8.47293 12.6863 8.56904 12.7963 8.62679C12.9978 8.72655 13.2055 8.81472 13.4182 8.89082C13.1553 9.10277 12.8635 9.28038 12.5505 9.41888L12.0395 9.63739C12.0395 9.63739 12.2757 10.6343 12.4348 11.0759H11.2875C11.1718 10.9211 10.5885 10.0016 10.5885 10.0016L10.2655 10.0425C9.58709 10.1349 8.89965 10.1532 8.21678 10.0972C7.89862 10.0699 7.36836 10.0061 6.95379 9.93784L6.2066 9.81493C6.2066 9.81493 6.5103 10.9211 6.56814 11.0622H5.32444C4.8164 10.4748 4.38582 9.83126 4.04216 9.14575L3.95539 8.96821C3.32906 7.82967 3.06456 6.54444 3.19374 5.26724C3.45405 2.90463 6.14393 1.12016 9.07002 1.37963C9.92122 1.46974 10.7496 1.69765 11.5189 2.05336L11.8177 2.18538L12.0588 1.97142C12.4342 1.65467 12.8584 1.39372 13.3169 1.19754C13.9236 0.949055 14.5864 0.847355 15.2452 0.901649L13.6158 3.30978L13.7363 3.53739C14.1574 4.33819 14.6944 5.07974 15.3319 5.74068C15.6281 6.01399 15.9787 6.22906 16.3636 6.37344L15.5971 8.26717Z" fill="currentColor"/>
@@ -117,7 +302,7 @@ visible: true
 	<article class="relative overflow-hidden border shadow-sm break-inside rounded-xl gap-2 mb-3 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="finance">
 		<div class="absolute top-0 right-0 w-20 h-20 bg-gradient-to-br from-rose-500/80 to-white dark:to-gray-950 rounded-full flex items-center justify-center blur-2xl"></div>
 		<header class="relative flex flex-col gap-2 p-4">
-			<div class="flex items-center justify-center w-12 h-12 rounded-full bg-gradient-to-br from-orange-500 to-rose-500 text-white">
+			<div class="flex items-center justify-center w-10 h-10 rounded-full bg-gradient-to-br from-orange-500 to-rose-500 text-white">
 				<svg width="24" height="24" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
 					<path d="M15.5 2A1.5 1.5 0 0 0 14 3.5v13a1.5 1.5 0 0 0 1.5 1.5h1a1.5 1.5 0 0 0 1.5-1.5v-13A1.5 1.5 0 0 0 16.5 2h-1ZM9.5 6A1.5 1.5 0 0 0 8 7.5v9A1.5 1.5 0 0 0 9.5 18h1a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 10.5 6h-1ZM3.5 10A1.5 1.5 0 0 0 2 11.5v5A1.5 1.5 0 0 0 3.5 18h1A1.5 1.5 0 0 0 6 16.5v-5A1.5 1.5 0 0 0 4.5 10h-1Z"></path>
 				</svg>
@@ -125,10 +310,14 @@ visible: true
 			<h2 class="font-semibold text-xl">Є326.00</h2>
 			<p class="text-xs">Statement of earnings</p>
 		</header>
-		<section class="w-full -mt-3">
+		<section class="w-full -mt-3 relative">
+			<span class="absolute bottom-[28px] left-[50px] flex h-3 w-3">
+				<span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-rose-400 opacity-75"></span>
+				<span class="relative inline-flex rounded-full h-3 w-3 border-2 border-white bg-rose-500 dark:border-gray-950"></span>
+			</span>
 			<svg class="w-full" viewBox="0 0 156 54" fill="none" xmlns="http://www.w3.org/2000/svg">
 				<path d="M0 35.2121C1.12193 35.7084 2.05287 36.4465 3.15467 36.9127C3.88018 37.2197 4.96816 37.139 5.33694 37.8731C5.78171 38.7584 6.41334 37.1208 6.84078 36.7427C7.35846 36.2847 8.0534 35.1306 8.75167 35.3022C11.4731 35.971 14.5286 35.7848 17.3224 35.7523C17.6226 35.7488 17.9104 35.5687 17.9104 35.8724C17.9104 35.9323 17.9191 36.0299 17.9164 36.1291C18.3683 35.944 19.053 35.7572 19.1768 35.7523C20.6722 35.6935 21.0695 36.6679 22.2975 37.2528C23.2021 37.6838 23.2021 38.1814 23.2021 37.0128C23.2021 35.6556 24.0027 35.3695 24.8303 34.3118C25.1311 33.9274 25.4288 33.5039 25.9497 33.4015C26.5891 33.2758 27.1368 33.243 27.8154 33.2114C30.881 33.0687 33.9468 32.5976 36.9289 31.971C38.3957 31.6628 39.862 31.3127 41.2934 30.8906C41.6774 30.7773 41.6134 31.478 41.7231 31.7509C41.8505 32.068 42.5107 34.0517 42.7407 34.0517C42.8236 34.0517 42.7407 33.905 42.7407 33.8316V32.8113C42.7407 32.182 42.8631 31.787 43.2608 31.2507C43.6045 30.7875 45.7737 28.5386 46.0989 29.21C46.4428 29.9198 46.4557 30.5161 46.9696 31.1707C47.0957 31.3314 47.2004 31.786 47.2296 31.4108C47.276 30.8159 47.1736 29.3852 47.7271 28.9499C48.1423 28.6234 50.4124 33.7413 50.7913 34.4118C50.8749 34.5597 51.4545 35.7515 51.7411 35.3922C52.3142 34.674 53.4118 34.1187 54.1495 33.5815C55.9224 32.2907 57.4928 30.8434 59.1925 29.4901C59.3229 29.3863 59.8755 29.4777 59.7126 29.4201C59.1512 29.2214 59.8806 28.1863 59.984 27.9796C60.7619 26.4247 61.2675 24.79 61.827 23.1679C62.0575 22.4997 62.6297 21.7287 62.6864 21.0271C62.7081 20.7579 62.5243 19.9876 62.8899 19.9067C63.3145 19.8128 63.0628 18.5414 63.1047 18.2261C63.168 17.7501 63.6596 18.91 63.6814 18.9464C64.3669 20.0893 64.9188 21.2579 65.5358 22.4276C65.6835 22.7077 66.0959 24.9687 66.4856 24.6784C67.4868 23.9325 68.1285 22.8128 69.1427 22.0475C70.2353 21.223 70.6307 23.3734 70.8388 23.9581C71.5045 25.829 73.5756 31.4204 72.908 29.5501C72.6058 28.7035 74.1901 27.2634 74.8528 26.8292C75.0807 26.6798 75.3292 26.7757 75.4973 26.9492C75.9782 27.4456 76.0081 27.0539 76.6167 26.6891C78.3694 25.6387 78.9067 30.3861 79.9749 29.5001C80.2389 29.2812 80.3132 28.7752 80.642 28.6298C81.2229 28.3728 81.9908 29.8405 82.1798 30.1303C82.247 30.2335 82.7905 31.2581 83.0391 31.1207C83.4397 30.8992 83.5218 30.7105 84.0567 30.7105C85.5083 30.7105 85.7936 32.3676 86.2503 33.4115C86.7384 34.527 87.4071 35.1912 88.1951 36.1124C88.4976 36.4661 88.1275 35.7882 88.263 35.2321C88.6731 33.5484 89.9177 32.3477 91.248 31.1707C91.4066 31.0304 91.5497 30.6721 91.7908 30.7906C92.3756 31.078 93.0648 28.0325 93.125 27.7895C93.1857 27.5445 93.5668 24.2433 93.8713 24.2582C94.767 24.3023 95.4483 26.6541 95.7369 27.2093C95.9907 27.6972 96.2507 28.3009 96.7207 27.6394C97.5846 26.4234 97.918 24.7089 99.0047 23.648C99.5343 23.131 99.8986 23.9357 100.181 24.2282C100.638 24.7027 101.234 24.0552 101.651 23.8281C102.818 23.1913 104.902 21.5496 105.947 22.9178C106.347 23.4417 106.663 24.1263 107.214 24.5483C107.776 24.9795 108.692 23.1065 108.91 22.8678C109.743 21.9538 110.916 21.4318 111.85 20.627C112.32 20.2215 112.659 19.7113 113.274 19.4465C113.598 19.307 113.885 19.5045 114.066 19.7366C114.583 20.402 115.569 17.7932 115.75 17.4258C116.429 16.0492 116.594 17.5072 117.695 16.9056C120.594 15.3215 124.628 15.045 127.973 15.045C128.215 15.045 128.078 15.0317 127.973 14.9049C127.701 14.574 128.378 14.0083 128.539 13.7445C128.933 13.0974 129.068 12.261 129.353 11.5737C129.443 11.3559 129.67 10.3633 130.054 10.3633C130.72 10.3633 131.718 12.6542 131.953 13.0443C132.34 13.6843 133.31 15.8144 134.215 16.1054C134.401 16.1653 135.866 11.3414 136.058 10.8135C136.186 10.4619 136.627 9.01776 137.177 8.86279C137.448 8.78656 138.345 10.2279 138.512 10.4233C138.52 10.4328 138.527 10.442 138.535 10.4508C138.494 10.3806 138.458 10.3001 138.444 10.2233C138.347 9.69988 138.842 9.23517 139.326 9.00284C140.226 8.57054 141.178 9.81554 141.723 10.2333C142.357 10.7192 144.434 11.2956 144.979 10.5234C146.128 8.89668 145.725 7.5836 145.725 5.78169C145.725 5.375 146.782 4.62733 147.15 4.46123C148.144 4.01306 148.545 4.7615 149.072 5.44157C149.408 5.87513 150.401 7.75245 151.085 7.86243C151.397 7.91259 150.99 7.29903 151.04 7.02213C151.148 6.42555 151.637 5.97194 152.024 5.5016C152.526 4.88998 152.985 4.08963 153.754 3.70096C154.092 3.52983 154.448 2.74764 154.839 2.48052C155.147 2.27048 155.682 1.93861 155.902 1.58023V1C156.046 1.19134 156.019 1.38954 155.902 1.58023V53.9024H0V35.2121Z" fill="url(#paint0_linear_196_88272)"/>
-				<path d="M0 35.2121C1.12193 35.7084 2.05287 36.4465 3.15467 36.9127C3.88018 37.2197 4.96816 37.139 5.33694 37.8731C5.78171 38.7584 6.41334 37.1208 6.84078 36.7427C7.35846 36.2847 8.0534 35.1306 8.75167 35.3022C11.4731 35.971 14.5286 35.7848 17.3224 35.7523C17.6226 35.7488 17.9104 35.5687 17.9104 35.8724C17.9104 36.0498 17.9868 36.5562 17.6164 36.4626C17.05 36.3194 18.9616 35.7608 19.1768 35.7523C20.6722 35.6935 21.0695 36.6678 22.2975 37.2528C23.2021 37.6838 23.2021 38.1814 23.2021 37.0128C23.2021 35.6556 24.0027 35.3695 24.8303 34.3118C25.1311 33.9274 25.4288 33.5039 25.9497 33.4015C26.5891 33.2758 27.1368 33.243 27.8154 33.2114C30.881 33.0687 33.9468 32.5976 36.9289 31.971C38.3957 31.6628 39.862 31.3127 41.2934 30.8906C41.6774 30.7773 41.6134 31.478 41.7231 31.7509C41.8505 32.068 42.5107 34.0517 42.7407 34.0517C42.8236 34.0517 42.7407 33.905 42.7407 33.8316C42.7407 33.4915 42.7407 33.1514 42.7407 32.8113C42.7407 32.182 42.8631 31.787 43.2608 31.2507C43.6045 30.7875 45.7737 28.5386 46.0989 29.21C46.4428 29.9198 46.4557 30.516 46.9696 31.1707C47.0957 31.3314 47.2004 31.786 47.2296 31.4108C47.276 30.8159 47.1736 29.3852 47.7271 28.9499C48.1423 28.6234 50.4124 33.7413 50.7913 34.4118C50.8749 34.5597 51.4545 35.7515 51.7411 35.3922C52.3142 34.674 53.4118 34.1187 54.1495 33.5815C55.9224 32.2907 57.4928 30.8434 59.1925 29.4901C59.3229 29.3863 59.8755 29.4777 59.7126 29.4201C59.1512 29.2214 59.8806 28.1863 59.984 27.9796C60.7619 26.4247 61.2675 24.79 61.8271 23.1679C62.0575 22.4997 62.6297 21.7287 62.6864 21.0271C62.7081 20.7579 62.5243 19.9876 62.8899 19.9067C63.3145 19.8128 63.0628 18.5414 63.1047 18.2261C63.168 17.7501 63.6596 18.91 63.6814 18.9464C64.3669 20.0893 64.9188 21.2579 65.5358 22.4276C65.6835 22.7077 66.0959 24.9687 66.4856 24.6784C67.4868 23.9325 68.1285 22.8128 69.1427 22.0475C70.2353 21.223 70.6307 23.3734 70.8388 23.9581C71.5045 25.829 73.5756 31.4204 72.908 29.5501C72.0659 27.1911 75.5473 27.33 76.6167 26.6891C78.3694 25.6387 78.9067 30.3861 79.9749 29.5001C80.2389 29.2812 80.3132 28.7752 80.642 28.6298C81.2229 28.3728 81.9908 29.8405 82.1798 30.1303C82.247 30.2335 82.7905 31.2581 83.0391 31.1207C83.4397 30.8992 83.5218 30.7105 84.0567 30.7105C85.5083 30.7105 85.7936 32.3676 86.2503 33.4115C86.7384 34.527 87.4071 35.1911 88.1951 36.1124C88.4976 36.4661 88.1275 35.7882 88.263 35.2321C88.6731 33.5484 89.9177 32.3477 91.248 31.1707C91.4066 31.0304 91.5497 30.6721 91.7908 30.7906C92.3756 31.078 93.0648 28.0325 93.125 27.7895C93.1857 27.5445 93.5668 24.2433 93.8713 24.2582C94.767 24.3023 95.4483 26.6541 95.7369 27.2093C95.9907 27.6972 96.2507 28.3009 96.7207 27.6394C97.5846 26.4234 97.918 24.7089 99.0047 23.648C99.0383 23.6152 105.641 22.5174 105.947 22.9178C106.347 23.4416 106.663 24.1263 107.214 24.5483C107.776 24.9795 108.692 23.1065 108.91 22.8677C109.743 21.9538 110.916 21.4318 111.85 20.627C112.32 20.2215 112.659 19.7113 113.274 19.4465C113.598 19.307 113.885 19.5045 114.066 19.7366C114.583 20.402 115.569 17.7932 115.75 17.4258C116.429 16.0492 116.594 17.5072 117.695 16.9056C120.594 15.3215 124.628 15.045 127.973 15.045C128.215 15.045 128.078 15.0317 127.973 14.9049C127.701 14.574 128.378 14.0083 128.539 13.7445C128.933 13.0974 129.068 12.261 129.353 11.5737C129.443 11.3559 129.67 10.3633 130.054 10.3633C130.72 10.3633 131.718 12.6542 131.953 13.0443C132.34 13.6843 133.31 15.8144 134.215 16.1054C134.401 16.1653 135.866 11.3414 136.058 10.8135C136.186 10.4619 136.627 9.01776 137.177 8.86279C137.448 8.78656 138.345 10.2279 138.512 10.4233C138.918 10.8994 138.501 10.5322 138.444 10.2233C138.347 9.69988 138.842 9.23517 139.326 9.00284C140.226 8.57054 141.178 9.81554 141.723 10.2333C142.357 10.7192 144.434 11.2956 144.979 10.5234C146.128 8.89668 145.725 7.5836 145.725 5.78169C145.725 5.375 146.782 4.62733 147.15 4.46123C148.144 4.01306 148.545 4.76149 149.072 5.44157C149.408 5.87513 150.401 7.75245 151.085 7.86243C151.397 7.91259 150.99 7.29903 151.04 7.02213C151.148 6.42555 151.637 5.97194 152.024 5.5016C152.526 4.88998 152.985 4.08963 153.754 3.70096C154.092 3.52983 154.448 2.74764 154.839 2.48052C155.31 2.15871 156.317 1.55092 155.902 1" stroke="url(#paint1_linear_196_8827)" stroke-linecap="round"/>
+				<path d="M0 35.2121C1.12193 35.7084 2.05287 36.4465 3.15467 36.9127C3.88018 37.2197 4.96816 37.139 5.33694 37.8731C5.78171 38.7584 6.41334 37.1208 6.84078 36.7427C7.35846 36.2847 8.0534 35.1306 8.75167 35.3022C11.4731 35.971 14.5286 35.7848 17.3224 35.7523C17.6226 35.7488 17.9104 35.5687 17.9104 35.8724C17.9104 36.0498 17.9868 36.5562 17.6164 36.4626C17.05 36.3194 18.9616 35.7608 19.1768 35.7523C20.6722 35.6935 21.0695 36.6678 22.2975 37.2528C23.2021 37.6838 23.2021 38.1814 23.2021 37.0128C23.2021 35.6556 24.0027 35.3695 24.8303 34.3118C25.1311 33.9274 25.4288 33.5039 25.9497 33.4015C26.5891 33.2758 27.1368 33.243 27.8154 33.2114C30.881 33.0687 33.9468 32.5976 36.9289 31.971C38.3957 31.6628 39.862 31.3127 41.2934 30.8906C41.6774 30.7773 41.6134 31.478 41.7231 31.7509C41.8505 32.068 42.5107 34.0517 42.7407 34.0517C42.8236 34.0517 42.7407 33.905 42.7407 33.8316C42.7407 33.4915 42.7407 33.1514 42.7407 32.8113C42.7407 32.182 42.8631 31.787 43.2608 31.2507C43.6045 30.7875 45.7737 28.5386 46.0989 29.21C46.4428 29.9198 46.4557 30.516 46.9696 31.1707C47.0957 31.3314 47.2004 31.786 47.2296 31.4108C47.276 30.8159 47.1736 29.3852 47.7271 28.9499C48.1423 28.6234 50.4124 33.7413 50.7913 34.4118C50.8749 34.5597 51.4545 35.7515 51.7411 35.3922C52.3142 34.674 53.4118 34.1187 54.1495 33.5815C55.9224 32.2907 57.4928 30.8434 59.1925 29.4901C59.3229 29.3863 59.8755 29.4777 59.7126 29.4201C59.1512 29.2214 59.8806 28.1863 59.984 27.9796C60.7619 26.4247 61.2675 24.79 61.8271 23.1679C62.0575 22.4997 62.6297 21.7287 62.6864 21.0271C62.7081 20.7579 62.5243 19.9876 62.8899 19.9067C63.3145 19.8128 63.0628 18.5414 63.1047 18.2261C63.168 17.7501 63.6596 18.91 63.6814 18.9464C64.3669 20.0893 64.9188 21.2579 65.5358 22.4276C65.6835 22.7077 66.0959 24.9687 66.4856 24.6784C67.4868 23.9325 68.1285 22.8128 69.1427 22.0475C70.2353 21.223 70.6307 23.3734 70.8388 23.9581C71.5045 25.829 73.5756 31.4204 72.908 29.5501C72.0659 27.1911 75.5473 27.33 76.6167 26.6891C78.3694 25.6387 78.9067 30.3861 79.9749 29.5001C80.2389 29.2812 80.3132 28.7752 80.642 28.6298C81.2229 28.3728 81.9908 29.8405 82.1798 30.1303C82.247 30.2335 82.7905 31.2581 83.0391 31.1207C83.4397 30.8992 83.5218 30.7105 84.0567 30.7105C85.5083 30.7105 85.7936 32.3676 86.2503 33.4115C86.7384 34.527 87.4071 35.1911 88.1951 36.1124C88.4976 36.4661 88.1275 35.7882 88.263 35.2321C88.6731 33.5484 89.9177 32.3477 91.248 31.1707C91.4066 31.0304 91.5497 30.6721 91.7908 30.7906C92.3756 31.078 93.0648 28.0325 93.125 27.7895C93.1857 27.5445 93.5668 24.2433 93.8713 24.2582C94.767 24.3023 95.4483 26.6541 95.7369 27.2093C95.9907 27.6972 96.2507 28.3009 96.7207 27.6394C97.5846 26.4234 97.918 24.7089 99.0047 23.648C99.0383 23.6152 105.641 22.5174 105.947 22.9178C106.347 23.4416 106.663 24.1263 107.214 24.5483C107.776 24.9795 108.692 23.1065 108.91 22.8677C109.743 21.9538 110.916 21.4318 111.85 20.627C112.32 20.2215 112.659 19.7113 113.274 19.4465C113.598 19.307 113.885 19.5045 114.066 19.7366C114.583 20.402 115.569 17.7932 115.75 17.4258C116.429 16.0492 116.594 17.5072 117.695 16.9056C120.594 15.3215 124.628 15.045 127.973 15.045C128.215 15.045 128.078 15.0317 127.973 14.9049C127.701 14.574 128.378 14.0083 128.539 13.7445C128.933 13.0974 129.068 12.261 129.353 11.5737C129.443 11.3559 129.67 10.3633 130.054 10.3633C130.72 10.3633 131.718 12.6542 131.953 13.0443C132.34 13.6843 133.31 15.8144 134.215 16.1054C134.401 16.1653 135.866 11.3414 136.058 10.8135C136.186 10.4619 136.627 9.01776 137.177 8.86279C137.448 8.78656 138.345 10.2279 138.512 10.4233C138.918 10.8994 138.501 10.5322 138.444 10.2233C138.347 9.69988 138.842 9.23517 139.326 9.00284C140.226 8.57054 141.178 9.81554 141.723 10.2333C142.357 10.7192 144.434 11.2956 144.979 10.5234C146.128 8.89668 145.725 7.5836 145.725 5.78169C145.725 5.375 146.782 4.62733 147.15 4.46123C148.144 4.01306 148.545 4.76149 149.072 5.44157C149.408 5.87513 150.401 7.75245 151.085 7.86243C151.397 7.91259 150.99 7.29903 151.04 7.02213C151.148 6.42555 151.637 5.97194 152.024 5.5016C152.526 4.88998 152.985 4.08963 153.754 3.70096C154.092 3.52983 154.448 2.74764 154.839 2.48052C155.31 2.15871 156.317 1.55092 155.902 1" stroke="url(#paint1_linear_196_8827)" stroke-linecap="round" stroke-width="1.5"/>
 				<defs>
 					<linearGradient id="paint0_linear_196_88272" x1="78" y1="-5.9092" x2="78" y2="53.9024" gradientUnits="userSpaceOnUse">
 						<stop offset="0.144057" stop-color="#D60F63" stop-opacity="0.22"/>
@@ -148,7 +337,7 @@ visible: true
 	<header class="p-4">
 		<h2 class="text-lg font-medium">Statistics</h2>
 	</header>
-	<section class="relative w-full -mt-8">
+	<section class="relative w-full -mt-10">
 		<svg xmlns="http://www.w3.org/2000/svg" class="w-full" viewBox="0 0 172 103" fill="none">
 			<path d="M0 47.0497C1.237 47.7323 2.26342 48.7473 3.47823 49.3885C4.27815 49.8106 5.47771 49.6996 5.88431 50.7092C6.3747 51.9267 7.07112 49.6746 7.54239 49.1546C8.11318 48.5247 8.87939 46.9376 9.64928 47.1735C12.6498 48.0933 16.0187 47.8374 19.0991 47.7926C19.43 47.7878 19.7474 47.5401 19.7474 47.9577C19.7474 48.0402 19.757 48.1743 19.754 48.3108C20.2522 48.0562 21.0072 47.7993 21.1436 47.7926C22.7924 47.7118 23.2305 49.0517 24.5845 49.8562C25.5818 50.4488 25.5818 51.1332 25.5818 49.526C25.5818 47.6596 26.4645 47.2661 27.377 45.8116C27.7087 45.283 28.0369 44.7005 28.6112 44.5597C29.3162 44.3868 29.9201 44.3417 30.6682 44.2983C34.0483 44.102 37.4285 43.4541 40.7165 42.5924C42.3338 42.1685 43.9504 41.6871 45.5286 41.1066C45.952 40.9509 45.8814 41.9144 46.0024 42.2897C46.1429 42.7258 46.8708 45.4539 47.1244 45.4539C47.2158 45.4539 47.1244 45.2521 47.1244 45.1512V43.748C47.1244 42.8826 47.2593 42.3393 47.6978 41.6019C48.0767 40.9648 50.4684 37.8721 50.827 38.7954C51.2061 39.7716 51.2204 40.5915 51.7869 41.4918C51.926 41.7128 52.0414 42.338 52.0737 41.822C52.1248 41.0039 52.0119 39.0363 52.6222 38.4377C53.0799 37.9887 55.5829 45.027 56.0007 45.9492C56.0928 46.1525 56.7318 47.7915 57.0479 47.2974C57.6797 46.3097 58.89 45.546 59.7033 44.8073C61.658 43.0321 63.3895 41.0418 65.2635 39.1806C65.4072 39.0379 66.0165 39.1635 65.837 39.0843C65.218 38.8111 66.0222 37.3876 66.1362 37.1033C66.9939 34.965 67.5513 32.7169 68.1683 30.486C68.4224 29.5672 69.0533 28.5068 69.1158 27.542C69.1397 27.1718 68.937 26.1124 69.3402 26.0012C69.8083 25.872 69.5308 24.1235 69.577 23.69C69.6468 23.0354 70.1888 24.6305 70.2128 24.6805C70.9686 26.2523 71.5771 27.8593 72.2574 29.468C72.4203 29.8532 72.875 32.9626 73.3046 32.5634C74.4085 31.5375 75.116 29.9978 76.2343 28.9452C77.4389 27.8113 77.8749 30.7687 78.1043 31.5728C78.8383 34.1457 81.1218 41.8352 80.3857 39.2631C80.0525 38.0988 81.7994 36.1184 82.53 35.5212C82.7812 35.3158 83.0553 35.4476 83.2406 35.6863C83.7708 36.3689 83.8038 35.8302 84.4748 35.3286C86.4073 33.884 86.9996 40.4128 88.1774 39.1944C88.4685 38.8933 88.5505 38.1975 88.913 37.9975C89.5535 37.6441 90.4001 39.6625 90.6085 40.0611C90.6826 40.2029 91.2819 41.612 91.5559 41.423C91.9976 41.1184 92.0881 40.859 92.6779 40.859C94.2784 40.859 94.5929 43.1378 95.0965 44.5734C95.6346 46.1075 96.3719 47.0209 97.2408 48.2879C97.5743 48.7743 97.1662 47.842 97.3156 47.0772C97.7678 44.7617 99.14 43.1104 100.607 41.4918C100.782 41.2988 100.939 40.8061 101.205 40.969C101.85 41.3643 102.61 37.176 102.676 36.8419C102.743 36.5049 103.163 31.965 103.499 31.9856C104.487 32.0461 105.238 35.2805 105.556 36.0439C105.836 36.715 106.123 37.5452 106.641 36.6355C107.593 34.9632 107.961 32.6053 109.159 31.1464C109.743 30.4354 110.145 31.542 110.456 31.9443C110.96 32.5969 111.617 31.7064 112.076 31.394C113.364 30.5183 115.662 28.2605 116.814 30.1421C117.255 30.8626 117.603 31.8041 118.21 32.3845C118.83 32.9775 119.84 30.4016 120.08 30.0733C120.999 28.8164 122.292 28.0986 123.321 26.9917C123.839 26.4341 124.214 25.7325 124.892 25.3683C125.249 25.1765 125.566 25.448 125.765 25.7673C126.335 26.6823 127.422 23.0946 127.622 22.5894C128.371 20.6963 128.553 22.7013 129.767 21.874C132.963 19.6954 137.41 19.3152 141.099 19.3152C141.365 19.3152 141.214 19.2969 141.099 19.1226C140.799 18.6674 141.545 17.8895 141.722 17.5267C142.157 16.6368 142.306 15.4866 142.62 14.5414C142.719 14.2418 142.969 12.8768 143.393 12.8768C144.127 12.8768 145.227 16.0273 145.487 16.5637C145.914 17.4439 146.983 20.3732 147.981 20.7734C148.186 20.8558 149.801 14.2218 150.013 13.4958C150.153 13.0123 150.64 11.0263 151.247 10.8132C151.545 10.7084 152.534 12.6906 152.718 12.9593C152.727 12.9724 152.735 12.985 152.744 12.9971C152.699 12.9006 152.659 12.7899 152.643 12.6842C152.537 11.9644 153.082 11.3253 153.616 11.0058C154.608 10.4113 155.658 12.1234 156.258 12.6979C156.957 13.3662 159.247 14.1589 159.849 13.0969C161.116 10.8598 160.672 9.054 160.672 6.57596C160.672 6.01666 161.836 4.98844 162.243 4.76C163.338 4.14367 163.781 5.17294 164.362 6.10821C164.732 6.70445 165.827 9.28621 166.581 9.43746C166.925 9.50645 166.476 8.66265 166.531 8.28185C166.65 7.46141 167.189 6.83759 167.616 6.19075C168.17 5.34964 168.675 4.24896 169.523 3.71445C169.896 3.47912 170.289 2.40342 170.72 2.03607C171.059 1.74721 171.65 1.2908 171.892 0.797951V0C172.051 0.263133 172.021 0.535701 171.892 0.797951V103H0V47.0497Z" fill="url(#paint0_linear_181_7796)"/>
 			<path d="M0 47.0497C1.237 47.7323 2.26342 48.7473 3.47823 49.3885C4.27815 49.8106 5.47771 49.6996 5.88431 50.7092C6.3747 51.9267 7.07112 49.6746 7.54239 49.1546C8.11318 48.5247 8.87939 46.9376 9.64928 47.1735C12.6498 48.0933 16.0187 47.8373 19.0991 47.7926C19.43 47.7878 19.7474 47.5401 19.7474 47.9577C19.7474 48.2018 19.8316 48.8981 19.4232 48.7694C18.7987 48.5725 20.9064 47.8043 21.1436 47.7926C22.7924 47.7118 23.2305 49.0517 24.5845 49.8562C25.5818 50.4488 25.5818 51.1332 25.5818 49.526C25.5818 47.6596 26.4645 47.2661 27.377 45.8116C27.7087 45.283 28.0369 44.7005 28.6112 44.5597C29.3162 44.3868 29.9201 44.3417 30.6682 44.2983C34.0483 44.102 37.4285 43.4541 40.7165 42.5924C42.3338 42.1685 43.9504 41.6871 45.5286 41.1066C45.952 40.9509 45.8814 41.9144 46.0024 42.2897C46.1429 42.7258 46.8708 45.4539 47.1244 45.4539C47.2158 45.4539 47.1244 45.2521 47.1244 45.1512C47.1244 44.6835 47.1244 44.2157 47.1244 43.748C47.1244 42.8826 47.2593 42.3393 47.6978 41.6019C48.0767 40.9648 50.4684 37.8721 50.827 38.7954C51.2061 39.7716 51.2204 40.5915 51.7869 41.4918C51.926 41.7128 52.0414 42.338 52.0737 41.822C52.1248 41.0039 52.0119 39.0363 52.6222 38.4377C53.0799 37.9887 55.5829 45.027 56.0007 45.9492C56.0929 46.1525 56.7318 47.7915 57.0479 47.2974C57.6797 46.3097 58.89 45.546 59.7033 44.8073C61.658 43.0321 63.3895 41.0418 65.2635 39.1806C65.4072 39.0379 66.0165 39.1635 65.837 39.0843C65.218 38.8111 66.0222 37.3876 66.1362 37.1033C66.9939 34.965 67.5513 32.7169 68.1683 30.486C68.4224 29.5672 69.0533 28.5068 69.1158 27.542C69.1397 27.1718 68.937 26.1124 69.3402 26.0012C69.8082 25.872 69.5308 24.1235 69.577 23.69C69.6468 23.0354 70.1888 24.6305 70.2128 24.6805C70.9686 26.2523 71.5771 27.8593 72.2574 29.468C72.4203 29.8532 72.875 32.9626 73.3046 32.5634C74.4085 31.5375 75.116 29.9978 76.2343 28.9452C77.4389 27.8113 77.8749 30.7687 78.1043 31.5728C78.8383 34.1457 81.1218 41.8352 80.3857 39.2631C80.0525 38.0988 81.7994 36.1184 82.53 35.5212C82.7812 35.3158 83.0553 35.4476 83.2406 35.6863C83.7708 36.3689 83.8038 35.8302 84.4748 35.3286C86.4073 33.884 86.9996 40.4128 88.1774 39.1944C88.4685 38.8932 88.5505 38.1975 88.913 37.9975C89.5535 37.6441 90.4001 39.6624 90.6085 40.0611C90.6826 40.2029 91.2819 41.612 91.5559 41.423C91.9976 41.1184 92.0881 40.859 92.6779 40.859C94.2784 40.859 94.5929 43.1378 95.0965 44.5734C95.6346 46.1075 96.3719 47.0209 97.2408 48.2879C97.5743 48.7743 97.1662 47.842 97.3156 47.0772C97.7678 44.7617 99.14 43.1104 100.607 41.4918C100.782 41.2988 100.939 40.8061 101.205 40.969C101.85 41.3643 102.61 37.176 102.676 36.8419C102.743 36.5049 103.163 31.965 103.499 31.9856C104.487 32.0461 105.238 35.2805 105.556 36.0439C105.836 36.715 106.123 37.5452 106.641 36.6355C107.593 34.9632 107.961 32.6053 109.159 31.1464C109.743 30.4354 110.145 31.542 110.456 31.9443C110.96 32.5969 111.617 31.7064 112.076 31.394C113.364 30.5183 115.662 28.2605 116.814 30.1421C117.255 30.8626 117.603 31.8041 118.21 32.3845C118.83 32.9775 119.84 30.4016 120.08 30.0733C120.999 28.8164 122.292 28.0986 123.321 26.9917C123.839 26.4341 124.214 25.7325 124.892 25.3683C125.249 25.1765 125.566 25.448 125.765 25.7673C126.335 26.6823 127.422 23.0946 127.622 22.5894C128.371 20.6963 128.553 22.7013 129.767 21.874C132.963 19.6954 137.41 19.3152 141.099 19.3152C141.365 19.3152 141.214 19.2969 141.099 19.1226C140.799 18.6674 141.545 17.8895 141.722 17.5267C142.157 16.6368 142.306 15.4866 142.62 14.5414C142.719 14.2418 142.969 12.8768 143.393 12.8768C144.127 12.8768 145.227 16.0273 145.487 16.5637C145.914 17.4439 146.983 20.3732 147.981 20.7734C148.186 20.8558 149.801 14.2218 150.013 13.4958C150.153 13.0123 150.64 11.0263 151.247 10.8132C151.545 10.7084 152.534 12.6906 152.718 12.9593C153.166 13.614 152.706 13.109 152.643 12.6842C152.537 11.9644 153.082 11.3253 153.616 11.0058C154.608 10.4113 155.658 12.1234 156.258 12.6979C156.957 13.3662 159.247 14.1589 159.849 13.0969C161.116 10.8598 160.672 9.054 160.672 6.57596C160.672 6.01666 161.836 4.98844 162.243 4.76C163.338 4.14367 163.781 5.17294 164.362 6.10821C164.732 6.70445 165.827 9.28621 166.581 9.43746C166.925 9.50645 166.476 8.66265 166.531 8.28185C166.65 7.46141 167.189 6.83759 167.616 6.19075C168.17 5.34964 168.675 4.24896 169.523 3.71445C169.896 3.47912 170.289 2.40342 170.72 2.03607C171.239 1.5935 172.35 0.757644 171.892 0" stroke="url(#paint1_linear_181_7796)" stroke-linecap="round"/>
@@ -163,23 +352,18 @@ visible: true
 				</linearGradient>
 			</defs>
 		</svg>
-		<div class="absolute z-[1] bottom-0 left-0 w-full flex items-center justify-between p-4">
-			<div class="flex items-center gap-2">
-				<div class="w-9 h-9 flex items-center justify-center rounded-md bg-green-500">
-					<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 16 16" fill="none">
-						<path d="M3.36119 9.7914C3.36119 10.6589 2.60652 11.3675 1.68104 11.3675C0.755684 11.3675 0 10.6589 0 9.7914C0 8.92389 0.75581 8.21531 1.68116 8.21531H3.36132L3.36119 9.7914ZM4.20815 9.7914C4.20815 8.92389 4.96396 8.21531 5.88931 8.21531C6.81466 8.21531 7.57047 8.92377 7.57047 9.7914V13.7367C7.57047 14.6042 6.81479 15.3127 5.88931 15.3127C4.96396 15.3127 4.20815 14.6042 4.20815 13.7367V9.7914Z" fill="white"/>
-						<path d="M5.88931 3.46386C4.96396 3.46386 4.20815 2.75635 4.20815 1.88871C4.20815 1.0212 4.96396 0.312744 5.88931 0.312744C6.81466 0.312744 7.57047 1.02132 7.57047 1.88883V3.46398L5.88931 3.46386ZM5.88931 4.25788C6.81466 4.25788 7.57047 4.96645 7.57047 5.83397C7.57047 6.70148 6.81479 7.41006 5.88931 7.41006H1.68104C0.755684 7.41006 0 6.7016 0 5.83397C0 4.96645 0.75581 4.25788 1.68116 4.25788H5.88931Z" fill="white"/>
-						<path d="M12.6387 5.83397C12.6387 4.96645 13.3934 4.25788 14.3188 4.25788C15.2442 4.25788 16 4.96645 16 5.83397C16 6.70148 15.2442 7.41006 14.3188 7.41006H12.6387V5.83397ZM11.7917 5.83397C11.7917 6.70148 11.0359 7.41006 10.1106 7.41006C9.18521 7.41006 8.4294 6.7016 8.4294 5.83397V1.88871C8.4294 1.0212 9.18508 0.312744 10.1106 0.312744C11.0359 0.312744 11.7917 1.02132 11.7917 1.88883V5.83397Z" fill="white"/>
-						<path d="M10.1106 12.1615C11.0359 12.1615 11.7917 12.869 11.7917 13.7367C11.7917 14.6042 11.0359 15.3127 10.1106 15.3127C9.18521 15.3127 8.4294 14.6042 8.4294 13.7367V12.1615H10.1106ZM10.1106 11.3675C9.18521 11.3675 8.4294 10.6589 8.4294 9.7914C8.4294 8.92389 9.18508 8.21531 10.1106 8.21531H14.3188C15.2442 8.21531 16 8.92377 16 9.7914C16 10.6589 15.2442 11.3675 14.3188 11.3675H10.1106Z" fill="white"/>
-					</svg>
+		<div class="relative -mt-24 z-[1] bottom-0 left-0 w-full flex items-center justify-between p-4">
+			<header class="flex items-center gap-3">
+				<div class="flex-none w-10 h-10 flex items-center justify-center rounded-full text-white bg-green-600">
+					<span class="font-bold text-xl">C</span>
 				</div>
-				<h3 class="font-medium text-lg">Slack</h3>
-			</div>
-			<div class="flex items-center gap-2">
-				<h3 class="font-medium text-base">18%</h3>
-				<svg class="mt-0.5" width="14" height="14" viewBox="0 0 9 10" fill="none">
-					<path d="M0.416323 1.02805C0.416323 1.42147 0.738211 1.74336 1.13163 1.74336H6.56081L0.208884 8.09528C0.14266 8.1615 0.0901278 8.24012 0.0542874 8.32665C0.018447 8.41318 2.2066e-09 8.50591 0 8.59957C-2.2066e-09 8.69322 0.018447 8.78596 0.0542874 8.87249C0.0901278 8.95902 0.14266 9.03764 0.208884 9.10386C0.275109 9.17009 0.353729 9.22262 0.440255 9.25846C0.526781 9.2943 0.61952 9.31274 0.713175 9.31274C0.806831 9.31274 0.899569 9.2943 0.986096 9.25846C1.07262 9.22262 1.15124 9.17009 1.21747 9.10386L7.56939 2.75194V8.18112C7.56939 8.57453 7.89127 8.89642 8.28469 8.89642C8.67811 8.89642 9 8.57453 9 8.18112V1.02805C9 0.634632 8.67811 0.312744 8.28469 0.312744H1.13163C0.738211 0.312744 0.416323 0.634632 0.416323 1.02805Z" fill="currentColor"/>
-				</svg>
+				<div class="flex w-full flex-col">
+					<h2 class="font-medium text-base">Company</h2>
+					<p class="text-xs text-gray-500">Last 30 days</p>
+				</div>
+			</header>
+			<div class="flex items-center gap-2 flex-none">
+				<span class="font-bold text-base">€ 654</span>
 			</div>
 		</div>
 	</section>
@@ -227,19 +411,19 @@ visible: true
 </article>
 
 <article class="border shadow-sm break-inside rounded-xl p-4 mb-3 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="finance">
-	<header class="flex items-center justify-between">
-		<h2 class="font-medium text-base">Add to cart</h2>
-		<button class="flex items-center justify-center rounded-full text-xs font-medium h-8 gap-2 px-3 border border-gray-300 bg-white dark:bg-gray-950 dark:border-gray-900">
-			<span>Select month</span>
+	<header class="flex items-start justify-between">
+		<h2 class="font-medium text-base">Investments per month</h2>
+		<button class="flex-none flex mt-1 items-center justify-center rounded-full text-xs font-medium h-8 gap-2 px-3 border border-gray-300 bg-white dark:bg-gray-950 dark:border-gray-900">
+			<span>September</span>
 			<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-down"><polyline points="6 9 12 15 18 9"></polyline></svg>
 		</button>
 	</header>
-	<section class="grid grid-cols-12 gap-4 w-full mt-4">
-		<div class="flex flex-col items-start col-span-8 gap-3">
+	<section class="grid grid-cols-12 gap-4 w-full mt-2">
+		<div class="flex flex-col items-start col-span-8 gap-1">
 			<div class="flex items-center gap-2">
-				<h3 class="font-semibold text-2xl">345.00</h3>
+				<h3 class="font-semibold text-xl">345.00</h3>
 				<div class="flex items-center gap-1 justify-center h-6 px-1 rounded-sm font-medium text-xs bg-emerald-100 text-emerald-600">
-					<svg width="16" height="16" fill="none" stroke-width="2" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" data-astro-source-file="D:/tailwindcss/widgets-components-v2.1/src/pages/index.astro" data-astro-source-loc="1461:160"> 
+					<svg width="14" height="14" fill="none" stroke-width="2.5" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" data-astro-source-file="D:/tailwindcss/widgets-components-v2.1/src/pages/index.astro" data-astro-source-loc="1461:160"> 
 						<path stroke-linecap="round" stroke-linejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" data-astro-source-file="D:/tailwindcss/widgets-components-v2.1/src/pages/index.astro" data-astro-source-loc="1462:9"></path>
 					</svg>
 					<span>32.65%</span>
@@ -295,14 +479,21 @@ visible: true
 </article>
 
 <article class="border shadow-sm break-inside flex flex-col rounded-xl mb-3 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="finance">
-	<div class="flex flex-row justify-between items-center w-full p-4">
+	<header class="flex flex-row justify-between items-start w-full p-4 gap-4 relative z-[1]">
 		<div class="flex flex-col items-start">
-		<h2 class="font-medium text-xl block mb-1">Statement</h2>
-			<span class="text-xs text-gray-600">16 May 2023, 10:00 AM</span>
+			<h2 class="font-bold text-base block mb-1 leading-6">
+				Company finances in
+				<br />
+				the last year
+			</h2>
 		</div>
-		<span class="text-xl font-semibold block mb-1">76%</span>
-	</div>
-	<div class="w-full -mt-4">
+		<span class="flex-none text-lg font-semibold block mb-1">76%</span>
+	</header>
+	<div class="w-full -mt-10 relative">
+		<span class="absolute top-[10px] right-[42px] flex h-3 w-3">
+			<span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-rose-400 opacity-75"></span>
+			<span class="relative inline-flex rounded-full h-3 w-3 border-2 border-white bg-rose-500 dark:border-gray-950"></span>
+		</span>
 		<svg class="w-full" viewBox="0 0 156 54" fill="none" xmlns="http://www.w3.org/2000/svg">
 			<path d="M0 35.2121C1.12193 35.7084 2.05287 36.4465 3.15467 36.9127C3.88018 37.2197 4.96816 37.139 5.33694 37.8731C5.78171 38.7584 6.41334 37.1208 6.84078 36.7427C7.35846 36.2847 8.0534 35.1306 8.75167 35.3022C11.4731 35.971 14.5286 35.7848 17.3224 35.7523C17.6226 35.7488 17.9104 35.5687 17.9104 35.8724C17.9104 35.9323 17.9191 36.0299 17.9164 36.1291C18.3683 35.944 19.053 35.7572 19.1768 35.7523C20.6722 35.6935 21.0695 36.6679 22.2975 37.2528C23.2021 37.6838 23.2021 38.1814 23.2021 37.0128C23.2021 35.6556 24.0027 35.3695 24.8303 34.3118C25.1311 33.9274 25.4288 33.5039 25.9497 33.4015C26.5891 33.2758 27.1368 33.243 27.8154 33.2114C30.881 33.0687 33.9468 32.5976 36.9289 31.971C38.3957 31.6628 39.862 31.3127 41.2934 30.8906C41.6774 30.7773 41.6134 31.478 41.7231 31.7509C41.8505 32.068 42.5107 34.0517 42.7407 34.0517C42.8236 34.0517 42.7407 33.905 42.7407 33.8316V32.8113C42.7407 32.182 42.8631 31.787 43.2608 31.2507C43.6045 30.7875 45.7737 28.5386 46.0989 29.21C46.4428 29.9198 46.4557 30.5161 46.9696 31.1707C47.0957 31.3314 47.2004 31.786 47.2296 31.4108C47.276 30.8159 47.1736 29.3852 47.7271 28.9499C48.1423 28.6234 50.4124 33.7413 50.7913 34.4118C50.8749 34.5597 51.4545 35.7515 51.7411 35.3922C52.3142 34.674 53.4118 34.1187 54.1495 33.5815C55.9224 32.2907 57.4928 30.8434 59.1925 29.4901C59.3229 29.3863 59.8755 29.4777 59.7126 29.4201C59.1512 29.2214 59.8806 28.1863 59.984 27.9796C60.7619 26.4247 61.2675 24.79 61.827 23.1679C62.0575 22.4997 62.6297 21.7287 62.6864 21.0271C62.7081 20.7579 62.5243 19.9876 62.8899 19.9067C63.3145 19.8128 63.0628 18.5414 63.1047 18.2261C63.168 17.7501 63.6596 18.91 63.6814 18.9464C64.3669 20.0893 64.9188 21.2579 65.5358 22.4276C65.6835 22.7077 66.0959 24.9687 66.4856 24.6784C67.4868 23.9325 68.1285 22.8128 69.1427 22.0475C70.2353 21.223 70.6307 23.3734 70.8388 23.9581C71.5045 25.829 73.5756 31.4204 72.908 29.5501C72.6058 28.7035 74.1901 27.2634 74.8528 26.8292C75.0807 26.6798 75.3292 26.7757 75.4973 26.9492C75.9782 27.4456 76.0081 27.0539 76.6167 26.6891C78.3694 25.6387 78.9067 30.3861 79.9749 29.5001C80.2389 29.2812 80.3132 28.7752 80.642 28.6298C81.2229 28.3728 81.9908 29.8405 82.1798 30.1303C82.247 30.2335 82.7905 31.2581 83.0391 31.1207C83.4397 30.8992 83.5218 30.7105 84.0567 30.7105C85.5083 30.7105 85.7936 32.3676 86.2503 33.4115C86.7384 34.527 87.4071 35.1912 88.1951 36.1124C88.4976 36.4661 88.1275 35.7882 88.263 35.2321C88.6731 33.5484 89.9177 32.3477 91.248 31.1707C91.4066 31.0304 91.5497 30.6721 91.7908 30.7906C92.3756 31.078 93.0648 28.0325 93.125 27.7895C93.1857 27.5445 93.5668 24.2433 93.8713 24.2582C94.767 24.3023 95.4483 26.6541 95.7369 27.2093C95.9907 27.6972 96.2507 28.3009 96.7207 27.6394C97.5846 26.4234 97.918 24.7089 99.0047 23.648C99.5343 23.131 99.8986 23.9357 100.181 24.2282C100.638 24.7027 101.234 24.0552 101.651 23.8281C102.818 23.1913 104.902 21.5496 105.947 22.9178C106.347 23.4417 106.663 24.1263 107.214 24.5483C107.776 24.9795 108.692 23.1065 108.91 22.8678C109.743 21.9538 110.916 21.4318 111.85 20.627C112.32 20.2215 112.659 19.7113 113.274 19.4465C113.598 19.307 113.885 19.5045 114.066 19.7366C114.583 20.402 115.569 17.7932 115.75 17.4258C116.429 16.0492 116.594 17.5072 117.695 16.9056C120.594 15.3215 124.628 15.045 127.973 15.045C128.215 15.045 128.078 15.0317 127.973 14.9049C127.701 14.574 128.378 14.0083 128.539 13.7445C128.933 13.0974 129.068 12.261 129.353 11.5737C129.443 11.3559 129.67 10.3633 130.054 10.3633C130.72 10.3633 131.718 12.6542 131.953 13.0443C132.34 13.6843 133.31 15.8144 134.215 16.1054C134.401 16.1653 135.866 11.3414 136.058 10.8135C136.186 10.4619 136.627 9.01776 137.177 8.86279C137.448 8.78656 138.345 10.2279 138.512 10.4233C138.52 10.4328 138.527 10.442 138.535 10.4508C138.494 10.3806 138.458 10.3001 138.444 10.2233C138.347 9.69988 138.842 9.23517 139.326 9.00284C140.226 8.57054 141.178 9.81554 141.723 10.2333C142.357 10.7192 144.434 11.2956 144.979 10.5234C146.128 8.89668 145.725 7.5836 145.725 5.78169C145.725 5.375 146.782 4.62733 147.15 4.46123C148.144 4.01306 148.545 4.7615 149.072 5.44157C149.408 5.87513 150.401 7.75245 151.085 7.86243C151.397 7.91259 150.99 7.29903 151.04 7.02213C151.148 6.42555 151.637 5.97194 152.024 5.5016C152.526 4.88998 152.985 4.08963 153.754 3.70096C154.092 3.52983 154.448 2.74764 154.839 2.48052C155.147 2.27048 155.682 1.93861 155.902 1.58023V1C156.046 1.19134 156.019 1.38954 155.902 1.58023V53.9024H0V35.2121Z" fill="url(#deuwe8dhwe)"/>
 			<path d="M0 35.2121C1.12193 35.7084 2.05287 36.4465 3.15467 36.9127C3.88018 37.2197 4.96816 37.139 5.33694 37.8731C5.78171 38.7584 6.41334 37.1208 6.84078 36.7427C7.35846 36.2847 8.0534 35.1306 8.75167 35.3022C11.4731 35.971 14.5286 35.7848 17.3224 35.7523C17.6226 35.7488 17.9104 35.5687 17.9104 35.8724C17.9104 36.0498 17.9868 36.5562 17.6164 36.4626C17.05 36.3194 18.9616 35.7608 19.1768 35.7523C20.6722 35.6935 21.0695 36.6678 22.2975 37.2528C23.2021 37.6838 23.2021 38.1814 23.2021 37.0128C23.2021 35.6556 24.0027 35.3695 24.8303 34.3118C25.1311 33.9274 25.4288 33.5039 25.9497 33.4015C26.5891 33.2758 27.1368 33.243 27.8154 33.2114C30.881 33.0687 33.9468 32.5976 36.9289 31.971C38.3957 31.6628 39.862 31.3127 41.2934 30.8906C41.6774 30.7773 41.6134 31.478 41.7231 31.7509C41.8505 32.068 42.5107 34.0517 42.7407 34.0517C42.8236 34.0517 42.7407 33.905 42.7407 33.8316C42.7407 33.4915 42.7407 33.1514 42.7407 32.8113C42.7407 32.182 42.8631 31.787 43.2608 31.2507C43.6045 30.7875 45.7737 28.5386 46.0989 29.21C46.4428 29.9198 46.4557 30.516 46.9696 31.1707C47.0957 31.3314 47.2004 31.786 47.2296 31.4108C47.276 30.8159 47.1736 29.3852 47.7271 28.9499C48.1423 28.6234 50.4124 33.7413 50.7913 34.4118C50.8749 34.5597 51.4545 35.7515 51.7411 35.3922C52.3142 34.674 53.4118 34.1187 54.1495 33.5815C55.9224 32.2907 57.4928 30.8434 59.1925 29.4901C59.3229 29.3863 59.8755 29.4777 59.7126 29.4201C59.1512 29.2214 59.8806 28.1863 59.984 27.9796C60.7619 26.4247 61.2675 24.79 61.8271 23.1679C62.0575 22.4997 62.6297 21.7287 62.6864 21.0271C62.7081 20.7579 62.5243 19.9876 62.8899 19.9067C63.3145 19.8128 63.0628 18.5414 63.1047 18.2261C63.168 17.7501 63.6596 18.91 63.6814 18.9464C64.3669 20.0893 64.9188 21.2579 65.5358 22.4276C65.6835 22.7077 66.0959 24.9687 66.4856 24.6784C67.4868 23.9325 68.1285 22.8128 69.1427 22.0475C70.2353 21.223 70.6307 23.3734 70.8388 23.9581C71.5045 25.829 73.5756 31.4204 72.908 29.5501C72.0659 27.1911 75.5473 27.33 76.6167 26.6891C78.3694 25.6387 78.9067 30.3861 79.9749 29.5001C80.2389 29.2812 80.3132 28.7752 80.642 28.6298C81.2229 28.3728 81.9908 29.8405 82.1798 30.1303C82.247 30.2335 82.7905 31.2581 83.0391 31.1207C83.4397 30.8992 83.5218 30.7105 84.0567 30.7105C85.5083 30.7105 85.7936 32.3676 86.2503 33.4115C86.7384 34.527 87.4071 35.1911 88.1951 36.1124C88.4976 36.4661 88.1275 35.7882 88.263 35.2321C88.6731 33.5484 89.9177 32.3477 91.248 31.1707C91.4066 31.0304 91.5497 30.6721 91.7908 30.7906C92.3756 31.078 93.0648 28.0325 93.125 27.7895C93.1857 27.5445 93.5668 24.2433 93.8713 24.2582C94.767 24.3023 95.4483 26.6541 95.7369 27.2093C95.9907 27.6972 96.2507 28.3009 96.7207 27.6394C97.5846 26.4234 97.918 24.7089 99.0047 23.648C99.0383 23.6152 105.641 22.5174 105.947 22.9178C106.347 23.4416 106.663 24.1263 107.214 24.5483C107.776 24.9795 108.692 23.1065 108.91 22.8677C109.743 21.9538 110.916 21.4318 111.85 20.627C112.32 20.2215 112.659 19.7113 113.274 19.4465C113.598 19.307 113.885 19.5045 114.066 19.7366C114.583 20.402 115.569 17.7932 115.75 17.4258C116.429 16.0492 116.594 17.5072 117.695 16.9056C120.594 15.3215 124.628 15.045 127.973 15.045C128.215 15.045 128.078 15.0317 127.973 14.9049C127.701 14.574 128.378 14.0083 128.539 13.7445C128.933 13.0974 129.068 12.261 129.353 11.5737C129.443 11.3559 129.67 10.3633 130.054 10.3633C130.72 10.3633 131.718 12.6542 131.953 13.0443C132.34 13.6843 133.31 15.8144 134.215 16.1054C134.401 16.1653 135.866 11.3414 136.058 10.8135C136.186 10.4619 136.627 9.01776 137.177 8.86279C137.448 8.78656 138.345 10.2279 138.512 10.4233C138.918 10.8994 138.501 10.5322 138.444 10.2233C138.347 9.69988 138.842 9.23517 139.326 9.00284C140.226 8.57054 141.178 9.81554 141.723 10.2333C142.357 10.7192 144.434 11.2956 144.979 10.5234C146.128 8.89668 145.725 7.5836 145.725 5.78169C145.725 5.375 146.782 4.62733 147.15 4.46123C148.144 4.01306 148.545 4.76149 149.072 5.44157C149.408 5.87513 150.401 7.75245 151.085 7.86243C151.397 7.91259 150.99 7.29903 151.04 7.02213C151.148 6.42555 151.637 5.97194 152.024 5.5016C152.526 4.88998 152.985 4.08963 153.754 3.70096C154.092 3.52983 154.448 2.74764 154.839 2.48052C155.31 2.15871 156.317 1.55092 155.902 1" stroke="url(#9845t43mcf)" stroke-linecap="round"/>
@@ -434,7 +625,7 @@ visible: true
 			<h3 class="font-semibold text-xl">12,234</h3>
 			<div class="flex items-center gap-1 justify-center h-6 px-2 rounded-sm font-medium text-xs bg-emerald-100 text-emerald-600 dark:bg-emerald-500/20 dark:text-emerald-400">
 				<svg width="14" height="14" fill="none" stroke-width="2" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" data-astro-source-file="D:/tailwindcss/widgets-components-v2.1/src/pages/index.astro" data-astro-source-loc="1461:160"> 
-					<path stroke-linecap="round" stroke-linejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" data-astro-source-file="D:/tailwindcss/widgets-components-v2.1/src/pages/index.astro" data-astro-source-loc="1462:9"></path>
+					<path stroke-linecap="round" stroke-linejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" ></path>
 				</svg>
 				<span>32.65%</span>
 			</div>
@@ -461,7 +652,7 @@ visible: true
 			<h3 class="font-semibold text-xl">573</h3>
 			<div class="flex items-center gap-1 justify-center h-6 px-2 rounded-sm font-medium text-xs bg-emerald-100 text-emerald-600 dark:bg-emerald-500/20 dark:text-emerald-400">
 				<svg width="14" height="14" fill="none" stroke-width="2" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" data-astro-source-file="D:/tailwindcss/widgets-components-v2.1/src/pages/index.astro" data-astro-source-loc="1461:160"> 
-					<path stroke-linecap="round" stroke-linejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" data-astro-source-file="D:/tailwindcss/widgets-components-v2.1/src/pages/index.astro" data-astro-source-loc="1462:9"></path>
+					<path stroke-linecap="round" stroke-linejoin="round" d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" ></path>
 				</svg>
 				<span>32.65%</span>
 			</div>
@@ -593,7 +784,7 @@ visible: true
 
 <section class="grid grid-cols-12 gap-3 mb-3" data-filter="finance">
 	<article class="border shadow-sm break-inside col-span-8 flex flex-col items-center justify-between rounded-xl gap-2 p-4 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900">
-	a	aa
+		coming soon...
 	</article>
 	<section class="col-span-4 grid gap-3">
 		<article class="border shadow-sm break-inside flex flex-col items-center justify-between rounded-xl gap-2 p-4 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900">
@@ -645,7 +836,7 @@ visible: true
 	</section>
 </article>
 
-<article class="border shadow-sm break-inside flex items-center flex-row justify-between rounded-xl p-4 mb-3 text-sm bg-indigo-600 dark:bg-gray-950 text-white dark:border-gray-900" data-filter="finance">
+<article class="shadow-sm break-inside flex items-center flex-row justify-between rounded-xl p-4 mb-3 text-sm text-white bg-gradient-to-tr from-blue-700 via-violet-800 to-fuchsia-900" data-filter="finance">
 	<header class="flex flex-col items-start gap-2">
 		<span class="uppercase text-xs font-medium text-white dark:text-gray-400">CURRENT PRICE</span>
 		<div class="flex items-center justify-center gap-2">
@@ -669,7 +860,7 @@ visible: true
 				<defs>
 					<linearGradient id="paint0_linear_228_432" x1="5" y1="1.0625" x2="139.386" y2="19.4725" gradientUnits="userSpaceOnUse">
 						<stop stop-color="#1decc2"></stop>
-						<stop offset="1" stop-color="#d8f407"> </stop>
+						<stop offset="1" stop-color="#ffd500"> </stop>
 					</linearGradient>
 				</defs>
 			</svg>
@@ -709,85 +900,85 @@ visible: true
 </article>
 
 <article class="border shadow-sm break-inside flex items-center justify-between rounded-xl p-4 mb-3 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="finance">
-	financed
+	coming soon...
 </article>
 
 <article class="border shadow-sm break-inside flex items-center justify-between rounded-xl p-4 mb-3 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="finance">
-	financed
+	coming soon...
 </article>
 
 <article class="border shadow-sm break-inside flex items-center justify-between rounded-xl p-4 mb-3 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="finance">
-	financed
+	coming soon...
 </article>
 
 <article class="border shadow-sm break-inside flex items-center justify-between rounded-xl p-4 mb-3 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="finance">
-	financed
+	coming soon...
 </article>
 
 <article class="border shadow-sm break-inside flex items-center justify-between rounded-xl p-4 mb-3 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="finance">
-	financed
+	coming soon...
 </article>
 
 <article class="border shadow-sm break-inside flex items-center justify-between rounded-xl p-4 mb-3 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="finance">
-	financed
+	coming soon...
 </article>
 
 <article class="border shadow-sm break-inside flex items-center justify-between rounded-xl p-4 mb-3 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="finance">
-	financed
+	coming soon...
 </article>
 
 <article class="border shadow-sm break-inside flex items-center justify-between rounded-xl p-4 mb-3 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="finance">
-	financed
+	coming soon...
 </article>
 
 <article class="border shadow-sm break-inside flex items-center justify-between rounded-xl p-4 mb-3 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="finance">
-	financed
+	coming soon...
 </article>
 
 <article class="border shadow-sm break-inside flex items-center justify-between rounded-xl p-4 mb-3 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="finance">
-	financed
+	coming soon...
 </article>
 
 <article class="border shadow-sm break-inside flex items-center justify-between rounded-xl p-4 mb-3 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="finance">
-	financed
+	coming soon...
 </article>
 
 <article class="border shadow-sm break-inside flex items-center justify-between rounded-xl p-4 mb-3 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="finance">
-	financed
+	coming soon...
 </article>
 
 <article class="border shadow-sm break-inside flex items-center justify-between rounded-xl p-4 mb-3 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="finance">
-	financed
+	coming soon...
 </article>
 
 <article class="border shadow-sm break-inside flex items-center justify-between rounded-xl p-4 mb-3 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="finance">
-	financed
+	coming soon...
 </article>
 
 <article class="border shadow-sm break-inside flex items-center justify-between rounded-xl p-4 mb-3 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="finance">
-	financed
+	coming soon...
 </article>
 
 <article class="border shadow-sm break-inside flex items-center justify-between rounded-xl p-4 mb-3 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="finance">
-	financed
+	coming soon...
 </article>
 
 <article class="border shadow-sm break-inside flex items-center justify-between rounded-xl p-4 mb-3 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="finance">
-	financed
+	coming soon...
 </article>
 
 <article class="border shadow-sm break-inside flex items-center justify-between rounded-xl p-4 mb-3 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="finance">
-	financed
+	coming soon...
 </article>
 
 <article class="border shadow-sm break-inside flex items-center justify-between rounded-xl p-4 mb-3 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="finance">
-	financed
+	coming soon...
 </article>
 
 <article class="border shadow-sm break-inside flex items-center justify-between rounded-xl p-4 mb-3 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="finance">
-	financed
+	coming soon...
 </article>
 
 <article class="border shadow-sm break-inside flex items-center justify-between rounded-xl p-4 mb-3 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="finance">
-	financed
+	coming soon...
 </article>

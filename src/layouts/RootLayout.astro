@@ -286,17 +286,17 @@ const pageSlug = Astro.url.pathname.split('/')[2]
 					<div class="absolute z-0 -bottom-12 transition-all duration-300 opacity-60 left-0 w-14 h-10 blur-lg bg-indigo-600 group-hover:blur-2xl group-hover:opacity-80"></div>
 					<h1 class="relative flex-none text-lg md:text-xl font-bold dark:text-white">Widgets</h1>
 				</a>
-				<ul class="hidden lg:flex items-center justify-center gap-4 w-full">
+				<ul class="hidden lg:flex items-center justify-center w-full">
 					{
 						data.filter((item) => item.visible).map((item) => {
 							return (
 								<li>
 									<a 
 										href={`/categories/${item.slug}`}
-										class="flex items-center justify-center uppercase text-sm tracking-wider rounded-sm transition-colors duration-200"
+										class="flex items-center justify-center uppercase text-sm py-2 px-4 rounded-full tracking-wider transition-colors duration-200"
 										class:list={{
 											'font-medium hover:text-black text-gray-600 dark:text-gray-500 dark:hover:text-gray-400': pageSlug !== item.slug,
-											'font-extrabold text-black dark:text-white': pageSlug === item.slug
+											'font-extrabold text-black dark:text-white bg-black/10 backdrop-blur-sm dark:bg-white/5': pageSlug === item.slug
 										}}
 										>
 										{item.category}

@@ -28,13 +28,13 @@ visible: true
       <dt class="sr-only">Users</dt>
       <dd class="flex justify-start -space-x-1.5">
         <a href="#" class="inline-block -m-1">
-          <img class="w-6 h-6 rounded-full bg-gray-100 ring-2 ring-white dark:bg-gray-600 dark:ring-gray-950" src="https://randomuser.me/api/portraits/women/46.jpg" alt="avatar" loading="lazy">
+          <img class="w-6 h-6 rounded-full bg-gray-100 ring-2 ring-white dark:bg-gray-600 dark:ring-gray-950" src="https://randomuser.me/api/portraits/women/46.jpg" alt="avatar" loading="lazy" />
         </a>
         <a href="#" class="inline-block -m-1">
-          <img class="w-6 h-6 rounded-full bg-gray-100 ring-2 ring-white dark:bg-gray-600 dark:ring-gray-950" src="https://randomuser.me/api/portraits/men/45.jpg" alt="avatar" loading="lazy">
+          <img class="w-6 h-6 rounded-full bg-gray-100 ring-2 ring-white dark:bg-gray-600 dark:ring-gray-950" src="https://randomuser.me/api/portraits/men/45.jpg" alt="avatar" loading="lazy" />
         </a>
         <a href="#" class="inline-block -m-1">
-          <img class="w-6 h-6 rounded-full bg-gray-100 ring-2 ring-white dark:bg-gray-600 dark:ring-gray-950" src="https://randomuser.me/api/portraits/women/47.jpg" alt="avatar" loading="lazy">
+          <img class="w-6 h-6 rounded-full bg-gray-100 ring-2 ring-white dark:bg-gray-600 dark:ring-gray-950" src="https://randomuser.me/api/portraits/women/47.jpg" alt="avatar" loading="lazy" />
         </a>
       </dd>
     </div>
@@ -134,13 +134,13 @@ visible: true
       <dt class="sr-only">Users</dt>
       <dd class="flex justify-start -space-x-1.5">
         <a href="#" class="inline-block -m-1">
-          <img class="w-6 h-6 rounded-full bg-gray-100 ring-2 ring-white dark:bg-gray-600 dark:ring-gray-950" src="https://randomuser.me/api/portraits/women/46.jpg" alt="avatar" loading="lazy">
+          <img class="w-6 h-6 rounded-full bg-gray-100 ring-2 ring-white dark:bg-gray-600 dark:ring-gray-950" src="https://randomuser.me/api/portraits/women/46.jpg" alt="avatar" loading="lazy" />
         </a>
         <a href="#" class="inline-block -m-1">
-          <img class="w-6 h-6 rounded-full bg-gray-100 ring-2 ring-white dark:bg-gray-600 dark:ring-gray-950" src="https://randomuser.me/api/portraits/men/45.jpg" alt="avatar" loading="lazy">
+          <img class="w-6 h-6 rounded-full bg-gray-100 ring-2 ring-white dark:bg-gray-600 dark:ring-gray-950" src="https://randomuser.me/api/portraits/men/45.jpg" alt="avatar" loading="lazy" />
         </a>
         <a href="#" class="inline-block -m-1">
-          <img class="w-6 h-6 rounded-full bg-gray-100 ring-2 ring-white dark:bg-gray-600 dark:ring-gray-950" src="https://randomuser.me/api/portraits/women/47.jpg" alt="avatar" loading="lazy">
+          <img class="w-6 h-6 rounded-full bg-gray-100 ring-2 ring-white dark:bg-gray-600 dark:ring-gray-950" src="https://randomuser.me/api/portraits/women/47.jpg" alt="avatar" loading="lazy" />
         </a>
         <a href="#" class="inline-block -m-1">
           <span class="flex items-center justify-center font-medium w-6 h-6 text-xs rounded-full bg-indigo-200 ring-2 ring-white dark:bg-gray-600 dark:ring-gray-950">+4</span>
@@ -180,13 +180,13 @@ visible: true
       <dt class="sr-only">Users</dt>
       <dd class="flex justify-start -space-x-1.5">
         <a href="#" class="inline-block -m-1">
-          <img class="w-6 h-6 rounded-full bg-gray-100 ring-2 ring-white dark:bg-gray-600 dark:ring-gray-950" src="https://randomuser.me/api/portraits/women/12.jpg" alt="avatar" loading="lazy">
+          <img class="w-6 h-6 rounded-full bg-gray-100 ring-2 ring-white dark:bg-gray-600 dark:ring-gray-950" src="https://randomuser.me/api/portraits/women/12.jpg" alt="avatar" loading="lazy" />
         </a>
         <a href="#" class="inline-block -m-1">
-          <img class="w-6 h-6 rounded-full bg-gray-100 ring-2 ring-white dark:bg-gray-600 dark:ring-gray-950" src="https://randomuser.me/api/portraits/men/13.jpg" alt="avatar" loading="lazy">
+          <img class="w-6 h-6 rounded-full bg-gray-100 ring-2 ring-white dark:bg-gray-600 dark:ring-gray-950" src="https://randomuser.me/api/portraits/men/13.jpg" alt="avatar" loading="lazy" />
         </a>
         <a href="#" class="inline-block -m-1">
-          <img class="w-6 h-6 rounded-full bg-gray-100 ring-2 ring-white dark:bg-gray-600 dark:ring-gray-950" src="https://randomuser.me/api/portraits/women/14.jpg" alt="avatar" loading="lazy">
+          <img class="w-6 h-6 rounded-full bg-gray-100 ring-2 ring-white dark:bg-gray-600 dark:ring-gray-950" src="https://randomuser.me/api/portraits/women/14.jpg" alt="avatar" loading="lazy" />
         </a>
         <a href="#" class="inline-block -m-1">
           <span class="flex items-center justify-center font-medium w-6 h-6 text-xs rounded-full bg-green-200 ring-2 ring-white dark:bg-gray-600 dark:ring-gray-950">+4</span>
@@ -228,13 +228,13 @@ visible: true
       <dt class="sr-only">Users</dt>
       <dd class="flex justify-start -space-x-1.5">
         <a href="#" class="inline-block -m-1">
-          <img class="w-6 h-6 rounded-full bg-gray-100 ring-2 ring-white dark:bg-gray-600 dark:ring-gray-950" src="https://randomuser.me/api/portraits/women/65.jpg" alt="avatar" loading="lazy">
+          <img class="w-6 h-6 rounded-full bg-gray-100 ring-2 ring-white dark:bg-gray-600 dark:ring-gray-950" src="https://randomuser.me/api/portraits/women/65.jpg" alt="avatar" loading="lazy" />
         </a>
         <a href="#" class="inline-block -m-1">
-          <img class="w-6 h-6 rounded-full bg-gray-100 ring-2 ring-white dark:bg-gray-600 dark:ring-gray-950" src="https://randomuser.me/api/portraits/men/67.jpg" alt="avatar" loading="lazy">
+          <img class="w-6 h-6 rounded-full bg-gray-100 ring-2 ring-white dark:bg-gray-600 dark:ring-gray-950" src="https://randomuser.me/api/portraits/men/67.jpg" alt="avatar" loading="lazy" />
         </a>
         <a href="#" class="inline-block -m-1">
-          <img class="w-6 h-6 rounded-full bg-gray-100 ring-2 ring-white dark:bg-gray-600 dark:ring-gray-950" src="https://randomuser.me/api/portraits/women/68.jpg" alt="avatar" loading="lazy">
+          <img class="w-6 h-6 rounded-full bg-gray-100 ring-2 ring-white dark:bg-gray-600 dark:ring-gray-950" src="https://randomuser.me/api/portraits/women/68.jpg" alt="avatar" loading="lazy" />
         </a>
         <a href="#" class="inline-block -m-1">
           <span class="text-xs flex items-center justify-center w-6 h-6 rounded-full bg-black text-white ring-2 ring-white dark:bg-white dark:text-black dark:ring-gray-950">+4</span>
@@ -295,7 +295,7 @@ visible: true
   <header class="relative w-full mb-auto">
     <img class="w-full max-w-full h-[6rem] object-cover" src="https://images.pexels.com/photos/185576/pexels-photo-185576.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" data-author="Timur Saglambilek" alt="portada" data-author-profile="https://www.pexels.com/es-es/@marketingtuig/"/>
     <div class="flex flex-col p-4 relative -mt-10 z-[1]">
-      <img class="flex-none w-14 h-14 rounded-full ring-4 ring-white dark:ring-gray-950" src="https://randomuser.me/api/portraits/men/20.jpg" alt="avatar" loading="lazy">
+      <img class="flex-none w-14 h-14 rounded-full ring-4 ring-white dark:ring-gray-950" src="https://randomuser.me/api/portraits/men/20.jpg" alt="avatar" loading="lazy" />
       <div class="mt-2">
         <h2 class="font-semibold text-base">Hendrik</h2>
         <p class="text-gray-500">Director of Marketing</p>
@@ -334,13 +334,13 @@ visible: true
       <dt class="sr-only">Users</dt>
       <dd class="flex justify-start -space-x-1.5">
         <a href="#" class="inline-block -m-1">
-          <img class="w-6 h-6 rounded-full bg-gray-100 ring-2 ring-white dark:bg-gray-600 dark:ring-gray-950" src="https://randomuser.me/api/portraits/women/65.jpg" alt="avatar" loading="lazy">
+          <img class="w-6 h-6 rounded-full bg-gray-100 ring-2 ring-white dark:bg-gray-600 dark:ring-gray-950" src="https://randomuser.me/api/portraits/women/65.jpg" alt="avatar" loading="lazy" />
         </a>
         <a href="#" class="inline-block -m-1">
-          <img class="w-6 h-6 rounded-full bg-gray-100 ring-2 ring-white dark:bg-gray-600 dark:ring-gray-950" src="https://randomuser.me/api/portraits/men/67.jpg" alt="avatar" loading="lazy">
+          <img class="w-6 h-6 rounded-full bg-gray-100 ring-2 ring-white dark:bg-gray-600 dark:ring-gray-950" src="https://randomuser.me/api/portraits/men/67.jpg" alt="avatar" loading="lazy" />
         </a>
         <a href="#" class="inline-block -m-1">
-          <img class="w-6 h-6 rounded-full bg-gray-100 ring-2 ring-white dark:bg-gray-600 dark:ring-gray-950" src="https://randomuser.me/api/portraits/women/68.jpg" alt="avatar" loading="lazy">
+          <img class="w-6 h-6 rounded-full bg-gray-100 ring-2 ring-white dark:bg-gray-600 dark:ring-gray-950" src="https://randomuser.me/api/portraits/women/68.jpg" alt="avatar" loading="lazy" />
         </a>
       </dd>
     </div>
@@ -494,7 +494,7 @@ visible: true
   <div class="absolute right-0 top-0 w-14 h-14 bg-amber-500/20 blur-2xl"></div>
   <section class="relative flex justify-start items-start gap-3">
     <figure class="relative flex-none w-14 h-14">
-      <img class="flex-none w-full rounded-full object-cover" src="https://randomuser.me/api/portraits/women/67.jpg" alt="avatar" loading="lazy">
+      <img class="flex-none w-full rounded-full object-cover" src="https://randomuser.me/api/portraits/women/67.jpg" alt="avatar" loading="lazy" />
       <figcaption class="sr-only">Avatar</figcaption>
       <span class="absolute right-0 bottom-0 inline-block w-3.5 h-3.5 rounded-full bg-green-500 border-2 border-white dark:border-gray-950"></span>
     </figure>
@@ -526,6 +526,41 @@ visible: true
     </div>
   </section>
 </article>
+
+<section class="grid grid-cols-4 gap-3 mb-3">
+  <article class="border shadow-sm break-inside overflow-hidden relative flex flex-col rounded-xl text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="social">
+    <div class="flex items-center justify-center font-medium py-2 uppercase text-xs bg-lime-500 text-white">
+      Sep
+    </div>
+    <div class="flex items-center flex-col justify-center text-center gap-1 text-sm p-1.5 bg-white dark:bg-gray-900">
+      <span class="border w-8 h-8 rounded-full flex items-center justify-center font-bold dark:border-gray-800">8</span>
+    </div>
+  </article>
+  <article class="border shadow-sm break-inside overflow-hidden relative flex flex-col rounded-xl text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="social">
+    <div class="flex items-center justify-center font-medium py-2 uppercase text-xs bg-indigo-500 text-white">
+      Jan
+    </div>
+    <div class="flex items-center flex-col justify-center text-center gap-1 text-sm p-1.5 bg-white dark:bg-gray-900">
+      <span class="border w-8 h-8 rounded-full flex items-center justify-center font-bold dark:border-gray-800">11</span>
+    </div>
+  </article>
+  <article class="border shadow-sm break-inside overflow-hidden relative flex flex-col rounded-xl text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="social">
+    <div class="flex items-center justify-center font-medium py-2 uppercase text-xs bg-rose-500 text-white">
+      Feb
+    </div>
+    <div class="flex items-center flex-col justify-center text-center gap-1 text-sm p-1.5 bg-white dark:bg-gray-900">
+      <span class="border w-8 h-8 rounded-full flex items-center justify-center font-bold dark:border-gray-800">23</span>
+    </div>
+  </article>
+  <article class="border shadow-sm break-inside overflow-hidden relative flex flex-col rounded-xl text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="social">
+    <div class="flex items-center justify-center font-medium py-2 uppercase text-xs bg-emerald-500 text-white">
+      Mar
+    </div>
+    <div class="flex items-center flex-col justify-center text-center gap-1 text-sm p-1.5 bg-white dark:bg-gray-900">
+      <span class="border w-8 h-8 rounded-full flex items-center justify-center font-bold dark:border-gray-800">9</span>
+    </div>
+  </article>
+</section>
 
 <article class="border shadow-sm break-inside rounded-xl p-3 mb-3 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="social">
   <header class="flex items-center justify-between gap-2">
@@ -586,7 +621,7 @@ visible: true
   <div class="absolute bottom-0 left-0 w-full p-4 bg-gradient-to-t from-black to-transparent text-white">
     <div class="flex items-center gap-3">
       <figure class="relative w-10 h-10">
-        <img class="flex-none w-full rounded-full" src="https://randomuser.me/api/portraits/women/18.jpg" alt="avatar" loading="lazy">
+        <img class="flex-none w-full rounded-full" src="https://randomuser.me/api/portraits/women/18.jpg" alt="avatar" loading="lazy" />
         <figcaption class="sr-only">Avatar</figcaption>
       </figure>
       <div class="flex-auto">
@@ -606,7 +641,7 @@ visible: true
   <img class="w-full max-w-full h-24 object-cover" src="https://images.pexels.com/photos/92866/pexels-photo-92866.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" data-author="Leonie Fahjen" data-author-profile="https://www.pexels.com/es-es/@leonie-fahjen-20345/">
   <div class="p-4 relative">
     <figure class="relative w-14 h-14 -mt-12">
-      <img class="flex-none w-full rounded-full border-4 border-white" src="https://randomuser.me/api/portraits/women/20.jpg" alt="avatar" loading="lazy">
+      <img class="flex-none w-full rounded-full border-4 border-white" src="https://randomuser.me/api/portraits/women/20.jpg" alt="avatar" loading="lazy" />
       <figcaption class="sr-only">Avatar</figcaption>
     </figure>
     <div class="w-full mt-1">
@@ -624,12 +659,12 @@ visible: true
 <section class="grid grid-cols-12 gap-3 mb-3">
   <article class="col-span-4 border shadow-sm break-inside relative overflow-hidden flex items-start flex-col justify-between rounded-xl gap-2 p-3 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="social">
     <div class="absolute right-0 top-0 w-12 h-12 bg-rose-500/40 blur-2xl"></div>
-    <img class="flex-none rounded-full w-11 h-11" src="https://randomuser.me/api/portraits/men/77.jpg" alt="avatar" loading="lazy">
+    <img class="flex-none rounded-full w-11 h-11" src="https://randomuser.me/api/portraits/men/77.jpg" alt="avatar" loading="lazy" />
     <h2 class="font-medium">Frank Mendes</h2>
     <button class="flex items-center justify-center cursor-pointer rounded-full h-7 px-3 w-full text-sm bg-blue-700 text-white">Edit</button>
   </article>
   <label html-for="user-1" class="cursor-pointer col-span-5 border shadow-sm break-inside flex items-start flex-col justify-between rounded-xl gap-2 p-3 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="social">
-    <img class="flex-none w-8 h-8 rounded-full" src="https://randomuser.me/api/portraits/women/85.jpg" alt="avatar" loading="lazy">
+    <img class="flex-none w-8 h-8 rounded-full" src="https://randomuser.me/api/portraits/women/85.jpg" alt="avatar" loading="lazy" />
     <div>
       <h2 class="text-base font-medium">Amanda</h2>
       <p class="text-xs">23 years old</p>
@@ -638,7 +673,7 @@ visible: true
     <input type="checkbox" name="user-1" checked="" class="h-[16px] px-[3px] w-[30px] relative flex-none cursor-pointer appearance-none rounded-full bg-gray-300 dark:bg-gray-700 before:transition-transform before:duration-200 before:pointer-events-none before:absolute before:top-1/2 before:-translate-y-1/2 before:h-3 before:w-3 before:rounded-full before:bg-transparent before:content-[''] before:transform before:translate-x-0 before:bg-white focus:bg-gray-400 dark:focus:bg-gray-600 focus:checked:bg-green-600 checked:bg-green-600 checked:before:translate-x-full checked:before:bg-white">
   </label>
   <article class="col-span-3 border shadow-sm break-inside flex items-center justify-between flex-col rounded-xl gap-2 p-3 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="social">
-    <img class="flex-none w-10 h-10 rounded-full object-cover" src="https://randomuser.me/api/portraits/women/67.jpg" alt="avatar" loading="lazy">
+    <img class="flex-none w-10 h-10 rounded-full object-cover" src="https://randomuser.me/api/portraits/women/67.jpg" alt="avatar" loading="lazy" />
     <button class="inline-flex items-center justify-center w-8 h-8 transition-all rounded-full border hover:bg-black/10 dark:hover:bg-white/10">
       <svg width="18" height="18" fill="none" stroke-width="1.5" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
         <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 0 0 2.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 0 1-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 0 0-1.091-.852H4.5A2.25 2.25 0 0 0 2.25 4.5v2.25Z"></path>
@@ -662,7 +697,7 @@ visible: true
 </section>
 
 <article class="border shadow-sm overflow-hidden break-inside grid grid-cols-12 rounded-xl mb-3 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="social">
-  <img class="w-full max-w-full h-full object-cover col-span-4" src="https://images.pexels.com/photos/708488/pexels-photo-708488.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" data-author="Sydney Troxell" data-author-profile="https://www.pexels.com/es-es/@sydney-troxell-223521" loading="lazy">
+  <img class="w-full max-w-full h-full object-cover col-span-4" src="https://images.pexels.com/photos/708488/pexels-photo-708488.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" data-author="Sydney Troxell" data-author-profile="https://www.pexels.com/es-es/@sydney-troxell-223521" loading="lazy" />
   <div class="p-3 flex flex-col col-span-8">
     <a href="#" class="text-base font-semibold block">Jhoanna Millers</a>
     <span class="text-gray-600 dark:text-gray-400">Auxiliar</span>
@@ -670,9 +705,9 @@ visible: true
 </article>
 
 <article class="border shadow-sm overflow-hidden break-inside grid grid-cols-12 rounded-xl mb-3 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="social">
-  <img class="w-full max-w-full h-full object-cover col-span-4" src="https://images.pexels.com/photos/991678/pexels-photo-991678.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" data-author="Tan Danh" data-author-profile="https://www.pexels.com/es-es/@dtanpt/" loading="lazy">
+  <img class="w-full max-w-full h-full object-cover col-span-4" src="https://images.pexels.com/photos/991678/pexels-photo-991678.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" data-author="Tan Danh" data-author-profile="https://www.pexels.com/es-es/@dtanpt/" loading="lazy" />
   <div class="p-4 col-span-8">
-    <img class="flex-none mt-1 w-12 h-12 rounded-full ring-2 ring-emerald-600 border-2 border-white dark:border-gray-950" src="https://randomuser.me/api/portraits/men/86.jpg" alt="avatar" loading="lazy">
+    <img class="flex-none mt-1 w-12 h-12 rounded-full ring-2 ring-emerald-600 border-2 border-white dark:border-gray-950" src="https://randomuser.me/api/portraits/men/86.jpg" alt="avatar" loading="lazy" />
     <div class="flex flex-col mt-2">
       <a href="#" class="text-base font-semibold block">Jhonathan</a>
       <span class="text-gray-600 dark:text-gray-400">Frontend Development</span>
@@ -681,10 +716,10 @@ visible: true
 </article>
 
 <article class="border shadow-sm overflow-hidden break-inside grid grid-cols-12 rounded-xl mb-3 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="social">
-  <img class="w-full max-w-full h-[8rem] object-cover col-span-5" src="https://images.pexels.com/photos/3182452/pexels-photo-3182452.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" data-author="Alex Azabache" data-author-profile="https://www.pexels.com/es-es/@alexazabache/" loading="lazy">
+  <img class="w-full max-w-full h-[8rem] object-cover col-span-5" src="https://images.pexels.com/photos/3182452/pexels-photo-3182452.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" data-author="Alex Azabache" data-author-profile="https://www.pexels.com/es-es/@alexazabache/" loading="lazy" />
   <div class="h-full flex items-center col-span-7">
     <div class="p-4 flex items-center gap-3 relative -ml-[3rem]">
-      <img class="flex-none mt-1 w-14 h-14 rounded-full border-2 border-white dark:border-gray-950" src="https://randomuser.me/api/portraits/men/95.jpg" alt="avatar" loading="lazy">
+      <img class="flex-none mt-1 w-14 h-14 rounded-full border-2 border-white dark:border-gray-950" src="https://randomuser.me/api/portraits/men/95.jpg" alt="avatar" loading="lazy" />
       <div class="flex flex-col">
         <a href="#" class="text-base font-semibold block">Roman</a>
         <span class="text-gray-600 dark:text-gray-400">Photographer</span>
@@ -695,28 +730,28 @@ visible: true
 
 <section class="grid grid-cols-2 gap-3 mb-3">
   <article class="border shadow-sm break-inside rounded-full flex items-center p-1.5 gap-2 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="social">
-    <img class="flex-none w-8 h-8 rounded-full" src="https://randomuser.me/api/portraits/women/81.jpg" alt="avatar" loading="lazy">
+    <img class="flex-none w-8 h-8 rounded-full" src="https://randomuser.me/api/portraits/women/81.jpg" alt="avatar" loading="lazy" />
     <h2 class="text-sm font-medium">Natalia G.</h2>
   </article>
   <article class="border shadow-sm break-inside rounded-full flex items-center p-1.5 gap-2 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="social">
-    <img class="flex-none w-8 h-8 rounded-full" src="https://randomuser.me/api/portraits/men/81.jpg" alt="avatar" loading="lazy">
+    <img class="flex-none w-8 h-8 rounded-full" src="https://randomuser.me/api/portraits/men/81.jpg" alt="avatar" loading="lazy" />
     <h2 class="text-sm font-medium">Bruce W.</h2>
   </article>
   <article class="border shadow-sm break-inside rounded-full flex items-center p-1.5 gap-2 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="social">
-    <img class="flex-none w-8 h-8 rounded-full" src="https://randomuser.me/api/portraits/men/81.jpg" alt="avatar" loading="lazy">
+    <img class="flex-none w-8 h-8 rounded-full" src="https://randomuser.me/api/portraits/men/81.jpg" alt="avatar" loading="lazy" />
     <h2 class="text-sm font-medium">Marcos</h2>
   </article>
   <article class="border shadow-sm break-inside rounded-full flex items-center p-1.5 gap-2 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="social">
-    <img class="flex-none w-8 h-8 rounded-full" src="https://randomuser.me/api/portraits/men/81.jpg" alt="avatar" loading="lazy">
+    <img class="flex-none w-8 h-8 rounded-full" src="https://randomuser.me/api/portraits/men/81.jpg" alt="avatar" loading="lazy" />
     <h2 class="text-sm font-medium">Andres</h2>
   </article>
   <article class="border shadow-sm break-inside rounded-full flex items-center gap-2 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="social">
-    <img class="flex-none w-11 h-11 rounded-full" src="https://randomuser.me/api/portraits/men/94.jpg" alt="avatar" loading="lazy">
+    <img class="flex-none w-11 h-11 rounded-full" src="https://randomuser.me/api/portraits/men/94.jpg" alt="avatar" loading="lazy" />
     <h2 class="text-sm font-medium">Hendrix</h2>
   </article>
   <article class="border shadow-sm break-inside rounded-full flex items-center justify-between p-1.5 gap-2 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="social">
     <header class="flex items-center gap-2">
-      <img class="flex-none w-7 h-7 rounded-full" src="https://randomuser.me/api/portraits/men/21.jpg" alt="avatar" loading="lazy">
+      <img class="flex-none w-7 h-7 rounded-full" src="https://randomuser.me/api/portraits/men/21.jpg" alt="avatar" loading="lazy" />
       <h2 class="text-sm font-medium">Duarte</h2>
     </header>
     <button class="flex flex-none items-center justify-center w-7 h-7 transition-all rounded-full hover:bg-gray-100 dark:hover:bg-gray-900">
@@ -728,7 +763,7 @@ visible: true
   <article class="relative rounded-full bg-gray-100 dark:bg-gray-900" data-filter="social">
     <div class="relative -top-1 -left-1 rotate-3 border shadow-lg break-inside rounded-full flex items-center justify-between p-1.5 gap-2 text-sm bg-white dark:bg-gray-700 dark:text-white dark:border-gray-700">
       <header class="flex items-center gap-2">
-      <img class="flex-none w-7 h-7 rounded-full" src="https://randomuser.me/api/portraits/men/11.jpg" alt="avatar" loading="lazy">
+      <img class="flex-none w-7 h-7 rounded-full" src="https://randomuser.me/api/portraits/men/11.jpg" alt="avatar" loading="lazy" />
       <h2 class="text-sm font-medium">Manolo</h2>
     </header>
     <button class="flex flex-none items-center justify-center w-7 h-7 transition-all rounded-full hover:bg-gray-100 dark:hover:bg-gray-900">
@@ -738,7 +773,7 @@ visible: true
   </article>
   <article class="border shadow-sm break-inside rounded-full flex items-center justify-between p-1.5 gap-2 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="social">
     <header class="flex items-center gap-2">
-      <img class="flex-none w-7 h-7 rounded-full" src="https://randomuser.me/api/portraits/men/21.jpg" alt="avatar" loading="lazy">
+      <img class="flex-none w-7 h-7 rounded-full" src="https://randomuser.me/api/portraits/men/21.jpg" alt="avatar" loading="lazy" />
       <h2 class="text-xs font-medium">Jhon M.</h2>
     </header>
     <button class="flex flex-none items-center justify-center w-7 h-7 transition-all rounded-full hover:bg-gray-100 dark:hover:bg-gray-900">
@@ -748,20 +783,20 @@ visible: true
     </button>
   </article>
   <article class="border shadow-sm break-inside rounded-full flex items-center p-1.5 gap-2 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="social">
-    <img class="flex-none w-8 h-8 rounded-full" src="https://randomuser.me/api/portraits/women/41.jpg" alt="avatar" loading="lazy">
+    <img class="flex-none w-8 h-8 rounded-full" src="https://randomuser.me/api/portraits/women/41.jpg" alt="avatar" loading="lazy" />
     <h2 class="text-sm font-medium">Cristina</h2>
   </article>
   <article class="shadow-sm break-inside rounded-full flex items-center p-1.5 gap-2 text-sm text-white bg-gradient-to-tr from-rose-600 to-amber-500" data-filter="social">
-    <img class="flex-none w-8 h-8 rounded-full" src="https://randomuser.me/api/portraits/women/11.jpg" alt="avatar" loading="lazy">
+    <img class="flex-none w-8 h-8 rounded-full" src="https://randomuser.me/api/portraits/women/11.jpg" alt="avatar" loading="lazy" />
     <h2 class="text-sm font-medium">Fabiola</h2>
   </article>
-  <article class="shadow-sm break-inside rounded-full flex items-center p-1.5 gap-2 text-sm text-white bg-gradient-to-tl from-indigo-600 to-emerald-500" data-filter="social">
-    <img class="flex-none w-8 h-8 rounded-full" src="https://randomuser.me/api/portraits/women/61.jpg" alt="avatar" loading="lazy">
+  <article class="shadow-sm break-inside rounded-full flex items-center p-1.5 gap-2 text-sm text-white bg-gradient-to-bl from-lime-400 via-emerald-500 to-green-600" data-filter="social">
+    <img class="flex-none w-8 h-8 rounded-full" src="https://randomuser.me/api/portraits/women/61.jpg" alt="avatar" loading="lazy" />
     <h2 class="text-sm font-medium">Laritha</h2>
   </article>
   <article class="shadow-sm break-inside rounded-full flex items-center justify-between p-1.5 gap-2 text-sm text-white bg-gradient-to-tl from-pink-600 to-rose-600" data-filter="social">
     <header class="flex items-center gap-2">
-      <img class="flex-none w-8 h-8 rounded-full" src="https://randomuser.me/api/portraits/men/51.jpg" alt="avatar" loading="lazy">
+      <img class="flex-none w-8 h-8 rounded-full" src="https://randomuser.me/api/portraits/men/51.jpg" alt="avatar" loading="lazy" />
       <h2 class="text-sm font-medium">Luis P.</h2>
     </header>
     <button class="flex flex-none items-center justify-center w-7 h-7 transition-all rounded-full hover:bg-white/10 dark:hover:bg-gray-900">
@@ -770,10 +805,23 @@ visible: true
       </svg>
     </button>
   </article>
-  <article class="shadow-sm break-inside rounded-full flex items-center p-1.5 gap-2 text-sm text-white bg-gradient-to-tl from-blue-600 to-emerald-500" data-filter="social">
-    <img class="flex-none w-8 h-8 rounded-full" src="https://randomuser.me/api/portraits/men/41.jpg" alt="avatar" loading="lazy">
+  <article class="shadow-sm break-inside rounded-full flex items-center p-1.5 gap-2 text-sm text-white bg-gradient-to-tr from-blue-700 via-violet-800 to-fuchsia-900" data-filter="social">
+    <img class="flex-none w-8 h-8 rounded-full" src="https://randomuser.me/api/portraits/men/41.jpg" alt="avatar" loading="lazy" />
     <h2 class="text-sm font-medium">Ernesto</h2>
   </article>
+  <div class="border-2 border-dashed border-rose-300 bg-rose-100 relative rounded-full h-[45px] dark:bg-rose-500/15 dark:border-rose-600/30">
+    <article class="absolute -top-2 -left-2 w-full rotate-2 shadow-[2px_5px_13px_-4px_#c3005961_,_1px_-1px_6px_-1px_#04000024] break-inside rounded-full flex items-center justify-between p-1.5 gap-1 text-sm bg-white dark:bg-gray-950 dark:text-white" data-filter="social">
+      <header class="flex items-center gap-1">
+        <img class="flex-none w-8 h-8 rounded-full" src="https://randomuser.me/api/portraits/women/11.jpg" alt="avatar" loading="lazy" />
+        <h2 class="text-sm font-medium">Martha</h2>
+      </header>
+      <button class="flex flex-none items-center justify-center w-7 h-7 transition-all rounded-full hover:bg-gray-100 dark:hover:bg-gray-900">
+        <svg width="16" height="16" fill="none" stroke-width="2" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+          <path stroke-linecap="round" stroke-linejoin="round" d="m14.74 9-.346 9m-4.788 0L9.26 9m9.968-3.21c.342.052.682.107 1.022.166m-1.022-.165L18.16 19.673a2.25 2.25 0 0 1-2.244 2.077H8.084a2.25 2.25 0 0 1-2.244-2.077L4.772 5.79m14.456 0a48.108 48.108 0 0 0-3.478-.397m-12 .562c.34-.059.68-.114 1.022-.165m0 0a48.11 48.11 0 0 1 3.478-.397m7.5 0v-.916c0-1.18-.91-2.164-2.09-2.201a51.964 51.964 0 0 0-3.32 0c-1.18.037-2.09 1.022-2.09 2.201v.916m7.5 0a48.667 48.667 0 0 0-7.5 0"></path>
+        </svg>
+      </button>
+    </article>
+  </div>
 </section>
 
 <article class="relative group overflow-hidden shadow-sm break-inside rounded-xl p-[1px] mb-3 text-sm" data-filter="social">
@@ -834,9 +882,9 @@ visible: true
         <div class="mt-1 flex items-center">
           <a class="inline-flex items-center py-2 mr-3" href="#">
             <span class="mr-2">
-              <svg class="fill-rose-600" width="18" height="18" viewBox="0 0 24 24"><path d="M12,21.35L10.55,20.03C5.4,15.36 2,12.27 2,8.5C2,5.41 4.42,3 7.5,3C9.24,3 10.91,3.81 12,5.08C13.09,3.81 14.76,3 16.5,3C19.58,3 22,5.41 22,8.5C22,12.27 18.6,15.36 13.45,20.03L12,21.35Z"></path></svg>
+              <svg class="fill-rose-600" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 512 512"><path d="M256 448a32 32 0 01-18-5.57c-78.59-53.35-112.62-89.93-131.39-112.8-40-48.75-59.15-98.8-58.61-153C48.63 114.52 98.46 64 159.08 64c44.08 0 74.61 24.83 92.39 45.51a6 6 0 009.06 0C278.31 88.81 308.84 64 352.92 64c60.62 0 110.45 50.52 111.08 112.64.54 54.21-18.63 104.26-58.61 153-18.77 22.87-52.8 59.45-131.39 112.8a32 32 0 01-18 5.56z"/></svg>
             </span>
-            <span class="font-bold">2</span>
+            <span class="font-bold">167</span>
           </a>
           <button class="py-1 px-4 font-medium transition-colors duration-300 hover:bg-gray-50 dark:hover:bg-white/10 rounded-md">Repply</button>
         </div>
@@ -862,11 +910,80 @@ visible: true
         <div class="mt-1 flex items-center">
           <a class="inline-flex items-center py-2 mr-3" href="#">
             <span class="mr-2">
-              <svg class="fill-rose-600" width="18" height="18" viewBox="0 0 24 24"><path d="M12,21.35L10.55,20.03C5.4,15.36 2,12.27 2,8.5C2,5.41 4.42,3 7.5,3C9.24,3 10.91,3.81 12,5.08C13.09,3.81 14.76,3 16.5,3C19.58,3 22,5.41 22,8.5C22,12.27 18.6,15.36 13.45,20.03L12,21.35Z"></path></svg>
+              <svg class="fill-rose-600" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 512 512"><path d="M256 448a32 32 0 01-18-5.57c-78.59-53.35-112.62-89.93-131.39-112.8-40-48.75-59.15-98.8-58.61-153C48.63 114.52 98.46 64 159.08 64c44.08 0 74.61 24.83 92.39 45.51a6 6 0 009.06 0C278.31 88.81 308.84 64 352.92 64c60.62 0 110.45 50.52 111.08 112.64.54 54.21-18.63 104.26-58.61 153-18.77 22.87-52.8 59.45-131.39 112.8a32 32 0 01-18 5.56z"/></svg>
             </span>
-            <span class="font-bold">2</span>
+            <span class="font-bold">8</span>
           </a>
           <button class="py-1 px-4 font-medium transition-colors duration-300 hover:bg-gray-50 dark:hover:bg-white/10 rounded-md">Repply</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</article>
+
+<article class="border group shadow-sm break-inside rounded-xl mb-3 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="social">
+  <div class="grid grid-cols-12 gap-3 p-3">
+    <div class="flex flex-col gap-2 items-center flex-none h-full col-span-2">
+      <a class="inline-block" href="#">
+        <img class="rounded-full max-w-none w-9 h-9" src="https://randomuser.me/api/portraits/women/24.jpg" alt="Avatar">
+      </a>
+    </div>
+    <div class="col-span-10">
+      <div class="flex-1 relative">
+        <button class="hidden absolute right-0 top-0 group-hover:flex items-center justify-center rounded-full p-1 transition-all hover:bg-gray-200 dark:hover:bg-white/10">
+          <svg width="22" height="22" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12,16A2,2 0 0,1 14,18A2,2 0 0,1 12,20A2,2 0 0,1 10,18A2,2 0 0,1 12,16M12,10A2,2 0 0,1 14,12A2,2 0 0,1 12,14A2,2 0 0,1 10,12A2,2 0 0,1 12,10M12,4A2,2 0 0,1 14,6A2,2 0 0,1 12,8A2,2 0 0,1 10,6A2,2 0 0,1 12,4Z" fill="currentColor"></path></svg>
+        </button>
+        <div class="flex items-center">
+          <a class="inline-block font-bold mr-2" href="#">Carmen Ramsey</a>
+          <span class="text-xs text-gray-400">3 min ago</span>
+        </div>
+        <p class="text-xs">
+          Dolor sit 😂😂😂 smod
+          <br />
+          olor sit ame tetur.
+        </p>
+        <div class="flex items-center">
+          <a class="inline-flex items-center py-2 mr-3" href="#">
+            <span class="mr-2">
+              <svg class="fill-rose-600" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 512 512"><path d="M256 448a32 32 0 01-18-5.57c-78.59-53.35-112.62-89.93-131.39-112.8-40-48.75-59.15-98.8-58.61-153C48.63 114.52 98.46 64 159.08 64c44.08 0 74.61 24.83 92.39 45.51a6 6 0 009.06 0C278.31 88.81 308.84 64 352.92 64c60.62 0 110.45 50.52 111.08 112.64.54 54.21-18.63 104.26-58.61 153-18.77 22.87-52.8 59.45-131.39 112.8a32 32 0 01-18 5.56z"/></svg>
+            </span>
+            <span class="font-bold">12</span>
+          </a>
+          <button class="py-1 px-4 font-medium transition-colors duration-300 hover:bg-gray-50 dark:hover:bg-white/10 rounded-md">Repply</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="p-2">
+    <div class="relative h-[76px] border-2 border-dashed rounded-lg border-rose-200 bg-rose-50 dark:bg-rose-500/15 dark:border-rose-600/30">
+      <div class="absolute -left-6 -top-4 rotate-2 grid grid-cols-12 gap-3 p-3 rounded-lg w-full max-w-[290px] shadow-[2px_5px_43px_-4px_#c3005961_,_1px_-1px_3px_-1px_#04000024] bg-white dark:bg-gray-900">
+        <div class="flex flex-col gap-2 items-center flex-none h-full col-span-2">
+          <a class="inline-block" href="#">
+            <img class="rounded-full max-w-none w-9 h-9" src="https://randomuser.me/api/portraits/men/47.jpg" alt="Avatar">
+          </a>
+        </div>
+        <div class="col-span-10">
+          <div class="flex-1 relative">
+            <button class="flex absolute right-0 top-0 group-hover:flex items-center justify-center rounded-full w-9 h-9 transition-all bg-rose-200 text-rose-700 hover:bg-rose-300 dark:bg-rose-500/20 dark:text-rose-400 dark:hover:bg-rose-500/30">
+              <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" stroke-width="1.5" width="20" height="20" class="text-current">
+                <path class="stroke-current fill-none" d="M16.88,22.5H7.12a1.9,1.9,0,0,1-1.9-1.8L4.36,5.32H19.64L18.78,20.7A1.9,1.9,0,0,1,16.88,22.5Z"></path>
+                <line class="stroke-current fill-none" x1="2.45" y1="5.32" x2="21.55" y2="5.32"></line>
+                <path class="stroke-current fill-none" d="M10.09,1.5h3.82a1.91,1.91,0,0,1,1.91,1.91V5.32a0,0,0,0,1,0,0H8.18a0,0,0,0,1,0,0V3.41A1.91,1.91,0,0,1,10.09,1.5Z"></path>
+                <line class="stroke-current fill-none" x1="12" y1="8.18" x2="12" y2="19.64"></line>
+                <line class="stroke-current fill-none" x1="15.82" y1="8.18" x2="15.82" y2="19.64"></line>
+                <line class="stroke-current fill-none" x1="8.18" y1="8.18" x2="8.18" y2="19.64"></line>
+              </svg>
+            </button>
+            <div class="flex items-center">
+              <a class="inline-block font-bold mr-2" href="#">Stephan Mills</a>
+              <span class="text-xs text-gray-400">3 min ago</span>
+            </div>
+            <p class="text-xs">
+              Dolor sit ametei usm odolor
+              <br />
+              sit amet onse tetur 
+            </p>
+          </div>
         </div>
       </div>
     </div>
@@ -936,13 +1053,13 @@ visible: true
         <dt class="sr-only">Users</dt>
         <dd class="flex justify-start -space-x-1.5">
           <a href="#" class="inline-block -m-1">
-            <img class="w-5 h-5 rounded-full bg-gray-100 ring-2 ring-white dark:bg-gray-600 dark:ring-gray-950" src="https://randomuser.me/api/portraits/women/46.jpg" alt="avatar" loading="lazy">
+            <img class="w-5 h-5 rounded-full bg-gray-100 ring-2 ring-white dark:bg-gray-600 dark:ring-gray-950" src="https://randomuser.me/api/portraits/women/46.jpg" alt="avatar" loading="lazy" />
           </a>
           <a href="#" class="inline-block -m-1">
-            <img class="w-5 h-5 rounded-full bg-gray-100 ring-2 ring-white dark:bg-gray-600 dark:ring-gray-950" src="https://randomuser.me/api/portraits/men/45.jpg" alt="avatar" loading="lazy">
+            <img class="w-5 h-5 rounded-full bg-gray-100 ring-2 ring-white dark:bg-gray-600 dark:ring-gray-950" src="https://randomuser.me/api/portraits/men/45.jpg" alt="avatar" loading="lazy" />
           </a>
           <a href="#" class="inline-block -m-1">
-            <img class="w-5 h-5 rounded-full bg-gray-100 ring-2 ring-white dark:bg-gray-600 dark:ring-gray-950" src="https://randomuser.me/api/portraits/women/47.jpg" alt="avatar" loading="lazy">
+            <img class="w-5 h-5 rounded-full bg-gray-100 ring-2 ring-white dark:bg-gray-600 dark:ring-gray-950" src="https://randomuser.me/api/portraits/women/47.jpg" alt="avatar" loading="lazy" />
           </a>
         </dd>
       </div>
@@ -990,7 +1107,7 @@ visible: true
     <div class="absolute z-0 top-4 right-4 w-16 h-16 bg-blue-500/30 blur-2xl" ></div>
     <header class="relative w-full mb-auto">
       <div class="flex flex-col">
-        <img class="flex-none w-12 h-12 rounded-full" src="https://randomuser.me/api/portraits/men/20.jpg" alt="avatar" loading="lazy">
+        <img class="flex-none w-12 h-12 rounded-full" src="https://randomuser.me/api/portraits/men/20.jpg" alt="avatar" loading="lazy" />
         <div class="mt-2">
           <h2 class="font-semibold text-base">Hendrik</h2>
           <p class="text-gray-500">Software Developer</p>
@@ -1016,7 +1133,7 @@ visible: true
     <article class="border break-inside flex items-center justify-between rounded-xl p-2 mb-3 text-sm bg-green-100 border-green-100 dark:bg-green-600/30 dark:border-green-600/10 dark:text-green-400" data-filter="social">
       <header class="relative w-full">
         <div class="flex flex-col">
-          <img class="flex-none w-9 h-9 rounded-full" src="https://randomuser.me/api/portraits/women/21.jpg" alt="avatar" loading="lazy">
+          <img class="flex-none w-9 h-9 rounded-full" src="https://randomuser.me/api/portraits/women/21.jpg" alt="avatar" loading="lazy" />
           <div class="mt-2">
             <h2 class="font-semibold text-base">Catherine</h2>
             <p class="text-black/60 dark:text-green-600">Director</p>
@@ -1031,13 +1148,13 @@ visible: true
     </article>
     <div class="flex flex-col">
       <article class="border break-inside flex items-center justify-between rounded-xl p-2 mb-3 gap-2 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="social">
-        <img class="flex-none w-7 h-7 rounded-full object-cover" src="https://randomuser.me/api/portraits/men/20.jpg" alt="avatar" loading="lazy">
+        <img class="flex-none w-7 h-7 rounded-full object-cover" src="https://randomuser.me/api/portraits/men/20.jpg" alt="avatar" loading="lazy" />
         <div class="flex-col items-start flex-auto">
           <a href="#" class="text-xs font-medium block">Jhon Mills</a>
         </div>
       </article>
       <article class="border break-inside flex items-center justify-between rounded-xl p-2 mb-3 gap-2 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="social">
-        <img class="flex-none w-7 h-7 rounded-full object-cover" src="https://randomuser.me/api/portraits/women/60.jpg" alt="avatar" loading="lazy">
+        <img class="flex-none w-7 h-7 rounded-full object-cover" src="https://randomuser.me/api/portraits/women/60.jpg" alt="avatar" loading="lazy" />
         <div class="flex-col items-start flex-auto">
           <a href="#" class="text-xs font-medium block">Alejandra</a>
         </div>
@@ -1052,7 +1169,7 @@ visible: true
       <span class="font-medium">Jun</span>
       <span class="text-xs font-medium text-pink-500">23</span>
     </div>
-    <img class="flex-none w-10 h-10 rounded-xl" src="https://randomuser.me/api/portraits/women/21.jpg" alt="avatar" loading="lazy">
+    <img class="flex-none w-10 h-10 rounded-xl" src="https://randomuser.me/api/portraits/women/21.jpg" alt="avatar" loading="lazy" />
     <hr class="border h-6 border-gray-200 dark:border-gray-800">
     <div class="flex flex-col justify-center items-start">
       <span class="text-base font-medium">Wednesday</span>
@@ -1084,7 +1201,7 @@ visible: true
   <header class="flex items-center gap-3">
     <span class="text-base font-medium">01</span>
     <div class="flex items-center gap-4">
-      <img class="flex-none w-12 h-12 rounded-2xl" src="https://randomuser.me/api/portraits/women/82.jpg" alt="avatar" loading="lazy">
+      <img class="flex-none w-12 h-12 rounded-2xl" src="https://randomuser.me/api/portraits/women/82.jpg" alt="avatar" loading="lazy" />
       <div class="flex-auto">
         <span class="text-sm text-gray-600 dark:text-gray-300">September 2023</span>
         <h2 class="text-base font-medium block">Caroline</h2>
@@ -1101,7 +1218,7 @@ visible: true
   <header class="flex items-center gap-3">
     <span class="text-base font-medium">02</span>
     <div class="flex items-center gap-4">
-      <img class="flex-none w-12 h-12 rounded-2xl" src="https://randomuser.me/api/portraits/women/24.jpg" alt="avatar" loading="lazy">
+      <img class="flex-none w-12 h-12 rounded-2xl" src="https://randomuser.me/api/portraits/women/24.jpg" alt="avatar" loading="lazy" />
       <div class="flex-auto">
         <span class="text-sm text-gray-600 dark:text-gray-300">September 2023</span>
         <h2 class="text-base font-medium block">Stephany</h2>
@@ -1129,7 +1246,7 @@ visible: true
 
 <article class="border shadow-sm break-inside flex items-center justify-between rounded-xl gap-4 p-4 mb-3 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="social">
   <header class="flex items-center gap-4">
-    <img class="flex-none rounded-full w-12 h-12" src="https://randomuser.me/api/portraits/men/76.jpg" alt="avatar" loading="lazy">
+    <img class="flex-none rounded-full w-12 h-12" src="https://randomuser.me/api/portraits/men/76.jpg" alt="avatar" loading="lazy" />
     <div class="flex-auto">
       <h2 class="text-base font-medium block">Philip Johnson</h2>
       <p class="text-xs text-gray-600 dark:text-gray-300">Hi there! I'm a dog trainer from Oakland.</p>
@@ -1147,7 +1264,7 @@ visible: true
 
 <article class="border shadow-sm break-inside flex items-center justify-between rounded-xl p-3 mb-3 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="social">
   <div class="flex items-center gap-3">
-    <img class="flex-none w-10 h-10 rounded-full" src="https://randomuser.me/api/portraits/women/44.jpg" alt="avatar" loading="lazy">
+    <img class="flex-none w-10 h-10 rounded-full" src="https://randomuser.me/api/portraits/women/44.jpg" alt="avatar" loading="lazy" />
     <div class="flex-auto">
       <a href="#" class="text-base font-semibold block">Yolanda</a>
       <span class="text-sm text-gray-600 dark:text-gray-300">Web Development</span>
@@ -1163,7 +1280,7 @@ visible: true
 <article class="border shadow-sm break-inside flex items-center justify-between rounded-xl p-3 mb-3 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="social">
   <div class="flex items-center gap-4">
     <figure class="relative w-10 h-10">
-      <img class="flex-none w-full rounded-full" src="https://randomuser.me/api/portraits/men/14.jpg" alt="avatar" loading="lazy">
+      <img class="flex-none w-full rounded-full" src="https://randomuser.me/api/portraits/men/14.jpg" alt="avatar" loading="lazy" />
       <figcaption class="sr-only">Avatar</figcaption>
       <span class="absolute right-0 bottom-0 inline-block w-3.5 h-3.5 rounded-full bg-green-500 border-2 border-white dark:border-gray-950"></span>
     </figure>
@@ -1182,7 +1299,7 @@ visible: true
 
 <article class="border shadow-sm break-inside flex items-center justify-between rounded-xl p-3 mb-3 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="social">
   <div class="flex items-center gap-4">
-    <img class="flex-none w-10 h-10 rounded-full" src="https://randomuser.me/api/portraits/women/81.jpg" alt="avatar" loading="lazy">
+    <img class="flex-none w-10 h-10 rounded-full" src="https://randomuser.me/api/portraits/women/81.jpg" alt="avatar" loading="lazy" />
     <div class="flex-auto">
       <a href="#" class="text-base font-medium block">Marina Flick</a>
       <span class="text-sm text-gray-600 dark:text-gray-400">Technical Director</span>
@@ -1222,7 +1339,7 @@ visible: true
   <section class="relative z-[1] flex items-center justify-between">
     <div class="flex items-center gap-4">
       <a href="#">
-        <img class="flex-none w-12 h-12 rounded-full ring-2 ring-pink-500 border-2 border-white dark:border-gray-700" src="https://randomuser.me/api/portraits/men/82.jpg" alt="avatar" loading="lazy">
+        <img class="flex-none w-12 h-12 rounded-full ring-2 ring-pink-500 border-2 border-white dark:border-gray-700" src="https://randomuser.me/api/portraits/men/82.jpg" alt="avatar" loading="lazy" />
       </a>
       <div class="flex-auto">
         <a href="#" class="font-medium block">Jhonathan Doe</a>
@@ -1243,7 +1360,7 @@ visible: true
     <div class="flex items-center gap-4">
       <a href="#" class="inline-block relative overflow-hidden w-16 h-16 rounded-full p-[2px]">
         <div class="w-full h-full absolute top-0 left-0 z-0 bg-gradient-to-tr from-rose-500 to-indigo-500"></div>
-        <img class="flex-none rounded-full w-full h-full object-cover relative z-[1] border-2 border-white dark:border-gray-950" src="https://randomuser.me/api/portraits/men/30.jpg" alt="avatar" loading="lazy">
+        <img class="flex-none rounded-full w-full h-full object-cover relative z-[1] border-2 border-white dark:border-gray-950" src="https://randomuser.me/api/portraits/men/30.jpg" alt="avatar" loading="lazy" />
       </a>
       <div class="flex-auto">
         <a href="#" class="font-medium block">Mtheus</a>
@@ -1261,7 +1378,7 @@ visible: true
 <article class="border shadow-sm break-inside flex items-center justify-between rounded-xl p-4 mb-3 bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="social">
   <div class="flex items-center gap-4">
     <a href="#">
-      <img class="flex-none w-12 h-12 rounded-full ring-2 ring-indigo-600 border-2 border-white dark:border-gray-950" src="https://randomuser.me/api/portraits/men/86.jpg" alt="avatar" loading="lazy">
+      <img class="flex-none w-12 h-12 rounded-full ring-2 ring-indigo-600 border-2 border-white dark:border-gray-950" src="https://randomuser.me/api/portraits/men/86.jpg" alt="avatar" loading="lazy" />
     </a>
     <div class="flex-auto">
       <a href="#" class="flex items-center font-medium gap-1">
@@ -1276,7 +1393,7 @@ visible: true
 
 <article class="border shadow-sm break-inside flex items-center justify-between rounded-xl p-4 mb-3 bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="social">
   <a href="#" class="flex items-center gap-4">
-    <img class="flex-none w-10 h-10 rounded-full ring-1 ring-gray-300 border-2 border-white dark:border-gray-950 dark:ring-gray-400" src="https://randomuser.me/api/portraits/men/85.jpg" alt="avatar" loading="lazy">
+    <img class="flex-none w-10 h-10 rounded-full ring-1 ring-gray-300 border-2 border-white dark:border-gray-950 dark:ring-gray-400" src="https://randomuser.me/api/portraits/men/85.jpg" alt="avatar" loading="lazy" />
     <div class="flex-auto">
       <h2 class="font-medium">Alexander</h2>
       <span class="text-xs block -mt-0.5 text-gray-600 dark:text-gray-400">Last seen 2 hours ago</span>
@@ -1298,7 +1415,7 @@ visible: true
   </header>
   <section class="flex justify-between items-center px-4 pt-3">
     <div class="flex items-center gap-4">
-      <img class="flex-none w-11 h-11 rounded-full object-cover" src="https://randomuser.me/api/portraits/men/60.jpg" alt="avatar" loading="lazy">
+      <img class="flex-none w-11 h-11 rounded-full object-cover" src="https://randomuser.me/api/portraits/men/60.jpg" alt="avatar" loading="lazy" />
       <div class="flex-col items-start flex-auto">
         <a href="#" class="text-base font-medium block">Marc Jacobs</a>
         <span class="text-sm text-gray-600 dark:text-gray-400">Doctor</span>
@@ -1316,7 +1433,7 @@ visible: true
 <article class="border shadow-sm break-inside flex justify-between flex-col p-4 mb-3 text-sm gap-4 rounded-lg bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="social">
   <div class="flex justify-start items-center gap-3">
     <figure class="relative w-12 h-12 flex-none">
-      <img class="flex-none w-full rounded-full object-cover" src="https://randomuser.me/api/portraits/men/65.jpg" alt="avatar" loading="lazy">
+      <img class="flex-none w-full rounded-full object-cover" src="https://randomuser.me/api/portraits/men/65.jpg" alt="avatar" loading="lazy" />
       <figcaption class="sr-only">Avatar</figcaption>
       <span class="absolute right-0 bottom-0 inline-block w-3.5 h-3.5 rounded-full bg-cyan-500 border-2 border-white dark:border-gray-950"></span>
     </figure>
@@ -1357,7 +1474,7 @@ visible: true
 <article class="border shadow-sm break-inside flex justify-between divide-y dark:divide-gray-900 flex-col p-4 mb-3 text-sm gap-4 rounded-lg bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="social">
   <div class="flex justify-start items-start gap-2">
     <figure class="relative w-11 h-11 flex-none">
-      <img class="flex-none w-full rounded-full object-cover" src="https://randomuser.me/api/portraits/men/71.jpg" alt="avatar" loading="lazy">
+      <img class="flex-none w-full rounded-full object-cover" src="https://randomuser.me/api/portraits/men/71.jpg" alt="avatar" loading="lazy" />
       <figcaption class="sr-only">Avatar</figcaption>
       <span class="absolute right-0 bottom-0 inline-block w-3.5 h-3.5 rounded-full bg-green-500 border-2 border-white dark:border-gray-950"></span>
     </figure>
@@ -1410,7 +1527,7 @@ visible: true
     </button>
   </header>
   <section class="flex justify-start items-center gap-3 p-4">
-    <img class="flex-none w-11 h-11 rounded-full object-cover" src="https://randomuser.me/api/portraits/women/67.jpg" alt="avatar" loading="lazy">
+    <img class="flex-none w-11 h-11 rounded-full object-cover" src="https://randomuser.me/api/portraits/women/67.jpg" alt="avatar" loading="lazy" />
     <h2 class="font-medium text-sm">
       Improve large organization
       <br />
@@ -1466,7 +1583,7 @@ visible: true
 
 <article class="border shadow-sm break-inside rounded-xl p-4 mb-3 bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="social">
   <div class="flex items-start gap-4">
-    <img class="flex-none mt-1 w-12 h-12 rounded-full ring-2 ring-emerald-600 border-2 border-white dark:border-gray-950" src="https://randomuser.me/api/portraits/men/86.jpg" alt="avatar" loading="lazy">
+    <img class="flex-none mt-1 w-12 h-12 rounded-full ring-2 ring-emerald-600 border-2 border-white dark:border-gray-950" src="https://randomuser.me/api/portraits/men/86.jpg" alt="avatar" loading="lazy" />
     <div class="flex flex-col gap-1">
       <a href="#" class="font-medium text-base">Anderson</a>
       <ul class="flex items-center flex-wrap gap-2">
@@ -1495,13 +1612,13 @@ visible: true
       <dt class="sr-only">Users</dt>
       <dd class="flex justify-start -space-x-1.5">
         <a href="#" class="inline-block -m-1">
-          <img class="w-6 h-6 rounded-full bg-gray-100 ring-2 ring-white dark:bg-gray-600 dark:ring-gray-950" src="https://randomuser.me/api/portraits/women/46.jpg" alt="avatar" loading="lazy">
+          <img class="w-6 h-6 rounded-full bg-gray-100 ring-2 ring-white dark:bg-gray-600 dark:ring-gray-950" src="https://randomuser.me/api/portraits/women/46.jpg" alt="avatar" loading="lazy" />
         </a>
         <a href="#" class="inline-block -m-1">
-          <img class="w-6 h-6 rounded-full bg-gray-100 ring-2 ring-white dark:bg-gray-600 dark:ring-gray-950" src="https://randomuser.me/api/portraits/men/45.jpg" alt="avatar" loading="lazy">
+          <img class="w-6 h-6 rounded-full bg-gray-100 ring-2 ring-white dark:bg-gray-600 dark:ring-gray-950" src="https://randomuser.me/api/portraits/men/45.jpg" alt="avatar" loading="lazy" />
         </a>
         <a href="#" class="inline-block -m-1">
-          <img class="w-6 h-6 rounded-full bg-gray-100 ring-2 ring-white dark:bg-gray-600 dark:ring-gray-950" src="https://randomuser.me/api/portraits/women/47.jpg" alt="avatar" loading="lazy">
+          <img class="w-6 h-6 rounded-full bg-gray-100 ring-2 ring-white dark:bg-gray-600 dark:ring-gray-950" src="https://randomuser.me/api/portraits/women/47.jpg" alt="avatar" loading="lazy" />
         </a>
         <a href="#" class="inline-block -m-1">
           <span class="flex items-center justify-center font-semibold w-6 h-6 rounded-full bg-indigo-200 ring-2 ring-white dark:bg-gray-600 dark:ring-gray-950">AT</span>
@@ -1518,16 +1635,16 @@ visible: true
       <dt class="sr-only">Users</dt>
       <dd class="flex justify-start -space-x-1.5">
         <a href="#" class="inline-block -m-1">
-          <img class="w-6 h-6 rounded-full ring-2 ring-white dark:ring-gray-950" src="https://randomuser.me/api/portraits/women/48.jpg" alt="avatar" loading="lazy">
+          <img class="w-6 h-6 rounded-full ring-2 ring-white dark:ring-gray-950" src="https://randomuser.me/api/portraits/women/48.jpg" alt="avatar" loading="lazy" />
         </a>
         <a href="#" class="inline-block -m-1">
-          <img class="w-6 h-6 rounded-full ring-2 ring-white dark:ring-gray-950" src="https://randomuser.me/api/portraits/men/15.jpg" alt="avatar" loading="lazy">
+          <img class="w-6 h-6 rounded-full ring-2 ring-white dark:ring-gray-950" src="https://randomuser.me/api/portraits/men/15.jpg" alt="avatar" loading="lazy" />
         </a>
         <a href="#" class="inline-block -m-1">
-          <img class="w-6 h-6 rounded-full ring-2 ring-white dark:ring-gray-950" src="https://randomuser.me/api/portraits/women/37.jpg" alt="avatar" loading="lazy">
+          <img class="w-6 h-6 rounded-full ring-2 ring-white dark:ring-gray-950" src="https://randomuser.me/api/portraits/women/37.jpg" alt="avatar" loading="lazy" />
         </a>
         <a href="#" class="inline-block -m-1">
-          <img class="w-6 h-6 rounded-full ring-2 ring-white dark:ring-gray-950" src="https://randomuser.me/api/portraits/men/78.jpg" alt="avatar" loading="lazy">
+          <img class="w-6 h-6 rounded-full ring-2 ring-white dark:ring-gray-950" src="https://randomuser.me/api/portraits/men/78.jpg" alt="avatar" loading="lazy" />
         </a>
       </dd>
     </div>
@@ -1553,7 +1670,7 @@ visible: true
 
 
 <article class="border shadow-sm break-inside flex items-center space-x-4 rounded-xl overflow-hidden pr-4 mb-3 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="social">
-  <img class="flex-none w-14 object-cover" src="https://randomuser.me/api/portraits/women/45.jpg" alt="avatar" loading="lazy">
+  <img class="flex-none w-14 object-cover" src="https://randomuser.me/api/portraits/women/45.jpg" alt="avatar" loading="lazy" />
   <div class="flex-auto">
     <a href="#" class="text-base font-semibold block">Adrianne</a>
     <span class="text-xs block text-gray-600 dark:text-gray-400">Frontend Development</span>
@@ -1562,7 +1679,7 @@ visible: true
 
 <article class="border shadow-sm break-inside flex items-center space-x-4 rounded-xl overflow-hidden pr-4 mb-3 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="social">
   <header class="flex-1 flex items-center gap-2 lg:gap-4">
-    <img class="flex-none w-14 object-cover" src="https://randomuser.me/api/portraits/men/45.jpg" alt="avatar" loading="lazy">
+    <img class="flex-none w-14 object-cover" src="https://randomuser.me/api/portraits/men/45.jpg" alt="avatar" loading="lazy" />
     <div class="flex-auto">
       <a href="#" class="text-sm font-medium block">Matheus Duarte</a>
       <span class="text-xs text-gray-600 dark:text-gray-400">Art Director</span>
@@ -1645,7 +1762,7 @@ visible: true
       <a href="#" class="text-base font-semibold block">Leandro</a>
       <span class="text-gray-600 dark:text-gray-400">Software Engineer</span>
     </div>
-    <img class="flex-none w-16 object-cover" src="https://randomuser.me/api/portraits/men/46.jpg" alt="avatar" loading="lazy">
+    <img class="flex-none w-16 object-cover" src="https://randomuser.me/api/portraits/men/46.jpg" alt="avatar" loading="lazy" />
   </header>
 </article>
 
@@ -1812,7 +1929,7 @@ visible: true
 
 <section class="break-inside grid grid-cols-2 mb-3 gap-3">
   <div class="flex flex-col gap-3">
-    <article class="border shadow-sm break-inside rounded-xl p-4 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="social">
+    <article class="border shadow-sm break-inside rounded-xl p-3 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="social">
       <header class="w-full flex items-center justify-between">
         <h2 class="text-sm font-bold">Members</h2>
         <span class="flex items-center justify-center w-5 h-5 text-[11px] rounded-full font-medium bg-amber-200 text-black">5</span>
@@ -1822,10 +1939,10 @@ visible: true
           <dt class="sr-only">Users</dt>
           <dd class="flex justify-start -space-x-1.5">
             <a href="#" class="inline-block -ml-1">
-              <img class="w-6 h-6 rounded-full ring-2 ring-white dark:ring-gray-950" src="https://randomuser.me/api/portraits/women/12.jpg" alt="avatar" loading="lazy">
+              <img class="w-6 h-6 rounded-full ring-2 ring-white dark:ring-gray-950" src="https://randomuser.me/api/portraits/women/12.jpg" alt="avatar" loading="lazy" />
             </a>
             <a href="#" class="inline-block -ml-1">
-              <img class="w-6 h-6 rounded-full ring-2 ring-white dark:ring-gray-950" src="https://randomuser.me/api/portraits/men/13.jpg" alt="avatar" loading="lazy">
+              <img class="w-6 h-6 rounded-full ring-2 ring-white dark:ring-gray-950" src="https://randomuser.me/api/portraits/men/13.jpg" alt="avatar" loading="lazy" />
             </a>
             <a href="#" class="inline-block -ml-1">
               <span class="flex items-center justify-center text-[11px] font-medium w-6 h-6 rounded-full bg-rose-200 ring-2 ring-white dark:bg-gray-600 dark:ring-gray-950">+3</span>
@@ -1839,7 +1956,7 @@ visible: true
         </button>
       </section>
     </article>
-    <article class="border shadow-sm break-inside rounded-xl p-4 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="social">
+    <article class="border shadow-sm break-inside rounded-xl p-3 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="social">
       <header class="w-full flex items-center justify-between">
         <h2 class="text-sm font-bold">Members</h2>
         <span class="flex items-center justify-center w-5 h-5 text-[11px] rounded-full font-medium bg-green-200 text-black">2</span>
@@ -1849,10 +1966,10 @@ visible: true
           <dt class="sr-only">Users</dt>
           <dd class="flex justify-start -space-x-1.5">
             <a href="#" class="inline-block -ml-1">
-              <img class="w-6 h-6 rounded-full ring-2 ring-white dark:ring-gray-950" src="https://randomuser.me/api/portraits/women/14.jpg" alt="avatar" loading="lazy">
+              <img class="w-6 h-6 rounded-full ring-2 ring-white dark:ring-gray-950" src="https://randomuser.me/api/portraits/women/14.jpg" alt="avatar" loading="lazy" />
             </a>
             <a href="#" class="inline-block -ml-1">
-              <img class="w-6 h-6 rounded-full ring-2 ring-white dark:ring-gray-950" src="https://randomuser.me/api/portraits/men/15.jpg" alt="avatar" loading="lazy">
+              <img class="w-6 h-6 rounded-full ring-2 ring-white dark:ring-gray-950" src="https://randomuser.me/api/portraits/men/15.jpg" alt="avatar" loading="lazy" />
             </a>
           </dd>
         </div>
@@ -1864,7 +1981,7 @@ visible: true
       </section>
     </article>
   </div>
-  <article class="border shadow-sm break-inside flex flex-col justify-between rounded-xl p-4 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="social">
+  <article class="border shadow-sm break-inside flex flex-col justify-between rounded-xl p-3 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="social">
     <header class="flex items-center justify-between">
       <span class="h-6 px-2 text-xs font-medium rounded-md flex items-center justify-center bg-green-100 text-green-600 dark:bg-green-500/30 dark:text-green-300">NEW</span>
       <button class="inline-flex items-center justify-center w-7 h-7 transition-all rounded-full hover:bg-gray-100 dark:hover:bg-gray-900">
@@ -1874,21 +1991,21 @@ visible: true
       </button>
     </header>
     <section class="mt-3">
-      <h2 class="text-base font-bold">Project members</h2>
-      <p class="text-[10px] mt-1 text-gray-500">03:00 PM - 05:00 PM</p>
+      <h2 class="text-lg font-bold leading-6">Project members</h2>
+      <p class="text-[11px] mt-1 text-gray-500">03:00 PM - 05:00 PM</p>
     </section>
     <div class="flex items-center justify-between mt-auto">
       <div class="block">
         <dt class="sr-only">Users</dt>
         <dd class="flex justify-start -space-x-1.5">
           <a href="#" class="inline-block -m-1">
-            <img class="w-6 h-6 rounded-full ring-2 ring-white dark:ring-gray-950" src="https://randomuser.me/api/portraits/women/48.jpg" alt="avatar" loading="lazy">
+            <img class="w-6 h-6 rounded-full ring-2 ring-white dark:ring-gray-950" src="https://randomuser.me/api/portraits/women/48.jpg" alt="avatar" loading="lazy" />
           </a>
           <a href="#" class="inline-block -m-1">
-            <img class="w-6 h-6 rounded-full ring-2 ring-white dark:ring-gray-950" src="https://randomuser.me/api/portraits/men/15.jpg" alt="avatar" loading="lazy">
+            <img class="w-6 h-6 rounded-full ring-2 ring-white dark:ring-gray-950" src="https://randomuser.me/api/portraits/men/15.jpg" alt="avatar" loading="lazy" />
           </a>
           <a href="#" class="inline-block -m-1">
-            <img class="w-6 h-6 rounded-full ring-2 ring-white dark:ring-gray-950" src="https://randomuser.me/api/portraits/women/37.jpg" alt="avatar" loading="lazy">
+            <img class="w-6 h-6 rounded-full ring-2 ring-white dark:ring-gray-950" src="https://randomuser.me/api/portraits/women/37.jpg" alt="avatar" loading="lazy" />
           </a>
         </dd>
       </div>
@@ -1903,35 +2020,35 @@ visible: true
 
 <section class="grid grid-cols-4 gap-3 mb-3">
   <article class="border shadow-sm break-inside flex flex-col justify-start items-center rounded-xl p-2 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="social">
-    <img class="flex-none rounded-full w-8 h-8" src="https://randomuser.me/api/portraits/men/76.jpg" alt="avatar" loading="lazy">
+    <img class="flex-none rounded-full w-8 h-8" src="https://randomuser.me/api/portraits/men/76.jpg" alt="avatar" loading="lazy" />
     <h2 class="text-xs font-medium mt-1">Jhon</h2>
   </article>
   <article class="border shadow-sm break-inside flex flex-col justify-start items-center rounded-xl p-2 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="social">
-    <img class="flex-none rounded-full w-8 h-8" src="https://randomuser.me/api/portraits/women/76.jpg" alt="avatar" loading="lazy">
+    <img class="flex-none rounded-full w-8 h-8" src="https://randomuser.me/api/portraits/women/76.jpg" alt="avatar" loading="lazy" />
     <h2 class="text-xs font-medium mt-1">Tina</h2>
   </article>
   <article class="border shadow-sm break-inside flex flex-col justify-start items-center rounded-xl p-2 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="social">
-    <img class="flex-none rounded-full w-8 h-8" src="https://randomuser.me/api/portraits/men/78.jpg" alt="avatar" loading="lazy">
+    <img class="flex-none rounded-full w-8 h-8" src="https://randomuser.me/api/portraits/men/78.jpg" alt="avatar" loading="lazy" />
     <h2 class="text-xs font-medium mt-1">Jhonas</h2>
   </article>
   <article class="border shadow-sm break-inside flex flex-col justify-start items-center rounded-xl p-2 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="social">
-    <img class="flex-none rounded-full w-8 h-8" src="https://randomuser.me/api/portraits/men/79.jpg" alt="avatar" loading="lazy">
+    <img class="flex-none rounded-full w-8 h-8" src="https://randomuser.me/api/portraits/men/79.jpg" alt="avatar" loading="lazy" />
     <h2 class="text-xs font-medium mt-1">Mathiaz</h2>
   </article>
   <article class="border shadow-sm break-inside flex flex-col justify-start items-center rounded-xl p-2 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="social">
-    <img class="flex-none rounded-full w-8 h-8" src="https://randomuser.me/api/portraits/men/16.jpg" alt="avatar" loading="lazy">
+    <img class="flex-none rounded-full w-8 h-8" src="https://randomuser.me/api/portraits/men/16.jpg" alt="avatar" loading="lazy" />
     <h2 class="text-xs font-medium mt-1">Fabio</h2>
   </article>
   <article class="border shadow-sm break-inside flex flex-col justify-start items-center rounded-xl p-2 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="social">
-    <img class="flex-none rounded-full w-8 h-8" src="https://randomuser.me/api/portraits/men/46.jpg" alt="avatar" loading="lazy">
+    <img class="flex-none rounded-full w-8 h-8" src="https://randomuser.me/api/portraits/men/46.jpg" alt="avatar" loading="lazy" />
     <h2 class="text-xs font-medium mt-1">Miller</h2>
   </article>
   <article class="border shadow-sm break-inside flex flex-col justify-start items-center rounded-xl p-2 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="social">
-    <img class="flex-none rounded-full w-8 h-8" src="https://randomuser.me/api/portraits/women/86.jpg" alt="avatar" loading="lazy">
+    <img class="flex-none rounded-full w-8 h-8" src="https://randomuser.me/api/portraits/women/86.jpg" alt="avatar" loading="lazy" />
     <h2 class="text-xs font-medium mt-1">Jessy</h2>
   </article>
   <article class="border shadow-sm break-inside flex flex-col justify-start items-center rounded-xl p-2 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="social">
-    <img class="flex-none rounded-full w-8 h-8" src="https://randomuser.me/api/portraits/men/36.jpg" alt="avatar" loading="lazy">
+    <img class="flex-none rounded-full w-8 h-8" src="https://randomuser.me/api/portraits/men/36.jpg" alt="avatar" loading="lazy" />
     <h2 class="text-xs font-medium mt-1">Jack</h2>
   </article>
 </section>
@@ -1957,13 +2074,13 @@ visible: true
         <dt class="sr-only">Users</dt>
         <dd class="flex justify-start -space-x-1.5">
           <a href="#" class="inline-block -m-1">
-            <img class="w-6 h-6 rounded-full ring-2 ring-rose-600" src="https://randomuser.me/api/portraits/women/48.jpg" alt="avatar" loading="lazy">
+            <img class="w-6 h-6 rounded-full ring-2 ring-rose-600" src="https://randomuser.me/api/portraits/women/48.jpg" alt="avatar" loading="lazy" />
           </a>
           <a href="#" class="inline-block -m-1">
-            <img class="w-6 h-6 rounded-full ring-2 ring-rose-600" src="https://randomuser.me/api/portraits/men/15.jpg" alt="avatar" loading="lazy">
+            <img class="w-6 h-6 rounded-full ring-2 ring-rose-600" src="https://randomuser.me/api/portraits/men/15.jpg" alt="avatar" loading="lazy" />
           </a>
           <a href="#" class="inline-block -m-1">
-            <img class="w-6 h-6 rounded-full ring-2 ring-rose-600" src="https://randomuser.me/api/portraits/women/37.jpg" alt="avatar" loading="lazy">
+            <img class="w-6 h-6 rounded-full ring-2 ring-rose-600" src="https://randomuser.me/api/portraits/women/37.jpg" alt="avatar" loading="lazy" />
           </a>
         </dd>
       </div>
@@ -1977,7 +2094,7 @@ visible: true
   <div class="flex flex-col gap-3">
     <article class="border shadow-sm break-inside flex flex-col items-start justify-between gap-4 rounded-xl p-3 flex-1 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="social">
       <header class="flex items-start gap-2">
-        <img class="w-10 h-10 rounded-full" src="https://randomuser.me/api/portraits/men/41.jpg" alt="avatar" loading="lazy">
+        <img class="w-10 h-10 rounded-full" src="https://randomuser.me/api/portraits/men/41.jpg" alt="avatar" loading="lazy" />
         <h2 class="text-sm font-bold">
           Jhonatan
           <br />
@@ -1995,7 +2112,7 @@ visible: true
     </article>
     <article class="border shadow-sm break-inside flex flex-col items-start justify-between gap-4 rounded-xl p-3 flex-1 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="social">
       <header class="flex items-start gap-2">
-        <img class="w-10 h-10 rounded-full" src="https://randomuser.me/api/portraits/women/40.jpg" alt="avatar" loading="lazy">
+        <img class="w-10 h-10 rounded-full" src="https://randomuser.me/api/portraits/women/40.jpg" alt="avatar" loading="lazy" />
         <h2 class="text-sm font-bold">
           Marianna
           <br />
@@ -2118,7 +2235,7 @@ visible: true
 
 <article class="border shadow-sm break-inside flex items-center justify-between rounded-xl p-4 mb-3 gap-4 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="social">
   <div class="flex items-start gap-2">
-    <img class="flex-none w-11 h-11 rounded-full object-cover" src="https://randomuser.me/api/portraits/women/45.jpg" alt="avatar" loading="lazy">
+    <img class="flex-none w-11 h-11 rounded-full object-cover" src="https://randomuser.me/api/portraits/women/45.jpg" alt="avatar" loading="lazy" />
     <div class="flex-auto">
       <div class="flex items-center space-x-1">
         <a href="#" class="text-base font-medium">Esther Howard</a>
@@ -2193,7 +2310,7 @@ visible: true
     <button>
       <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24"><path d="M7,19V17H9V19H7M11,19V17H13V19H11M15,19V17H17V19H15M7,15V13H9V15H7M11,15V13H13V15H11M15,15V13H17V15H15M7,11V9H9V11H7M11,11V9H13V11H11M15,11V9H17V11H15M7,7V5H9V7H7M11,7V5H13V7H11M15,7V5H17V7H15Z" fill="currentColor"/></svg>
     </button>
-    <img class="flex-none w-5 h-5 rounded-full object-cover" src="https://randomuser.me/api/portraits/men/60.jpg" alt="avatar" loading="lazy">
+    <img class="flex-none w-5 h-5 rounded-full object-cover" src="https://randomuser.me/api/portraits/men/60.jpg" alt="avatar" loading="lazy" />
     <h2 class="font-medium">Albert G.</h2>
   </article>
   <article class="border shadow-sm break-inside flex items-center justify-start rounded-xl gap-1 p-2.5 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="social">
@@ -2208,7 +2325,7 @@ visible: true
     <button>
       <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24"><path d="M7,19V17H9V19H7M11,19V17H13V19H11M15,19V17H17V19H15M7,15V13H9V15H7M11,15V13H13V15H11M15,15V13H17V15H15M7,11V9H9V11H7M11,11V9H13V11H11M15,11V9H17V11H15M7,7V5H9V7H7M11,7V5H13V7H11M15,7V5H17V7H15Z" fill="currentColor"/></svg>
     </button>
-    <img class="flex-none w-5 h-5 rounded-full object-cover" src="https://randomuser.me/api/portraits/men/65.jpg" alt="avatar" loading="lazy">
+    <img class="flex-none w-5 h-5 rounded-full object-cover" src="https://randomuser.me/api/portraits/men/65.jpg" alt="avatar" loading="lazy" />
     <h2 class="font-medium">Angel.</h2>
   </article>
   <article class="border shadow-sm break-inside flex items-center justify-start rounded-xl gap-1 p-2.5 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="social">
@@ -2216,7 +2333,7 @@ visible: true
     <button>
       <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24"><path d="M7,19V17H9V19H7M11,19V17H13V19H11M15,19V17H17V19H15M7,15V13H9V15H7M11,15V13H13V15H11M15,15V13H17V15H15M7,11V9H9V11H7M11,11V9H13V11H11M15,11V9H17V11H15M7,7V5H9V7H7M11,7V5H13V7H11M15,7V5H17V7H15Z" fill="currentColor"/></svg>
     </button>
-    <img class="flex-none w-5 h-5 rounded-full object-cover" src="https://randomuser.me/api/portraits/women/65.jpg" alt="avatar" loading="lazy">
+    <img class="flex-none w-5 h-5 rounded-full object-cover" src="https://randomuser.me/api/portraits/women/65.jpg" alt="avatar" loading="lazy" />
     <h2 class="font-medium">Jhonny</h2>
   </article>
   <article class="border shadow-sm break-inside flex items-center justify-start rounded-xl gap-1 p-2.5 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="social">
@@ -2224,7 +2341,7 @@ visible: true
     <button>
       <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24"><path d="M7,19V17H9V19H7M11,19V17H13V19H11M15,19V17H17V19H15M7,15V13H9V15H7M11,15V13H13V15H11M15,15V13H17V15H15M7,11V9H9V11H7M11,11V9H13V11H11M15,11V9H17V11H15M7,7V5H9V7H7M11,7V5H13V7H11M15,7V5H17V7H15Z" fill="currentColor"/></svg>
     </button>
-    <img class="flex-none w-5 h-5 rounded-full object-cover" src="https://randomuser.me/api/portraits/men/65.jpg" alt="avatar" loading="lazy">
+    <img class="flex-none w-5 h-5 rounded-full object-cover" src="https://randomuser.me/api/portraits/men/65.jpg" alt="avatar" loading="lazy" />
     <h2 class="font-medium">Jenrry</h2>
   </article>
   <article class="border shadow-sm break-inside flex items-center justify-start rounded-xl gap-1 p-2.5 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="social">
@@ -2232,7 +2349,7 @@ visible: true
     <button>
       <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24"><path d="M7,19V17H9V19H7M11,19V17H13V19H11M15,19V17H17V19H15M7,15V13H9V15H7M11,15V13H13V15H11M15,15V13H17V15H15M7,11V9H9V11H7M11,11V9H13V11H11M15,11V9H17V11H15M7,7V5H9V7H7M11,7V5H13V7H11M15,7V5H17V7H15Z" fill="currentColor"/></svg>
     </button>
-    <img class="flex-none w-5 h-5 rounded-full object-cover" src="https://randomuser.me/api/portraits/women/15.jpg" alt="avatar" loading="lazy">
+    <img class="flex-none w-5 h-5 rounded-full object-cover" src="https://randomuser.me/api/portraits/women/15.jpg" alt="avatar" loading="lazy" />
     <h2 class="font-medium">Marina</h2>
   </article>
   <article class="border shadow-sm break-inside flex items-center justify-start rounded-xl gap-1 p-2.5 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="social">
@@ -2428,13 +2545,13 @@ visible: true
         <dt class="sr-only">Users</dt>
         <dd class="flex justify-start -space-x-1.5">
           <a href="#" class="inline-block -m-1">
-            <img class="w-5 h-5 rounded-full bg-gray-100 ring-2 ring-white dark:bg-gray-600 dark:ring-gray-950" src="https://randomuser.me/api/portraits/women/46.jpg" alt="avatar" loading="lazy">
+            <img class="w-5 h-5 rounded-full bg-gray-100 ring-2 ring-white dark:bg-gray-600 dark:ring-gray-950" src="https://randomuser.me/api/portraits/women/46.jpg" alt="avatar" loading="lazy" />
           </a>
           <a href="#" class="inline-block -m-1">
-            <img class="w-5 h-5 rounded-full bg-gray-100 ring-2 ring-white dark:bg-gray-600 dark:ring-gray-950" src="https://randomuser.me/api/portraits/men/45.jpg" alt="avatar" loading="lazy">
+            <img class="w-5 h-5 rounded-full bg-gray-100 ring-2 ring-white dark:bg-gray-600 dark:ring-gray-950" src="https://randomuser.me/api/portraits/men/45.jpg" alt="avatar" loading="lazy" />
           </a>
           <a href="#" class="inline-block -m-1">
-            <img class="w-5 h-5 rounded-full bg-gray-100 ring-2 ring-white dark:bg-gray-600 dark:ring-gray-950" src="https://randomuser.me/api/portraits/women/47.jpg" alt="avatar" loading="lazy">
+            <img class="w-5 h-5 rounded-full bg-gray-100 ring-2 ring-white dark:bg-gray-600 dark:ring-gray-950" src="https://randomuser.me/api/portraits/women/47.jpg" alt="avatar" loading="lazy" />
           </a>
         </dd>
       </div>
@@ -2454,7 +2571,7 @@ visible: true
     <p class="text-xs mt-2 px-3 border-y py-2 bg-gray-50 dark:bg-gray-900 dark:border-gray-800 dark:text-gray-400">Based on 3,000+ reviews</p>
     <footer class="flex items-center justify-start w-full gap-2 p-3">
       <figure class="relative flex-none w-8 h-8">
-        <img class="flex-none w-full rounded-full object-cover" src="https://randomuser.me/api/portraits/men/27.jpg" alt="avatar" loading="lazy">
+        <img class="flex-none w-full rounded-full object-cover" src="https://randomuser.me/api/portraits/men/27.jpg" alt="avatar" loading="lazy" />
         <figcaption class="sr-only">Michael</figcaption>
         <span class="absolute right-0 bottom-0 inline-block w-2.5 h-2.5 rounded-full bg-green-500 border-2 border-white dark:border-gray-950"></span>
       </figure>
@@ -2474,7 +2591,7 @@ visible: true
       </button>
     </header>
     <section class="flex items-center justify-start gap-2 mt-2 px-3 border-y py-2 bg-gray-50 dark:bg-gray-900 dark:border-gray-800 dark:text-gray-400">
-      <img class="flex-none rounded-full w-8 h-8 object-cover" src="https://randomuser.me/api/portraits/women/32.jpg" alt="avatar" loading="lazy">
+      <img class="flex-none rounded-full w-8 h-8 object-cover" src="https://randomuser.me/api/portraits/women/32.jpg" alt="avatar" loading="lazy" />
       <div class="flex flex-col">
         <span class="font-medium">Alice</span>
         <span class="text-xs text-gray-500">Engineer</span>
@@ -2487,6 +2604,92 @@ visible: true
     </footer>
   </article>
 </section>
+
+<section class="mb-3 break-inside border flex flex-col gap-0.5 rounded-xl shadow-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900">
+  <article class="overflow-hidden relative flex p-3 flex-col gap-2 text-sm bg-gradient-to-r from-transparent via-indigo-50 to-transparent dark:via-indigo-500/10" data-filter="social">
+    <header class="flex items-center gap-2">
+      <a class="inline-block" href="#">
+        <img class="rounded-full max-w-none w-10 h-10" src="https://randomuser.me/api/portraits/men/57.jpg" alt="Avatar">
+      </a>
+      <div class="flex flex-col flex-1">
+        <a class="inline-block font-bold mr-2 text-base" href="#">Guy Hawkins</a>
+        <span class="text-xs text-gray-400">High fever</span>
+      </div>
+      <div class="flex flex-col justify-center items-center gap-1 flex-none">
+        <span class="rounded-dull flex items-center justify-center font-medium text-sm rounded-full px-2 h-6 text-indigo-600 bg-indigo-200">Execute</span>
+        <span class="text-xs">23:55 PM</span>
+      </div>
+    </header>
+  </article>
+  <article class="overflow-hidden relative flex p-3 flex-col gap-2 text-sm bg-gradient-to-r from-transparent via-rose-50 to-transparent dark:via-rose-500/10" data-filter="social">
+    <header class="flex items-center gap-2">
+      <a class="inline-block" href="#">
+        <img class="rounded-full max-w-none w-10 h-10" src="https://randomuser.me/api/portraits/women/57.jpg" alt="Avatar">
+      </a>
+      <div class="flex flex-col flex-1">
+        <a class="inline-block font-bold mr-2 text-base text-rose-600" href="#">Eleanor Pena</a>
+        <span class="text-xs text-gray-400">Sore throato</span>
+      </div>
+      <div class="flex flex-col justify-center items-center gap-1 flex-none">
+        <span class="rounded-dull flex items-center justify-center font-medium text-sm rounded-full px-2 h-6 text-rose-600 bg-rose-200">Lost</span>
+        <span class="text-xs">23:55 PM</span>
+      </div>
+    </header>
+  </article>
+  <article class="overflow-hidden relative flex p-3 flex-col gap-2 text-sm bg-gradient-to-r from-transparent via-emerald-50 to-transparent dark:via-emerald-500/10" data-filter="social">
+    <header class="flex items-center gap-2">
+      <a class="inline-block" href="#">
+        <img class="rounded-full max-w-none w-10 h-10" src="https://randomuser.me/api/portraits/men/33.jpg" alt="Avatar">
+      </a>
+      <div class="flex flex-col flex-1">
+        <a class="inline-block font-bold mr-2 text-base" href="#">Robert Fox</a>
+        <span class="text-xs text-gray-400">44 min ago</span>
+      </div>
+      <div class="flex flex-col justify-center items-center gap-1 flex-none">
+        <span class="rounded-dull flex items-center justify-center font-medium text-sm rounded-full px-2 h-6 text-emerald-600 bg-emerald-200">Earring</span>
+        <span class="text-xs">23:55 PM</span>
+      </div>
+    </header>
+  </article>
+</section>
+
+<section class="grid grid-cols-2 gap-3 mb-3">
+  <article class="shadow-md border break-inside dark:shadow-gray-700/5 overflow-hidden relative flex flex-col gap-2 rounded-xl text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="social">
+    <figure class="relative flex items-center justify-center">
+      <img class="w-20 h-20" src="https://3dicons.sgp1.cdn.digitaloceanspaces.com/v1/dynamic/premium/video-camera-dynamic-premium.png" />
+      <button class="absolute w-6 h-6 top-3 right-3 rounded-full flex items-center justify-center bg-white text-rose-600">
+        <svg width="16" height="16" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+          <path d="m9.653 16.915-.005-.003-.019-.01a20.759 20.759 0 0 1-1.162-.682 22.045 22.045 0 0 1-2.582-1.9C4.045 12.733 2 10.352 2 7.5a4.5 4.5 0 0 1 8-2.828A4.5 4.5 0 0 1 18 7.5c0 2.852-2.044 5.233-3.885 6.82a22.049 22.049 0 0 1-3.744 2.582l-.019.01-.005.003h-.002a.739.739 0 0 1-.69.001l-.002-.001Z"></path>
+        </svg>
+      </button>
+    </figure>
+    <section class="flex flex-col gap-1 px-3 pb-3 mt-1">
+      <header class="flex items-center justify-between w-full">
+        <h2 class="text-base font-semibold"><span class="text-indigo-600">Photography</span> Event in New York</h2>
+      </header>
+      <p class="text-xs">Lorem ipsum dolor sitsws wdwwd.</p>
+      <button class="font-medium h-8 px-4 w-full rounded-full mt-2 transition-colors duration-200 bg-gray-100 hover:bg-gray-200 dark:bg-gray-900 dark:hover:bg-gray-800">Join now</button>
+    </section>
+  </article>
+  <article class="shadow-md border break-inside dark:shadow-gray-700/5 overflow-hidden relative flex flex-col gap-2 rounded-xl text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="social">
+    <figure class="relative flex items-center justify-center">
+      <img class="w-20 h-20" src="https://3dicons.sgp1.cdn.digitaloceanspaces.com/v1/dynamic/color/figma-dynamic-color.png" />
+      <button class="absolute w-6 h-6 top-3 right-3 rounded-full flex items-center justify-center bg-white text-rose-600">
+        <svg width="16" height="16" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+          <path d="m9.653 16.915-.005-.003-.019-.01a20.759 20.759 0 0 1-1.162-.682 22.045 22.045 0 0 1-2.582-1.9C4.045 12.733 2 10.352 2 7.5a4.5 4.5 0 0 1 8-2.828A4.5 4.5 0 0 1 18 7.5c0 2.852-2.044 5.233-3.885 6.82a22.049 22.049 0 0 1-3.744 2.582l-.019.01-.005.003h-.002a.739.739 0 0 1-.69.001l-.002-.001Z"></path>
+        </svg>
+      </button>
+    </figure>
+    <section class="flex flex-col gap-1 px-3 pb-3 mt-1">
+      <header class="flex items-center justify-between w-full">
+        <h3 class="text-base font-semibold"><span class="text-rose-600">Figma experience</span> in San Francisco</h3>
+      </header>
+      <p class="text-xs">Lorem ipsum dolor sit ametasw.</p>
+      <button class="font-medium h-8 px-4 w-full rounded-full mt-2 transition-colors duration-200 bg-gray-100 hover:bg-gray-200 dark:bg-gray-900 dark:hover:bg-gray-800">Join now</button>
+    </section>
+  </article>
+</section>
+
 
 <section class="grid grid-cols-2 gap-3 mb-3">
   <article class="border shadow-sm break-inside overflow-hidden relative flex flex-col rounded-xl text-sm p-3 bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="social">
@@ -2532,7 +2735,7 @@ visible: true
 <section class="grid grid-cols-2 gap-3 mb-3">
   <article class="border shadow-sm break-inside overflow-hidden relative flex flex-col gap-2 rounded-xl text-sm p-3 bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="social">
     <header class="flex items-center gap-2 justify-start">
-      <img class="w-9 h-9 rounded-full" src="https://randomuser.me/api/portraits/women/65.jpg" alt="avatar" loading="lazy">
+      <img class="w-9 h-9 rounded-full" src="https://randomuser.me/api/portraits/women/65.jpg" alt="avatar" loading="lazy" />
       <div class="flex flex-col">
         <h2 class="text-sm font-medium leading-snug">
           Alice
@@ -2548,7 +2751,7 @@ visible: true
   </article>
   <article class="border shadow-sm break-inside overflow-hidden relative flex flex-col gap-2 rounded-xl text-sm p-3 bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="social">
     <header class="flex items-center gap-2 justify-start">
-      <img class="w-9 h-9 rounded-full" src="https://randomuser.me/api/portraits/men/66.jpg" alt="avatar" loading="lazy">
+      <img class="w-9 h-9 rounded-full" src="https://randomuser.me/api/portraits/men/66.jpg" alt="avatar" loading="lazy" />
       <div class="flex flex-col">
         <h2 class="text-sm font-medium leading-snug">
           Armando
