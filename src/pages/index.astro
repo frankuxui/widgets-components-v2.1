@@ -24,7 +24,7 @@ const pageSlug = Astro.url.pathname.split('/')[2]
 <Layout title="Widget components with tailwind CSS">
 	<section class="overflow-hidden w-full pt-24 pb-24 sm:pt-36 mx-auto max-w-full">
 		<div class=" w-full flex items-start justify-between mx-auto gap-4">
-			<div class="flex flex-col items-end w-full px-6 pb-20 dark:text-white">
+			<div class="flex flex-col items-end w-full px-4 pb-20 dark:text-white">
 				<div class="flex flex-col items-start flex-none w-full md:w-[40rem]">
 
 					<!-- Title -->
@@ -49,10 +49,10 @@ const pageSlug = Astro.url.pathname.split('/')[2]
 					</p>
 					<!-- End Description -->
 
-					<div class="flex items-center justify-start gap-3"><!-- Buttons content -->
+					<div class="flex items-center justify-start gap-1 sm:gap-3"><!-- Buttons content -->
 						<a 
 							href="/categories/finance" 
-							class="hoverable mt-8 px-4 md:px-8 h-12 flex group gap-3 items-center justify-center transition-colors duration-500 rounded-md font-medium text-base xl:text-xl 2xl:text-xl bg-indigo-700 text-white hover:bg-indigo-600">
+							class="hoverable mt-8 px-3 md:px-8 h-12 flex group gap-3 items-center justify-center transition-colors duration-500 rounded-md font-medium text-sm md:text-xl xl:text-xl 2xl:text-xl bg-indigo-700 text-white hover:bg-indigo-600">
 							<span>Explore widgets</span>
 							<span class="transition-all duration-500 -translate-x-0 group-hover:translate-x-2">
 								<svg width="22" height="22" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
@@ -62,7 +62,7 @@ const pageSlug = Astro.url.pathname.split('/')[2]
 						</a>
 						<a
 							href="https://github.com/frankuxui/widgets-components-v2.1"
-							class="mt-8 px-4 md:px-8 h-12 flex gap-3 items-center justify-center transition-all duration-500 rounded-md font-medium text-base xl:text-xl 2xl:text-xl border text-black bg-white shadow-sm hover:shadow-md dark:border-gray-800 dark:text-white dark:bg-gray-950 dark:hover:border-gray-700">
+							class="mt-8 px-3 md:px-8 h-12 flex gap-3 items-center justify-center transition-all duration-500 rounded-md font-medium text-sm md:text-xl xl:text-xl 2xl:text-xl border text-black bg-white shadow-sm hover:shadow-md dark:border-gray-800 dark:text-white dark:bg-gray-950 dark:hover:border-gray-700">
 							<svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill="currentColor">
 								<g>
 									<path d="M0 0h24v24H0z" fill="none"/>

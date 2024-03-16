@@ -2092,7 +2092,7 @@ visible: true
     </div>
   </article>
   <div class="flex flex-col gap-3">
-    <article class="border shadow-sm break-inside flex flex-col items-start justify-between gap-4 rounded-xl p-3 flex-1 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="social">
+    <article class="border shadow-sm break-inside flex flex-col items-start justify-between gap-2 rounded-xl p-3 flex-1 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="social">
       <header class="flex items-start gap-2">
         <img class="w-10 h-10 rounded-full" src="https://randomuser.me/api/portraits/men/41.jpg" alt="avatar" loading="lazy" />
         <h2 class="text-sm font-bold">
@@ -2110,7 +2110,7 @@ visible: true
         </button>
       </div>
     </article>
-    <article class="border shadow-sm break-inside flex flex-col items-start justify-between gap-4 rounded-xl p-3 flex-1 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="social">
+    <article class="border shadow-sm break-inside flex flex-col items-start justify-between gap-2 rounded-xl p-3 flex-1 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="social">
       <header class="flex items-start gap-2">
         <img class="w-10 h-10 rounded-full" src="https://randomuser.me/api/portraits/women/40.jpg" alt="avatar" loading="lazy" />
         <h2 class="text-sm font-bold">
