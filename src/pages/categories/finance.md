@@ -33,7 +33,7 @@ visible: true
 </article>
 
 <section class="grid grid-cols-2 gap-3 mb-3">
-  <article class="border shadow-sm break-inside overflow-hidden relative flex flex-col gap-1 rounded-xl text-sm p-3 bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="social">
+  <article class="border shadow-sm break-inside overflow-hidden relative flex flex-col gap-1 rounded-xl text-sm p-3 bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="finance">
     <div class="absolute left-0 top-0 w-14 h-14 bg-rose-500 opacity-40 blur-2xl"></div>
     <button class="absolute top-3 right-3 inline-flex items-center justify-center w-8 h-8 transition-all rounded-full hover:bg-black/5 dark:hover:bg-gray-900">
       <svg width="26" height="26" fill="none" stroke-width="2" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
@@ -56,7 +56,7 @@ visible: true
 			</svg>
     </section>
   </article>
-  <article class="border shadow-sm break-inside overflow-hidden relative flex flex-col gap-1 rounded-xl text-sm p-3 bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="social">
+  <article class="border shadow-sm break-inside overflow-hidden relative flex flex-col gap-1 rounded-xl text-sm p-3 bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="finance">
     <button class="absolute top-3 right-3 inline-flex items-center justify-center w-8 h-8 transition-all rounded-full hover:bg-black/5 dark:hover:bg-gray-900">
       <svg width="26" height="26" fill="none" stroke-width="2" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
         <path stroke-linecap="round" stroke-linejoin="round" d="M6.75 12a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0ZM12.75 12a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0ZM18.75 12a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z"></path>
@@ -80,7 +80,7 @@ visible: true
   </article>
 </section>
 
-<article class="border shadow-sm break-inside overflow-hidden relative flex flex-col gap-2 rounded-xl text-sm p-3 mb-3 bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="social">
+<article class="border shadow-sm break-inside overflow-hidden relative flex flex-col gap-2 rounded-xl text-sm p-3 mb-3 bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="finance">
   <header class="flex items-start justify-between">
 		<div class="flex flex-col gap-1">
 			<h2 class="font-medium text-lg leading-6"> Summary of financials </h2>
@@ -206,7 +206,7 @@ visible: true
 	</div>
 </article>
 
-<article class="border shadow-sm break-inside overflow-hidden relative flex flex-col gap-2 rounded-xl text-sm mb-3 bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="social">
+<article class="border shadow-sm break-inside overflow-hidden relative flex flex-col gap-2 rounded-xl text-sm mb-3 bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="finance">
   <button class="z-[1] w-9 h-9 absolute top-4 right-4 transition-colors duration-200 flex items-center justify-center rounded-full hover:bg-black/10 dark:hover:bg-white/10">
     <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 14 4" fill="none">
       <path d="M10.8889 2C10.8889 2.39782 11.0528 2.77936 11.3445 3.06066C11.6362 3.34196 12.0319 3.5 12.4444 3.5C12.857 3.5 13.2527 3.34196 13.5444 3.06066C13.8361 2.77936 14 2.39782 14 2C14 1.60218 13.8361 1.22064 13.5444 0.93934C13.2527 0.658035 12.857 0.5 12.4444 0.5C12.0319 0.5 11.6362 0.658035 11.3445 0.93934C11.0528 1.22064 10.8889 1.60217 10.8889 2ZM5.44444 2C5.44444 2.39782 5.60833 2.77935 5.90006 3.06066C6.19178 3.34196 6.58744 3.5 7 3.5C7.41256 3.5 7.80822 3.34196 8.09994 3.06066C8.39167 2.77935 8.55556 2.39782 8.55556 2C8.55556 1.60217 8.39167 1.22064 8.09994 0.93934C7.80822 0.658035 7.41256 0.499999 7 0.499999C6.58744 0.499999 6.19178 0.658035 5.90006 0.939339C5.60833 1.22064 5.44444 1.60217 5.44444 2ZM-1.31134e-07 2C-1.65913e-07 2.39782 0.163889 2.77935 0.455612 3.06066C0.747335 3.34196 1.143 3.5 1.55556 3.5C1.96811 3.5 2.36378 3.34196 2.6555 3.06066C2.94722 2.77935 3.11111 2.39782 3.11111 2C3.11111 1.60217 2.94722 1.22064 2.6555 0.939339C2.36378 0.658035 1.96811 0.499999 1.55556 0.499999C1.143 0.499999 0.747335 0.658034 0.455612 0.939339C0.163889 1.22064 -9.63552e-08 1.60217 -1.31134e-07 2Z" fill="currentColor"></path>
@@ -280,7 +280,7 @@ visible: true
 </article>
 
 <section class="grid grid-cols-2 gap-4" >
-	<article class="relative overflow-hidden border shadow-sm break-inside rounded-xl gap-2 p-4 mb-3 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="finance">
+	<article class="relative overflow-hidden border shadow-sm break-inside rounded-xl gap-2 p-3 mb-3 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="finance">
 		<div class="absolute top-0 left-0 w-20 h-20 bg-gradient-to-br from-purple-500/60 to-white dark:to-gray-950 rounded-full flex items-center justify-center blur-2xl"></div>
 		<header class="relative flex flex-col gap-2">
 			<div class="flex items-center justify-center w-10 h-10 rounded-full bg-gradient-to-br from-purple-500 to-blue-500 text-white">
@@ -290,8 +290,10 @@ visible: true
 					<path d="M17.4193 5.79075C17.3746 5.72833 17.3142 5.67735 17.2435 5.64239C17.1729 5.60744 17.0941 5.58959 17.0143 5.59045C16.6249 5.5394 16.2675 5.35857 16.0068 5.0806C15.5051 4.56276 15.0788 3.98409 14.739 3.35986L16.1273 1.31135C16.2116 1.19264 16.2632 1.05598 16.2775 0.913718C16.2918 0.771454 16.2684 0.628065 16.2093 0.4965C16.1501 0.376807 16.0607 0.272686 15.9489 0.193304C15.8371 0.113922 15.7064 0.0617143 15.5682 0.0412766C14.6853 -0.0710818 13.7867 0.0469934 12.9699 0.382694C12.5017 0.577417 12.0613 0.826691 11.6587 1.12471C10.8702 0.790838 10.0306 0.57726 9.17125 0.491948C5.75347 0.177844 2.62973 2.27187 2.22963 5.04874C2.0737 4.98249 1.93405 4.88638 1.81953 4.76648C1.70501 4.64658 1.61813 4.50552 1.56439 4.35224C1.53002 4.24714 1.51828 4.1366 1.52987 4.02714C1.54146 3.91768 1.57615 3.81153 1.63188 3.71493C1.68185 3.63383 1.75328 3.56638 1.83916 3.51918C1.89772 3.48571 1.94872 3.44167 1.98925 3.38958C2.02978 3.33749 2.05906 3.27837 2.07539 3.21559C2.09173 3.15282 2.09482 3.08762 2.08448 3.02372C2.07413 2.95982 2.05056 2.89847 2.01511 2.84318C1.97966 2.78788 1.93302 2.73972 1.87786 2.70144C1.8227 2.66316 1.7601 2.63552 1.69362 2.62009C1.62715 2.60466 1.55811 2.60175 1.49045 2.61152C1.42278 2.62129 1.35781 2.64354 1.29926 2.67702C1.0659 2.81228 0.873332 3.00197 0.74007 3.22784C0.616173 3.43982 0.538288 3.67301 0.510973 3.91375C0.483659 4.1545 0.507462 4.39797 0.580991 4.62993C0.671497 4.91101 0.821583 5.17177 1.02213 5.39637C1.22267 5.62096 1.46949 5.80471 1.74757 5.93642L2.19106 6.14582C2.24647 7.25396 2.54524 8.33911 3.06841 9.33239L3.15036 9.50537C3.56847 10.3404 4.10175 11.1195 4.73633 11.8225C4.7815 11.871 4.83711 11.9099 4.89944 11.9366C4.96178 11.9633 5.02942 11.9772 5.09787 11.9772H7.27677C7.35572 11.9769 7.43337 11.9582 7.50289 11.9228C7.57241 11.8875 7.63167 11.8366 7.67546 11.7745C7.71926 11.7125 7.74625 11.6413 7.75406 11.5671C7.76187 11.4929 7.75027 11.418 7.72026 11.349L7.53226 10.9393L8.10109 10.9985C8.74227 11.0584 9.38814 11.0584 10.0293 10.9985C10.2077 11.2716 10.4005 11.5448 10.6126 11.8134C10.657 11.8707 10.715 11.9175 10.782 11.9499C10.8489 11.9823 10.923 11.9995 10.9983 12H13.0904C13.1699 11.9999 13.2483 11.9813 13.3183 11.9457C13.3884 11.9101 13.4481 11.8587 13.492 11.796C13.5359 11.7334 13.5627 11.6614 13.57 11.5866C13.5773 11.5118 13.5649 11.4364 13.5339 11.3672C13.4519 11.1851 13.37 10.9894 13.3073 10.821C13.2205 10.5797 13.153 10.3657 13.1 10.1609C13.6324 9.88948 14.121 9.54764 14.551 9.14575C15.0313 9.20057 15.5169 9.20057 15.9972 9.14575C16.0805 9.13385 16.1591 9.10152 16.2251 9.052C16.291 9.00248 16.3421 8.93749 16.3732 8.86351L17.4626 6.21866C17.4933 6.14948 17.5054 6.07422 17.4978 5.99956C17.4902 5.92491 17.4633 5.85318 17.4193 5.79075ZM15.5971 8.26717C15.2187 8.28751 14.839 8.27073 14.4642 8.21709C14.0375 8.14902 13.6255 8.01522 13.2446 7.82105C13.1319 7.76823 13.0017 7.75918 12.8819 7.79583C12.7621 7.83247 12.6623 7.91191 12.6038 8.01715C12.5452 8.12239 12.5326 8.24509 12.5685 8.35901C12.6045 8.47293 12.6863 8.56904 12.7963 8.62679C12.9978 8.72655 13.2055 8.81472 13.4182 8.89082C13.1553 9.10277 12.8635 9.28038 12.5505 9.41888L12.0395 9.63739C12.0395 9.63739 12.2757 10.6343 12.4348 11.0759H11.2875C11.1718 10.9211 10.5885 10.0016 10.5885 10.0016L10.2655 10.0425C9.58709 10.1349 8.89965 10.1532 8.21678 10.0972C7.89862 10.0699 7.36836 10.0061 6.95379 9.93784L6.2066 9.81493C6.2066 9.81493 6.5103 10.9211 6.56814 11.0622H5.32444C4.8164 10.4748 4.38582 9.83126 4.04216 9.14575L3.95539 8.96821C3.32906 7.82967 3.06456 6.54444 3.19374 5.26724C3.45405 2.90463 6.14393 1.12016 9.07002 1.37963C9.92122 1.46974 10.7496 1.69765 11.5189 2.05336L11.8177 2.18538L12.0588 1.97142C12.4342 1.65467 12.8584 1.39372 13.3169 1.19754C13.9236 0.949055 14.5864 0.847355 15.2452 0.901649L13.6158 3.30978L13.7363 3.53739C14.1574 4.33819 14.6944 5.07974 15.3319 5.74068C15.6281 6.01399 15.9787 6.22906 16.3636 6.37344L15.5971 8.26717Z" fill="currentColor"/>
 				</svg>
 			</div>
-			<h2 class="font-semibold text-xl">Є9834.72</h2>
-			<p class="text-xs">Statement of earnings</p>
+			<div class="flex flex-col items-start">
+				<h2 class="font-semibold text-lg">Є9834.72</h2>
+				<p class="text-xs">Statement of earnings</p>
+			</div>
 		</header>
 		<section class="w-full">
 			<svg class="w-full stroke-[#264653] dark:stroke-green-300" viewBox="0 0 81 34" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -301,14 +303,16 @@ visible: true
 	</article>
 	<article class="relative overflow-hidden border shadow-sm break-inside rounded-xl gap-2 mb-3 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="finance">
 		<div class="absolute top-0 right-0 w-20 h-20 bg-gradient-to-br from-rose-500/80 to-white dark:to-gray-950 rounded-full flex items-center justify-center blur-2xl"></div>
-		<header class="relative flex flex-col gap-2 p-4">
+		<header class="relative flex flex-col gap-2 p-3">
 			<div class="flex items-center justify-center w-10 h-10 rounded-full bg-gradient-to-br from-orange-500 to-rose-500 text-white">
 				<svg width="24" height="24" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
 					<path d="M15.5 2A1.5 1.5 0 0 0 14 3.5v13a1.5 1.5 0 0 0 1.5 1.5h1a1.5 1.5 0 0 0 1.5-1.5v-13A1.5 1.5 0 0 0 16.5 2h-1ZM9.5 6A1.5 1.5 0 0 0 8 7.5v9A1.5 1.5 0 0 0 9.5 18h1a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 10.5 6h-1ZM3.5 10A1.5 1.5 0 0 0 2 11.5v5A1.5 1.5 0 0 0 3.5 18h1A1.5 1.5 0 0 0 6 16.5v-5A1.5 1.5 0 0 0 4.5 10h-1Z"></path>
 				</svg>
 			</div>
-			<h2 class="font-semibold text-xl">Є326.00</h2>
-			<p class="text-xs">Statement of earnings</p>
+			<div class="flex flex-col items-start">
+				<h2 class="font-semibold text-lg">Є326.00</h2>
+				<p class="text-xs">Statement of earnings</p>
+			</div>
 		</header>
 		<section class="w-full -mt-3 relative">
 			<span class="absolute bottom-[28px] left-[50px] flex h-3 w-3">
@@ -369,7 +373,7 @@ visible: true
 	</section>
 </article>
 
-<article class="border shadow-sm break-inside flex flex-col items-start justify-between rounded-xl p-4 gap-3 mb-3 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="finance">
+<article class="border shadow-sm break-inside flex flex-col items-start justify-between rounded-xl p-3 gap-3 mb-3 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="finance">
 	<header class="flex items-center w-full justify-between">
 		<svg xmlns="http://www.w3.org/2000/svg" class="w-full max-w-[8rem]" viewBox="0 0 64 24" fill="none">
 			<path d="M4.50431 14.4631C4.22471 14.3927 3.94645 14.8661 3.73916 15.054C2.86194 15.849 2.27408 15.0035 1 14.4262V23.8826H63V1C60.3677 2.8416 60.6329 2.0066 59.052 4.29909C55.6212 9.27412 54.914 4.23344 53.0757 4.23344C52.3351 4.23344 50.2766 5.71376 48.1271 6.91703C47.8523 7.07084 46.8028 8.24839 46.6737 8.07828C46.1396 7.37418 44.0965 10.1827 43.93 10.052C41.6785 8.28347 40.8168 9.75068 39.7285 11.3199C39.424 11.7589 38.9643 9.95196 38.5876 9.93299C38.4656 9.92685 38.3131 11.281 38.2887 11.3815C37.9875 12.6263 36.6317 13.2157 36.3419 14.4344C36.2877 14.6625 36.4359 14.9405 36.3147 14.7955C35.8391 14.2258 32.1906 10.6157 31.6785 10.9301C29.5931 12.2105 30.2421 12.335 29.365 9.80989C29.2817 9.57005 29.1233 8.68795 28.6858 9.02615C28.2797 9.34009 28.0228 9.79935 27.6219 10.1053C27.4715 10.2201 25.4672 10.5408 25.0185 11.4594C24.5502 12.4183 23.5864 13.0829 22.6823 13.7573C22.3869 13.9776 21.9474 14.2054 21.718 14.5C21.6032 14.6474 21.3711 14.1585 21.3377 14.0979C20.6245 12.8051 18.1141 11.5408 18.1141 13.8599C18.1141 13.89 18.1473 13.9502 18.1141 13.9502C17.4209 13.9502 14.1658 13.5087 12.1377 13.6055C11.866 13.6184 11.6467 13.6319 11.3907 13.6834C11.1821 13.7255 11.0629 13.8992 10.9425 14.0569C10.5304 14.5962 10.4517 15.5187 9.92829 15.2632C8.17527 14.4077 6.47518 14.9593 4.50431 14.4631Z" fill="url(#paint0_linear_181_7970)"/>
@@ -389,14 +393,14 @@ visible: true
 		</button>
 	</header>
 	<section class="flex items-center gap-4">
-		<div class="w-12 h-12 flex items-center justify-center rounded-full bg-gray-900">
-			<svg width="22" height="22" viewBox="0 0 14 17" fill="none">
+		<div class="w-9 h-9 flex items-center justify-center rounded-full bg-gray-900">
+			<svg width="16" height="16" viewBox="0 0 14 17" fill="none">
 				<path d="M11.6647 16.2407C10.7601 17.085 9.77242 16.9517 8.82168 16.5518C7.81555 16.1429 6.8925 16.1251 5.83099 16.5518C4.5018 17.1028 3.80028 16.9428 3.00645 16.2407C-1.49804 11.7701 -0.833444 4.96211 4.28026 4.71326C5.52638 4.77547 6.39405 5.37095 7.12326 5.42428C8.21247 5.21097 9.25551 4.59772 10.4186 4.67771C11.8124 4.78436 12.8646 5.31763 13.5569 6.2775C10.677 7.93952 11.3601 11.5924 14 12.6145C13.4739 13.9476 12.7908 15.2719 11.6554 16.2496L11.6647 16.2407ZM7.03096 4.65993C6.8925 2.67796 8.56322 1.04261 10.4832 0.882629C10.7509 3.17567 8.32323 4.88212 7.03096 4.65993Z" fill="white"/>
 			</svg>
 		</div>
 		<div class="flex flex-col">
-			<h2 class="font-medium text-base">Apple</h2>
-			<span class="text-gray-500 dark:text-gray-300">Financial Services</span>
+			<h2 class="font-medium">Apple</h2>
+			<span class="block text-gray-500 dark:text-gray-300">Financial Services</span>
 		</div>
 	</section>
 	<section class="flex flex-col w-full gap-1">
@@ -633,7 +637,7 @@ visible: true
 	</section>
 </article>
 
-<article class="border shadow-sm break-inside overflow-hidden relative flex flex-col gap-2 rounded-xl text-sm mb-3 p-3 bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="social">
+<article class="border shadow-sm break-inside overflow-hidden relative flex flex-col gap-2 rounded-xl text-sm mb-3 p-3 bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="finance">
   <header class="flex items-start justify-between">
     <div class="flex flex-col gap-1">
       <div class="flex items-center gap-2">
@@ -726,7 +730,7 @@ visible: true
 	</section>
 </article>
 
-<article class="shadow-sm break-inside overflow-hidden relative flex items-center justify-between gap-2 rounded-xl text-sm mb-3 p-1 bg-green-100 dark:text-white dark:bg-green-600/20" data-filter="social">
+<article class="shadow-sm break-inside overflow-hidden relative flex items-center justify-between gap-2 rounded-xl text-sm mb-3 p-1 bg-green-100 dark:text-white dark:bg-green-600/20" data-filter="finance">
   <div class="flex items-center w-full border-2 border-dashed border-green-400 dark:border-green-300 rounded-xl p-3 dark:border-green-600/20">
     <header class="flex items-center w-full gap-2 flex-1">
       <div class="relative flex items-center justify-center rounded-full w-9 h-9 text-lg font-bold bg-emerald-500 text-white ">
@@ -899,7 +903,7 @@ visible: true
 	</section>
 </section>
 
-<article class="border shadow-sm break-inside overflow-hidden relative grid grid-cols-12 items-start gap-2 rounded-xl text-sm mb-3 bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="social">
+<article class="border shadow-sm break-inside overflow-hidden relative grid grid-cols-12 items-start gap-2 rounded-xl text-sm mb-3 bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="finance">
   <div class="col-span-8 flex items-center justify-start gap-2 flex-1 pl-3 pt-3 pb-3">
     <span class="flex-none w-9 h-9 rounded-full flex items-center justify-center text-lg font-bold text-white bg-gradient-to-tr from-rose-600 to-indigo-500">
       A
@@ -1005,7 +1009,7 @@ visible: true
 	</div>
 </article>
 
-<article class="border shadow-sm break-inside overflow-hidden relative flex items-center justify-between gap-5 rounded-xl text-sm mb-3 p-3 bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="social">
+<article class="border shadow-sm break-inside overflow-hidden relative flex items-center justify-between gap-5 rounded-xl text-sm mb-3 p-3 bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="finance">
   <div class="absolute w-14 h-14 bg-indigo-500 rounded-full -top-8 left-1/2 blur-3xl"></div>
   <header class="flex items-center gap-2 flex-none">
     <svg width="40" height="40" viewBox="0 0 26 27" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -1213,7 +1217,7 @@ visible: true
   </div>
 </article>
 
-<article class="border shadow-sm break-inside overflow-hidden relative flex items-center justify-between gap-5 rounded-xl text-sm mb-3 p-3 bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="social">
+<article class="border shadow-sm break-inside overflow-hidden relative flex items-center justify-between gap-5 rounded-xl text-sm mb-3 p-3 bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="finance">
   <header class="flex items-center gap-2 flex-none">
     <svg width="40" height="40" viewBox="0 0 26 25" fill="none" xmlns="http://www.w3.org/2000/svg">
       <path
@@ -1261,7 +1265,7 @@ visible: true
   </div>
 </article>
 
-<article class="border shadow-sm break-inside overflow-hidden relative flex items-center justify-between gap-5 rounded-xl text-sm mb-3 p-3 bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="social">
+<article class="border shadow-sm break-inside overflow-hidden relative flex items-center justify-between gap-5 rounded-xl text-sm mb-3 p-3 bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="finance">
   <header class="flex items-center gap-2 flex-none">
     <svg width="40" height="40" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
       <path
@@ -1351,7 +1355,7 @@ visible: true
   </div>
 </article>
 
-<article class="border shadow-sm break-inside overflow-hidden relative flex items-center justify-between gap-5 rounded-xl text-sm mb-3 p-3 bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="social">
+<article class="border shadow-sm break-inside overflow-hidden relative flex items-center justify-between gap-5 rounded-xl text-sm mb-3 p-3 bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="finance">
   <div class="absolute w-14 h-14 bg-rose-500 rounded-full -top-8 left-1/2 blur-3xl"></div>
   <header class="flex items-center gap-2 flex-none">
     <svg width="40" height="40" viewBox="0 0 26 25" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -1408,7 +1412,7 @@ visible: true
 </article>
 
 <section class="grid grid-cols-3 gap-3 mb-3">
-  <article class="border shadow-sm break-inside overflow-hidden relative flex flex-col gap-2 rounded-xl text-sm p-3 bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="social">
+  <article class="border shadow-sm break-inside overflow-hidden relative flex flex-col gap-2 rounded-xl text-sm p-3 bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="finance">
     <header class="flex flex-col items-center text-center gap-1 flex-none">
       <svg class="w-10 h-10" viewBox="0 0 256 256" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid">
         <defs>
@@ -1448,7 +1452,7 @@ visible: true
       </svg>
     </section>
   </article>
-  <article class="border shadow-sm break-inside overflow-hidden relative flex flex-col gap-2 rounded-xl text-sm p-3 bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="social">
+  <article class="border shadow-sm break-inside overflow-hidden relative flex flex-col gap-2 rounded-xl text-sm p-3 bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="finance">
     <header class="flex flex-col items-center text-center gap-1 flex-none">
       <svg class="w-10 h-10" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
         <g fill="none" fill-rule="evenodd">
@@ -1483,7 +1487,7 @@ visible: true
       </svg>
     </section>
   </article>
-  <article class="border shadow-sm break-inside overflow-hidden relative flex flex-col gap-2 rounded-xl text-sm p-3 bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="social">
+  <article class="border shadow-sm break-inside overflow-hidden relative flex flex-col gap-2 rounded-xl text-sm p-3 bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="finance">
     <header class="flex flex-col items-center text-center gap-1 flex-none">
       <svg class="w-10 h-10" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
         <defs>
@@ -1521,7 +1525,7 @@ visible: true
 </section>
 
 <section class="grid grid-cols-2 gap-3 mb-3">
-  <article class="group border shadow-sm break-inside overflow-hidden relative flex flex-col gap-2 rounded-xl text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="social">
+  <article class="group border shadow-sm break-inside overflow-hidden relative flex flex-col gap-2 rounded-xl text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="finance">
     <header class="flex flex-col items-start px-3 pt-3 gap-2">
       <div class="flex items-center justify-between w-full">
         <svg width="36" height="36" viewBox="0 0 29 29" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -1554,7 +1558,7 @@ visible: true
       </defs>
     </svg>
   </article>
-  <article class="group border shadow-sm break-inside overflow-hidden relative flex flex-col gap-2 rounded-xl text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="social">
+  <article class="group border shadow-sm break-inside overflow-hidden relative flex flex-col gap-2 rounded-xl text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="finance">
     <header class="flex flex-col items-start px-3 pt-3 gap-2">
       <div class="flex items-center justify-between w-full">
         <svg width="36" height="36" viewBox="0 0 29 29" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -1596,7 +1600,7 @@ visible: true
   </article>
 </section>
 
-<article class="break-inside overflow-hidden relative flex items-center gap-2 rounded-xl text-sm mb-3 p-3 bg-gray-100 dark:text-white dark:bg-gray-900" data-filter="social">
+<article class="break-inside overflow-hidden relative flex items-center gap-2 rounded-xl text-sm mb-3 p-3 bg-gray-100 dark:text-white dark:bg-gray-900" data-filter="finance">
   <header class="flex items-center gap-3 flex-1 w-full">
     <span class="w-10 h-10 bg-blue-700 rounded-full flex items-center justify-center text-lg font-bold text-white">B</span>
     <div class="flex flex-col gap-0.5">
@@ -1616,7 +1620,7 @@ visible: true
   </div>
 </article>
 
-<article class="break-inside overflow-hidden relative flex items-center gap-2 rounded-xl text-sm mb-3 p-3 bg-violet-200 dark:text-white dark:bg-violet-700/20" data-filter="social">
+<article class="break-inside overflow-hidden relative flex items-center gap-2 rounded-xl text-sm mb-3 p-3 bg-violet-200 dark:text-white dark:bg-violet-700/20" data-filter="finance">
   <header class="flex items-center gap-3 flex-1 w-full">
     <span class="w-10 h-10 bg-violet-700 rounded-full flex items-center justify-center text-lg font-bold text-white">A</span>
     <div class="flex flex-col gap-0.5">

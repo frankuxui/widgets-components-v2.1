@@ -83,22 +83,6 @@ visible: false
   </div>
 </article>
 
-<article class="shadow-sm break-inside overflow-hidden relative flex items-center justify-between gap-2 rounded-xl text-sm mb-3 p-1 bg-green-100 dark:text-white dark:bg-green-600/20" data-filter="social">
-  <div class="flex items-center w-full border-2 border-dashed border-green-400 dark:border-green-300 rounded-xl p-3 dark:border-green-600/20">
-    <header class="flex items-center w-full gap-2 flex-1">
-      <div class="relative flex items-center justify-center rounded-full w-9 h-9 text-lg font-bold bg-emerald-500 text-white ">
-        <span>B</span>
-        <div class="absolute flex items-center justify-center w-4 h-4 text-black bg-white rounded-full -bottom-1 -right-1 shadow">
-          <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
-        </div>
-      </div>
-      <h3 class="text-base font-medium">Princiapl &middot; EUR</h3>
-    </header>
-    <span class="font-bold">22,08 &euro;</span>
-  </div>
-</article>
-
-
 
 <article class="shadow-sm break-inside rounded p-[2px] mb-3 text-sm bg-gradient-to-r from-pink-500 via-rose-500 to-yellow-500 ark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="finance">
 	<div class="rounded w-full p-3 bg-white dark:bg-gray-950">
@@ -152,3 +136,19 @@ visible: false
 </article>
 
 
+<article class="break-inside flex items-center space-x-4 rounded overflow-hidden pr-4 mb-3 text-sm bg-purple-100 dark:bg-purple-500/20 dark:text-white" data-filter="finance">
+  <header class="flex-1 flex items-center gap-2 lg:gap-4">
+    <div class="flex items-center justify-center w-14 h-14 font-semibold text-lg bg-purple-200 dark:bg-purple-600/50">
+      AB
+    </div>
+    <div class="flex-auto">
+      <a href="#" class="font-medium block">Banking association</a>
+      <span class="text-xs text-gray-600 dark:text-gray-400">UX/UI Designer</span>
+    </div>
+  </header>
+  <button class="rounded-full flex flex-none items-center justify-center w-8 h-8 transition-all hover:bg-black/10 dark:hover:bg-white/10">
+    <svg width="26" height="26" fill="none" stroke-width="2" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+      <path stroke-linecap="round" stroke-linejoin="round" d="M6.75 12a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0ZM12.75 12a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0ZM18.75 12a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z"></path>
+    </svg>
+  </button>
+</article>
