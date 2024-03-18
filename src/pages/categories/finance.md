@@ -1640,6 +1640,57 @@ visible: true
   </div>
 </article>
 
+<article class="break-inside flex items-center space-x-4 rounded overflow-hidden pr-4 mb-3 text-sm bg-purple-100 dark:bg-purple-500/20 dark:text-white" data-filter="finance">
+  <header class="flex-1 flex items-center gap-2 lg:gap-4">
+    <div class="flex items-center justify-center w-14 h-14 font-semibold text-lg bg-purple-200 dark:bg-purple-600/50">
+      AB
+    </div>
+    <div class="flex-auto">
+      <a href="#" class="font-medium block">Banking association</a>
+      <span class="text-xs text-gray-600 dark:text-gray-400">UX/UI Designer</span>
+    </div>
+  </header>
+  <button class="rounded-full flex flex-none items-center justify-center w-8 h-8 transition-all hover:bg-black/10 dark:hover:bg-white/10">
+    <svg width="26" height="26" fill="none" stroke-width="2" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+      <path stroke-linecap="round" stroke-linejoin="round" d="M6.75 12a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0ZM12.75 12a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0ZM18.75 12a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z"></path>
+    </svg>
+  </button>
+</article>
+
+<article class="border shadow-sm break-inside flex flex-col rounded-xl p-3 gap-2 mb-3 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="finance">
+	<header class="flex items-center justify-between w-full">
+		<div class="flex items-start flex-col">
+      <h2 class="text-base font-medium block">Globlas sales</h2>
+			<p class="text-xs text-gray-600 dark:text-gray-400">Update Ocober 2024 - 8:15 AM</p>
+		</div>
+		<button class="h-8 w-8 transition-colors duration-200 flex items-center justify-center rounded-full hover:bg-black/10 dark:hover:bg-white/10">
+			<svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 512 512">
+        <circle cx="256" cy="256" r="32" fill="none" stroke="currentColor" stroke-miterlimit="10" stroke-width="32" />
+        <circle cx="416" cy="256" r="32" fill="none" stroke="currentColor" stroke-miterlimit="10" stroke-width="32" />
+        <circle cx="96" cy="256" r="32" fill="none" stroke="currentColor" stroke-miterlimit="10" stroke-width="32" />
+      </svg>
+		</button>
+	</header>
+	<section class="flex items-center w-full justify-between gap-2 p-2 mt-2 rounded-md bg-gray-100 dark:bg-gray-900">
+    <div class="flex-1 flex items-center gap-2">
+      <div class="flex-none w-9 h-9 rounded-full flex items-center justify-center text-lg font-semibold bg-gray-950 text-white dark:bg-gray-50 dark:text-black">G</div>
+      <p class="w-full text-xs">Lorem ales psum dolor sit am...</p>
+    </div>
+    <div class="flex items-end">
+      <svg class="w-20" viewBox="0 0 57 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M3.5 16.0771C2.22019 15.7164 0.957196 17.0165 0.500122 17.9182H56.4999V13.3571C55.9285 17.2646 54.0665 11.9405 53 12.9925C52.3075 9.71362 51.4641 15.308 49.7098 16.0771C49.2909 14.5241 46.202 11.5537 45.105 13.3571C43.7338 15.6115 41.3429 13.109 41.0001 12.2073C40.6573 11.3055 38.0905 10.0537 36.605 11.8571C35.1195 13.6606 35.4762 12.8724 34.105 12.8724C32.7338 12.8724 30.0009 7.39801 29.3153 6.1957C28.4025 4.59507 25.4284 14.9424 24.605 12.8724C23.3474 9.71093 26.1456 8.46015 20.5 1.46309C18.5598 -0.941537 18.6775 7.49359 14.0981 12.2073C10.314 16.1023 9.25324 9.60692 6.55636 15.8142C5.64221 17.9182 5.09976 16.528 3.5 16.0771Z" fill="url(#paint0_linear_136_2526)" />
+        <path d="M0.500122 17.9182C0.957196 17.0165 2.22019 15.7164 3.5 16.0771C5.09976 16.528 5.64221 17.9182 6.55636 15.8142C9.25324 9.60692 10.314 16.1023 14.0981 12.2073C18.6775 7.49359 18.5598 -0.941537 20.5 1.46309C26.1456 8.46015 23.3474 9.71093 24.605 12.8724C25.4284 14.9424 28.4025 4.59507 29.3153 6.1957C30.0009 7.39801 32.7338 12.8724 34.105 12.8724C35.4762 12.8724 35.1195 13.6606 36.605 11.8571C38.0905 10.0537 40.6573 11.3055 41.0001 12.2073C41.3429 13.109 43.7338 15.6115 45.105 13.3571C46.202 11.5537 49.2909 14.5241 49.7098 16.0771C51.4641 15.308 52.3075 9.71362 53 12.9925C54.0665 11.9405 55.9285 17.2646 56.4999 13.3571" stroke="#2D81FF" stroke-linecap="round" stroke-linejoin="round" />
+        <defs>
+          <linearGradient id="paint0_linear_136_2526" x1="28.5" y1="1.04053" x2="28.5" y2="17.9182" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#2D81FF" stop-opacity="0.48" />
+            <stop offset="1" stop-color="#F2F7FF01" stop-opacity="0.1" />
+          </linearGradient>
+        </defs>
+      </svg>
+    </div>
+	</section>
+</article>
+
 <article class="border shadow-sm break-inside flex items-center justify-between rounded-xl p-4 mb-3 text-sm bg-white dark:bg-gray-950 dark:text-white dark:border-gray-900" data-filter="finance">
 	coming soon...
 </article>
