@@ -2,9 +2,11 @@
 import RootLayout from '../layouts/RootLayout.astro'
 
 const { title } = Astro.props;
+
+const description = "Multiple widgets created with tailwind css, designed to speed up the implementation of interfaces";
 ---
 
-<RootLayout title={title}>
+<RootLayout title={title} description={description}>
 	<main class="mt-8">
 		<slot />
 	</main>

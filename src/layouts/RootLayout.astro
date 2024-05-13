@@ -1,9 +1,10 @@
 ---
 interface Props {
 	title: string;
+	description: string;
 }
 
-const { title } = Astro.props;
+const { title, description } = Astro.props;
 
 let pages = []
 pages = await Astro.glob('../pages/categories/*.md')
@@ -22,6 +23,9 @@ const data = pages.map((item) => {
 
 const pageSlug = Astro.url.pathname.split('/')[2]
 
+const permalink = Astro.url.href ?? 'https://widgets-components-v2-1.vercel.app/';
+const ogImage = `${permalink}og-image.jpg`
+
 ---
 
 <!doctype html>
@@ -33,6 +37,27 @@ const pageSlug = Astro.url.pathname.split('/')[2]
 		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 		<meta name="generator" content={Astro.generator} />
 		<title>{title}</title>
+
+		<!-- Open Graph -->
+		<meta name="title" content={title} />
+		<meta name="description" content={description} />
+
+		<!-- The rest of your head content -->
+
+		<!-- Open Graph / Facebook -->
+		<meta property="og:type" content="website" />
+		<meta property="og:url" content={permalink} />
+		<meta property="og:title" content={title} />
+		<meta property="og:description" content={description} />
+		<meta property="og:image" content={ogImage} />
+
+		<!-- Twitter -->
+		<meta property="twitter:card" content="summary_large_image" />
+		<meta property="twitter:url" content={permalink} />
+		<meta property="twitter:title" content={title} />
+		<meta property="twitter:description" content={description} />
+		<meta property="twitter:image" content={ogImage} />
+
 		
 	</head>
 

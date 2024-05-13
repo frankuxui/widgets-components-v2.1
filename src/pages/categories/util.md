@@ -1,5 +1,6 @@
 ---
 layout: "../../layouts/ExpoLayout.astro"
+description: 'Multiple widgets for user interfaces related to finance and economics'
 slug: 'util'
 category: 'Util'
 tags: ['util']

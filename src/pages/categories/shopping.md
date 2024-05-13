@@ -1,5 +1,6 @@
 ---
 layout: "../../layouts/ExpoLayout.astro"
+description: 'Multiple widgets for user interfaces related to finance and economics'
 slug: 'shopping'
 category: 'Shopping'
 tags: ['shopping']
