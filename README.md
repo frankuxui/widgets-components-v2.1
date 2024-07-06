@@ -1,6 +1,6 @@
 # Widgets components
 
-![just-the-basics](https://widgets-components-v2-1.vercel.app/og-image.jpg)
+![just-the-basics](https://github.com/frankuxui/widgets-components-v2.1/blob/main/cover.jpg)
 
 ## 🚀 Project Structure
 
